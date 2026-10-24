@@ -1,0 +1,42 @@
+- generic [active] [ref=f11e1]:
+  - generic [ref=f11e3]:
+    - link "Go main content":
+      - /url: "#main-content"
+    - banner [ref=f11e4]:
+      - generic [ref=f11e6]:
+        - button "Open Menu" [ref=f11e10] [cursor=pointer]
+        - generic [aria-hidden] [ref=f11e16]:
+          - navigation [ref=f11e18]:
+            - link [ref=f11e19] [cursor=pointer]:
+              - /url: /
+            - generic [ref=f11e23]:
+              - link [ref=f11e24] [cursor=pointer]:
+                - /url: /
+                - button [ref=f11e25]:
+                  - generic: Iniciar uma pesquisa
+              - link [ref=f11e26] [cursor=pointer]:
+                - /url: /bookmarks
+                - button [ref=f11e27]:
+                  - generic: A minha lista
+              - link [ref=f11e28] [cursor=pointer]:
+                - /url: /help
+                - button [ref=f11e29]:
+                  - generic: Ajuda
+            - generic [ref=f11e30]:
+              - link [ref=f11e31] [cursor=pointer]:
+                - /url: /login
+                - button [ref=f11e32]: Entrar no Digitarq
+              - link [ref=f11e33] [cursor=pointer]:
+                - /url: /en/fileViewer/4db373ea81ad4588a99749e471344546?isRepresentation=false
+                - button [ref=f11e34]: "Language: English"
+          - button [ref=f11e36] [cursor=pointer]: Close Menu
+      - link "Homepage" [ref=f11e39] [cursor=pointer]:
+        - /url: /
+    - generic [ref=f11e46]:
+      - generic [ref=f11e48]: A atualizar dados ...
+      - generic [ref=f11e54]:
+        - button "Navegar" [ref=f11e55] [cursor=pointer]
+        - button "Anterior"
+        - button "Próximo"
+        - button "Descarregar" [ref=f11e60] [cursor=pointer]
+  - alert [ref=f11e64]

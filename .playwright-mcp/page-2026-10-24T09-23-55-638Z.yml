@@ -1,0 +1,313 @@
+- generic [active] [ref=e1]:
+  - link "Passar para o conteúdo principal" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - link [ref=e6] [cursor=pointer]:
+          - /url: /
+          - img "Início" [ref=e7]
+        - button "Toggle navigation" [ref=e8] [cursor=pointer]
+    - main [ref=e13]:
+      - generic [ref=e14]:
+        - complementary [ref=e15]:
+          - generic [ref=e16]:
+            - combobox "-- Regiões --" [ref=e22]:
+              - option "-- Regiões --" [selected]
+              - option "Açores"
+              - option "Aveiro"
+              - option "Beja"
+              - option "Braga"
+              - option "Bragança"
+              - option "Castelo Branco"
+              - option "Ceuta"
+              - option "Coimbra"
+              - option "Évora"
+              - option "Faro"
+              - option "Guarda"
+              - option "Leiria"
+              - option "Lisboa"
+              - option "Madeira"
+              - option "Portalegre"
+              - option "Porto"
+              - option "Santarém"
+              - option "Setúbal"
+              - option "Tânger"
+              - option "Viana do Castelo"
+              - option "Vila Real"
+              - option "Viseu"
+            - generic [ref=e25]:
+              - textbox "Pesquisar" [ref=e27]
+              - button "" [ref=e29] [cursor=pointer]
+        - generic [ref=e31]:
+          - insertion [ref=e36]
+          - generic [ref=e38]:
+            - heading [level=1] [ref=e39]
+            - generic [ref=e41]:
+              - generic [ref=e42]:
+                - article [ref=e44]:
+                  - heading [level=2] [ref=e45]:
+                    - link "Como começar a sua árvore genealógica" [ref=e46] [cursor=pointer]:
+                      - /url: /conteudo/como-comecar-sua-arvore-genealogica
+                  - generic [ref=e47]:
+                    - paragraph [ref=e49]: Quer saber o que fazer para descobrir os seus antepassados? Leia já este artigo que lhe explica o que é a Genealogia e como deve proceder para começar a sua pesquisa genealógica usando os registos vitais, tanto do Registo Civil como Paroquiais que lhe permitem descobrir a sua História da Família.
+                    - list [ref=e50]:
+                      - listitem [ref=e51]:
+                        - link "Ler mais sobre Como começar a sua árvore genealógica" [ref=e52] [cursor=pointer]:
+                          - /url: /conteudo/como-comecar-sua-arvore-genealogica
+                          - text: Ler mais
+                          - generic [ref=e53]: sobre Como começar a sua árvore genealógica
+                - article [ref=e55]:
+                  - heading [level=2] [ref=e56]:
+                    - link "2 livros paroquiais novos em 23/10/2026" [ref=e57] [cursor=pointer]:
+                      - /url: /conteudo/novos-livros-paroquiais-em-20261023
+                  - generic [ref=e58]:
+                    - list [ref=e60]:
+                      - listitem [ref=e61]: "Arquivo Nacional da Torre do Tombo: 2"
+                    - list [ref=e62]:
+                      - listitem [ref=e63]:
+                        - link "Ler mais sobre 2 livros paroquiais novos em 23/10/2026" [ref=e64] [cursor=pointer]:
+                          - /url: /conteudo/novos-livros-paroquiais-em-20261023
+                          - text: Ler mais
+                          - generic [ref=e65]: sobre 2 livros paroquiais novos em 23/10/2026
+                - article [ref=e67]:
+                  - heading [level=2] [ref=e68]:
+                    - link "1 livro paroquial novo em 9/10/2026" [ref=e69] [cursor=pointer]:
+                      - /url: /conteudo/novos-livros-paroquiais-em-20261009
+                  - generic [ref=e70]:
+                    - list [ref=e72]:
+                      - listitem [ref=e73]: "Arquivo Regional e Biblioteca Pública da Madeira: 1"
+                    - list [ref=e74]:
+                      - listitem [ref=e75]:
+                        - link "Ler mais sobre 1 livro paroquial novo em 9/10/2026" [ref=e76] [cursor=pointer]:
+                          - /url: /conteudo/novos-livros-paroquiais-em-20261009
+                          - text: Ler mais
+                          - generic [ref=e77]: sobre 1 livro paroquial novo em 9/10/2026
+                - article [ref=e79]:
+                  - heading [level=2] [ref=e80]:
+                    - link "1 livro paroquial novo em 28/9/2026" [ref=e81] [cursor=pointer]:
+                      - /url: /conteudo/novos-livros-paroquiais-em-20260928
+                  - generic [ref=e82]:
+                    - list [ref=e84]:
+                      - listitem [ref=e85]: "Arquivo Regional e Biblioteca Pública da Madeira: 1"
+                    - list [ref=e86]:
+                      - listitem [ref=e87]:
+                        - link "Ler mais sobre 1 livro paroquial novo em 28/9/2026" [ref=e88] [cursor=pointer]:
+                          - /url: /conteudo/novos-livros-paroquiais-em-20260928
+                          - text: Ler mais
+                          - generic [ref=e89]: sobre 1 livro paroquial novo em 28/9/2026
+                - article [ref=e91]:
+                  - heading [level=2] [ref=e92]:
+                    - link "1 livro administrativo novo em 28/9/2026" [ref=e93] [cursor=pointer]:
+                      - /url: /conteudo/novos-livros-administrativos-em-20260928
+                  - generic [ref=e94]:
+                    - list [ref=e96]:
+                      - listitem [ref=e97]: "Arquivo Distrital de Braga: 1"
+                    - list [ref=e98]:
+                      - listitem [ref=e99]:
+                        - link "Ler mais sobre 1 livro administrativo novo em 28/9/2026" [ref=e100] [cursor=pointer]:
+                          - /url: /conteudo/novos-livros-administrativos-em-20260928
+                          - text: Ler mais
+                          - generic [ref=e101]: sobre 1 livro administrativo novo em 28/9/2026
+                - article [ref=e103]:
+                  - heading [level=2] [ref=e104]:
+                    - link "12 livros paroquiais novos em 24/9/2026" [ref=e105] [cursor=pointer]:
+                      - /url: /conteudo/novos-livros-paroquiais-em-20260924
+                  - generic [ref=e106]:
+                    - list [ref=e108]:
+                      - listitem [ref=e109]: "Arquivo Regional e Biblioteca Pública da Madeira: 12"
+                    - list [ref=e110]:
+                      - listitem [ref=e111]:
+                        - link "Ler mais sobre 12 livros paroquiais novos em 24/9/2026" [ref=e112] [cursor=pointer]:
+                          - /url: /conteudo/novos-livros-paroquiais-em-20260924
+                          - text: Ler mais
+                          - generic [ref=e113]: sobre 12 livros paroquiais novos em 24/9/2026
+                - article [ref=e115]:
+                  - heading [level=2] [ref=e116]:
+                    - link "3 livros paroquiais novos em 23/9/2026" [ref=e117] [cursor=pointer]:
+                      - /url: /conteudo/novos-livros-paroquiais-em-20260923
+                  - generic [ref=e118]:
+                    - list [ref=e120]:
+                      - listitem [ref=e121]: "Arquivo Regional e Biblioteca Pública da Madeira: 3"
+                    - list [ref=e122]:
+                      - listitem [ref=e123]:
+                        - link "Ler mais sobre 3 livros paroquiais novos em 23/9/2026" [ref=e124] [cursor=pointer]:
+                          - /url: /conteudo/novos-livros-paroquiais-em-20260923
+                          - text: Ler mais
+                          - generic [ref=e125]: sobre 3 livros paroquiais novos em 23/9/2026
+                - article [ref=e127]:
+                  - heading [level=2] [ref=e128]:
+                    - link "1 livro administrativo novo em 16/9/2026" [ref=e129] [cursor=pointer]:
+                      - /url: /conteudo/novos-livros-administrativos-em-20260916
+                  - generic [ref=e130]:
+                    - list [ref=e132]:
+                      - listitem [ref=e133]: "Arquivo Distrital de Braga: 1"
+                    - list [ref=e134]:
+                      - listitem [ref=e135]:
+                        - link "Ler mais sobre 1 livro administrativo novo em 16/9/2026" [ref=e136] [cursor=pointer]:
+                          - /url: /conteudo/novos-livros-administrativos-em-20260916
+                          - text: Ler mais
+                          - generic [ref=e137]: sobre 1 livro administrativo novo em 16/9/2026
+                - article [ref=e139]:
+                  - heading [level=2] [ref=e140]:
+                    - link "1 livro paroquial novo em 3/9/2026" [ref=e141] [cursor=pointer]:
+                      - /url: /conteudo/novos-livros-paroquiais-em-20260903
+                  - generic [ref=e142]:
+                    - list [ref=e144]:
+                      - listitem [ref=e145]: "Arquivo Regional e Biblioteca Pública da Madeira: 1"
+                    - list [ref=e146]:
+                      - listitem [ref=e147]:
+                        - link "Ler mais sobre 1 livro paroquial novo em 3/9/2026" [ref=e148] [cursor=pointer]:
+                          - /url: /conteudo/novos-livros-paroquiais-em-20260903
+                          - text: Ler mais
+                          - generic [ref=e149]: sobre 1 livro paroquial novo em 3/9/2026
+                - article [ref=e151]:
+                  - heading [level=2] [ref=e152]:
+                    - link "2 livros paroquiais novos em 31/8/2026" [ref=e153] [cursor=pointer]:
+                      - /url: /conteudo/novos-livros-paroquiais-em-20260831
+                  - generic [ref=e154]:
+                    - list [ref=e156]:
+                      - listitem [ref=e157]: "Arquivo Distrital da Guarda: 2"
+                    - list [ref=e158]:
+                      - listitem [ref=e159]:
+                        - link "Ler mais sobre 2 livros paroquiais novos em 31/8/2026" [ref=e160] [cursor=pointer]:
+                          - /url: /conteudo/novos-livros-paroquiais-em-20260831
+                          - text: Ler mais
+                          - generic [ref=e161]: sobre 2 livros paroquiais novos em 31/8/2026
+              - navigation [ref=e162]:
+                - heading "Paginação" [level=4] [ref=e163]
+                - list [ref=e164]:
+                  - listitem:
+                    - link "Página atual 1" [ref=e165]:
+                      - /url: "?page=0"
+                      - generic [ref=e166]: Página atual
+                      - text: "1"
+                  - listitem:
+                    - link "Página 2" [ref=e167] [cursor=pointer]:
+                      - /url: "?page=1"
+                      - generic [ref=e168]: Página
+                      - text: "2"
+                  - listitem:
+                    - link "Página 3" [ref=e169] [cursor=pointer]:
+                      - /url: "?page=2"
+                      - generic [ref=e170]: Página
+                      - text: "3"
+                  - listitem:
+                    - link "Página 4" [ref=e171] [cursor=pointer]:
+                      - /url: "?page=3"
+                      - generic [ref=e172]: Página
+                      - text: "4"
+                  - listitem:
+                    - link "Página 5" [ref=e173] [cursor=pointer]:
+                      - /url: "?page=4"
+                      - generic [ref=e174]: Página
+                      - text: "5"
+                  - listitem:
+                    - link "Página 6" [ref=e175] [cursor=pointer]:
+                      - /url: "?page=5"
+                      - generic [ref=e176]: Página
+                      - text: "6"
+                  - listitem:
+                    - link "Página 7" [ref=e177] [cursor=pointer]:
+                      - /url: "?page=6"
+                      - generic [ref=e178]: Página
+                      - text: "7"
+                  - listitem:
+                    - link "Página 8" [ref=e179] [cursor=pointer]:
+                      - /url: "?page=7"
+                      - generic [ref=e180]: Página
+                      - text: "8"
+                  - listitem:
+                    - link "Página 9" [ref=e181] [cursor=pointer]:
+                      - /url: "?page=8"
+                      - generic [ref=e182]: Página
+                      - text: "9"
+                  - generic [ref=e183]: …
+                  - listitem:
+                    - link "Próxima página" [ref=e184] [cursor=pointer]:
+                      - /url: "?page=1"
+                      - text: Seguinte ›
+                  - listitem:
+                    - link "Última página" [ref=e186] [cursor=pointer]:
+                      - /url: "?page=218"
+                      - text: Última »
+              - link "Subscrever" [ref=e189] [cursor=pointer]:
+                - /url: https://tombo.pt/rss.xml
+            - generic [ref=e190]:
+              - heading "Notícias dos Arquivos" [level=2] [ref=e191]
+              - generic [ref=e194]:
+                - generic [ref=e195]:
+                  - time [ref=e198]: 22 Out
+                  - link "Leitura sem Fronteiras nos centros educativos" [ref=e201] [cursor=pointer]:
+                    - /url: https://dglab.gov.pt/leitura-sem-fronteiras-centros-educativos/
+                  - generic [ref=e202]: (DGLAB)
+                  - generic [ref=e204]:
+                    - text: Oficinas de promoção da leitura e da escrita criativa abordam a inclusão, a diversidade cultural, a solidariedade e a…
+                    - link "mais" [ref=e205] [cursor=pointer]:
+                      - /url: https://dglab.gov.pt/leitura-sem-fronteiras-centros-educativos/
+                - generic [ref=e206]:
+                  - time [ref=e209]: 22 Out
+                  - 'link "European Authors Day Portugal 2026 | #ReadForReal" [ref=e212] [cursor=pointer]':
+                    - /url: https://dglab.gov.pt/european-authors-day-portugal-2026/
+                  - generic [ref=e213]: (DGLAB)
+                  - generic [ref=e215]:
+                    - text: Entre 11 de novembro e 12 de dezembro, regressa o European Authors Day, uma iniciativa criada pela Comissão Europeia…
+                    - link "mais" [ref=e216] [cursor=pointer]:
+                      - /url: https://dglab.gov.pt/european-authors-day-portugal-2026/
+                - generic [ref=e217]:
+                  - time [ref=e220]: 22 Out
+                  - link "PEN Portugal homenageia Federico García Lorca" [ref=e223] [cursor=pointer]:
+                    - /url: https://dglab.gov.pt/pen-portugal-homenageia-federico-garcia-lorca/
+                  - generic [ref=e224]: (DGLAB)
+                  - generic [ref=e226]:
+                    - text: Sessão de homenagem ao poeta espanhol realiza-se a 30 de outubro, na Torre do Tombo, com entrada livre. A Associação…
+                    - link "mais" [ref=e227] [cursor=pointer]:
+                      - /url: https://dglab.gov.pt/pen-portugal-homenageia-federico-garcia-lorca/
+                - generic [ref=e228]:
+                  - time [ref=e231]: 22 Out
+                  - link "Conferência «A Carta Constitucional de 1826 como matriz política da Monarquia liberal portuguesa», Professor Doutor José Miguel Sardica | Sala de conferências do ANTT, 22 de outubro, 17h30" [ref=e234] [cursor=pointer]:
+                    - /url: https://antt.dglab.gov.pt/conferencia-a-carta-constitucional-de-1826-como-matriz-politica-da-monarquia-liberal-portuguesa-professor-doutor-jose-miguel-sardica-sala-de-conferencias-do-antt-22-de-outubro-17h30/
+                  - generic [ref=e235]: (ANTT)
+                  - generic [ref=e237]:
+                    - text: Esta tarde, a partir das 17h30, decorrerá na Sala de Conferências do Arquivo Nacional Torre do Tombo a conferência…
+                    - link "mais" [ref=e238] [cursor=pointer]:
+                      - /url: https://antt.dglab.gov.pt/conferencia-a-carta-constitucional-de-1826-como-matriz-politica-da-monarquia-liberal-portuguesa-professor-doutor-jose-miguel-sardica-sala-de-conferencias-do-antt-22-de-outubro-17h30/
+                - generic [ref=e239]:
+                  - time [ref=e242]: 21 Out
+                  - link "Livro de Atas do Tribunal Administrativo do Distrito da Guarda | 1886-11-29/ 1887-11-29" [ref=e245] [cursor=pointer]:
+                    - /url: https://adgrd.dglab.gov.pt/livro-de-atas-do-tribunal-administrativo-do-distrito-da-guarda-1886-11-29-1887-11-29/
+                  - generic [ref=e246]: (AD Guarda)
+                  - generic [ref=e248]:
+                    - text: Com a promulgação do Código Administrativo de 1886 (Decreto de 17 de julho, sob iniciativa de José Luciano de Castro),…
+                    - link "mais" [ref=e249] [cursor=pointer]:
+                      - /url: https://adgrd.dglab.gov.pt/livro-de-atas-do-tribunal-administrativo-do-distrito-da-guarda-1886-11-29-1887-11-29/
+    - contentinfo [ref=e250]:
+      - generic [ref=e251]:
+        - navigation [ref=e252]:
+          - heading "Footer" [level=2] [ref=e253]
+          - list [ref=e254]:
+            - listitem [ref=e255]:
+              - link "Política de Privacidade" [ref=e256] [cursor=pointer]:
+                - /url: /conteudo/politica-de-privacidade
+            - listitem [ref=e257]:
+              - link "Árvore genealógica" [ref=e258] [cursor=pointer]:
+                - /url: /conteudo/como-comecar-sua-arvore-genealogica
+        - navigation [ref=e259]:
+          - heading "Secondary Menu" [level=2] [ref=e260]
+          - list [ref=e261]:
+            - listitem [ref=e262]:
+              - link " Facebook" [ref=e263] [cursor=pointer]:
+                - /url: https://www.facebook.com/tombo.pt
+            - listitem [ref=e264]:
+              - link " Bluesky" [ref=e265] [cursor=pointer]:
+                - /url: https://bsky.app/profile/tombo.pt
+            - listitem [ref=e266]:
+              - link " Youtube" [ref=e267] [cursor=pointer]:
+                - /url: https://www.youtube.com/@tombo_pt
+            - listitem [ref=e268]:
+              - link " Instagram" [ref=e269] [cursor=pointer]:
+                - /url: https://www.instagram.com/tombo.pt
+            - listitem [ref=e270]:
+              - link " RSS" [ref=e271] [cursor=pointer]:
+                - /url: https://tombo.pt/rss.xml
+        - paragraph [ref=e274]: © 2013-2026 João Ventura - Todos os direitos reservados. Informações dos catálogos e detalhada dos recursos apontados é © dos respectivos Arquivos.
