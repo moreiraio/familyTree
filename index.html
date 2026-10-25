@@ -57,6 +57,15 @@
   #panel .conf-prov { --c: #c99a2e; } #panel .conf-hip { --c: #c0503a; }
   #panel .focusbtn { margin-top: 10px; }
   #panel .close { position: absolute; right: 8px; top: 6px; border: none; background: none; font-size: 18px; color: var(--muted); }
+  #panel .imgs { display: flex; flex-wrap: wrap; gap: 6px; margin: 6px 0; }
+  #panel .imgs button { font-size: 12px; padding: 3px 8px; }
+  #viewer { position: fixed; inset: 0; background: rgba(0,0,0,.85); display: none; flex-direction: column; z-index: 10; }
+  #viewer .vbar { display: flex; justify-content: space-between; align-items: center; gap: 12px; padding: 8px 16px; color: #eee; font-size: 14px; }
+  #viewer .vbar a { color: #9cc7ee; margin-right: 8px; }
+  #viewer .vclose { background: none; border: none; color: #eee; font-size: 22px; }
+  #viewer .vbody { flex: 1; overflow: auto; display: flex; justify-content: center; align-items: flex-start; padding: 0 8px 8px; }
+  #viewer img { max-width: 100%; max-height: calc(100vh - 60px); cursor: zoom-in; background: #fff; }
+  #viewer img.full { max-width: none; max-height: none; cursor: zoom-out; }
   .hint { position: absolute; left: 12px; bottom: 10px; right: 12px; color: var(--muted); font-size: 12px; pointer-events: none; }
 </style>
 </head>
@@ -86,6 +95,10 @@
 <main>
   <svg id="tree"></svg>
   <div id="panel"><button class="close" aria-label="Fechar">×</button><div id="panel-body"></div></div>
+  <div id="viewer">
+    <div class="vbar"><span class="vtitle"></span><span><a target="_blank" rel="noopener">abrir em nova janela</a> <button class="vclose" aria-label="Fechar">×</button></span></div>
+    <div class="vbody"><img alt="Imagem da fonte"></div>
+  </div>
   <div class="hint">← descendentes · antepassados → · clique no círculo para abrir/fechar · clique no nome para ver datas, casamentos, fontes e navegar para pais, filhos, irmãos ou cônjuges</div>
 </main>
 
@@ -393,6 +406,97 @@ const meta = {
   artur1911C: ["doc", "Batismo de 1911, Godim."]
 };
 
+// Scanned source images per person: [label, relative path]
+const IMG = {
+  b1908: ["Batismo 1908, n.º 40 (bisavô)", "fontes/bapt1908/p0023.jpg"],
+  b1906: ["Batismo 1906, n.º 34 (bisavó)", "fontes/bapt1906/p0020.jpg"],
+  b1906m: ["Batismo 1906, n.º 27", "fontes/bapt1906/p0016.jpg"],
+  b1897: ["Batismo 1897, n.º 16", "fontes/bapt1897/p0011.jpg"],
+  b1867: ["Batismo 1867, n.º 49", "fontes/bapt1867/p0017.jpg"],
+  b1872: ["Batismo 1872, n.º 69", "fontes/bapt1871-76/p0033.jpg"],
+  b1874: ["Batismo 1874, n.º 38", "fontes/bapt1871-76/p0056.jpg"],
+  c1862a: ["Casamento 1862, n.º 4 (início)", "fontes/cas1862/p0004.jpg"],
+  c1862b: ["Casamento 1862, n.º 4 (fim)", "fontes/cas1862/p0005.jpg"],
+  c1894a: ["Casamento 1894, n.º 7 (início)", "fontes/cas1894/p0009.jpg"],
+  c1894b: ["Casamento 1894, n.º 7 (fim)", "fontes/cas1894/p0010.jpg"],
+  c1899a: ["Casamento 1899, n.º 4 (início)", "fontes/cas1899/p0005.jpg"],
+  c1899b: ["Casamento 1899, n.º 4 (fim)", "fontes/cas1899/p0006.jpg"],
+  c1900a: ["Casamento 1900, n.º 23 (início)", "fontes/cas1900/p0025.jpg"],
+  c1900b: ["Casamento 1900, n.º 23 (fim)", "fontes/cas1900/p0026.jpg"],
+  c1892a: ["Casamento 1892, n.º 14 (início)", "fontes/cas1892/p0016.jpg"],
+  c1892b: ["Casamento 1892, n.º 14 (fim)", "fontes/cas1892/p0017.jpg"],
+  o1889a: ["Óbito 1889, n.º 59", "fontes/obi1889/p0022.jpg"],
+  o1889b: ["Óbito 1889, n.º 59 (fim)", "fontes/obi1889/p0023.jpg"],
+  o1891a: ["Óbito 1891, n.º 2", "fontes/obi1891/p0003.jpg"],
+  o1891b: ["Óbito 1891, n.º 2 (fim)", "fontes/obi1891/p0004.jpg"],
+  o1897: ["Óbito 1897, n.º 49", "fontes/obi1897/p0019.jpg"],
+  o1900: ["Óbito 1900, n.º 1", "fontes/obi1900/p0003.jpg"],
+  b1862a: ["Batismo 1862, n.º 49", "fontes/bapt1862/p0026.jpg"],
+  b1862b: ["Batismo 1862, n.º 49 (fim)", "fontes/bapt1862/p0027.jpg"],
+  b1870: ["Batismo 1870, n.º 31", "fontes/bapt1870/p0012.jpg"],
+  b1880: ["Batismo 1880, n.º 35", "fontes/bapt1880/p0019.jpg"],
+  b1891: ["Batismo 1891, n.º 14", "fontes/bapt1891/p0010.jpg"],
+  v1896: ["Batismo 1896, n.º 49", "fontes/bapt1896/m0027.jpg"],
+  v1897a: ["Batismo 1897, n.º 98", "fontes/bapt1897/m0052.jpg"],
+  v1898: ["Batismo 1898, n.º 5", "fontes/bapt1897/m0055.jpg"],
+  v1899: ["Batismo 1899, n.º 30", "fontes/bapt1899/m0018.jpg"],
+  v1900a: ["Batismo 1900, n.º 47", "fontes/bapt1900/m0026.jpg"],
+  v1900b: ["Batismo 1900, n.º 49", "fontes/bapt1900/m0027.jpg"],
+  v1900c: ["Batismo 1900, n.º 27", "fontes/bapt1900/m0016.jpg"],
+  v1902: ["Batismo 1902, n.º 32", "fontes/bapt1902/m0019.jpg"],
+  v1903a: ["Batismo 1903, n.º 22", "fontes/bapt1903/m0013.jpg"],
+  v1903b: ["Batismo 1903, n.º 42/43", "fontes/bapt1903/m0023.jpg"],
+  v1904a: ["Batismo 1904, n.º 53", "fontes/bapt1904/m0029.jpg"],
+  v1904b: ["Batismo 1904, n.º 94", "fontes/bapt1904/m0050.jpg"],
+  v1911a: ["Batismo 1911 (Artur)", "fontes/bapt1911/m0007.jpg"],
+  v1911b: ["Batismo 1911 (Américo)", "fontes/bapt1911/m0013.jpg"],
+  cad: ["Caderneta predial 92-B", "imagens/cardenetarustica.jpeg"],
+  reg: ["Registo predial 1973", "imagens/registopredial.jpeg"],
+  i1864: ["Índice de batismos (1864–66)", "fontes/indice_godim/p0007.jpg"],
+  i1872: ["Índice de batismos (1872–73)", "fontes/indice_godim/p0014.jpg"],
+  i1875: ["Índice de batismos (1875–76)", "fontes/indice_godim/p0017.jpg"],
+  i1877: ["Índice de batismos (1877)", "fontes/indice_godim/p0019.jpg"],
+  i1895: ["Índice de batismos (1895)", "fontes/indice_godim/p0046.jpg"],
+  i1901: ["Índice de batismos (1901)", "fontes/indice_godim/p0056.jpg"],
+  i1902: ["Índice de batismos (1902)", "fontes/indice_godim/p0057.jpg"],
+  i1906: ["Índice de batismos (1906)", "fontes/indice_godim/p0064.jpg"],
+  i1907: ["Índice de batismos (1907)", "fontes/indice_godim/p0066.jpg"],
+  i1908: ["Índice de batismos (1908)", "fontes/indice_godim/p0067.jpg"],
+  i1909: ["Índice de batismos (1909)", "fontes/indice_godim/p0069.jpg"]
+};
+const IMGS = {
+  silvia: ["cad"], ajvm: ["cad"], jaqvm: ["cad"], josvm: ["cad"], ajm1930: ["cad"],
+  memcv: ["reg"], ajvPicote: ["reg"], valentim: ["reg"], isaura: ["reg"],
+  jam1908: ["b1908", "b1906", "cad"], francisca: ["b1906", "b1908"],
+  emilia1901: ["i1901"], abel: ["c1900a", "c1900b"], maria1895: ["i1895"],
+  joaquim1898: ["v1898"], francisco1900: ["v1900c"], antonio1903: ["v1903a"], mariaMendes: ["v1903b"], silvana1909: ["i1909"],
+  fam1855: ["c1900a", "c1900b", "b1908"], mariaSA: ["c1900a", "c1900b", "b1908"],
+  joseSilva: ["c1900a", "b1908"], mariaAmaral: ["c1900a", "b1908"],
+  mam1816: ["o1891a", "o1891b"], joaquina: ["c1899a", "c1892a", "b1908"], engracia: ["o1900"],
+  jam1854: ["c1892a", "c1892b", "b1908"], antonia: ["c1892a", "c1892b"],
+  jaq1860: ["c1899a", "c1899b", "b1891"], ventura: ["c1899a", "c1899b", "b1891"],
+  daniel1886: ["c1899a", "c1899b"], maria1890: ["c1899a", "c1899b"], manuel1891: ["b1891", "c1899a"],
+  francisco1895: ["c1899a", "c1899b"], duarte1899: ["c1899a", "c1899b"], crispim1902: ["i1902"],
+  jose1897: ["b1897"], mariaCM: ["b1897"],
+  jamSPS: ["c1862a", "c1862b", "b1867", "o1891a"], joanna: ["c1862a", "c1862b", "b1867", "o1891a"],
+  joseCorrea: ["c1862a", "c1862b"], fructuosa: ["c1862a", "c1862b"], lourenco: ["c1862a", "c1862b"], eufrasia: ["c1862a", "c1862b"],
+  jam1813: ["o1889a", "o1889b"], mariaCorrea: ["o1889a"], josefa: ["o1897"], pantana: ["o1897"], aPereira: ["o1897"],
+  jaq1835: ["c1862a", "c1862b", "b1867"], anna: ["c1862a", "c1862b", "b1867"],
+  ajCruz: ["c1862a", "c1862b", "b1867"], thereza: ["c1862a", "c1862b"], joseAlves: ["c1862a", "c1862b"], isabelJ: ["c1862a", "c1862b"],
+  joaoCorrea: ["c1862a", "c1862b"], luiza: ["c1862a", "c1862b"],
+  maria1862: ["b1862a", "b1862b"], guilherme1864: ["i1864"], jose1867: ["b1867"], maria1870: ["b1870"],
+  maria1872: ["i1872"], filomena1875: ["i1875"], manuel1877: ["i1877"], bernardo1880: ["b1880"],
+  av1872: ["b1872", "c1894a", "c1894b", "b1906"], mes1874: ["b1874", "c1894a", "c1894b", "b1906"],
+  ajVicente: ["b1872", "c1894a"], josefaRosa: ["b1872", "c1894a"], aVicente: ["b1872"], catharina: ["b1872"], joaoPereira: ["b1872"], delfina: ["b1872"],
+  frVelho: ["b1874", "c1894a"], aeSilva: ["b1874", "c1894a"], joseRod: ["b1874"], annaJesus: ["b1874"], antSilva: ["b1874"], emiliaRosa: ["b1874"],
+  manuelV: ["v1896", "v1897a", "v1899"], luzia: ["v1896", "v1897a"],
+  armando1896: ["v1896"], beatriz: ["v1896"], armando1897: ["v1897a"], artur1899: ["v1899"], alberto1900: ["v1900a"], felisbela1901: ["i1901"], jose1903V: ["v1903b"],
+  bernardinoV: ["v1900b", "v1902"], emiliaRosaS: ["v1900b", "v1902"],
+  antonio1900B: ["v1900b"], mariaCS: ["v1900b"], joaquim1902B: ["v1902"], armindo1904: ["v1904a"], maria1906B: ["i1906"], arminda1908: ["i1908"], americo1911: ["v1911b"],
+  custodioV: ["v1904b", "b1906m", "v1911a"], isauraC: ["v1904b", "b1906m"], rosaria: ["v1900c"],
+  jose1904C: ["v1904b"], manuel1906C: ["b1906m"], maria1907C: ["i1907"], artur1911C: ["v1911a"]
+};
+
 // Derive children lists from parent links; attach confidence and source
 for (const [id, p] of Object.entries(people)) {
   p.id = id; p.kids = [];
@@ -543,6 +647,7 @@ function show(id) {
     `<h2>${p.name}</h2><div class="rel">${p.role || ""}</div>` +
     `<div class="conf conf-${p.conf}"><b>${LEVELS[p.conf].sym} Confiança: ${LEVELS[p.conf].label} (${LEVELS[p.conf].pct})</b><br>${LEVELS[p.conf].why}</div>` +
     `<div class="src"><b>Fonte:</b> ${p.src}</div>` +
+    ((IMGS[id] || []).length ? `<div class="imgs">` + IMGS[id].map(k => `<button data-img="${k}">🖼 ${IMG[k][0]}</button>`).join("") + `</div>` : "") +
     (facts ? `<dl>${facts}</dl>` : "") +
     (notes ? `<ul>${notes}</ul>` : "") +
     chips("Pais", parentsOf(p)) +
@@ -558,7 +663,23 @@ document.getElementById("panel").addEventListener("click", e => {
   if (a) return setFocus(a.dataset.id);
   const b = e.target.closest("[data-focus]");
   if (b) return setFocus(b.dataset.focus);
+  const im = e.target.closest("[data-img]");
+  if (im) return openImage(im.dataset.img);
 });
+
+// Image viewer: fit to screen; click the image to toggle full size
+const viewer = document.getElementById("viewer");
+function openImage(k) {
+  const [label, path] = IMG[k];
+  viewer.querySelector("img").src = path;
+  viewer.querySelector("img").classList.remove("full");
+  viewer.querySelector(".vtitle").textContent = label;
+  viewer.querySelector("a").href = path;
+  viewer.style.display = "flex";
+}
+viewer.querySelector("img").onclick = e => e.target.classList.toggle("full");
+viewer.querySelector(".vclose").onclick = () => viewer.style.display = "none";
+document.addEventListener("keydown", e => { if (e.key === "Escape") viewer.style.display = "none"; });
 
 function fit() {
   const { width, height } = svg.node().getBoundingClientRect();
