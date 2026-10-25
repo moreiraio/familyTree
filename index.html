@@ -1,0 +1,592 @@
+<!doctype html>
+<html lang="pt">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Árvore Mimoso</title>
+<style>
+  :root {
+    --bg: #fbfaf7; --fg: #1f2328; --muted: #6a6f76; --line: #c9c4ba;
+    --panel: #ffffff; --border: #e3ded4; --accent: #2f6f9f;
+    --mimoso: #2f6f9f; --vicente: #a0522d; --other: #5b7d4a; --unknown: #9aa0a6;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #16181c; --fg: #e6e6e6; --muted: #9aa0a6; --line: #4a4d52;
+      --panel: #1f2227; --border: #33363c; --accent: #6fa8d6;
+      --mimoso: #6fa8d6; --vicente: #d9925f; --other: #8fb87a; --unknown: #6b7076;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #16181c; --fg: #e6e6e6; --muted: #9aa0a6; --line: #4a4d52;
+    --panel: #1f2227; --border: #33363c; --accent: #6fa8d6;
+    --mimoso: #6fa8d6; --vicente: #d9925f; --other: #8fb87a; --unknown: #6b7076;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; height: 100%; }
+  body { background: var(--bg); color: var(--fg); font: 14px/1.4 system-ui, -apple-system, "Segoe UI", sans-serif; display: flex; flex-direction: column; }
+  header { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; padding: 10px 16px; border-bottom: 1px solid var(--border); }
+  header h1 { font-size: 16px; margin: 0; font-weight: 600; }
+  .controls { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+  select, button { font: inherit; color: var(--fg); background: var(--panel); border: 1px solid var(--border); border-radius: 6px; padding: 4px 10px; cursor: pointer; max-width: 100%; }
+  button:disabled { opacity: .4; cursor: default; }
+  .legend { display: flex; gap: 12px; flex-wrap: wrap; color: var(--muted); font-size: 12px; }
+  .legend .dot::before { content: ""; display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 4px; vertical-align: -1px; background: var(--c); }
+  main { flex: 1; position: relative; overflow: hidden; }
+  svg { width: 100%; height: 100%; display: block; cursor: grab; }
+  svg:active { cursor: grabbing; }
+  .link { fill: none; stroke: var(--line); stroke-width: 1.5px; }
+  .node circle { stroke-width: 2px; cursor: pointer; }
+  .node text { fill: var(--fg); font-size: 13px; cursor: pointer; paint-order: stroke; stroke: var(--bg); stroke-width: 4px; stroke-linejoin: round; }
+  .node text.sub { fill: var(--muted); font-size: 11px; }
+  .node.focus text.name { font-weight: 700; font-size: 15px; }
+  .side-label { fill: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: .08em; }
+  #panel { position: absolute; right: 12px; top: 12px; width: min(400px, calc(100% - 24px)); max-height: calc(100% - 24px); overflow: auto; background: var(--panel); border: 1px solid var(--border); border-radius: 10px; padding: 12px 14px; box-shadow: 0 4px 16px rgba(0,0,0,.12); display: none; }
+  #panel h2 { margin: 0 0 2px; font-size: 15px; padding-right: 20px; }
+  #panel .rel { color: var(--muted); font-size: 12px; margin-bottom: 8px; }
+  #panel dl { display: grid; grid-template-columns: auto 1fr; gap: 3px 10px; margin: 8px 0; }
+  #panel dt { color: var(--muted); font-size: 12px; padding-top: 1px; }
+  #panel dd { margin: 0; }
+  #panel ul { margin: 6px 0 0; padding-left: 18px; }
+  #panel h3 { font-size: 12px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); margin: 10px 0 4px; }
+  #panel .links a { display: inline-block; margin: 0 6px 4px 0; padding: 2px 8px; border: 1px solid var(--border); border-radius: 12px; color: var(--accent); text-decoration: none; cursor: pointer; font-size: 13px; }
+  #panel .links a:hover { background: var(--bg); }
+  #panel .src { margin: 6px 0; font-size: 12px; color: var(--fg); }
+  #panel .conf { margin: 6px 0; padding: 6px 8px; border-radius: 6px; font-size: 12px; border-left: 4px solid var(--c); background: var(--bg); }
+  #panel .conf-doc { --c: #3a8f4f; } #panel .conf-reg, #panel .conf-fam { --c: #4f86b8; }
+  #panel .conf-prov { --c: #c99a2e; } #panel .conf-hip { --c: #c0503a; }
+  #panel .focusbtn { margin-top: 10px; }
+  #panel .close { position: absolute; right: 8px; top: 6px; border: none; background: none; font-size: 18px; color: var(--muted); }
+  .hint { position: absolute; left: 12px; bottom: 10px; right: 12px; color: var(--muted); font-size: 12px; pointer-events: none; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Árvore Mimoso</h1>
+  <div class="controls">
+    <select id="jump" aria-label="Ir para pessoa"></select>
+    <button id="back" disabled>← Voltar</button>
+    <button id="expand">Expandir tudo</button>
+    <button id="collapse">Recolher</button>
+    <button id="fit">Centrar</button>
+  </div>
+  <div class="legend">
+    <span class="dot" style="--c: var(--mimoso)">Mimoso</span>
+    <span class="dot" style="--c: var(--vicente)">Vicente / Silva</span>
+    <span class="dot" style="--c: var(--other)">Outros</span>
+    <span class="dot" style="--c: var(--unknown)">Desconhecido / hipótese</span>
+    <span>círculo cheio = há ramos fechados</span>
+    <span title="assento original lido">✔ Alta ≈95%</span>
+    <span title="índice, nota na margem, catálogo, registo predial">● Boa ≈85%</span>
+    <span title="informação da família">◆ Família ≈85%</span>
+    <span title="dedução ou leitura difícil">~ Média ≈70%</span>
+    <span title="hipótese">? Baixa ≈40%</span>
+  </div>
+</header>
+<main>
+  <svg id="tree"></svg>
+  <div id="panel"><button class="close" aria-label="Fechar">×</button><div id="panel-body"></div></div>
+  <div class="hint">← descendentes · antepassados → · clique no círculo para abrir/fechar · clique no nome para ver datas, casamentos, fontes e navegar para pais, filhos, irmãos ou cônjuges</div>
+</main>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script>
+// Person fields: name; s = side (m Mimoso, v Vicente/Silva, o other, u unknown); f/m = father/mother id;
+// sp = spouse ids; b = birth; d = death; c = marriages; occ = occupation/residence; notes; src = source; ok = confirmed
+const people = {
+  // ── Maria do Socorro and parents ─────────────────────────────
+  msg: { name: "Maria do Socorro Mimoso Guedes", role: "autora da pesquisa", s: "m", f: "armando", m: "silvia" },
+  sandra: { name: "Sandra Isabel Mimoso Guedes", s: "m", f: "armando", m: "silvia" },
+  silvia: { name: "Sílvia Maria Vicente Mimoso Guedes", s: "m", f: "ajm1930", m: "emiliaAv", sp: ["armando"],
+    c: ["Armando Mesquita Guedes (adotou o apelido Guedes)"], notes: ["Na caderneta predial 92-B ficou com 1/4, depois 3/4 do prédio."] },
+  armando: { name: "Armando Mesquita Guedes", s: "o", sp: ["silvia"], notes: ["Pais por identificar."] },
+  ajvm: { name: "António José Vicente Mimoso", s: "m", f: "ajm1930", m: "emiliaAv", notes: ["1/4 na caderneta predial 92-B."] },
+  jaqvm: { name: "Joaquim António Vicente Mimoso", s: "m", f: "ajm1930", m: "emiliaAv", notes: ["1/4 na caderneta predial (cedido à irmã Sílvia)."] },
+  josvm: { name: "José António Vicente Mimoso", s: "m", f: "ajm1930", m: "emiliaAv", notes: ["1/4 na caderneta predial (cedido à irmã Sílvia)."] },
+
+  // ── Grandparents and their siblings ─────────────────────────
+  ajm1930: { name: "António José Mimoso", role: "avô", s: "m", f: "jam1908", m: "francisca", sp: ["emiliaAv"],
+    b: "7-9-1930, Godim (Peso da Régua)", c: ["Emília da Conceição Vicente"],
+    notes: ["Herdou do pai o prédio rústico 92-B (Godim/Vinhós)."], src: "Família; certidão de nascimento por pedir (Conservatória da Régua)." },
+  emiliaAv: { name: "Emília da Conceição Vicente", role: "avó", s: "v", sp: ["ajm1930"],
+    c: ["António José Mimoso"],
+    notes: ["Pais por identificar. Candidatos (notas nos batismos de Godim): António Vicente (n.1900, filho de Bernardino Vicente e Emília Rosa) × Maria da Conceição Silva, c. 1926?; Francisco Vicente (n.1900) × R?sária do Socorro, 1929; Armando Vicente (n.1896) × Beatriz da Conceição, 1923.", "A certidão de casamento dos avós indica os pais dela."] },
+  memcv: { name: "Maria Emília da Conceição Vicente", s: "v", f: "jam1908", m: "francisca", sp: ["ajvPicote"],
+    c: ["António Joaquim Vicente"], occ: "Picote, Miranda do Douro (1973)", src: "Registo predial de 8-6-1973." },
+  ajvPicote: { name: "António Joaquim Vicente", s: "v", sp: ["memcv"], occ: "Picote, Miranda do Douro (1973)" },
+  valentim: { name: "Valentim António Mimoso", s: "m", f: "jam1908", m: "francisca", sp: ["isaura"],
+    c: ["Isaura Moreira dos Anjos Mimoso"], occ: "Lisboa (1973)", src: "Registo predial de 8-6-1973; família." },
+  isaura: { name: "Isaura Moreira dos Anjos Mimoso", s: "o", sp: ["valentim"], occ: "Lisboa (1973)" },
+  adao: { name: "Adão António Mimoso", s: "m", f: "jam1908", m: "francisca",
+    notes: ["Inventariante no inventário da mãe (1973)."], src: "ADVRL PT/ADVRL/JUD/TJCPRG/C-B/082/1658." },
+  irmaos3: { name: "+ 3 irmãos por identificar", s: "u", ok: false, f: "jam1908", m: "francisca",
+    notes: ["O casal teve 7 filhos. Talvez Ausenda de Jesus Porto Silva (registo predial de 1973). O inventário de 1973 deve listar todos."] },
+
+  // ── Great-grandparents ──────────────────────────────────────
+  jam1908: { name: "José António Mimoso", role: "bisavô", s: "m", f: "fam1855", m: "mariaSA", sp: ["francisca"],
+    b: "22-3-1908, 6h, Sergude (Godim); batizado a 28-5-1908", d: "Godim, num dia 28; averbamento de 28-10-1971 (assento 217)",
+    c: ["5-11-1927, civil, Sergude/Conservatória da Régua (assento 89): Francisca da Conceição Vicente"],
+    notes: ["Padrinhos: o tio José António Mimoso e Anna Emília da Silva.", "Primeiro proprietário do prédio 92-B (\"Legado\")."],
+    src: "Batismo n.º 40/1908, Godim (fontes/bapt1908/p0023.jpg)." },
+  francisca: { name: "Francisca da Conceição Vicente", role: "bisavó", s: "v", f: "av1872", m: "mes1874", sp: ["jam1908"],
+    b: "28-3-1906, 1h, Sergude (Godim); batizada a 15-4-1906", d: "Godim, c. 1972–73 (assento 222)",
+    c: ["5-11-1927: José António Mimoso"],
+    notes: ["Padrinhos: Manuel Pinto dos Santos e Francisca Rosa.", "Inventário obrigatório em 1973 (inventariante: o filho Adão)."],
+    src: "Batismo n.º 34/1906, Godim (fontes/bapt1906/p0020.jpg)." },
+  emilia1901: { name: "Emília", s: "m", f: "fam1855", m: "mariaSA", b: "11-7-1901, Godim", src: "Índice de batismos de Godim." },
+  abel: { name: "Abel Mendes", s: "o", m: "mariaSA", b: "c. 1881, Godim (filho natural)", occ: "Sergude",
+    c: ["18-10-1900, Godim: Maria da Conceição Machado"], notes: ["Meio-irmão do bisavô, do lado da mãe."] },
+
+  // ── Francisca's siblings ────────────────────────────────────
+  maria1895: { name: "Maria", s: "v", f: "av1872", m: "mes1874", b: "24-10-1895, Godim" },
+  joaquim1898: { name: "Joaquim Vicente", s: "v", f: "av1872", m: "mes1874", b: "1-1-1898, Sergude", d: "15-3-1974, Godim",
+    c: ["15-2-1925, Santa Leocádia? (Baião): Maria José Soares"], src: "Batismo n.º 5/1898 (averbamentos)." },
+  francisco1900: { name: "Francisco Vicente", s: "v", f: "av1872", m: "mes1874", sp: ["rosaria"], b: "19-4-1900, Sergude", d: "22-11-1975, Godim",
+    c: ["2?-12-1929, Régua (assento 86): R?sária do Socorro"], src: "Batismo n.º 27/1900 (averbamentos)." },
+  antonio1903: { name: "António Vicente", s: "v", f: "av1872", m: "mes1874", sp: ["mariaMendes"], b: "1-3-1903, Sergude", d: "31-7-1971, Godim",
+    c: ["30-7-1927, Régua (assento 62): Maria (do Carmo?) Mendes"], src: "Batismo n.º 22/1903 (averbamentos)." },
+  mariaMendes: { name: "Maria (do Carmo?) Mendes", s: "o", sp: ["antonio1903"], b: "11-5-1903, Godim", notes: ["Filha de Simão Mendes e Eliza da Conceição."] },
+  silvana1909: { name: "Silvana", s: "v", f: "av1872", m: "mes1874", b: "17-5-1909, Godim" },
+
+  // ── Mimoso line ─────────────────────────────────────────────
+  fam1855: { name: "Francisco António Mimoso", role: "trisavô", s: "m", f: "mam1816", m: "joaquina", sp: ["mariaSA"],
+    b: "c. 1855, Godim", d: "7-5-1927", occ: "jornaleiro, Sergude",
+    c: ["18-10-1900, Godim (n.º 23), com 45 anos: Maria da Silva Amaral"],
+    notes: ["Testamento público a 7-2-1921 (ADVRL PT/ADVRL/NOT/CNPRG5/007/394/38).", "Padrinho do sobrinho José (1897)."],
+    src: "Casamento n.º 23/1900, Godim (fontes/cas1900/p0025.jpg)." },
+  mariaSA: { name: "Maria de Jesus (Maria da Silva Amaral)", role: "trisavó", s: "v", f: "joseSilva", m: "mariaAmaral", sp: ["fam1855"],
+    b: "c. 1864, Godim", c: ["18-10-1900, com 36 anos: Francisco António Mimoso"],
+    notes: ["Antes de casar já tinha um filho natural, Abel Mendes."] },
+  joseSilva: { name: "José da Silva", role: "tetravô", s: "v", sp: ["mariaAmaral"], occ: "pedreiro, Godim" },
+  mariaAmaral: { name: "Maria (da Silva) Amaral", role: "tetravó", s: "v", sp: ["joseSilva"] },
+  mam1816: { name: "Manuel António Mimoso", role: "tetravô", s: "m", f: "jamSPS", m: "joanna", sp: ["joaquina", "engracia"],
+    b: "c. 1816, Godim", d: "11-2-1891, Sergude, 75 anos", occ: "jornaleiro, Sergude",
+    c: ["1.º Joaquina dos Santos", "2.º Engracia Ferreira"], src: "Óbito n.º 2/1891, Godim." },
+  joaquina: { name: "Joaquina dos Santos", role: "tetravó", s: "o", sp: ["mam1816"], d: "antes de 1892",
+    notes: ["Também aparece como Joaquina do Espírito Santo."] },
+  engracia: { name: "Engracia Ferreira", s: "o", sp: ["mam1816"], b: "c. 1837, Sedielos", d: "1-1-1900, Sergude",
+    notes: ["2.ª mulher de Manuel António. Sem filhos. Filha de João Ferreira e Anna da Conceição."] },
+  jam1854: { name: "José António Mimoso", s: "m", f: "mam1816", m: "joaquina", sp: ["antonia"], b: "c. 1854, Godim", occ: "jornaleiro, Sergude",
+    c: ["22-10-1892, Godim (n.º 14), com 38 anos: Antónia Maria (54 anos)"], notes: ["Padrinho do sobrinho José António (1908)."] },
+  antonia: { name: "Antónia Maria", s: "o", sp: ["jam1854"], b: "c. 1838, S. Paio de Guimarães" },
+  jaq1860: { name: "Joaquim António Mimoso", s: "m", f: "mam1816", m: "joaquina", sp: ["ventura"], b: "c. 1860, Godim", occ: "jornaleiro, Sergude",
+    c: ["8-3-1899, Godim (n.º 4): Ventura dos Anjos. Legitimaram 6 filhos."] },
+  ventura: { name: "Ventura dos Anjos", s: "o", sp: ["jaq1860"], b: "c. 1863, Moura Morta" },
+  daniel1886: { name: "Daniel", s: "m", f: "jaq1860", m: "ventura", b: "27-11-1886, Moura Morta" },
+  maria1890: { name: "Maria", s: "m", f: "jaq1860", m: "ventura", b: "13-1-1890, Godim" },
+  manuel1891: { name: "Manuel", s: "m", f: "jaq1860", m: "ventura", b: "5-2-1891 ou 11-9-1893, Godim" },
+  francisco1895: { name: "Francisco", s: "m", f: "jaq1860", m: "ventura", b: "20-3-1895, Godim" },
+  jose1897: { name: "José", s: "m", f: "jaq1860", m: "ventura", sp: ["mariaCM"], b: "25-1-1897, Sergude", d: "27-6-1969, Godim",
+    c: ["6-1-1926, Régua: Maria Coelho Mendes"], src: "Batismo n.º 16/1897 (fontes/bapt1897/p0011.jpg)." },
+  mariaCM: { name: "Maria Coelho Mendes", s: "o", sp: ["jose1897"] },
+  duarte1899: { name: "Duarte", s: "m", f: "jaq1860", m: "ventura", b: "6-2-1899, Godim" },
+  crispim1902: { name: "Crispim", s: "m", f: "jaq1860", m: "ventura", b: "16-12-1902, Godim" },
+
+  jamSPS: { name: "José António Mimoso", role: "pentavô", s: "m", f: "joseCorrea", m: "fructuosa", sp: ["joanna"],
+    b: "S. Pedro do Sul (Bispado de Viseu)", occ: "jornaleiro, Godim", notes: ["Vivo em 1867 (padrinho de um neto)."] },
+  joanna: { name: "Joanna Emília", role: "pentavó", s: "m", f: "lourenco", m: "eufrasia", sp: ["jamSPS"], b: "Godim" },
+  joseCorrea: { name: "José Corrêa", role: "hexavô", s: "m", sp: ["fructuosa"], occ: "S. Pedro do Sul", src: "Casamento n.º 4/1862, Godim." },
+  fructuosa: { name: "Fructuosa Rodrigues", role: "hexavó", s: "m", sp: ["joseCorrea"], occ: "S. Pedro do Sul" },
+  lourenco: { name: "Lourenço de Cesares(?)", role: "hexavô", s: "o", sp: ["eufrasia"], occ: "Covas, Godim; jornaleiro", notes: ["Leitura do apelido incerta."] },
+  eufrasia: { name: "Eufrásia Maria", role: "hexavó", s: "o", sp: ["lourenco"], occ: "Covas, Godim" },
+  jam1813: { name: "José António Mimoso", s: "m", f: "jamSPS", m: "joanna", sp: ["mariaCorrea"], b: "c. 1813, Godim", d: "10-11-1889, Olival Basto (Godim), 76 anos",
+    c: ["Maria Correa (já falecida em 1889)"] },
+  mariaCorrea: { name: "Maria Correa", s: "o", sp: ["jam1813"], d: "antes de 1889, Godim" },
+  josefa: { name: "Josefa Emília", s: "m", f: "jamSPS", m: "joanna", sp: ["pantana", "aPereira"], b: "c. 1820", d: "1-11-1897, Estrada Nova (Godim), 77 anos",
+    occ: "proprietária", c: ["1.º Francisco de Barros Pantana(?)", "2.º António Pereira"], notes: ["Deixou filhos."] },
+  pantana: { name: "Francisco de Barros Pantana(?)", s: "o", sp: ["josefa"] },
+  aPereira: { name: "António Pereira", s: "o", sp: ["josefa"] },
+  jaq1835: { name: "Joaquim António Mimoso", s: "m", f: "jamSPS", m: "joanna", sp: ["anna"], b: "c. 1835, Godim", occ: "pedreiro / jornaleiro",
+    c: ["1-5-1862, Godim (n.º 4), com 27 anos: Anna da Conceição"], notes: ["Ramo colateral. Não encontrado nos óbitos de Godim de 1880–1911."] },
+  anna: { name: "Anna da Conceição", s: "o", f: "ajCruz", m: "thereza", sp: ["jaq1835"], b: "c. 1838, Gouvinhas (Sabrosa)",
+    c: ["1-5-1862, com 24 anos, solteira: Joaquim António Mimoso"] },
+  ajCruz: { name: "António José da Cruz / de Queirós", s: "o", f: "joseAlves", m: "isabelJ", sp: ["thereza"], occ: "sapateiro / proprietário, S. Pedro de Vila Real" },
+  thereza: { name: "Thereza de Jesus", s: "o", f: "joaoCorrea", m: "luiza", sp: ["ajCruz"], b: "Godim", notes: ["Viúva em 1862, Salgueiral."] },
+  joseAlves: { name: "José Alves d'Abreu", s: "o", sp: ["isabelJ"], occ: "S. Pedro de Vila Real" },
+  isabelJ: { name: "Isabel Joaquina", s: "o", sp: ["joseAlves"], occ: "S. Pedro de Vila Real" },
+  joaoCorrea: { name: "João António Corrêa", s: "o", sp: ["luiza"], occ: "Godim" },
+  luiza: { name: "Luiza(?) de Jesus", s: "o", sp: ["joaoCorrea"], occ: "Godim" },
+  maria1862: { name: "Maria", s: "m", f: "jaq1835", m: "anna", b: "19-9-1862, Salgueiral (Godim)" },
+  guilherme1864: { name: "Guilherme(?)", s: "m", ok: false, f: "jaq1835", m: "anna", b: "10-3-1864, Godim" },
+  jose1867: { name: "José", s: "m", f: "jaq1835", m: "anna", b: "4-12-1867, Covas (Godim)", src: "Batismo n.º 49/1867 (fontes/bapt1867/p0017.jpg)." },
+  maria1870: { name: "Maria", s: "m", f: "jaq1835", m: "anna", b: "15-3-1870, Covas (Godim)" },
+  maria1872: { name: "Maria", s: "m", f: "jaq1835", m: "anna", b: "23-11-1872, Godim" },
+  filomena1875: { name: "Filomena", s: "m", f: "jaq1835", m: "anna", b: "16-3-1875, Godim" },
+  manuel1877: { name: "Manuel", s: "m", f: "jaq1835", m: "anna", b: "26-9-1877, Godim" },
+  bernardo1880: { name: "Bernardo", s: "m", f: "jaq1835", m: "anna", b: "3-5-1880, Lajes (Godim)" },
+
+  // ── Vicente / Silva line ────────────────────────────────────
+  av1872: { name: "António Vicente", role: "trisavô", s: "v", f: "ajVicente", m: "josefaRosa", sp: ["mes1874"],
+    b: "1-12-1872, 23h, Aviz (Godim); batizado a 17-12-1872", d: "10-6-1948 (assento 134/1948, Régua)", occ: "caiador",
+    c: ["10-6-1894, Godim (n.º 7), com 21 anos: Maria Carolina da Silva"], notes: ["Também chamado António Vicente Júnior."],
+    src: "Batismo n.º 69/1872 (fontes/bapt1871-76/p0033.jpg); casamento n.º 7/1894." },
+  mes1874: { name: "Maria Emília (Carolina) da Silva", role: "trisavó", s: "v", f: "frVelho", m: "aeSilva", sp: ["av1872"],
+    b: "10-8-1874, 23h, Godim; batizada a 30-8-1874", d: "18-10-1938 (assento 268/1938, Régua)",
+    c: ["10-6-1894, com 19 anos: António Vicente"], notes: ["Padrinho: o avô António da Silva. Madrinha: Carolina Lúcia da Conceição."],
+    src: "Batismo n.º 38/1874 (fontes/bapt1871-76/p0056.jpg)." },
+  ajVicente: { name: "António Joaquim Vicente", role: "tetravô", s: "v", f: "aVicente", m: "catharina", sp: ["josefaRosa"], occ: "jornaleiro / proprietário, Aviz (Godim)" },
+  josefaRosa: { name: "Josefa Rosa", role: "tetravó", s: "v", f: "joaoPereira", m: "delfina", sp: ["ajVicente"] },
+  aVicente: { name: "António Vicente", role: "pentavô", s: "v", sp: ["catharina"] },
+  catharina: { name: "Catharina de Jesus", role: "pentavó", s: "v", sp: ["aVicente"] },
+  joaoPereira: { name: "João Pereira", role: "pentavô", s: "v", sp: ["delfina"] },
+  delfina: { name: "Delfina Rosa", role: "pentavó", s: "v", sp: ["joaoPereira"] },
+  frVelho: { name: "Francisco Rodrigues (Velho)", role: "tetravô", s: "v", f: "joseRod", m: "annaJesus", sp: ["aeSilva"], occ: "jornaleiro / proprietário, Godim" },
+  aeSilva: { name: "Anna Emília (da Silva)", role: "tetravó", s: "v", f: "antSilva", m: "emiliaRosa", sp: ["frVelho"], notes: ["Assinou como testemunha em 1900."] },
+  joseRod: { name: "José Rodrigues", role: "pentavô", s: "v", sp: ["annaJesus"] },
+  annaJesus: { name: "Anna de Jesus", role: "pentavó", s: "v", sp: ["joseRod"] },
+  antSilva: { name: "António da Silva", role: "pentavô", s: "v", sp: ["emiliaRosa"], occ: "pescador" },
+  emiliaRosa: { name: "Emília Rosa", role: "pentavó", s: "v", sp: ["antSilva"] },
+
+  // Brothers of António Vicente (n.º 6) and their families
+  manuelV: { name: "Manuel Vicente", s: "v", f: "ajVicente", m: "josefaRosa", sp: ["luzia"], occ: "caiador, Aviz (Godim)" },
+  luzia: { name: "Luzia da Conceição", s: "v", sp: ["manuelV"] },
+  armando1896: { name: "Armando Vicente", s: "v", f: "manuelV", m: "luzia", sp: ["beatriz"], b: "24-5-1896, Godim", d: "12?-4-1940, Godim",
+    c: ["25-7-1923, Régua (assento 72): Beatriz da Conceição"] },
+  beatriz: { name: "Beatriz da Conceição", s: "o", sp: ["armando1896"] },
+  armando1897: { name: "Armando Vicente", s: "v", f: "manuelV", m: "luzia", b: "13-11-1897, Aviz", d: "12-8-1941, Godim" },
+  artur1899: { name: "Artur Vicente", s: "v", f: "manuelV", m: "luzia", b: "27-3-1899, Godim" },
+  alberto1900: { name: "Alberto Vicente", s: "v", f: "manuelV", m: "luzia", b: "17-6-1900, Godim" },
+  felisbela1901: { name: "Felisbela", s: "v", f: "manuelV", m: "luzia", b: "23-8-1901, Godim" },
+  jose1903V: { name: "José Vicente", s: "v", f: "manuelV", m: "luzia", b: "13-4-1903, Aviz" },
+
+  bernardinoV: { name: "Bernardino Vicente", s: "v", f: "ajVicente", m: "josefaRosa", sp: ["emiliaRosaS"], occ: "caiador, Aviz / Sergude" },
+  emiliaRosaS: { name: "Emília Rosa (da Silva)", s: "v", f: "frVelho", m: "aeSilva", sp: ["bernardinoV"], notes: ["Irmã da trisavó Maria Carolina da Silva."] },
+  antonio1900B: { name: "António Vicente", s: "v", f: "bernardinoV", m: "emiliaRosaS", sp: ["mariaCS"], b: "8-6-1900, Aviz", d: "6-12-1976?, Godim (assento 320)",
+    c: ["17-3-192? (1926?), Régua: Maria da Conceição Silva"], notes: ["⭐ Candidato forte a pai da avó Emília da Conceição Vicente."] },
+  mariaCS: { name: "Maria da Conceição Silva", s: "o", sp: ["antonio1900B"], b: "c. 1904, Godim", notes: ["Filha de José Ferreira da Silva e Ana Maria ?."] },
+  joaquim1902B: { name: "Joaquim Vicente", s: "v", f: "bernardinoV", m: "emiliaRosaS", b: "10-2-1902, Aviz", d: "4-10-1946, Godim" },
+  armindo1904: { name: "Armindo Vicente", s: "v", f: "bernardinoV", m: "emiliaRosaS", b: "19-6-1904, Sergude" },
+  maria1906B: { name: "Maria", s: "v", f: "bernardinoV", m: "emiliaRosaS", b: "26-4-1906, Godim" },
+  arminda1908: { name: "Arminda", s: "v", f: "bernardinoV", m: "emiliaRosaS", b: "19-4-1908, Godim" },
+  americo1911: { name: "Américo Vicente", s: "v", f: "bernardinoV", m: "emiliaRosaS", b: "11-3-1911, Sergude", d: "16-11-1983, Peso da Régua",
+    c: ["23-3-1939: Maria? Emília? Janeiro?"] },
+
+  custodioV: { name: "Custódio Vicente", s: "v", sp: ["isauraC"], occ: "caiador / pintor, Aviz (Godim)" },
+  isauraC: { name: "Isaura da Conceição", s: "v", sp: ["custodioV"], notes: ["Filha de José Luís de Bastos e Guilhermina da Conceição."] },
+  rosaria: { name: "R?sária do Socorro", s: "v", f: "custodioV", m: "isauraC", sp: ["francisco1900"], b: "c. 1907, Godim",
+    c: ["2?-12-1929: Francisco Vicente (irmão da bisavó Francisca)"], notes: ["Primeiro nome de leitura incerta."] },
+  jose1904C: { name: "José Vicente", s: "v", f: "custodioV", m: "isauraC", b: "25-11-1904, Aviz", d: "28-4-1955, Godim" },
+  manuel1906C: { name: "Manuel Vicente", s: "v", f: "custodioV", m: "isauraC", b: "18-3-1906, Aviz", d: "9-3-1968, Godim",
+    c: ["1-3-1952, igreja de Godim: Maria Emília Teixeira?"] },
+  maria1907C: { name: "Maria", s: "v", f: "custodioV", m: "isauraC", b: "1-7-1907, Godim" },
+  artur1911C: { name: "Artur Vicente", s: "v", f: "custodioV", m: "isauraC", b: "2-1-1911, Aviz" }
+};
+
+// Confidence levels: how likely the identification and the data are to be right
+const LEVELS = {
+  doc:  { label: "Alta", pct: "≈95%", sym: "✔", why: "assento original lido (batismo, casamento ou óbito)" },
+  reg:  { label: "Boa", pct: "≈85%", sym: "●", why: "fonte secundária: índice, nota na margem, catálogo do arquivo ou registo predial" },
+  fam:  { label: "Família", pct: "≈85%", sym: "◆", why: "informação da família, ainda sem documento" },
+  prov: { label: "Média", pct: "≈70%", sym: "~", why: "dedução a partir de documentos, ou leitura difícil de nomes/datas" },
+  hip:  { label: "Baixa", pct: "≈40%", sym: "?", why: "hipótese por confirmar" }
+};
+
+// [level, source] for every person
+const meta = {
+  msg: ["fam", "Informação da própria (Maria do Socorro)."],
+  sandra: ["fam", "Informação da família."],
+  silvia: ["fam", "Informação da família; caderneta predial 92-B (imagens/cardenetarustica.jpeg)."],
+  armando: ["fam", "Informação da família."],
+  ajvm: ["reg", "Caderneta predial 92-B; confirmado pela família."],
+  jaqvm: ["reg", "Caderneta predial 92-B; confirmado pela família."],
+  josvm: ["reg", "Caderneta predial 92-B; confirmado pela família."],
+  ajm1930: ["fam", "Família (nome e data 7-9-1930); caderneta predial 92-B. Certidão de nascimento por pedir."],
+  emiliaAv: ["fam", "Informação da família. Pais por identificar."],
+  memcv: ["reg", "Registo predial de 8-6-1973 (imagens/registopredial.jpeg); família."],
+  ajvPicote: ["reg", "Registo predial de 8-6-1973."],
+  valentim: ["reg", "Registo predial de 8-6-1973; família."],
+  isaura: ["reg", "Registo predial de 8-6-1973."],
+  adao: ["reg", "Catálogo ADVRL, inventário 1973 (PT/ADVRL/JUD/TJCPRG/C-B/082/1658); família."],
+  irmaos3: ["fam", "Família (o casal teve 7 filhos)."],
+  jam1908: ["doc", ""], francisca: ["doc", ""],
+  emilia1901: ["reg", "Índice de batismos de Godim (filha de Francisco António e Maria da Silva Amaral)."],
+  abel: ["prov", "Casamento n.º 24/1900, Godim: filho natural de uma Maria da Silva Amaral; identificação com a trisavó provável."],
+  maria1895: ["reg", "Índice de batismos de Godim, 1895."],
+  joaquim1898: ["doc", "Batismo n.º 5/1898, Godim, e notas na margem."],
+  francisco1900: ["doc", "Batismo n.º 27/1900, Godim, e notas na margem (nome da mulher de leitura incerta)."],
+  antonio1903: ["doc", "Batismo n.º 22/1903, Godim, e notas na margem."],
+  mariaMendes: ["doc", "Batismo n.º 42/1903, Godim, e nota de casamento na margem."],
+  silvana1909: ["reg", "Índice de batismos de Godim, 1909."],
+  fam1855: ["doc", ""],
+  mariaSA: ["doc", "Casamento n.º 23/1900 (como Maria da Silva Amaral) e batismo n.º 40/1908 (como Maria de Jesus); os pais coincidem."],
+  joseSilva: ["doc", "Casamento n.º 23/1900 e batismo n.º 40/1908, Godim."],
+  mariaAmaral: ["doc", "Casamento n.º 23/1900 e batismo n.º 40/1908, Godim."],
+  mam1816: ["doc", "Óbito n.º 2/1891, Godim; casamentos dos filhos (1892, 1899, 1900)."],
+  joaquina: ["doc", "Casamentos dos filhos (1892, 1899, 1900) e batismo n.º 40/1908."],
+  engracia: ["doc", "Óbito n.º 1/1900, Godim."],
+  jam1854: ["doc", "Casamento n.º 14/1892, Godim; padrinho no batismo n.º 40/1908."],
+  antonia: ["doc", "Casamento n.º 14/1892, Godim."],
+  jaq1860: ["doc", "Casamento n.º 4/1899, Godim; batismo n.º 14/1891."],
+  ventura: ["doc", "Casamento n.º 4/1899, Godim; batismos dos filhos."],
+  daniel1886: ["doc", "Legitimado no casamento n.º 4/1899, Godim."],
+  maria1890: ["doc", "Legitimada no casamento n.º 4/1899, Godim."],
+  manuel1891: ["prov", "Batismo n.º 14/1891 e legitimação de 1899 (datas diferentes: podem ser dois Manuel)."],
+  francisco1895: ["doc", "Legitimado no casamento n.º 4/1899, Godim."],
+  jose1897: ["doc", ""],
+  mariaCM: ["reg", "Nota na margem do batismo n.º 16/1897."],
+  duarte1899: ["doc", "Legitimado no casamento n.º 4/1899, Godim."],
+  crispim1902: ["reg", "Índice de batismos de Godim, 1902 (filho de Joaquim António e Ventura dos Anjos)."],
+  jamSPS: ["doc", "Óbitos dos filhos (1889, 1891, 1897), casamento n.º 4/1862 e batismo n.º 49/1867, Godim."],
+  joanna: ["doc", "Óbitos dos filhos (1889, 1891, 1897) e casamento n.º 4/1862, Godim."],
+  joseCorrea: ["reg", "Casamento n.º 4/1862 (avós do irmão Joaquim António; os mesmos de Manuel António)."],
+  fructuosa: ["reg", "Casamento n.º 4/1862 (avós do irmão Joaquim António)."],
+  lourenco: ["prov", "Casamento n.º 4/1862; apelido de leitura incerta."],
+  eufrasia: ["reg", "Casamento n.º 4/1862 (avós do irmão Joaquim António)."],
+  jam1813: ["doc", "Óbito n.º 59/1889, Godim."],
+  mariaCorrea: ["doc", "Óbito n.º 59/1889, Godim (como mulher já falecida)."],
+  josefa: ["doc", "Óbito n.º 49/1897, Godim."],
+  pantana: ["prov", "Óbito n.º 49/1897; apelido de leitura incerta."],
+  aPereira: ["doc", "Óbito n.º 49/1897, Godim."],
+  jaq1835: ["doc", "Casamento n.º 4/1862 e batismos dos filhos, Godim."],
+  anna: ["doc", "Casamento n.º 4/1862 e batismos dos filhos, Godim."],
+  ajCruz: ["doc", "Casamento n.º 4/1862 (como de Queirós) e batismos dos netos (como da Cruz)."],
+  thereza: ["doc", "Casamento n.º 4/1862, Godim."],
+  joseAlves: ["doc", "Casamento n.º 4/1862, Godim."],
+  isabelJ: ["doc", "Casamento n.º 4/1862, Godim."],
+  joaoCorrea: ["doc", "Casamento n.º 4/1862, Godim."],
+  luiza: ["prov", "Casamento n.º 4/1862; nome de leitura incerta."],
+  maria1862: ["doc", "Batismo n.º 49/1862, Godim."],
+  guilherme1864: ["hip", "Índice de batismos de Godim (tira rasgada, nome incerto)."],
+  jose1867: ["doc", ""],
+  maria1870: ["doc", "Batismo n.º 31/1870, Godim."],
+  maria1872: ["reg", "Índice de batismos de Godim, 1872."],
+  filomena1875: ["reg", "Índice de batismos de Godim, 1875."],
+  manuel1877: ["reg", "Índice de batismos de Godim, 1877."],
+  bernardo1880: ["doc", "Batismo n.º 35/1880, Godim."],
+  av1872: ["doc", ""], mes1874: ["doc", ""],
+  ajVicente: ["doc", "Batismo n.º 69/1872, casamento n.º 7/1894 e batismo n.º 34/1906, Godim."],
+  josefaRosa: ["doc", "Batismo n.º 69/1872, casamento n.º 7/1894 e batismo n.º 34/1906, Godim."],
+  aVicente: ["doc", "Batismo n.º 69/1872, Godim."],
+  catharina: ["doc", "Batismo n.º 69/1872, Godim."],
+  joaoPereira: ["doc", "Batismo n.º 69/1872, Godim."],
+  delfina: ["doc", "Batismo n.º 69/1872, Godim."],
+  frVelho: ["doc", "Batismo n.º 38/1874, casamento n.º 7/1894 e batismo n.º 34/1906, Godim."],
+  aeSilva: ["doc", "Batismo n.º 38/1874, casamento n.º 7/1894 e batismo n.º 34/1906, Godim."],
+  joseRod: ["doc", "Batismo n.º 38/1874, Godim."],
+  annaJesus: ["doc", "Batismo n.º 38/1874, Godim."],
+  antSilva: ["doc", "Batismo n.º 38/1874, Godim (foi o padrinho)."],
+  emiliaRosa: ["doc", "Batismo n.º 38/1874, Godim."],
+  manuelV: ["reg", "Batismos dos filhos (1896–1903), Godim; irmão de António Vicente pelos avós indicados."],
+  luzia: ["reg", "Batismos dos filhos (1896–1903), Godim."],
+  armando1896: ["doc", "Batismo n.º 49/1896, Godim, e notas na margem."],
+  beatriz: ["reg", "Nota na margem do batismo n.º 49/1896 (marido Armando Vicente)."],
+  armando1897: ["doc", "Batismo n.º 98/1897, Godim, e nota na margem."],
+  artur1899: ["doc", "Batismo n.º 30/1899, Godim."],
+  alberto1900: ["doc", "Batismo n.º 47/1900, Godim."],
+  felisbela1901: ["reg", "Índice de batismos de Godim, 1901."],
+  jose1903V: ["doc", "Batismo n.º 43/1903, Godim."],
+  bernardinoV: ["reg", "Batismos dos filhos (1900–1911), Godim; irmão de António Vicente pelos avós indicados."],
+  emiliaRosaS: ["prov", "Batismos dos filhos, Godim; irmã de Maria Carolina pelos avós indicados."],
+  antonio1900B: ["doc", "Batismo n.º 49/1900, Godim, e notas na margem (ano do casamento incerto)."],
+  mariaCS: ["reg", "Nota na margem do batismo n.º 49/1900."],
+  joaquim1902B: ["doc", "Batismo n.º 32/1902, Godim, e nota na margem."],
+  armindo1904: ["doc", "Batismo n.º 53/1904, Godim."],
+  maria1906B: ["reg", "Índice de batismos de Godim, 1906."],
+  arminda1908: ["reg", "Índice de batismos de Godim, 1908."],
+  americo1911: ["doc", "Batismo de 1911, Godim, e notas na margem (nome da mulher incerto)."],
+  custodioV: ["doc", "Batismos dos filhos (1904–1911), Godim."],
+  isauraC: ["doc", "Batismos dos filhos (1904–1911), Godim."],
+  rosaria: ["prov", "Nota na margem do batismo n.º 27/1900 (marido); primeiro nome de leitura incerta."],
+  jose1904C: ["doc", "Batismo n.º 94/1904, Godim, e nota na margem."],
+  manuel1906C: ["doc", "Batismo n.º 27/1906, Godim, e notas na margem."],
+  maria1907C: ["reg", "Índice de batismos de Godim, 1907."],
+  artur1911C: ["doc", "Batismo de 1911, Godim."]
+};
+
+// Derive children lists from parent links; attach confidence and source
+for (const [id, p] of Object.entries(people)) {
+  p.id = id; p.kids = [];
+  const [lvl, src] = meta[id] || ["hip", ""];
+  p.conf = lvl;
+  if (!p.src) p.src = src || "—";
+  p.ok = lvl !== "hip";
+}
+for (const p of Object.values(people)) for (const par of [p.f, p.m]) if (par && people[par]) people[par].kids.push(p.id);
+
+const parentsOf = p => [p.f, p.m].filter(id => id && people[id]);
+const siblingsOf = p => {
+  const set = new Set();
+  parentsOf(p).forEach(par => people[par].kids.forEach(k => k !== p.id && set.add(k)));
+  return [...set];
+};
+const year = t => (t && (t.match(/1[6-9]\d\d|20\d\d/) || [])[0]) || "";
+// "c." when the text marks the first year as approximate (e.g. "c. 1855" or "1976?")
+const approx = t => {
+  if (!t) return "";
+  const y = year(t), i = t.indexOf(y);
+  return /c\.\s*$/.test(t.slice(0, i)) || t[i + 4] === "?" ? "c." : "";
+};
+function lifespan(p) {
+  const by = year(p.b), dy = year(p.d);
+  if (!by && !dy) return "";
+  return (by ? approx(p.b) + by : "?") + (dy ? " – " + approx(p.d) + dy : "");
+}
+const subline = p => [LEVELS[p.conf].sym, p.role, lifespan(p)].filter(Boolean).join(" · ");
+
+const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+const color = p => p.ok ? css({ m: "--mimoso", v: "--vicente", o: "--other", u: "--unknown" }[p.s]) : css("--unknown");
+
+const svg = d3.select("#tree");
+const g = svg.append("g");
+const gLink = g.append("g"), gNode = g.append("g"), gLabel = g.append("g");
+const zoom = d3.zoom().scaleExtent([0.15, 3]).on("zoom", e => g.attr("transform", e.transform));
+svg.call(zoom).on("dblclick.zoom", null);
+
+const dx = 36, dy = 250;
+const diagonal = d3.linkHorizontal().x(d => d.y).y(d => d.x);
+let focus = "msg";
+const history = [];
+const open = new Set();     // keys "dir:path" of expanded nodes
+
+// Build a hierarchy in one direction: "up" follows parents, "down" follows children
+function build(dir) {
+  const rec = (id, path, depth) => {
+    const p = people[id];
+    const key = dir + ":" + path;
+    const next = dir === "up" ? parentsOf(p) : p.kids;
+    const node = { id, key, has: next.length > 0 };
+    if (next.length && (depth === 0 || open.has(key))) node.children = next.map(n => rec(n, path + "/" + n, depth + 1));
+    return node;
+  };
+  return d3.hierarchy(rec(focus, focus, 0));
+}
+
+function walk(dir, id, path, depth, max) {
+  if (depth >= max) return;
+  open.add(dir + ":" + path);
+  const p = people[id];
+  (dir === "up" ? parentsOf(p) : p.kids).forEach(n => walk(dir, n, path + "/" + n, depth + 1, max));
+}
+
+function defaultOpen() {
+  open.clear();
+  walk("up", focus, focus, 0, 3);
+  walk("down", focus, focus, 0, 1);
+}
+
+function render() {
+  const layout = d3.tree().nodeSize([dx, dy]);
+  const up = layout(build("up")), down = layout(build("down"));
+  down.each(d => d.y = -d.y);
+  const nodes = [...up.descendants(), ...down.descendants().slice(1)];
+  const links = [...up.links(), ...down.links()];
+
+  gLink.selectAll("path").data(links, d => d.target.data.key)
+    .join("path").attr("class", "link").attr("d", diagonal);
+
+  const node = gNode.selectAll("g.node").data(nodes, d => d.data.key)
+    .join(enter => {
+      const e = enter.append("g").attr("class", "node");
+      e.append("circle").attr("r", 6).on("click", (ev, d) => toggle(d));
+      const lab = e.append("g").on("click", (ev, d) => show(d.data.id));
+      lab.append("text").attr("class", "name").attr("dy", "-0.1em");
+      lab.append("text").attr("class", "sub").attr("dy", "1.1em");
+      return e;
+    })
+    .attr("transform", d => `translate(${d.y},${d.x})`)
+    .classed("focus", d => d.depth === 0);
+  node.select("circle")
+    .attr("stroke", d => color(people[d.data.id]))
+    .attr("fill", d => d.data.has && !d.children ? color(people[d.data.id]) : css("--panel"))
+    .attr("stroke-dasharray", d => people[d.data.id].ok ? null : "2,2")
+    .style("cursor", d => d.data.has && d.depth > 0 ? "pointer" : "default");
+  const left = d => d.y < 0;
+  node.select("text.name").attr("x", d => left(d) ? -10 : 10).attr("text-anchor", d => left(d) ? "end" : "start")
+    .text(d => people[d.data.id].name);
+  node.select("text.sub").attr("x", d => left(d) ? -10 : 10).attr("text-anchor", d => left(d) ? "end" : "start")
+    .text(d => {
+      const p = people[d.data.id];
+      const sp = d.y < 0 && p.sp ? " ══ " + p.sp.map(s => people[s].name).join(" / ") : "";
+      return subline(p) + sp;
+    });
+
+  const labels = [];
+  const top = h => d3.min(h.descendants(), d => d.x) - dx;
+  if (up.children) labels.push({ x: top(up), y: 10, t: "antepassados →", a: "start" });
+  if (down.children) labels.push({ x: top(down), y: -10, t: "← descendentes", a: "end" });
+  gLabel.selectAll("text").data(labels).join("text").attr("class", "side-label")
+    .attr("x", d => d.y).attr("y", d => d.x).attr("text-anchor", d => d.a).text(d => d.t);
+
+  document.getElementById("jump").value = focus;
+  document.getElementById("back").disabled = history.length === 0;
+}
+
+function toggle(d) {
+  if (d.depth === 0 || !d.data.has) return;
+  const k = d.data.key;
+  open.has(k) ? open.delete(k) : open.add(k);
+  render();
+}
+
+function setFocus(id, remember = true) {
+  if (id === focus) return;
+  if (remember) history.push(focus);
+  focus = id;
+  defaultOpen();
+  render();
+  fit();
+  show(id);
+}
+
+function chips(title, ids) {
+  if (!ids.length) return "";
+  return `<h3>${title}</h3><div class="links">` +
+    ids.map(id => { const q = people[id], ls = lifespan(q); return `<a data-id="${id}">${q.name}${ls ? " <small>(" + ls + ")</small>" : ""}</a>`; }).join("") + "</div>";
+}
+
+function show(id) {
+  const p = people[id];
+  const row = (k, v) => v ? `<dt>${k}</dt><dd>${Array.isArray(v) ? v.join("<br>") : v}</dd>` : "";
+  const facts = row("Nascimento", p.b) + row("Casamento", p.c) + row("Óbito", p.d) + row("Profissão / morada", p.occ);
+  const notes = (p.notes || []).map(n => `<li>${n}</li>`).join("");
+  document.getElementById("panel-body").innerHTML =
+    `<h2>${p.name}</h2><div class="rel">${p.role || ""}</div>` +
+    `<div class="conf conf-${p.conf}"><b>${LEVELS[p.conf].sym} Confiança: ${LEVELS[p.conf].label} (${LEVELS[p.conf].pct})</b><br>${LEVELS[p.conf].why}</div>` +
+    `<div class="src"><b>Fonte:</b> ${p.src}</div>` +
+    (facts ? `<dl>${facts}</dl>` : "") +
+    (notes ? `<ul>${notes}</ul>` : "") +
+    chips("Pais", parentsOf(p)) +
+    chips("Cônjuge(s)", (p.sp || []).filter(s => people[s])) +
+    chips("Filhos", p.kids) +
+    chips("Irmãos", siblingsOf(p)) +
+    (id !== focus ? `<button class="focusbtn" data-focus="${id}">Centrar a árvore nesta pessoa</button>` : "");
+  document.getElementById("panel").style.display = "block";
+}
+
+document.getElementById("panel").addEventListener("click", e => {
+  const a = e.target.closest("a[data-id]");
+  if (a) return setFocus(a.dataset.id);
+  const b = e.target.closest("[data-focus]");
+  if (b) return setFocus(b.dataset.focus);
+});
+
+function fit() {
+  const { width, height } = svg.node().getBoundingClientRect();
+  const k = width < 700 ? 0.55 : 0.85;
+  svg.transition().duration(400).call(zoom.transform, d3.zoomIdentity.translate(width / 2, height / 2).scale(k));
+}
+
+function expandAll(on) {
+  open.clear();
+  if (on) { walk("up", focus, focus, 0, 30); walk("down", focus, focus, 0, 30); }
+  render();
+}
+
+const jump = document.getElementById("jump");
+Object.values(people)
+  .sort((a, b) => a.name.localeCompare(b.name, "pt"))
+  .forEach(p => { const ls = lifespan(p); jump.append(new Option(p.name + (ls ? " (" + ls + ")" : p.role ? " — " + p.role : ""), p.id)); });
+jump.onchange = e => setFocus(e.target.value);
+document.getElementById("back").onclick = () => history.length && setFocus(history.pop(), false);
+document.getElementById("expand").onclick = () => expandAll(true);
+document.getElementById("collapse").onclick = () => expandAll(false);
+document.getElementById("fit").onclick = fit;
+document.querySelector("#panel .close").onclick = () => document.getElementById("panel").style.display = "none";
+matchMedia("(prefers-color-scheme: dark)").addEventListener("change", render);
+
+defaultOpen();
+render();
+fit();
+</script>
+</body>
+</html>
