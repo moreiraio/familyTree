@@ -130,18 +130,32 @@ As idades nas certidões dão o ano de nascimento com um ano de margem (ex.: "30
 - **Outros Martins Fernandes em Sobrado (sem ligação provada):** Manuel Martins Fernandes, n. 25-3-1903 no lugar do Sapo (batismo n.º 14/1903), filho de António Martins Fernandes de Sousa, casou em São Paulo (Brasil) a 4-2-1928; Serafim Martins Fernandes × Emília Marques Carneiro (casamento de 1896); Domingos Martins Fernandes × Maria Dias da Costa (1894); Manuel Martins Fernandes × Maria Fernandes de Moreira (1894).
 
 ## Por fazer
-- [ ] **Assento de casamento de Fernando Moreira e Maria Ferreira** (antes de 1954, provavelmente Conservatória de Valongo): dá os pais dos dois, incluindo o pai de Fernando (n.º 8), se constar.
-- [ ] **Assento de nascimento de Fernando Moreira** (c. 1923, Conservatória de Penafiel): confirma a mãe Maria Júlia Moreira, o pai e os avós.
-- [ ] **Assento de nascimento de Augusto Martins Fernandes** (c. 1906, Sobrado; Conservatória de Valongo ou Arquivo Distrital do Porto): dá os avós (pais de Augusto e Deolinda).
-- [ ] **Assento de nascimento de Luzia Ferreira** (c. 1917, Sobrado; Conservatória de Valongo): dá os avós (pais de Joaquim André Gaspar e Ana Ferreira).
-- [ ] Com os avós identificados, procurar os batismos e casamentos dos bisavós nos livros paroquiais de Sobrado e Campo (até 1904 e 1911) e de Fonte Arcada (até 1911).
-- [ ] Datas de nascimento e casamento de Vítor e Maria do Socorro, e de Frederico ◆.
+Revisto a 2026-10-26. Verificado no digitarq/tombo.pt:
+- **Registo civil:** o de Valongo e o de Penafiel (desde 1911) não estão online.
+- **Campo e Sobrado:** os livros paroquiais online acabam em **1904**. Os de 1905–1911 não estão no tombo.pt nem no digitarq.
+- **Fonte Arcada:** os livros paroquiais online vão até 1911.
+
+**Certidões a pedir** (civilonline.mj.pt, ePortugal ou balcão; o Vítor pode pedir como descendente)
+- [ ] **Casamento de Fernando Moreira e Maria Ferreira** (antes de 1954, provavelmente Campo; Conservatória de Valongo). É o documento mais útil: tem os pais dos dois noivos, incluindo o pai de Fernando (n.º 8) se constar, e a idade e naturalidade exatas.
+- [ ] **Nascimento de Fernando Moreira** (c. 1923, Fonte Arcada; Conservatória de Penafiel). Confirma a mãe e os avós. Com cerca de 100 anos, o livro pode já ter passado para o Arquivo Distrital do Porto (ADPRT), sem estar digitalizado: perguntar nos dois sítios.
+- [ ] **Nascimento de Luzia Ferreira** (c. 1917, Sobrado; Conservatória de Valongo ou ADPRT). Dá os pais de Joaquim André Gaspar e de Ana Ferreira.
+- [ ] **Batismo ou nascimento de Augusto Martins Fernandes** (c. 1906, Sobrado). É anterior a 1911, por isso é um registo paroquial, mas o livro de 1906 não está online. Pedir ao ADPRT (cópia do livro paroquial) ou à Conservatória de Valongo. Dá os pais de Augusto e de Deolinda.
+- [ ] Alternativa às duas anteriores: **casamento de Augusto Martins Fernandes e Luzia Ferreira** (antes de 1957, Conservatória de Valongo). Dá os pais dos dois de uma vez.
+
+**Pesquisa possível online (livros de Sobrado até 1904)**
+- [ ] **Batismo da irmã do avô Augusto** (filha de Augusto Martins Fernandes e Deolinda Alves dos Santos, n. entre 5-1896 e 5-1897). A margem deve ter o casamento de 22-5-1920 com António Pinheiro. O assento dá os avós paternos e maternos, ou seja os pais de n.º 12 e n.º 13. Procurar nos batismos de Sobrado de 1896–1897 (e outros irmãos de 1890–1904).
+- [ ] **Joaquim André Gaspar** (n. c. 1875–1895): procurar o batismo em Sobrado. Um candidato a pai é Manuel André Gaspar, que casou em 1888 com Conceição Marques Carneiro; nesse caso nasceu entre 1888 e 1904.
+- [ ] Depois, os casamentos dos bisavós e trisavós nos livros de Sobrado e Campo (até 1904) e de Fonte Arcada (até 1911).
+
+**Família**
+- [ ] Data e local do casamento de Vítor e Maria do Socorro, e nascimento de Frederico ◆.
+- [ ] Data e local do óbito de Luzia Ferreira (c. 2000–2010) e se Augusto ou Fernando já morreram (o óbito averbado ajuda a pedir certidões).
 
 ## Fontes online
 | Freguesia | tombo.pt |
 |---|---|
 | Valongo (concelho) | https://tombo.pt/m/vlg (sem registo civil online) |
-| Campo | https://tombo.pt/f/vlg02 |
+| Campo | https://tombo.pt/f/vlg02 (livros paroquiais até 1904) |
 | Sobrado | https://tombo.pt/f/vlg04 (livros paroquiais até 1904) |
 | Valongo | https://tombo.pt/f/vlg05 |
 | Fonte Arcada (Penafiel) | https://tombo.pt/f/pnf12 (livros paroquiais até 1911) |
