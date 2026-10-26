@@ -276,6 +276,7 @@ const people = {
   mariaAndrade: { name: "Maria André (de Andrade)", s: "o", f: "joseAndre", m: "margaridaA", sp: ["manuelMF"], b: "c. 1843, S. Julião de Água Longa (lugar de Sobradelo), Santo Tirso", c: ["26-4-1863, Água Longa: Manuel Martins Fernandes"], occ: "Lavradeira", src: "Casamento n.º 8/1892, Gandra; batismo n.º 6/1897, Sobrado." },
   joaoOliveira: { name: "João de Oliveira", s: "o", f: "antonioOliv", m: "mariaMartinsG", sp: ["rosaAlves"], c: ["Recarei, antes de 1872: Rosa Alves"], b: "Gandra (Paredes)", occ: "Carpinteiro", src: "Casamento n.º 8/1892, Gandra; batismo n.º 6/1897, Sobrado." },
   rosaAlves: { name: "Rosa Alves dos Santos", s: "o", f: "joseAntonioR", m: "anaMargarida", sp: ["joaoOliveira"], b: "Recarei (Paredes)", occ: "Lavradeira", src: "Casamento n.º 8/1892, Gandra; batismo n.º 6/1897, Sobrado." },
+  joao1866: { name: "João de Oliveira", s: "o", f: "joaoOliveira", m: "rosaAlves", b: "22-10-1866, Fontainhas, Gandra", notes: ["Irmão mais velho da Deolinda."], src: "Batismo n.º 26/1866, Gandra (fontes/gandra_bapt1866-72/p0010.jpg)." },
   joaquimMF: { name: "Joaquim Martins Fernandes", s: "o", sp: ["mariaRLM"], occ: "Sobrado", src: "Batismo n.º 3/1872, Sobrado." },
   mariaRLM: { name: "Luzia Moreira", s: "o", sp: ["joaquimMF"], occ: "Lugar de Passos(?), Sobrado", src: "Casamento n.º 3/1863, Água Longa; batismo n.º 3/1872, Sobrado." },
   joseAndre: { name: "José Francisco André", s: "o", sp: ["margaridaA"], occ: "Lavrador, Água Longa (Santo Tirso)", src: "Batismo n.º 3/1872, Sobrado." },
@@ -596,7 +597,7 @@ const meta = {
   augusto: ["doc", "Assento n.º 793/2016 (Luzia)."], luziaFerreira: ["doc", "Assento n.º 793/2016 (Luzia)."],
   augustoPai: ["doc", "Casamento n.º 8/1892, Gandra; assento n.º 793/2016."], deolinda: ["doc", "Casamento n.º 8/1892, Gandra; assento n.º 793/2016."],
   lucinda1897: ["doc", "Batismo n.º 6/1897, Sobrado."], manuelMF: ["doc", ""], mariaAndrade: ["doc", "Batismo n.º 3/1872 (Maria André) e casamento n.º 8/1892 (Maria de Andrade)."],
-  joaquimMF: ["doc", ""], mariaRLM: ["doc", "Casamento n.º 3/1863, Água Longa."], joseAndre: ["doc", ""], margaridaA: ["doc", ""], antonioOliv: ["doc", ""], mariaMartinsG: ["doc", ""], joseAntonioR: ["doc", ""], anaMargarida: ["doc", ""], joaoOliveira: ["doc", ""], rosaAlves: ["doc", ""],
+  joao1866: ["doc", ""], joaquimMF: ["doc", ""], mariaRLM: ["doc", "Casamento n.º 3/1863, Água Longa."], joseAndre: ["doc", ""], margaridaA: ["doc", ""], antonioOliv: ["doc", ""], mariaMartinsG: ["doc", ""], joseAntonioR: ["doc", ""], anaMargarida: ["doc", ""], joaoOliveira: ["doc", ""], rosaAlves: ["doc", ""],
   antonioAG: ["hip", "Ligação via o candidato Joaquim de 1892."], luziaMoreira: ["hip", "Ligação via o candidato Joaquim de 1892."],
   joaquimAG: ["doc", "Assento n.º 793/2016 (avós maternos)."], anaFerreira: ["doc", "Assento n.º 793/2016 (avós maternos)."],
   manuelVale: ["doc", "Assento de nascimento n.º 61/2026 (Gabriel): avós maternos."], mariaEsperanca: ["doc", "Assento de nascimento n.º 61/2026: \"Maria Ferreira\" (a família dizia Maria Esperança)."],
@@ -740,6 +741,7 @@ const meta = {
 
 // Scanned source images per person: [label, relative path]
 const IMG = {
+  ga1866: ["Batismo n.º 26/1866, Gandra (João, irmão da Deolinda)", "fontes/gandra_bapt1866-72/p0010.jpg"],
   al1863: ["Casamento n.º 3/1863, Água Longa (Manuel Fernandes e Maria André)", "fontes/agualonga_cas1840-69/p0035.jpg"],
   so1872: ["Batismo n.º 3/1872, Sobrado (Augusto)", "fontes/sobrado/bapt1872/p0003.jpg"],
   ga1872: ["Batismo n.º 12/1872, Gandra (Diolinda)", "fontes/gandra_bapt1866-72/p0060.jpg"],
@@ -834,6 +836,7 @@ const IMG = {
   i1909: ["Índice de batismos (1909)", "fontes/indice_godim/p0069.jpg"]
 };
 const IMGS = {
+  joao1866: ["ga1866"],
   augustoPai: ["so1872", "ga1892a", "ga1892b", "so1897"], deolinda: ["ga1872", "ga1892a", "ga1892b", "so1897"], joaquimMF: ["so1872", "al1863"], mariaRLM: ["so1872", "al1863"], joseAndre: ["so1872", "al1863"], margaridaA: ["so1872", "al1863"], antonioOliv: ["ga1872"], mariaMartinsG: ["ga1872"], joseAntonioR: ["ga1872"], anaMargarida: ["ga1872"], lucinda1897: ["so1897"], manuelMF: ["al1863", "so1872", "ga1892b"], mariaAndrade: ["al1863", "so1872", "ga1892b"], joaoOliveira: ["ga1872", "ga1892b"], rosaAlves: ["ga1872", "ga1892b"],
   joaquimAG: ["so1892", "so1895"], antonioAG: ["so1892"], luziaMoreira: ["so1892"],
   julia: ["fa1901"], joseCarlos: ["fa1896", "fa1901"], diolinda: ["fa1896", "fa1901"],
