@@ -138,8 +138,11 @@ As idades nas certidões dão o ano de nascimento com um ano de margem (ex.: "30
 - **24. Manuel Martins Fernandes**, lavrador, natural de Sobrado; morava na Pinguella (1872). **25. Maria André** (ou Maria de Andrade), lavradeira, natural de **S. Julião de Água Longa**, Santo Tirso. Casaram em Água Longa antes de 1872. Pais de Augusto (n.º 12). Fontes: batismo n.º 3/1872, Sobrado; casamento n.º 8/1892, Gandra; batismo n.º 6/1897, Sobrado.
 - **26. João de Oliveira**, carpinteiro, natural de Gandra (Paredes). **27. Rosa Alves (dos Santos)**, lavradeira, natural de Recarei (Paredes). Casaram em Recarei antes de 1872. Pais de Deolinda (n.º 13). Fontes: batismo n.º 12/1872, Gandra; casamento n.º 8/1892.
 
+- **Casamento de n.º 24 e 25:** ✔ 26-4-1863, igreja de S. Julião de Água Longa, Santo Tirso, assento n.º 3 (`fontes/agualonga_cas1840-69/p0035.jpg`, direita). **Manuel Fernandes** (Manuel Martins Fernandes), 29 anos (n. c. 1834), solteiro, lavrador, natural de Sobrado, morador no lugar de Villares, filho legítimo de **Joaquim Martins Fernandes**, natural de Sobrado, e de **Luzia Moreira**, do lugar de Passos(?), Sobrado. **Maria André**, 20 anos (n. c. 1843), solteira, lavradeira, natural de Água Longa, moradora no lugar de Sobradelo, filha legítima de **José Francisco André**, lavrador, natural de Água Longa, e de **Margarida (de) Andrade**, lavradeira, natural de S. Tiago da Carreira, Santo Tirso. Casou com consentimento do pai dela.
+  - Corrige a leitura do batismo de 1872: a avó paterna de Augusto é **Luzia Moreira** (não "Maria Rodrigues Luzia Moreira").
+
 ### 48–55. Quartos avós maternos ✔
-- Do batismo de Augusto (1872): **48. Joaquim Martins Fernandes** e **49. Maria Rodrigues(?) Luzia(?) Moreira** (leitura difícil), pais de n.º 24; **50. José André** e **51. Margarida de Andrade**, pais de n.º 25 (Água Longa).
+- Do batismo de Augusto (1872): **48. Joaquim Martins Fernandes** e **49. Luzia Moreira**, de Sobrado, pais de n.º 24; **50. José Francisco André**, de Água Longa, e **51. Margarida de Andrade**, de S. Tiago da Carreira (Santo Tirso), pais de n.º 25. Fontes: batismo n.º 3/1872, Sobrado; casamento n.º 3/1863, Água Longa.
 - Do batismo de Deolinda (1872): **52. António de Oliveira** e **53. Maria Martins**, jornaleiros, Fontainhas (Gandra), pais de n.º 26; **54. José António** e **55. Ana Margarida dos Santos**, lavradores, Recarei, pais de n.º 27.
 - ❓ Se o n.º 14 for o Joaquim de 1892: **28. António André Gaspar** e **29. Luzia Moreira**, lavradores de Sobrado (avós deles: Manuel André Gaspar e Maria Antónia da Costa; Joaquim Moreira André e Antónia Martins).
 
@@ -171,7 +174,8 @@ Revisto a 2026-10-26. Verificado no digitarq/tombo.pt:
 - [x] Batismo de Joaquim André Gaspar: candidato de 1892 encontrado (por confirmar).
 - [x] Batismos de Augusto (2-1-1872, Sobrado) e Deolinda (25-5-1872, Gandra): feitos, dão n.º 48–55.
 - [x] Casamento António André Gaspar × Luzia Moreira: não está nos casamentos de Sobrado de 1890–1891 (talvez noutra freguesia).
-- [ ] Casamentos dos trisavós: Manuel Martins Fernandes × Maria André (S. Julião de Água Longa, Santo Tirso, c. 1865–1871); João de Oliveira × Rosa Alves (Recarei, Paredes, c. 1865–1871).
+- [x] Casamento Manuel Martins Fernandes × Maria André: 26-4-1863, Água Longa (n.º 3).
+- [ ] Casamento João de Oliveira × Rosa Alves: **não está** nos casamentos de Recarei 1865–1872 (li os nomes de todos os assentos). Procurar em Recarei antes de 1865 (livros online desde 1860) ou em Gandra 1865–1872.
 - [ ] Depois, os casamentos dos bisavós e trisavós nos livros de Sobrado e Campo (até 1904) e de Fonte Arcada (até 1911).
 
 **Família**
