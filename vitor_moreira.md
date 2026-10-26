@@ -175,7 +175,7 @@ Revisto a 2026-10-26. Verificado no digitarq/tombo.pt:
 - [x] Batismos de Augusto (2-1-1872, Sobrado) e Deolinda (25-5-1872, Gandra): feitos, dão n.º 48–55.
 - [x] Casamento António André Gaspar × Luzia Moreira: não está nos casamentos de Sobrado de 1890–1891 (talvez noutra freguesia).
 - [x] Casamento Manuel Martins Fernandes × Maria André: 26-4-1863, Água Longa (n.º 3).
-- [ ] Casamento João de Oliveira × Rosa Alves: **não está** nos casamentos de Recarei 1865–1872 (li os nomes de todos os assentos). Procurar em Recarei antes de 1865 (livros online desde 1860) ou em Gandra 1865–1872.
+- [ ] Casamento João de Oliveira × Rosa Alves: **não está** nos casamentos de Recarei 1865–1872 (li os nomes de todos os assentos). Também **não está** em Recarei 1860–1864 nem em Gandra 1865–1872 (leitura dos nomes de todos os assentos; letra difícil, pode haver falhas). Hipóteses: casaram antes de 1860 (Recarei não tem livros online antes de 1860), ou noutra freguesia (S. Pedro da Sobreira, Baltar, Água Longa). O casal teve outros filhos? Deolinda é "filha primeira deste nome", não necessariamente a primeira filha.
 - [ ] Depois, os casamentos dos bisavós e trisavós nos livros de Sobrado e Campo (até 1904) e de Fonte Arcada (até 1911).
 
 **Família**
