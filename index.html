@@ -24,6 +24,7 @@
   }
   * { box-sizing: border-box; }
   html, body { margin: 0; height: 100%; }
+  body { height: 100dvh; }
   body { background: var(--bg); color: var(--fg); font: 14px/1.4 system-ui, -apple-system, "Segoe UI", sans-serif; display: flex; flex-direction: column; }
   header { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; padding: 10px 16px; border-bottom: 1px solid var(--border); }
   header h1 { font-size: 16px; margin: 0; font-weight: 600; }
@@ -33,7 +34,8 @@
   .legend { display: flex; gap: 12px; flex-wrap: wrap; color: var(--muted); font-size: 12px; }
   .legend .dot::before { content: ""; display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 4px; vertical-align: -1px; background: var(--c); }
   main { flex: 1; position: relative; overflow: hidden; }
-  svg { width: 100%; height: 100%; display: block; cursor: grab; }
+  svg { width: 100%; height: 100%; display: block; cursor: grab; touch-action: none; }
+  .node circle.hit { fill: transparent; stroke: none; }
   svg:active { cursor: grabbing; }
   .link { fill: none; stroke: var(--line); stroke-width: 1.5px; }
   .node circle { stroke-width: 2px; cursor: pointer; }
@@ -59,7 +61,7 @@
   #panel .close { position: absolute; right: 8px; top: 6px; border: none; background: none; font-size: 18px; color: var(--muted); }
   #panel .imgs { display: flex; flex-wrap: wrap; gap: 6px; margin: 6px 0; }
   #panel .imgs button { font-size: 12px; padding: 3px 8px; }
-  #viewer { position: fixed; inset: 0; background: rgba(0,0,0,.85); display: none; flex-direction: column; z-index: 10; }
+  #viewer { position: fixed; inset: 0; background: rgba(0,0,0,.95); display: none; flex-direction: column; z-index: 10; }
   #viewer .vbar { display: flex; justify-content: space-between; align-items: center; gap: 12px; padding: 8px 16px; color: #eee; font-size: 14px; }
   #viewer .vbar a { color: #9cc7ee; margin-right: 8px; }
   #viewer .vclose { background: none; border: none; color: #eee; font-size: 22px; }
@@ -67,6 +69,28 @@
   #viewer img { max-width: 100%; max-height: calc(100vh - 60px); cursor: zoom-in; background: #fff; }
   #viewer img.full { max-width: none; max-height: none; cursor: zoom-out; }
   .hint { position: absolute; left: 12px; bottom: 10px; right: 12px; color: var(--muted); font-size: 12px; pointer-events: none; }
+  .hint .short, #legendBtn { display: none; }
+  @media (max-width: 640px) {
+    header { padding: 8px 10px; gap: 6px; }
+    header h1 { font-size: 15px; }
+    .controls { width: 100%; gap: 6px; }
+    .controls select { flex: 1 1 100%; padding: 8px 10px; font-size: 16px; }
+    .controls button { flex: 1 1 0; padding: 8px 2px; font-size: 12px; white-space: nowrap; }
+    #legendBtn { display: inline-block; }
+    .legend { display: none; font-size: 11px; gap: 4px 10px; }
+    header.show-legend .legend { display: flex; }
+    #panel { z-index: 5; left: 0; right: 0; top: auto; bottom: 0; width: 100%; max-height: 62%; border-radius: 14px 14px 0 0; border-bottom: none; padding: 14px 14px 20px; font-size: 15px; }
+    #panel .close { font-size: 26px; right: 10px; top: 4px; padding: 4px 8px; }
+    #panel .links a { padding: 5px 10px; font-size: 14px; }
+    #panel .imgs button { padding: 6px 10px; font-size: 13px; }
+    #panel dl { grid-template-columns: 1fr; gap: 0; }
+    #panel dt { margin-top: 6px; }
+    .hint .long { display: none; }
+    .hint .short { display: inline; }
+    #viewer .vbar { flex-wrap: wrap; padding: 8px 10px; font-size: 13px; }
+    #viewer .vclose { font-size: 28px; }
+    #viewer img { max-height: calc(100dvh - 90px); }
+  }
 </style>
 </head>
 <body>
@@ -78,6 +102,7 @@
     <button id="expand">Expandir tudo</button>
     <button id="collapse">Recolher</button>
     <button id="fit">Centrar</button>
+    <button id="legendBtn" aria-expanded="false">Legenda</button>
   </div>
   <div class="legend">
     <span class="dot" style="--c: var(--mimoso)">Mimoso</span>
@@ -99,7 +124,7 @@
     <div class="vbar"><span class="vtitle"></span><span><a target="_blank" rel="noopener">abrir em nova janela</a> <button class="vclose" aria-label="Fechar">×</button></span></div>
     <div class="vbody"><img alt="Imagem da fonte"></div>
   </div>
-  <div class="hint">← descendentes · antepassados → · clique no círculo para abrir/fechar · clique no nome para ver datas, casamentos, fontes e navegar para pais, filhos, irmãos ou cônjuges</div>
+  <div class="hint"><span class="long">← descendentes · antepassados → · clique no círculo para abrir/fechar · clique no nome para ver datas, casamentos, fontes e navegar para pais, filhos, irmãos ou cônjuges</span><span class="short">← descendentes · antepassados → · toque no círculo para abrir/fechar, no nome para ver detalhes · dois dedos para zoom</span></div>
 </main>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
@@ -740,7 +765,8 @@ function render() {
   const node = gNode.selectAll("g.node").data(nodes, d => d.data.key)
     .join(enter => {
       const e = enter.append("g").attr("class", "node");
-      e.append("circle").attr("r", 6).on("click", (ev, d) => toggle(d));
+      e.append("circle").attr("class", "hit").attr("r", 16).on("click", (ev, d) => toggle(d));
+      e.append("circle").attr("class", "dot").attr("r", 6).style("pointer-events", "none");
       const lab = e.append("g").on("click", (ev, d) => show(d.data.id));
       lab.append("text").attr("class", "name").attr("dy", "-0.1em");
       lab.append("text").attr("class", "sub").attr("dy", "1.1em");
@@ -748,7 +774,7 @@ function render() {
     })
     .attr("transform", d => `translate(${d.y},${d.x})`)
     .classed("focus", d => d.depth === 0);
-  node.select("circle")
+  node.select("circle.dot")
     .attr("stroke", d => color(people[d.data.id]))
     .attr("fill", d => d.data.has && !d.children ? color(people[d.data.id]) : css("--panel"))
     .attr("stroke-dasharray", d => people[d.data.id].ok ? null : "2,2")
@@ -840,10 +866,14 @@ viewer.querySelector("img").onclick = e => e.target.classList.toggle("full");
 viewer.querySelector(".vclose").onclick = () => viewer.style.display = "none";
 document.addEventListener("keydown", e => { if (e.key === "Escape") viewer.style.display = "none"; });
 
+// Centre the tree; when it is wider than the screen (phones), start from its left edge
 function fit() {
   const { width, height } = svg.node().getBoundingClientRect();
-  const k = width < 700 ? 0.55 : 0.85;
-  svg.transition().duration(400).call(zoom.transform, d3.zoomIdentity.translate(width / 2, height / 2).scale(k));
+  const k = width < 700 ? 0.7 : 0.85;
+  const bb = g.node().getBBox();
+  const tx = bb.width * k <= width - 24 ? width / 2 - (bb.x + bb.width / 2) * k : 12 - bb.x * k;
+  const ty = bb.height * k <= height - 24 ? height / 2 - (bb.y + bb.height / 2) * k : height / 2;
+  svg.transition().duration(400).call(zoom.transform, d3.zoomIdentity.translate(tx, ty).scale(k));
 }
 
 function expandAll(on) {
@@ -861,6 +891,10 @@ document.getElementById("back").onclick = () => history.length && setFocus(histo
 document.getElementById("expand").onclick = () => expandAll(true);
 document.getElementById("collapse").onclick = () => expandAll(false);
 document.getElementById("fit").onclick = fit;
+document.getElementById("legendBtn").onclick = e => {
+  const on = document.querySelector("header").classList.toggle("show-legend");
+  e.target.setAttribute("aria-expanded", on);
+};
 document.querySelector("#panel .close").onclick = () => document.getElementById("panel").style.display = "none";
 matchMedia("(prefers-color-scheme: dark)").addEventListener("change", render);
 
