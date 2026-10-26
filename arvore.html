@@ -24,6 +24,7 @@
   }
   * { box-sizing: border-box; }
   html, body { margin: 0; height: 100%; }
+  body { height: 100dvh; }
   body { background: var(--bg); color: var(--fg); font: 14px/1.4 system-ui, -apple-system, "Segoe UI", sans-serif; display: flex; flex-direction: column; }
   header { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; padding: 10px 16px; border-bottom: 1px solid var(--border); }
   header h1 { font-size: 16px; margin: 0; font-weight: 600; }
@@ -33,7 +34,8 @@
   .legend { display: flex; gap: 12px; flex-wrap: wrap; color: var(--muted); font-size: 12px; }
   .legend .dot::before { content: ""; display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 4px; vertical-align: -1px; background: var(--c); }
   main { flex: 1; position: relative; overflow: hidden; }
-  svg { width: 100%; height: 100%; display: block; cursor: grab; }
+  svg { width: 100%; height: 100%; display: block; cursor: grab; touch-action: none; }
+  .node circle.hit { fill: transparent; stroke: none; }
   svg:active { cursor: grabbing; }
   .link { fill: none; stroke: var(--line); stroke-width: 1.5px; }
   .node circle { stroke-width: 2px; cursor: pointer; }
@@ -59,7 +61,7 @@
   #panel .close { position: absolute; right: 8px; top: 6px; border: none; background: none; font-size: 18px; color: var(--muted); }
   #panel .imgs { display: flex; flex-wrap: wrap; gap: 6px; margin: 6px 0; }
   #panel .imgs button { font-size: 12px; padding: 3px 8px; }
-  #viewer { position: fixed; inset: 0; background: rgba(0,0,0,.85); display: none; flex-direction: column; z-index: 10; }
+  #viewer { position: fixed; inset: 0; background: rgba(0,0,0,.95); display: none; flex-direction: column; z-index: 10; }
   #viewer .vbar { display: flex; justify-content: space-between; align-items: center; gap: 12px; padding: 8px 16px; color: #eee; font-size: 14px; }
   #viewer .vbar a { color: #9cc7ee; margin-right: 8px; }
   #viewer .vclose { background: none; border: none; color: #eee; font-size: 22px; }
@@ -67,6 +69,28 @@
   #viewer img { max-width: 100%; max-height: calc(100vh - 60px); cursor: zoom-in; background: #fff; }
   #viewer img.full { max-width: none; max-height: none; cursor: zoom-out; }
   .hint { position: absolute; left: 12px; bottom: 10px; right: 12px; color: var(--muted); font-size: 12px; pointer-events: none; }
+  .hint .short, #legendBtn { display: none; }
+  @media (max-width: 640px) {
+    header { padding: 8px 10px; gap: 6px; }
+    header h1 { font-size: 15px; }
+    .controls { width: 100%; gap: 6px; }
+    .controls select { flex: 1 1 100%; padding: 8px 10px; font-size: 16px; }
+    .controls button { flex: 1 1 0; padding: 8px 2px; font-size: 12px; white-space: nowrap; }
+    #legendBtn { display: inline-block; }
+    .legend { display: none; font-size: 11px; gap: 4px 10px; }
+    header.show-legend .legend { display: flex; }
+    #panel { z-index: 5; left: 0; right: 0; top: auto; bottom: 0; width: 100%; max-height: 62%; border-radius: 14px 14px 0 0; border-bottom: none; padding: 14px 14px 20px; font-size: 15px; }
+    #panel .close { font-size: 26px; right: 10px; top: 4px; padding: 4px 8px; }
+    #panel .links a { padding: 5px 10px; font-size: 14px; }
+    #panel .imgs button { padding: 6px 10px; font-size: 13px; }
+    #panel dl { grid-template-columns: 1fr; gap: 0; }
+    #panel dt { margin-top: 6px; }
+    .hint .long { display: none; }
+    .hint .short { display: inline; }
+    #viewer .vbar { flex-wrap: wrap; padding: 8px 10px; font-size: 13px; }
+    #viewer .vclose { font-size: 28px; }
+    #viewer img { max-height: calc(100dvh - 90px); }
+  }
 </style>
 </head>
 <body>
@@ -78,6 +102,7 @@
     <button id="expand">Expandir tudo</button>
     <button id="collapse">Recolher</button>
     <button id="fit">Centrar</button>
+    <button id="legendBtn" aria-expanded="false">Legenda</button>
   </div>
   <div class="legend">
     <span class="dot" style="--c: var(--mimoso)">Mimoso</span>
@@ -99,7 +124,7 @@
     <div class="vbar"><span class="vtitle"></span><span><a target="_blank" rel="noopener">abrir em nova janela</a> <button class="vclose" aria-label="Fechar">×</button></span></div>
     <div class="vbody"><img alt="Imagem da fonte"></div>
   </div>
-  <div class="hint">← descendentes · antepassados → · clique no círculo para abrir/fechar · clique no nome para ver datas, casamentos, fontes e navegar para pais, filhos, irmãos ou cônjuges</div>
+  <div class="hint"><span class="long">← descendentes · antepassados → · clique no círculo para abrir/fechar · clique no nome para ver datas, casamentos, fontes e navegar para pais, filhos, irmãos ou cônjuges</span><span class="short">← descendentes · antepassados → · toque no círculo para abrir/fechar, no nome para ver detalhes · dois dedos para zoom</span></div>
 </main>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
@@ -137,18 +162,31 @@ const people = {
 
   // ── Great-grandparents ──────────────────────────────────────
   jam1908: { name: "José António Mimoso", role: "bisavô", s: "m", f: "fam1855", m: "mariaSA", sp: ["francisca"],
-    b: "22-3-1908, 6h, Sergude (Godim); batizado a 28-5-1908", d: "Godim, num dia 28; averbamento de 28-10-1971 (assento 217)",
+    b: "22-3-1908, 6h, Sergude (Godim); batizado a 28-5-1908", d: "28-10-1971, Godim (assento 217/1971, Régua)",
     c: ["5-11-1927, civil, Sergude/Conservatória da Régua (assento 89): Francisca da Conceição Vicente"],
-    notes: ["Padrinhos: o tio José António Mimoso e Anna Emília da Silva.", "Primeiro proprietário do prédio 92-B (\"Legado\")."],
+    notes: ["Avós no batismo: Manuel António e Joaquina do Espírito Santo; José da Silva e Maria Amaral.",
+      "Padrinhos: José António Mimoso, jornaleiro, casado (o tio), e Anna Emília da Silva, proprietária, casada. Só a madrinha assinou.",
+      "Batizou o coadjutor Francisco de Assis Ferreira.",
+      "A nota de óbito diz \"faleceu … no dia 28, assento 217 de hoje\", datada de 28-10-1971: morreu nesse dia.",
+      "Primeiro proprietário do prédio 92-B (\"Legado\")."],
     src: "Batismo n.º 40/1908, Godim (fontes/bapt1908/p0023.jpg)." },
   francisca: { name: "Francisca da Conceição Vicente", role: "bisavó", s: "v", f: "av1872", m: "mes1874", sp: ["jam1908"],
     b: "28-3-1906, 1h, Sergude (Godim); batizada a 15-4-1906", d: "Godim, c. 1972–73 (assento 222)",
     c: ["5-11-1927: José António Mimoso"],
     notes: ["Padrinhos: Manuel Pinto dos Santos e Francisca Rosa.", "Inventário obrigatório em 1973 (inventariante: o filho Adão)."],
     src: "Batismo n.º 34/1906, Godim (fontes/bapt1906/p0020.jpg)." },
-  emilia1901: { name: "Emília", s: "m", f: "fam1855", m: "mariaSA", b: "11-7-1901, Godim", src: "Índice de batismos de Godim." },
-  abel: { name: "Abel Mendes", s: "o", m: "mariaSA", b: "c. 1881, Godim (filho natural)", occ: "Sergude",
-    c: ["18-10-1900, Godim: Maria da Conceição Machado"], notes: ["Meio-irmão do bisavô, do lado da mãe."] },
+  emilia1901: { name: "Emília Mimoso", s: "m", f: "fam1855", m: "mariaSA", sp: ["jpMeireles"],
+    b: "17-7-1901, 14h, Sergude (Godim); batizada a 5-8-1901", d: "9-10-1930, Peso da Régua (assento 285?/1930)",
+    c: ["20-12-1919, Conservatória da Régua (assento 90/1919): Joaquim Pereira Meireles(?)"],
+    notes: ["Padrinhos: Joaquim Elias dos Santos, sapateiro, de Fontelas, e Anna Emília da Silva, proprietária.", "Irmã do bisavô. Não morreu nova: casou e viveu até 1930."],
+    src: "Batismo n.º 66/1901, Godim (fontes/bapt1901/p0036.jpg)." },
+  jpMeireles: { name: "Joaquim Pereira Meireles(?)", s: "o", sp: ["emilia1901"], notes: ["Apelido de leitura incerta (nota na margem do batismo da Emília)."] },
+  abel: { name: "Abel (Mendes)", s: "o", m: "mariaSA", b: "2-3-1881, 14h, Godim; batizado a 20-3-1881 (filho natural)", d: "3-5-1942, Godim (assento 155/1942)",
+    occ: "caseiro, Sergude", c: ["18-10-1900, Godim (n.º 24), com 19 anos: Maria da Conceição Machado, filha de Patrício José e Maria Emília"],
+    notes: ["Batizado como \"filho natural de Maria de Jesus\"; avós maternos José da Silva e Maria Amaral.",
+      "Padrinho: Barnabé Justino Monteiro, proprietário. Em vez de madrinha, tocou com a coroa de Nossa Senhora Alexandre Westermann(?), que trabalhava na ponte do Douro.",
+      "Casou no mesmo dia que a mãe (casamento seguinte, n.º 24/1900).", "Meio-irmão do bisavô."],
+    src: "Batismo n.º 22/1881, Godim (fontes/bapt1881/p0013.jpg); casamento n.º 24/1900." },
 
   // ── Francisca's siblings ────────────────────────────────────
   maria1895: { name: "Maria", s: "v", f: "av1872", m: "mes1874", b: "24-10-1895, Godim" },
@@ -163,31 +201,85 @@ const people = {
 
   // ── Mimoso line ─────────────────────────────────────────────
   fam1855: { name: "Francisco António Mimoso", role: "trisavô", s: "m", f: "mam1816", m: "joaquina", sp: ["mariaSA"],
-    b: "c. 1855, Godim", d: "7-5-1927", occ: "jornaleiro, Sergude",
-    c: ["18-10-1900, Godim (n.º 23), com 45 anos: Maria da Silva Amaral"],
-    notes: ["Testamento público a 7-2-1921 (ADVRL PT/ADVRL/NOT/CNPRG5/007/394/38).", "Padrinho do sobrinho José (1897)."],
-    src: "Casamento n.º 23/1900, Godim (fontes/cas1900/p0025.jpg)." },
-  mariaSA: { name: "Maria de Jesus (Maria da Silva Amaral)", role: "trisavó", s: "v", f: "joseSilva", m: "mariaAmaral", sp: ["fam1855"],
-    b: "c. 1864, Godim", c: ["18-10-1900, com 36 anos: Francisco António Mimoso"],
-    notes: ["Antes de casar já tinha um filho natural, Abel Mendes."] },
-  joseSilva: { name: "José da Silva", role: "tetravô", s: "v", sp: ["mariaAmaral"], occ: "pedreiro, Godim" },
-  mariaAmaral: { name: "Maria (da Silva) Amaral", role: "tetravó", s: "v", sp: ["joseSilva"] },
+    b: "5-10-1855, Covinhas (Godim); batizado a 14-10-1855", d: "7-5-1927", occ: "jornaleiro, Sergude",
+    c: ["18-10-1900, Godim (n.º 23), com 45 anos, solteiro: Maria da Silva Amaral"],
+    notes: ["Avós no batismo: José António (de S. Pedro do Sul) e Joanna Emília; António da Silva e Joanna dos Santos (de Pendilhe).",
+      "Padrinhos: José Bentim(?), \"do Reino da Galiza\", e Joaquina do Espírito Santo, de Sergude, solteiros. Batizou o P.e António Augusto de Vilhena.",
+      "Testemunhas do casamento: Joaquim Elias dos Santos (sapateiro, Fontelas) e Anna Emília da Silva (proprietária). Celebrou o abade Alberto Teixeira de Carvalho.",
+      "Testamento público a 7-2-1921 (ADVRL PT/ADVRL/NOT/CNPRG5/007/394/38).", "Padrinho do sobrinho José (1897)."],
+    src: "Batismo de 14-10-1855, Godim (fontes/bapt1853-59/p0035.jpg); casamento n.º 23/1900 (fontes/cas1900/p0025.jpg)." },
+  mariaSA: { name: "Maria da Silva Amaral (Maria de Jesus)", role: "trisavó", s: "v", f: "joseSilva", m: "mariaAmaral", sp: ["fam1855"],
+    b: "17-9-1864, 2h, Sergude (Godim); batizada a 2-10-1864", occ: "criada de servir, Sergude",
+    c: ["18-10-1900, Godim (n.º 23), com 36 anos, solteira: Francisco António Mimoso"],
+    notes: ["Batizada só \"Maria\", filha legítima, primeira do nome. Avós: Francisco da Silva e Rita da Conceição; Manuel Amaral e Joaquina Velha(?).",
+      "Padrinhos: Bernardo d'Amaral, jornaleiro, de Sederma(?), e Maria da Conceição, solteira, proprietária, do Rodo (Régua).",
+      "Antes de casar teve um filho natural, Abel (1881).",
+      "Prováveis irmãos (índice; pai \"José da Silva\"): Francisco 1862, Preciosa 1867, Manuel 1868, António 1871, Luiz 1873, Bibiana 1875."],
+    src: "Batismo n.º 39/1864, Godim (fontes/bapt1864/p0020.jpg)." },
+  joseSilva: { name: "José da Silva", role: "tetravô", s: "v", f: "frSilva", m: "ritaC", sp: ["mariaAmaral"], b: "freguesia de Loureiro (Peso da Régua)", occ: "pedreiro, Sergude (Godim)",
+    notes: ["Casamento com Maria de Jesus Amaral não encontrado em Godim 1854–1864: talvez em Loureiro, c. 1860–61."] },
+  frSilva: { name: "Francisco da Silva", role: "pentavô", s: "v", sp: ["ritaC"] },
+  ritaC: { name: "Rita da Conceição", role: "pentavó", s: "v", sp: ["frSilva"] },
+  mariaAmaral: { name: "Maria de Jesus Amaral", role: "tetravó", s: "v", f: "manuelAmaral", m: "joaquinaVelha", sp: ["joseSilva"], b: "Godim",
+    notes: ["Também escrita Maria Amaral e Maria da Silva Amaral."] },
+  manuelAmaral: { name: "Manuel Amaral", role: "pentavô", s: "v", sp: ["joaquinaVelha"] },
+  joaquinaVelha: { name: "Joaquina Velha(?)", role: "pentavó", s: "v", sp: ["manuelAmaral"], notes: ["Apelido de leitura incerta."] },
   mam1816: { name: "Manuel António Mimoso", role: "tetravô", s: "m", f: "jamSPS", m: "joanna", sp: ["joaquina", "engracia"],
-    b: "c. 1816, Godim", d: "11-2-1891, Sergude, 75 anos", occ: "jornaleiro, Sergude",
-    c: ["1.º Joaquina dos Santos", "2.º Engracia Ferreira"], src: "Óbito n.º 2/1891, Godim." },
-  joaquina: { name: "Joaquina dos Santos", role: "tetravó", s: "o", sp: ["mam1816"], d: "antes de 1892",
-    notes: ["Também aparece como Joaquina do Espírito Santo."] },
-  engracia: { name: "Engracia Ferreira", s: "o", sp: ["mam1816"], b: "c. 1837, Sedielos", d: "1-1-1900, Sergude",
-    notes: ["2.ª mulher de Manuel António. Sem filhos. Filha de João Ferreira e Anna da Conceição."] },
-  jam1854: { name: "José António Mimoso", s: "m", f: "mam1816", m: "joaquina", sp: ["antonia"], b: "c. 1854, Godim", occ: "jornaleiro, Sergude",
-    c: ["22-10-1892, Godim (n.º 14), com 38 anos: Antónia Maria (54 anos)"], notes: ["Padrinho do sobrinho José António (1908)."] },
+    b: "29-8-1819, Covas (Godim); batizado em 9-1819", d: "11-2-1891, 1h, Sergude (no assento: 75 anos; tinha 71)", occ: "jornaleiro; \"mestre pedreiro\" em 1863",
+    c: ["1.º 30-12-1852, igreja de Godim: Joaquina dos Santos, das Covinhas", "2.º depois de 1865: Engracia Ferreira"],
+    notes: ["Avós no batismo: José António e Fructuosa Rodrigues (S. Pedro do Sul); Lourenço de Cazares(?) \"de Santo André de …, Reino de Galiza\" e Eufrázia Thereza, das Covas.",
+      "Padrinhos: José Pinto Pereira Borges júnior e D. Anna(?) Victoria(?), filha de José Pinto Pereira Borges. Batizou o pároco António Pinto de Araújo.",
+      "Testemunhas do 1.º casamento: João Pedro da Silva e a mulher Maria da Conceição, das Covinhas (cunhados).",
+      "Viveu nas Covinhas (1853–55), no Salgueiral (1857–63) e em Sergude.",
+      "Óbito: sem testamento, deixou filhos, sepultado no cemitério paroquial."],
+    src: "Batismo de 1819, Godim (fontes/bapt1817-25/p0026.jpg); casamento de 30-12-1852 (fontes/cas1847-53/p0132.jpg); óbito n.º 2/1891 (fontes/obi1891/p0003.jpg)." },
+  joaquina: { name: "Joaquina dos Santos", role: "tetravó", s: "o", f: "antSilvaP", m: "joannaSantos", sp: ["mam1816"],
+    b: "c. 1825, Godim", d: "9-10-1865, 6h, Sergude (Godim), 40 anos",
+    notes: ["Também aparece como Joaquina do Espírito Santo (1908).",
+      "Avós (casamento de 1852): José da Silva e Joanna Caetana, de Godim; Manuel dos Santos e Maria Ayres, da vila de Pendilhe(?), Bispado de Lamego.",
+      "Óbito: sem testamento, deixou filhos, sepultada no cemitério público de Godim."],
+    src: "Óbito n.º 24/1865, Godim (fontes/obi1865/p0008.jpg); casamento de 1852 (fontes/cas1847-53/p0132.jpg)." },
+  antSilvaP: { name: "António da Silva", role: "pentavô", s: "o", f: "joseSilvaG", m: "joannaCaetana", sp: ["joannaSantos"],
+    b: "Paradinha(?), Moimenta da Beira", occ: "jornaleiro, Covinhas (Godim)", d: "antes de 12-1861" },
+  joannaSantos: { name: "Joanna dos Santos", role: "pentavó", s: "o", f: "manuelSantos", m: "mariaAyres", sp: ["antSilvaP"],
+    b: "c. 1792, Pendilhe (Castro Daire)", d: "17-12-1861, Salgueiral (Godim), 69 anos (provável)",
+    notes: ["Óbito provável: Joanna dos Santos, proprietária, viúva de António da Silva; fez testamento e deixou 3 filhos.",
+      "Prováveis filhos além da Joaquina: as mulheres de João Pedro (da Silva) e de Manuel Ferreira, nas Covinhas."] },
+  joseSilvaG: { name: "José da Silva", role: "hexavô", s: "o", sp: ["joannaCaetana"], occ: "Godim" },
+  joannaCaetana: { name: "Joanna Caetana", role: "hexavó", s: "o", sp: ["joseSilvaG"], occ: "Godim" },
+  manuelSantos: { name: "Manuel dos Santos", role: "hexavô", s: "o", sp: ["mariaAyres"], occ: "Pendilhe(?)" },
+  mariaAyres: { name: "Maria Ayres", role: "hexavó", s: "o", sp: ["manuelSantos"], occ: "Pendilhe(?)" },
+  engracia: { name: "Engracia Ferreira", s: "o", f: "joaoFerreira", m: "annaCF", sp: ["mam1816"], b: "c. 1837, Sedielos", d: "1-1-1900, 6h, Sergude, 63 anos",
+    notes: ["2.ª mulher de Manuel António (casaram depois de 10-1865). Morreu viúva, sem filhos e sem testamento."],
+    src: "Óbito n.º 1/1900, Godim (fontes/obi1900/p0003.jpg)." },
+  joaoFerreira: { name: "João Ferreira", s: "o", sp: ["annaCF"], occ: "Sedielos" },
+  annaCF: { name: "Anna da Conceição", s: "o", sp: ["joaoFerreira"], occ: "Sedielos" },
+  jose1853: { name: "José", s: "m", f: "mam1816", m: "joaquina", b: "9-11-1853, Covinhas (Godim); batizado a 13-11-1853",
+    notes: ["Padrinhos: José Miguel Ferreira e Joaquina do Espírito Santo, de Sergude.", "Em 1857 nasceu outro José, \"segundo do nome\": este deve ter morrido pequeno."],
+    src: "Batismo de 13-11-1853, Godim (fontes/bapt1853-59/p0003.jpg)." },
+  jam1854: { name: "José António Mimoso", s: "m", f: "mam1816", m: "joaquina", sp: ["antonia"], b: "29-8-1857, Salgueiral (Godim); batizado a 4-9-1857", occ: "jornaleiro, Sergude",
+    c: ["22-10-1892, Godim (n.º 14), com 38 anos: Antónia Maria (54 anos)"],
+    notes: ["Batismo: \"José, segundo do nome\"; avós José António Mimoso (de S. Pedro do Sul) e Joanna Emília; António da Silva (de Paradinha?) e Joanna dos Santos (de Pendilhe).",
+      "A idade de 1892 (38) aponta para 1853–54; a identificação com o José de 1857 é provável, não certa.",
+      "Padrinho do sobrinho José António (1908)."],
+    src: "Batismo de 4-9-1857 (fontes/bapt1853-59/p0061.jpg); casamento n.º 14/1892 (fontes/cas1892/p0016.jpg)." },
+  joaquina1859: { name: "Joaquina Mimoso", s: "m", f: "mam1816", m: "joaquina", b: "28-8-1859, Salgueiral (Godim); batizada a 11-9-1859", d: "1-12-1937, Godim (assento 385?)",
+    notes: ["Padrinhos: José Bentim(?), da Galiza, e Joaquina Rosa Pontes(?), de Sergude."], src: "Batismo de 11-9-1859 (fontes/bapt1853-59/p0089.jpg)." },
+  antonio1863: { name: "António Mimoso", s: "m", f: "mam1816", m: "joaquina", b: "28?-2-1863, 23h, Salgueiral (Godim); batizado a 22?-2-1863",
+    notes: ["Primeiro assento com o apelido: avô paterno \"José Antonio Meimoso\", jornaleiro, de S. Pedro do Sul.",
+      "Padrinhos: José Bentim(?), casado, caseiro, da Galiza, e Joaquina Rosa, solteira, de Sergude, criada de servir.",
+      "Na margem: \"Este mancebo tem de ser recenseado [para] o anno de 1884\"."],
+    src: "Batismo n.º 6/1863, Godim (fontes/bapt1863/p0004.jpg)." },
   antonia: { name: "Antónia Maria", s: "o", sp: ["jam1854"], b: "c. 1838, S. Paio de Guimarães" },
-  jaq1860: { name: "Joaquim António Mimoso", s: "m", f: "mam1816", m: "joaquina", sp: ["ventura"], b: "c. 1860, Godim", occ: "jornaleiro, Sergude",
-    c: ["8-3-1899, Godim (n.º 4): Ventura dos Anjos. Legitimaram 6 filhos."] },
+  jaq1860: { name: "Joaquim António Mimoso", s: "m", f: "mam1816", m: "joaquina", sp: ["ventura"], b: "c. 1860", occ: "jornaleiro, Sergude",
+    c: ["8-3-1899, Godim (n.º 4), com 39 anos: Ventura dos Anjos. Legitimaram 6 filhos."],
+    notes: ["Batismo não encontrado em Godim 1851–1867 (talvez noutra freguesia)."] },
   ventura: { name: "Ventura dos Anjos", s: "o", sp: ["jaq1860"], b: "c. 1863, Moura Morta" },
   daniel1886: { name: "Daniel", s: "m", f: "jaq1860", m: "ventura", b: "27-11-1886, Moura Morta" },
   maria1890: { name: "Maria", s: "m", f: "jaq1860", m: "ventura", b: "13-1-1890, Godim" },
-  manuel1891: { name: "Manuel", s: "m", f: "jaq1860", m: "ventura", b: "5-2-1891 ou 11-9-1893, Godim" },
+  manuel1891: { name: "Manuel", s: "m", f: "jaq1860", m: "ventura", b: "5-2-1891, Godim", d: "23-2-1891, Sergude, com 18 dias",
+    notes: ["O Manuel legitimado em 1899 (n. 11-9-1893) é outro filho com o mesmo nome."], src: "Batismo n.º 14/1891; óbito n.º 8/1891 (fontes/obi1891/p0005.jpg)." },
+  manuel1893: { name: "Manuel", s: "m", f: "jaq1860", m: "ventura", b: "11-9-1893, Godim" },
   francisco1895: { name: "Francisco", s: "m", f: "jaq1860", m: "ventura", b: "20-3-1895, Godim" },
   jose1897: { name: "José", s: "m", f: "jaq1860", m: "ventura", sp: ["mariaCM"], b: "25-1-1897, Sergude", d: "27-6-1969, Godim",
     c: ["6-1-1926, Régua: Maria Coelho Mendes"], src: "Batismo n.º 16/1897 (fontes/bapt1897/p0011.jpg)." },
@@ -196,14 +288,47 @@ const people = {
   crispim1902: { name: "Crispim", s: "m", f: "jaq1860", m: "ventura", b: "16-12-1902, Godim" },
 
   jamSPS: { name: "José António Mimoso", role: "pentavô", s: "m", f: "joseCorrea", m: "fructuosa", sp: ["joanna"],
-    b: "S. Pedro do Sul (Bispado de Viseu)", occ: "jornaleiro, Godim", notes: ["Vivo em 1867 (padrinho de um neto)."] },
-  joanna: { name: "Joanna Emília", role: "pentavó", s: "m", f: "lourenco", m: "eufrasia", sp: ["jamSPS"], b: "Godim" },
-  joseCorrea: { name: "José Corrêa", role: "hexavô", s: "m", sp: ["fructuosa"], occ: "S. Pedro do Sul", src: "Casamento n.º 4/1862, Godim." },
-  fructuosa: { name: "Fructuosa Rodrigues", role: "hexavó", s: "m", sp: ["joseCorrea"], occ: "S. Pedro do Sul" },
-  lourenco: { name: "Lourenço de Cesares(?)", role: "hexavô", s: "o", sp: ["eufrasia"], occ: "Covas, Godim; jornaleiro", notes: ["Leitura do apelido incerta."] },
-  eufrasia: { name: "Eufrásia Maria", role: "hexavó", s: "o", sp: ["lourenco"], occ: "Covas, Godim" },
-  jam1813: { name: "José António Mimoso", s: "m", f: "jamSPS", m: "joanna", sp: ["mariaCorrea"], b: "c. 1813, Godim", d: "10-11-1889, Olival Basto (Godim), 76 anos",
-    c: ["Maria Correa (já falecida em 1889)"] },
+    b: "batizado a 31-7-1774, lugar de Pouves, freguesia de S. Pedro do Sul (Bispado de Viseu) — identificação provável", occ: "jornaleiro, Covas (Godim)",
+    c: ["14-8-1814, Godim: Joanna Emília, das Covas"],
+    notes: ["Batismo de 1774: \"Joseph de Pouves, filho de Joseph Corrêa, natural de Segadães, freguesia de Baiões, e de sua mulher Fructuosa Rodrigues, natural de Pouves\".",
+      "Avós no batismo: Joseph Corrêa da Corvaceira(?) e Paschoa, solteira, de Bordonhos; Caetano Rodrigues, de Drizes (Várzea), e Maria Francisca, de Pouves.",
+      "Padrinhos: o Padre João Corrêa e a irmã Maria Tereza, da Corvaceira(?). Batizou o P.e Mathias José de Figueiredo, com licença do vigário Joseph de Almeida.",
+      "É o único José do casal nos batismos de 1769–1797. O livro de 1797–1816 não está online, por isso um José mais novo não pode ser excluído.",
+      "Testemunhas do casamento de 1814: Manuel Dias e Joaquim António. Celebrou o P.e Raimundo José da Paixão Corrêa.",
+      "Irmãos: Maria 1776, António 1777, Manuel 1779, Maria 1783, Manuel 1785, António 1787, Margarida 1791, Margarida 1792.",
+      "Apelido Mimoso escrito pela 1.ª vez (\"Meimoso\") em 1857/1863; não aparece no batismo nem no casamento.",
+      "Não aparece nos óbitos de Godim de 1854–1879."],
+    src: "Batismo de 31-7-1774, S. Pedro do Sul (fontes/sps_bapt1769-88/p0051.jpg e p0052.jpg); casamento de 14-8-1814, Godim (fontes/cas1812-19/p0012.jpg)." },
+  joanna: { name: "Joanna Emília", role: "pentavó", s: "m", f: "lourenco", m: "eufrasia", sp: ["jamSPS"], b: "Covas (Godim)",
+    c: ["14-8-1814, Godim: José António"], notes: ["Não aparece nos óbitos de Godim de 1854–1879."],
+    src: "Casamento de 14-8-1814, Godim (fontes/cas1812-19/p0012.jpg)." },
+  joseCorrea: { name: "José Corrêa", role: "hexavô", s: "m", f: "jcCorvaceira", m: "paschoa", sp: ["fructuosa"], b: "Segadães, freguesia de Baiões (S. Pedro do Sul)",
+    occ: "Pouves, S. Pedro do Sul", c: ["11-2-1771, igreja de S. Pedro do Sul: Fructuosa Rodrigues"],
+    notes: ["Filho natural de José Corrêa da Corvaceira(?) e de Paschoa Maria, solteira.",
+      "Testemunhas do casamento: Francisco Marques e Manoel Rodrigues, da vila. Celebrou o coadjutor Mathias José de Figueiredo."],
+    src: "Casamento de 11-2-1771, S. Pedro do Sul (fontes/sps_cas1643-1783/p0150.jpg)." },
+  jcCorvaceira: { name: "José Corrêa da Corvaceira(?)", role: "heptavô", s: "m", sp: ["paschoa"], occ: "freguesia de S. Pedro do Sul",
+    notes: ["Pai natural (não casado com a Paschoa). Os padrinhos de 1774, P.e João Corrêa e Maria Tereza, da Corvaceira, devem ser parentes."] },
+  paschoa: { name: "Paschoa Maria", role: "heptavó", s: "m", sp: ["jcCorvaceira"], occ: "Segadães (Baiões) ou Bordonhos", notes: ["Solteira."] },
+  fructuosa: { name: "Fructuosa Rodrigues", role: "hexavó", s: "m", f: "caetano", m: "mariaFrancisca", sp: ["joseCorrea"], b: "Pouves (S. Pedro do Sul)" },
+  caetano: { name: "Caetano Rodrigues", role: "heptavô", s: "m", sp: ["mariaFrancisca"], b: "Drizes/Brizes(?), freguesia de Várzea (de Lafões)", occ: "Pouves" },
+  mariaFrancisca: { name: "Maria Francisca", role: "heptavó", s: "m", sp: ["caetano"], b: "Pouves (S. Pedro do Sul)", notes: ["Em 1791 aparece como Maria Rodrigues."] },
+  lourenco: { name: "Lourenço do Coral / de Cazares", role: "hexavô", s: "o", f: "joseCoral", m: "felipa", sp: ["eufrasia"], occ: "Covas (Godim)",
+    b: "Galiza (\"de Santo André de …, Reino de Galiza\", 1819)",
+    notes: ["Apelido escrito \"do Coral\" (1814, 1815, 1816, 1824), \"de Cazares\" (1819), \"Corares\" (1852) e \"Cesares\" (1862)."] },
+  joseCoral: { name: "José do Coral", role: "heptavô", s: "o", sp: ["felipa"], occ: "Reino de Galiza" },
+  felipa: { name: "Felipa(?) de Lago(?)", role: "heptavó", s: "o", sp: ["joseCoral"], occ: "Reino de Galiza", notes: ["Leitura incerta."] },
+  eufrasia: { name: "Eufrásia Thereza (Maria)", role: "hexavó", s: "o", sp: ["lourenco"], occ: "Covas (Godim)",
+    notes: ["Eufrázia Thereza em 1814–1824; Eufrásia Maria em 1852 e 1862."] },
+  jam1813: { name: "José António Mimoso", s: "m", f: "jamSPS", m: "joanna", sp: ["mariaCorrea"], b: "25-5-1815, Covas (Godim); batizado a 4-6-1815", d: "10-11-1889, Olival Basto (Godim), \"76 anos\"",
+    c: ["Maria Correa (já falecida em 1889)"],
+    notes: ["Filho mais velho (os pais casaram em 1814). Padrinhos: José António Gonçalves e Theodora Joaquina (por procuração)."],
+    src: "Batismo de 4-6-1815 (fontes/bapt1806-17/p0122.jpg); óbito n.º 59/1889." },
+  antonia1816: { name: "Antónia", s: "m", f: "jamSPS", m: "joanna", b: "18-9-1816, Covas (Godim)", notes: ["Deve ter morrido pequena (outra Antónia em 1822)."],
+    src: "Batismo de 26-9-1816 (fontes/bapt1806-17/p0149.jpg)." },
+  antonia1822: { name: "Antónia", s: "m", f: "jamSPS", m: "joanna", b: "9-3-1822, Covas (Godim)", src: "Batismo de 17-3-1822 (fontes/bapt1817-25/p0075.jpg)." },
+  thomazia1824: { name: "Thomazia", s: "m", f: "jamSPS", m: "joanna", b: "23-7-1824, Covas (Godim)",
+    notes: ["Padrinhos: João Pinto, de Sergude, e Thomazia Joaquina, do Salgueiral."], src: "Batismo de 8-8-1824 (fontes/bapt1817-25/p0117.jpg)." },
   mariaCorrea: { name: "Maria Correa", s: "o", sp: ["jam1813"], d: "antes de 1889, Godim" },
   josefa: { name: "Josefa Emília", s: "m", f: "jamSPS", m: "joanna", sp: ["pantana", "aPereira"], b: "c. 1820", d: "1-11-1897, Estrada Nova (Godim), 77 anos",
     occ: "proprietária", c: ["1.º Francisco de Barros Pantana(?)", "2.º António Pereira"], notes: ["Deixou filhos."] },
@@ -218,10 +343,12 @@ const people = {
   joseAlves: { name: "José Alves d'Abreu", s: "o", sp: ["isabelJ"], occ: "S. Pedro de Vila Real" },
   isabelJ: { name: "Isabel Joaquina", s: "o", sp: ["joseAlves"], occ: "S. Pedro de Vila Real" },
   joaoCorrea: { name: "João António Corrêa", s: "o", sp: ["luiza"], occ: "Godim" },
-  luiza: { name: "Luiza(?) de Jesus", s: "o", sp: ["joaoCorrea"], occ: "Godim" },
+  luiza: { name: "Laura(?) de Jesus", s: "o", sp: ["joaoCorrea"], occ: "Godim" },
   maria1862: { name: "Maria", s: "m", f: "jaq1835", m: "anna", b: "19-9-1862, Salgueiral (Godim)" },
   guilherme1864: { name: "Guilherme(?)", s: "m", ok: false, f: "jaq1835", m: "anna", b: "10-3-1864, Godim" },
-  jose1867: { name: "José", s: "m", f: "jaq1835", m: "anna", b: "4-12-1867, Covas (Godim)", src: "Batismo n.º 49/1867 (fontes/bapt1867/p0017.jpg)." },
+  jose1867: { name: "José", s: "m", f: "jaq1835", m: "anna", b: "4-12-1867, 11h, Covas (Godim); batizado a 15-12-1867",
+    notes: ["Padrinho: José António Mimoso, casado, jornaleiro (o avô ou o tio José António, n. 1815: o assento não diz). Madrinha: Maria Delfina Correia, casada."],
+    src: "Batismo n.º 49/1867 (fontes/bapt1867/p0017.jpg)." },
   maria1870: { name: "Maria", s: "m", f: "jaq1835", m: "anna", b: "15-3-1870, Covas (Godim)" },
   maria1872: { name: "Maria", s: "m", f: "jaq1835", m: "anna", b: "23-11-1872, Godim" },
   filomena1875: { name: "Filomena", s: "m", f: "jaq1835", m: "anna", b: "16-3-1875, Godim" },
@@ -311,9 +438,35 @@ const meta = {
   isaura: ["reg", "Registo predial de 8-6-1973."],
   adao: ["reg", "Catálogo ADVRL, inventário 1973 (PT/ADVRL/JUD/TJCPRG/C-B/082/1658); família."],
   irmaos3: ["fam", "Família (o casal teve 7 filhos)."],
+  jpMeireles: ["prov", "Nota na margem do batismo n.º 66/1901; apelido de leitura incerta."],
+  frSilva: ["doc", "Batismo n.º 39/1864, Godim (avós paternos)."],
+  ritaC: ["doc", "Batismo n.º 39/1864, Godim (avós paternos)."],
+  manuelAmaral: ["doc", "Batismo n.º 39/1864, Godim (avós maternos)."],
+  joaquinaVelha: ["prov", "Batismo n.º 39/1864, Godim; apelido de leitura incerta."],
+  antSilvaP: ["doc", "Casamento de 1852, óbito n.º 24/1865 e batismos dos netos (1853–1863), Godim."],
+  joannaSantos: ["doc", "Casamento de 1852, óbito n.º 24/1865 e batismos dos netos, Godim. Óbito de 1861 provável."],
+  joseSilvaG: ["doc", "Casamento de 30-12-1852, Godim (avós da noiva)."],
+  joannaCaetana: ["doc", "Casamento de 30-12-1852, Godim (avós da noiva)."],
+  manuelSantos: ["doc", "Casamento de 30-12-1852, Godim (avós da noiva)."],
+  mariaAyres: ["doc", "Casamento de 30-12-1852, Godim (avós da noiva)."],
+  joaoFerreira: ["doc", "Óbito n.º 1/1900, Godim."],
+  annaCF: ["doc", "Óbito n.º 1/1900, Godim."],
+  jose1853: ["doc", ""],
+  joaquina1859: ["doc", ""],
+  antonio1863: ["doc", ""],
+  manuel1893: ["doc", "Legitimado no casamento n.º 4/1899, Godim."],
+  jcCorvaceira: ["prov", "Casamento de 1771 e batismos dos netos, S. Pedro do Sul; apelido de leitura incerta. Em 1814 \"avô incerto\"."],
+  paschoa: ["doc", "Casamento de 1771 e batismos dos netos, S. Pedro do Sul (lugar: Segadães ou Bordonhos)."],
+  caetano: ["doc", "Casamento de 1771 e batismos dos netos, S. Pedro do Sul."],
+  mariaFrancisca: ["doc", "Casamento de 1771 e batismos dos netos, S. Pedro do Sul."],
+  joseCoral: ["prov", "Casamento de 14-8-1814, Godim; leitura difícil."],
+  felipa: ["prov", "Casamento de 14-8-1814, Godim; leitura difícil."],
+  antonia1816: ["doc", ""],
+  antonia1822: ["doc", ""],
+  thomazia1824: ["doc", ""],
   jam1908: ["doc", ""], francisca: ["doc", ""],
-  emilia1901: ["reg", "Índice de batismos de Godim (filha de Francisco António e Maria da Silva Amaral)."],
-  abel: ["prov", "Casamento n.º 24/1900, Godim: filho natural de uma Maria da Silva Amaral; identificação com a trisavó provável."],
+  emilia1901: ["doc", "Batismo n.º 66/1901, Godim, e notas na margem."],
+  abel: ["doc", "Batismo n.º 22/1881 (filho natural de Maria de Jesus; avós José da Silva e Maria Amaral) e casamento n.º 24/1900, Godim."],
   maria1895: ["reg", "Índice de batismos de Godim, 1895."],
   joaquim1898: ["doc", "Batismo n.º 5/1898, Godim, e notas na margem."],
   francisco1900: ["doc", "Batismo n.º 27/1900, Godim, e notas na margem (nome da mulher de leitura incerta)."],
@@ -321,31 +474,31 @@ const meta = {
   mariaMendes: ["doc", "Batismo n.º 42/1903, Godim, e nota de casamento na margem."],
   silvana1909: ["reg", "Índice de batismos de Godim, 1909."],
   fam1855: ["doc", ""],
-  mariaSA: ["doc", "Casamento n.º 23/1900 (como Maria da Silva Amaral) e batismo n.º 40/1908 (como Maria de Jesus); os pais coincidem."],
-  joseSilva: ["doc", "Casamento n.º 23/1900 e batismo n.º 40/1908, Godim."],
-  mariaAmaral: ["doc", "Casamento n.º 23/1900 e batismo n.º 40/1908, Godim."],
-  mam1816: ["doc", "Óbito n.º 2/1891, Godim; casamentos dos filhos (1892, 1899, 1900)."],
-  joaquina: ["doc", "Casamentos dos filhos (1892, 1899, 1900) e batismo n.º 40/1908."],
+  mariaSA: ["doc", "Batismo n.º 39/1864, casamento n.º 23/1900 e batismo do filho Abel (1881), Godim."],
+  joseSilva: ["doc", "Batismo n.º 39/1864 da filha; casamento n.º 23/1900; batismos de 1881 e 1908, Godim."],
+  mariaAmaral: ["doc", "Batismo n.º 39/1864 da filha (como Maria de Jesus Amaral) e batismos de 1881 e 1908, Godim."],
+  mam1816: ["doc", "Batismo de 1819, casamento de 1852 e óbito n.º 2/1891, Godim."],
+  joaquina: ["doc", "Casamento de 30-12-1852 e óbito n.º 24/1865, Godim; batismos dos filhos."],
   engracia: ["doc", "Óbito n.º 1/1900, Godim."],
-  jam1854: ["doc", "Casamento n.º 14/1892, Godim; padrinho no batismo n.º 40/1908."],
+  jam1854: ["prov", "Batismo de 1857 e casamento n.º 14/1892; a ligação entre os dois é provável (idade de 1892 não bate certo)."],
   antonia: ["doc", "Casamento n.º 14/1892, Godim."],
   jaq1860: ["doc", "Casamento n.º 4/1899, Godim; batismo n.º 14/1891."],
   ventura: ["doc", "Casamento n.º 4/1899, Godim; batismos dos filhos."],
   daniel1886: ["doc", "Legitimado no casamento n.º 4/1899, Godim."],
   maria1890: ["doc", "Legitimada no casamento n.º 4/1899, Godim."],
-  manuel1891: ["prov", "Batismo n.º 14/1891 e legitimação de 1899 (datas diferentes: podem ser dois Manuel)."],
+  manuel1891: ["doc", "Batismo n.º 14/1891 e óbito n.º 8/1891, Godim."],
   francisco1895: ["doc", "Legitimado no casamento n.º 4/1899, Godim."],
   jose1897: ["doc", ""],
   mariaCM: ["reg", "Nota na margem do batismo n.º 16/1897."],
   duarte1899: ["doc", "Legitimado no casamento n.º 4/1899, Godim."],
   crispim1902: ["reg", "Índice de batismos de Godim, 1902 (filho de Joaquim António e Ventura dos Anjos)."],
-  jamSPS: ["doc", "Óbitos dos filhos (1889, 1891, 1897), casamento n.º 4/1862 e batismo n.º 49/1867, Godim."],
-  joanna: ["doc", "Óbitos dos filhos (1889, 1891, 1897) e casamento n.º 4/1862, Godim."],
-  joseCorrea: ["reg", "Casamento n.º 4/1862 (avós do irmão Joaquim António; os mesmos de Manuel António)."],
-  fructuosa: ["reg", "Casamento n.º 4/1862 (avós do irmão Joaquim António)."],
-  lourenco: ["prov", "Casamento n.º 4/1862; apelido de leitura incerta."],
-  eufrasia: ["reg", "Casamento n.º 4/1862 (avós do irmão Joaquim António)."],
-  jam1813: ["doc", "Óbito n.º 59/1889, Godim."],
+  jamSPS: ["doc", "Casamento de 14-8-1814 e batismos dos filhos, Godim. O batismo de 31-7-1774 em S. Pedro do Sul (pais, lugar e freguesia iguais) é identificação provável (~70%)."],
+  joanna: ["doc", "Casamento de 14-8-1814 e batismos dos filhos, Godim."],
+  joseCorrea: ["doc", "Casamento de 11-2-1771, S. Pedro do Sul; batismos dos filhos; casamento de 1814, Godim."],
+  fructuosa: ["doc", "Casamento de 11-2-1771, S. Pedro do Sul; batismos dos filhos; casamento de 1814, Godim."],
+  lourenco: ["doc", "Casamento de 1814 e batismos dos netos, Godim. Apelido escrito de várias formas."],
+  eufrasia: ["doc", "Casamento de 1814 e batismos dos netos, Godim."],
+  jam1813: ["doc", "Batismo de 1815 e óbito n.º 59/1889, Godim."],
   mariaCorrea: ["doc", "Óbito n.º 59/1889, Godim (como mulher já falecida)."],
   josefa: ["doc", "Óbito n.º 49/1897, Godim."],
   pantana: ["prov", "Óbito n.º 49/1897; apelido de leitura incerta."],
@@ -357,7 +510,7 @@ const meta = {
   joseAlves: ["doc", "Casamento n.º 4/1862, Godim."],
   isabelJ: ["doc", "Casamento n.º 4/1862, Godim."],
   joaoCorrea: ["doc", "Casamento n.º 4/1862, Godim."],
-  luiza: ["prov", "Casamento n.º 4/1862; nome de leitura incerta."],
+  luiza: ["prov", "Casamento n.º 4/1862; nome de leitura incerta (Laura?)."],
   maria1862: ["doc", "Batismo n.º 49/1862, Godim."],
   guilherme1864: ["hip", "Índice de batismos de Godim (tira rasgada, nome incerto)."],
   jose1867: ["doc", ""],
@@ -408,6 +561,31 @@ const meta = {
 
 // Scanned source images per person: [label, relative path]
 const IMG = {
+  s1774a: ["Batismo 1774, S. Pedro do Sul (início)", "fontes/sps_bapt1769-88/p0051.jpg"],
+  s1774b: ["Batismo 1774, S. Pedro do Sul (fim)", "fontes/sps_bapt1769-88/p0052.jpg"],
+  s1771: ["Casamento 1771, S. Pedro do Sul", "fontes/sps_cas1643-1783/p0150.jpg"],
+  s1791a: ["Batismo 1791, S. Pedro do Sul (Margarida)", "fontes/sps_bapt1788-97/p0041.jpg"],
+  s1791b: ["Batismo 1791 (fim)", "fontes/sps_bapt1788-97/p0042.jpg"],
+  s1793: ["Batismo 1793, S. Pedro do Sul (Margarida)", "fontes/sps_bapt1788-97/p0071.jpg"],
+  c1814: ["Casamento 1814, Godim", "fontes/cas1812-19/p0012.jpg"],
+  b1815: ["Batismo 1815 (José)", "fontes/bapt1806-17/p0122.jpg"],
+  b1816: ["Batismo 1816 (Antónia)", "fontes/bapt1806-17/p0149.jpg"],
+  b1819: ["Batismo 1819 (Manuel)", "fontes/bapt1817-25/p0026.jpg"],
+  b1822: ["Batismo 1822 (Antónia)", "fontes/bapt1817-25/p0075.jpg"],
+  b1824: ["Batismo 1824 (Thomazia)", "fontes/bapt1817-25/p0117.jpg"],
+  c1852: ["Casamento 1852, Godim", "fontes/cas1847-53/p0132.jpg"],
+  b1853: ["Batismo 1853 (José)", "fontes/bapt1853-59/p0003.jpg"],
+  b1855: ["Batismo 1855 (Francisco)", "fontes/bapt1853-59/p0035.jpg"],
+  b1857: ["Batismo 1857 (José)", "fontes/bapt1853-59/p0061.jpg"],
+  b1859: ["Batismo 1859 (Joaquina)", "fontes/bapt1853-59/p0089.jpg"],
+  b1863a: ["Batismo 1863, n.º 6 (António)", "fontes/bapt1863/p0004.jpg"],
+  b1863b: ["Batismo 1863, n.º 6 (fim)", "fontes/bapt1863/p0005.jpg"],
+  b1864: ["Batismo 1864, n.º 39 (trisavó Maria)", "fontes/bapt1864/p0020.jpg"],
+  b1881: ["Batismo 1881, n.º 22 (Abel)", "fontes/bapt1881/p0013.jpg"],
+  b1901: ["Batismo 1901, n.º 66 (Emília)", "fontes/bapt1901/p0036.jpg"],
+  o1861: ["Óbito 1861, n.º 31 (Joanna dos Santos)", "fontes/obi1861/p0010.jpg"],
+  o1865: ["Óbito 1865, n.º 24 (Joaquina)", "fontes/obi1865/p0008.jpg"],
+  o1891c: ["Óbito 1891, n.º 8 (Manuel, 18 dias)", "fontes/obi1891/p0005.jpg"],
   b1908: ["Batismo 1908, n.º 40 (bisavô)", "fontes/bapt1908/p0023.jpg"],
   b1906: ["Batismo 1906, n.º 34 (bisavó)", "fontes/bapt1906/p0020.jpg"],
   b1906m: ["Batismo 1906, n.º 27", "fontes/bapt1906/p0016.jpg"],
@@ -465,22 +643,28 @@ const IMG = {
   i1909: ["Índice de batismos (1909)", "fontes/indice_godim/p0069.jpg"]
 };
 const IMGS = {
-  silvia: ["cad"], ajvm: ["cad"], jaqvm: ["cad"], josvm: ["cad"], ajm1930: ["cad"],
+  jpMeireles: ["b1901"], frSilva: ["b1864"], ritaC: ["b1864"], manuelAmaral: ["b1864"], joaquinaVelha: ["b1864"],
+  antSilvaP: ["c1852", "o1865", "b1855", "o1861"], joannaSantos: ["c1852", "o1865", "o1861"],
+  joseSilvaG: ["c1852"], joannaCaetana: ["c1852"], manuelSantos: ["c1852"], mariaAyres: ["c1852"],
+  joaoFerreira: ["o1900"], annaCF: ["o1900"], jose1853: ["b1853"], joaquina1859: ["b1859"], antonio1863: ["b1863a", "b1863b"],
+  manuel1893: ["c1899a", "c1899b"], jcCorvaceira: ["s1771", "s1774b"], paschoa: ["s1771", "s1774b"],
+  caetano: ["s1771", "s1774b"], mariaFrancisca: ["s1771", "s1774b"], joseCoral: ["c1814"], felipa: ["c1814"],
+  antonia1816: ["b1816"], antonia1822: ["b1822"], thomazia1824: ["b1824"],  silvia: ["cad"], ajvm: ["cad"], jaqvm: ["cad"], josvm: ["cad"], ajm1930: ["cad"],
   memcv: ["reg"], ajvPicote: ["reg"], valentim: ["reg"], isaura: ["reg"],
   jam1908: ["b1908", "b1906", "cad"], francisca: ["b1906", "b1908"],
-  emilia1901: ["i1901"], abel: ["c1900a", "c1900b"], maria1895: ["i1895"],
+  emilia1901: ["b1901", "i1901"], abel: ["b1881", "c1900a", "c1900b"], maria1895: ["i1895"],
   joaquim1898: ["v1898"], francisco1900: ["v1900c"], antonio1903: ["v1903a"], mariaMendes: ["v1903b"], silvana1909: ["i1909"],
-  fam1855: ["c1900a", "c1900b", "b1908"], mariaSA: ["c1900a", "c1900b", "b1908"],
-  joseSilva: ["c1900a", "b1908"], mariaAmaral: ["c1900a", "b1908"],
-  mam1816: ["o1891a", "o1891b"], joaquina: ["c1899a", "c1892a", "b1908"], engracia: ["o1900"],
-  jam1854: ["c1892a", "c1892b", "b1908"], antonia: ["c1892a", "c1892b"],
+  fam1855: ["b1855", "c1900a", "c1900b", "b1908"], mariaSA: ["b1864", "c1900a", "c1900b", "b1881", "b1908"],
+  joseSilva: ["b1864", "c1900a", "b1881", "b1908"], mariaAmaral: ["b1864", "b1881", "b1908"],
+  mam1816: ["b1819", "c1852", "o1891a", "o1891b", "b1855"], joaquina: ["c1852", "o1865", "b1855", "b1908"], engracia: ["o1900"],
+  jam1854: ["b1857", "c1892a", "c1892b", "b1908"], antonia: ["c1892a", "c1892b"],
   jaq1860: ["c1899a", "c1899b", "b1891"], ventura: ["c1899a", "c1899b", "b1891"],
-  daniel1886: ["c1899a", "c1899b"], maria1890: ["c1899a", "c1899b"], manuel1891: ["b1891", "c1899a"],
+  daniel1886: ["c1899a", "c1899b"], maria1890: ["c1899a", "c1899b"], manuel1891: ["b1891", "o1891c"],
   francisco1895: ["c1899a", "c1899b"], duarte1899: ["c1899a", "c1899b"], crispim1902: ["i1902"],
   jose1897: ["b1897"], mariaCM: ["b1897"],
-  jamSPS: ["c1862a", "c1862b", "b1867", "o1891a"], joanna: ["c1862a", "c1862b", "b1867", "o1891a"],
-  joseCorrea: ["c1862a", "c1862b"], fructuosa: ["c1862a", "c1862b"], lourenco: ["c1862a", "c1862b"], eufrasia: ["c1862a", "c1862b"],
-  jam1813: ["o1889a", "o1889b"], mariaCorrea: ["o1889a"], josefa: ["o1897"], pantana: ["o1897"], aPereira: ["o1897"],
+  jamSPS: ["s1774a", "s1774b", "c1814", "b1819", "b1863a", "s1771"], joanna: ["c1814", "b1815", "b1819"],
+  joseCorrea: ["s1771", "s1774a", "s1774b", "s1791a", "c1814"], fructuosa: ["s1771", "s1774a", "s1774b", "s1791a", "c1814"], lourenco: ["c1814", "b1819", "c1852", "c1862a"], eufrasia: ["c1814", "b1819", "c1852"],
+  jam1813: ["b1815", "o1889a", "o1889b"], mariaCorrea: ["o1889a"], josefa: ["o1897"], pantana: ["o1897"], aPereira: ["o1897"],
   jaq1835: ["c1862a", "c1862b", "b1867"], anna: ["c1862a", "c1862b", "b1867"],
   ajCruz: ["c1862a", "c1862b", "b1867"], thereza: ["c1862a", "c1862b"], joseAlves: ["c1862a", "c1862b"], isabelJ: ["c1862a", "c1862b"],
   joaoCorrea: ["c1862a", "c1862b"], luiza: ["c1862a", "c1862b"],
@@ -581,7 +765,8 @@ function render() {
   const node = gNode.selectAll("g.node").data(nodes, d => d.data.key)
     .join(enter => {
       const e = enter.append("g").attr("class", "node");
-      e.append("circle").attr("r", 6).on("click", (ev, d) => toggle(d));
+      e.append("circle").attr("class", "hit").attr("r", 16).on("click", (ev, d) => toggle(d));
+      e.append("circle").attr("class", "dot").attr("r", 6).style("pointer-events", "none");
       const lab = e.append("g").on("click", (ev, d) => show(d.data.id));
       lab.append("text").attr("class", "name").attr("dy", "-0.1em");
       lab.append("text").attr("class", "sub").attr("dy", "1.1em");
@@ -589,7 +774,7 @@ function render() {
     })
     .attr("transform", d => `translate(${d.y},${d.x})`)
     .classed("focus", d => d.depth === 0);
-  node.select("circle")
+  node.select("circle.dot")
     .attr("stroke", d => color(people[d.data.id]))
     .attr("fill", d => d.data.has && !d.children ? color(people[d.data.id]) : css("--panel"))
     .attr("stroke-dasharray", d => people[d.data.id].ok ? null : "2,2")
@@ -681,10 +866,14 @@ viewer.querySelector("img").onclick = e => e.target.classList.toggle("full");
 viewer.querySelector(".vclose").onclick = () => viewer.style.display = "none";
 document.addEventListener("keydown", e => { if (e.key === "Escape") viewer.style.display = "none"; });
 
+// Centre the tree; when it is wider than the screen (phones), start from its left edge
 function fit() {
   const { width, height } = svg.node().getBoundingClientRect();
-  const k = width < 700 ? 0.55 : 0.85;
-  svg.transition().duration(400).call(zoom.transform, d3.zoomIdentity.translate(width / 2, height / 2).scale(k));
+  const k = width < 700 ? 0.7 : 0.85;
+  const bb = g.node().getBBox();
+  const tx = bb.width * k <= width - 24 ? width / 2 - (bb.x + bb.width / 2) * k : 12 - bb.x * k;
+  const ty = bb.height * k <= height - 24 ? height / 2 - (bb.y + bb.height / 2) * k : height / 2;
+  svg.transition().duration(400).call(zoom.transform, d3.zoomIdentity.translate(tx, ty).scale(k));
 }
 
 function expandAll(on) {
@@ -702,6 +891,10 @@ document.getElementById("back").onclick = () => history.length && setFocus(histo
 document.getElementById("expand").onclick = () => expandAll(true);
 document.getElementById("collapse").onclick = () => expandAll(false);
 document.getElementById("fit").onclick = fit;
+document.getElementById("legendBtn").onclick = e => {
+  const on = document.querySelector("header").classList.toggle("show-legend");
+  e.target.setAttribute("aria-expanded", on);
+};
 document.querySelector("#panel .close").onclick = () => document.getElementById("panel").style.display = "none";
 matchMedia("(prefers-color-scheme: dark)").addEventListener("change", render);
 

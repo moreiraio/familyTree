@@ -2,7 +2,7 @@
 
 Pesquisa feita para **Maria do Socorro Mimoso Guedes**, filha de Sílvia Maria Vicente Mimoso Guedes e de Armando Mesquita Guedes, e neta de António José Mimoso. Neste ficheiro, "avô" quer dizer o avô da Maria do Socorro.
 
-Legenda: ✔ confirmado (documento ou família) · ❓ hipótese por confirmar
+Legenda: ✔ confirmado (documento ou família) · ~ provável · ❓ hipótese por confirmar
 
 No [arvore.html](arvore.html), cada pessoa tem uma **fonte** e um **nível de confiança**:
 
@@ -17,21 +17,38 @@ No [arvore.html](arvore.html), cada pessoa tem uma **fonte** e um **nível de co
 ## Objetivo: ascendência de António José Mimoso (n. 1930)
 
 ```
-                                                                ┌─ 32. José Corrêa ✔ (S. Pedro do Sul)
-                                        ┌─ 16. José António ────┤
-                                        │      Mimoso ✔         └─ 33. Fructuosa Rodrigues ✔
-                    ┌─ 8. Manuel António┤      (S. Pedro do Sul)
-                    │   Mimoso ✔        │                       ┌─ 34. Lourenço de Cesares(?) ✔
-                    │   c.1816–1891     └─ 17. Joanna Emília ✔ ─┤      (Covas, Godim)
-                    │   Sergude                (Godim)          └─ 35. Eufrásia Maria ✔
-    ┌─ 4. Francisco António Mimoso ✔ (c.1855–7-5-1927, jornaleiro, Sergude)
-    │               │
-    │               └─ 9. Joaquina dos Santos / do Espírito Santo ✔
-┌─ 2. José António Mimoso ✔ (n. 22-3-1908 Sergude; casou 5-11-1927; m. c.1971)
-│   │
-│   │               ┌─ 10. José da Silva ✔ (pedreiro)
-│   └─ 5. Maria de Jesus / Maria da Silva Amaral ✔ (n. c.1864 Godim)
-│                   └─ 11. Maria (da Silva) Amaral ✔
+                                                                              ┌─ 64. José Corrêa da Corvaceira(?) ~
+                                                   ┌─ 32. José Corrêa ✔ ───────┤      (S. Pedro do Sul; pai natural)
+                                                   │   n. Segadães (Baiões)    └─ 65. Paschoa Maria ✔ (solteira)
+                                                   │   casou 11-2-1771
+                           ┌─ 16. José António ────┤   (S. Pedro do Sul)       ┌─ 66. Caetano Rodrigues ✔ (Drizes, Várzea)
+                           │   Mimoso ✔            └─ 33. Fructuosa Rodrigues ✔┤
+                           │   bat. 31-7-1774 Pouves       (Pouves)            └─ 67. Maria Francisca ✔ (Pouves)
+                           │   (S. Pedro do Sul) ~
+                           │   casou 14-8-1814 Godim                           ┌─ 68. José do Coral ~ (Galiza)
+                           │                       ┌─ 34. Lourenço do Coral / ─┤
+         ┌─ 8. Manuel ─────┤                       │      de Cazares ✔ (Galiza)└─ 69. Felipa(?) de Lago(?) ~
+         │   António       └─ 17. Joanna Emília ✔ ─┤
+         │   Mimoso ✔             (Covas, Godim)   └─ 35. Eufrásia Thereza (Maria) ✔ (Covas)
+         │   29-8-1819–11-2-1891
+         │   casou 30-12-1852                      ┌─ 36. José da Silva ✔ (Godim)
+         │                 ┌─ 18. António da Silva ✔┤
+         │                 │   (Paradinha?,         └─ 37. Joanna Caetana ✔ (Godim)
+         │                 │    Moimenta da Beira)
+         └─ 9. Joaquina ───┤                        ┌─ 38. Manuel dos Santos ✔ (Pendilhe?)
+             dos Santos ✔  └─ 19. Joanna dos Santos ✔┤
+             c.1825–9-10-1865  (Pendilhe, Castro    └─ 39. Maria Ayres ✔ (Pendilhe?)
+                                Daire; m. 1861?)
+    ┌─ 4. Francisco António Mimoso ✔ (5-10-1855 Covinhas – 7-5-1927, jornaleiro, Sergude)
+    │
+┌─ 2. José António Mimoso ✔ (22-3-1908 Sergude – 28-10-1971 Godim; casou 5-11-1927)
+│   │                                               ┌─ 20. Francisco da Silva ✔
+│   │              ┌─ 10. José da Silva ✔ ──────────┤
+│   │              │   pedreiro, n. Loureiro        └─ 21. Rita da Conceição ✔
+│   └─ 5. Maria da Silva Amaral (Maria de Jesus) ✔ (17-9-1864 Sergude)
+│                  │                                ┌─ 22. Manuel Amaral ✔
+│                  └─ 11. Maria de Jesus Amaral ✔ ──┤
+│                         (Godim)                   └─ 23. Joaquina Velha(?) ~
 │
  1. António José Mimoso ✔
     n. 7-9-1930, Godim                                                              ┌─ 24. António Vicente ✔
@@ -51,12 +68,15 @@ No [arvore.html](arvore.html), cada pessoa tem uma **fonte** e um **nível de co
                        m. 18-10-1938                                            └─ 31. Emília Rosa ✔
 ```
 
-- **2. José António Mimoso (bisavô):** batismo n.º 40 de 1908, Godim. Nasceu a **22-3-1908** às 6h e foi batizado a 28-5-1908. Filho legítimo de **Francisco António**, jornaleiro, e de **Maria de Jesus**, doméstica, naturais de Godim e moradores em **Sergude**. Avós paternos: Manuel António e Joaquina do Espírito Santo. Avós maternos: José da Silva e Maria Amaral. Padrinhos: **José António Mimoso** (jornaleiro, casado; é o tio, irmão de Francisco) e Anna Emília da Silva (proprietária, casada). **Na margem:** "Casou com Francisca da Conceição Silva, de 21 anos, natural de Godim, filha de António Vicente Júnior e de Maria Emília da Silva, civilmente, no lugar de Sergude … a 5 de Novembro de 1927, assento 89." Faleceu em Godim num dia 28 (assento 217), com averbamento de 28-10-1971. ✔ Fonte: [fontes/bapt1908/p0023.jpg](fontes/bapt1908/p0023.jpg)
-- **4. Francisco António Mimoso:** casou a 18-10-1900 em Godim, com 45 anos, solteiro e jornaleiro de Sergude, filho de Manuel António Mimoso e Joaquina dos Santos ([fontes/cas1900/p0025.jpg](fontes/cas1900/p0025.jpg)). Testamento a 7-2-1921. Morreu a 7-5-1927, seis meses antes do casamento do filho.
-- **5. Maria de Jesus = Maria da Silva Amaral:** casou em 1900 com 36 anos e era filha de José da Silva (pedreiro) e Maria da Silva Amaral. **Antes do casamento já tinha um filho, Abel Mendes** (filho natural, nascido por volta de 1881, de Sergude). Isto pode explicar a memória da família de que "já tinha filhos" antes de casar.
-- **Irmãos do bisavô:** Emília (n. 11-7-1901, filha de Francisco António e Maria da Silva Amaral) e o meio-irmão Abel Mendes, do lado da mãe.
-- **8. Manuel António Mimoso:** morreu a 11-2-1891 em Sergude, com 75 anos, filho de José António Mimoso e Joanna Emília. Casou em 2.ªs núpcias com Engracia Ferreira. Os filhos do 1.º casamento (com Joaquina dos Santos) eram José António (c.1854), Francisco António (c.1855) e Joaquim António (c.1860).
-- **16–35:** os avós de Manuel António são os mesmos do irmão Joaquim António, por isso saem do casamento de Joaquim de 1862: José Corrêa e Fructuosa Rodrigues (S. Pedro do Sul); Lourenço de Cesares(?) e Eufrásia Maria (Covas, Godim).
+- **2. José António Mimoso (bisavô):** batismo n.º 40/1908, Godim. Detalhes em "Linha Mimoso: assentos validados", mais abaixo. Morreu a **28-10-1971** em Godim (assento 217/1971). ✔ Fonte: [fontes/bapt1908/p0023.jpg](fontes/bapt1908/p0023.jpg)
+- **4. Francisco António Mimoso:** nasceu a **5-10-1855** nas Covinhas, Godim ([fontes/bapt1853-59/p0035.jpg](fontes/bapt1853-59/p0035.jpg)). Casou a 18-10-1900 com 45 anos ([fontes/cas1900/p0025.jpg](fontes/cas1900/p0025.jpg)). Testamento a 7-2-1921. Morreu a 7-5-1927, seis meses antes do casamento do filho.
+- **5. Maria da Silva Amaral (Maria de Jesus):** nasceu a **17-9-1864** em Sergude ([fontes/bapt1864/p0020.jpg](fontes/bapt1864/p0020.jpg)). Filha de José da Silva, pedreiro natural de Loureiro, e de Maria de Jesus Amaral. Antes de casar teve um filho natural, **Abel** (2-3-1881 a 3-5-1942).
+- **Irmãos do bisavô:** Emília (17-7-1901 a 9-10-1930; casou em 1919) e o meio-irmão Abel, do lado da mãe.
+- **8. Manuel António Mimoso:** nasceu a **29-8-1819** nas Covas, Godim ([fontes/bapt1817-25/p0026.jpg](fontes/bapt1817-25/p0026.jpg)). Casou a **30-12-1852** com Joaquina dos Santos ([fontes/cas1847-53/p0132.jpg](fontes/cas1847-53/p0132.jpg)). Ela morreu a 9-10-1865, e ele casou depois com Engracia Ferreira. Morreu a 11-2-1891 em Sergude; o assento dá-lhe 75 anos, mas tinha 71.
+- **9. Joaquina dos Santos:** morreu a 9-10-1865 em Sergude, com 40 anos ([fontes/obi1865/p0008.jpg](fontes/obi1865/p0008.jpg)). Filha de **18. António da Silva** (de Paradinha?, Moimenta da Beira) e de **19. Joanna dos Santos** (de Pendilhe, Castro Daire).
+- **16. José António Mimoso:** casou a **14-8-1814** em Godim com **17. Joanna Emília**, das Covas ([fontes/cas1812-19/p0012.jpg](fontes/cas1812-19/p0012.jpg)). O batismo provável é o de 31-7-1774 em Pouves, S. Pedro do Sul ([fontes/sps_bapt1769-88/p0051.jpg](fontes/sps_bapt1769-88/p0051.jpg)).
+- **32–39 e 64–69:** saem do casamento dos pais de José António (11-2-1771, S. Pedro do Sul), do batismo de 1774, do casamento de 1814 e do casamento de Manuel em 1852.
+  - O "Lourenço de Cesares(?)" de 1862 é **Lourenço do Coral / de Cazares**, galego.
 - **6. António Vicente:** nasceu a 1-12-1872 às 23h em Godim e foi batizado a 17-12-1872 (assento n.º 69). Os pais moravam em Aviz e eram jornaleiros. Morreu a 10-6-1948 (assento n.º 134/1948, Régua). Fonte: [fontes/bapt1871-76/p0033.jpg](fontes/bapt1871-76/p0033.jpg)
 - **7. Maria (Emília/Carolina) da Silva:** nasceu a 10-8-1874 às 23h em Godim e foi batizada a 30-8-1874 (assento n.º 38). O padrinho foi o avô materno, António da Silva, pescador. A madrinha foi Carolina Lúcia da Conceição, e o nome "Carolina" deve vir dela. Morreu a 18-10-1938 (assento n.º 268/1938, Régua). Fonte: [fontes/bapt1871-76/p0056.jpg](fontes/bapt1871-76/p0056.jpg)
 - Lado materno: confirmado até aos trisavós (n.º 24–31), 6 gerações.
@@ -65,29 +85,39 @@ No [arvore.html](arvore.html), cada pessoa tem uma **fonte** e um **nível de co
   - Noiva, chamada **Maria Carolina da Silva** no casamento e Maria Emília da Silva no batismo da filha: 19 anos, natural de Godim, moradora em Sergude(?). Filha de Francisco Rodrigues Velho e Anna Emília da Silva, proprietários de Godim.
   - Testemunhas: Francisco Mendes e Francisca Rosa, viúva. É a mesma Francisca Rosa que foi madrinha da Francisca em 1906.
   - Averbamento: António Vicente morreu em 1948. O assento de batismo dá a data de 10-6-1948 (n.º 134).
-- **Lado paterno: resolvido.** O batismo de 1908 tem na margem a nota do casamento de 1927 com a Francisca, e chega até ao trisavô e às gerações seguintes (n.º 32–35).
+- **Lado paterno: resolvido** até aos heptavós (n.º 64–69), 6 gerações acima do avô.
 
 ## Árvore alargada (inclui ramos colaterais e hipóteses)
 
 ```
-José António Mimoso ══ Joanna Emília   (n. S. Pedro do Sul / Godim)
+José Corrêa ══ Fructuosa Rodrigues   (casaram 11-2-1771, S. Pedro do Sul; lugar de Pouves)
+        │   filhos batizados em S. Pedro do Sul: José 1774, Maria 1776, António 1777, Manuel 1779,
+        │   Maria 1783, Manuel 1785, António 1787, Margarida 1791, Margarida 1792
         │
-        ├── José António Mimoso (c.1813–1889) ══ Maria Correa
+José António Mimoso (bat. 31-7-1774?) ══ Joanna Emília (Covas, Godim)   (casaram 14-8-1814, Godim)
+        │
+        ├── José António Mimoso (25-5-1815 – 10-11-1889) ══ Maria Correa
+        ├── Antónia (1816) · Antónia (1822) · Thomazia (1824)
         ├── Josefa Emília (c.1820–1897) ══ 1.º F. de Barros Pantana(?); 2.º António Pereira
         ├── Joaquim António Mimoso (c.1835) ══ Anna da Conceição (1862)   [ramo colateral]
         │        └── Maria, Guilherme(?), José (1867), Maria, Maria, Filomena, Manuel, Bernardo
         │
-        └── Manuel António Mimoso (c.1816–1891, Sergude) ══ 1.º Joaquina dos Santos; 2.º Engracia Ferreira
+        └── Manuel António Mimoso (29-8-1819 – 11-2-1891, Sergude)
+                 ══ 1.º Joaquina dos Santos (30-12-1852; ela m. 9-10-1865); 2.º Engracia Ferreira (depois de 1865)
                  │
-                 ├── José António Mimoso (c.1854) ══ Antónia Maria (1892)
+                 ├── José (9-11-1853, morreu pequeno?)
+                 ├── Francisco António Mimoso (5-10-1855 – 7-5-1927) ══ Maria da Silva Amaral / Maria de Jesus (1900)
+                 │        │                                     (ela já tinha um filho: Abel, 2-3-1881 – 3-5-1942)
+                 │        ├── Emília (17-7-1901 – 9-10-1930) ══ Joaquim Pereira Meireles(?) (1919)
+                 │        └── José António Mimoso (22-3-1908 – 28-10-1971) ══ Francisca da Conceição Vicente (n. 1906)
+                 │                 casaram a 5-11-1927, Sergude/Conservatória da Régua   ↓ (continua em baixo)
+                 ├── José António Mimoso (29-8-1857, "segundo do nome") ══ Antónia Maria (1892)
+                 ├── Joaquina (28-8-1859 – 1-12-1937)
                  ├── Joaquim António Mimoso (c.1860) ══ Ventura dos Anjos (1899)
-                 │        └── Daniel, Maria, Manuel, Francisco, José (1897), Duarte, Crispim (1902)
-                 │
-                 └── Francisco António Mimoso (c.1855–1927) ══ Maria da Silva Amaral / Maria de Jesus (1900)
-                          │                                     (ela já tinha um filho: Abel Mendes, c.1881)
-                          ├── Emília (n. 11-7-1901)
-                          └── José António Mimoso (n. 22-3-1908, Sergude) ══ Francisca da Conceição Vicente (n. 1906)
-                                   casaram a 5-11-1927, Sergude/Conservatória da Régua
+                 │        └── Daniel, Maria, Manuel (1891, morreu com 18 dias), Manuel (1893), Francisco, José (1897), Duarte, Crispim (1902)
+                 └── António (fev. 1863)
+
+                     José António Mimoso (1908) ══ Francisca da Conceição Vicente (1906)
                                    │   (7 filhos; faltam 3)
        ┌───────────────────────────┼───────────────────────────┬───────────────────────────┐
        │                           │                           │                           │
@@ -119,11 +149,12 @@ n. 7-9-1930, Godim           Vicente ✔                     ══ Isaura Morei
 ### José António Mimoso (pai do avô) ✔
 - **Nascimento:** 22-3-1908, às 6h, em Sergude, Godim. Batizado a 28-5-1908 (assento n.º 40) ✔
 - **Pais:** Francisco António (Mimoso), jornaleiro, e Maria de Jesus (= Maria da Silva Amaral), doméstica ✔
-- **Padrinhos:** José António Mimoso (o tio) e Anna Emília da Silva
+- **Padrinhos:** José António Mimoso, jornaleiro, casado (o tio), e Anna Emília da Silva, proprietária, casada. Só a madrinha assinou. Batizou o coadjutor Francisco de Assis Ferreira.
+- **Avós:** Manuel António e Joaquina do Espírito Santo; José da Silva e Maria Amaral.
 - **Casamento:** com Francisca da Conceição Vicente, a 5-11-1927, assento n.º 89, Conservatória de Peso da Régua ✔
-- **Óbito:** Godim, num dia 28; averbamento de 28-10-1971 ✔
+- **Óbito:** **28-10-1971**, Godim, assento 217/1971 da Conservatória da Régua. A nota diz "no dia 28, assento 217 de hoje" e tem a data de 28-10-1971 ✔
 - Na caderneta predial 92-B é o primeiro proprietário, com a anotação "Legado".
-- A família dizia que era "filho único". Teve pelo menos uma irmã, Emília (n. 1901), que talvez tenha morrido nova, e um meio-irmão do lado da mãe, Abel Mendes.
+- A família dizia que era "filho único". Teve pelo menos uma irmã, Emília (17-7-1901 a 9-10-1930), casada em 1919 com Joaquim Pereira Meireles(?), e um meio-irmão do lado da mãe, Abel (1881–1942).
 - Fonte: [fontes/bapt1908/p0023.jpg](fontes/bapt1908/p0023.jpg)
 
 ### Francisca da Conceição Vicente (mãe do avô) ✔
@@ -202,30 +233,33 @@ Quando o avô morreu, o prédio ficou dividido pelos 4 filhos, com 1/4 cada. Dep
 
 **José António Mimoso (o mais velho)** e **Joanna Emília** ✔
 - Ele era jornaleiro, **natural de S. Pedro do Sul**. Ela era natural de Godim.
-- São os **pentavós** (n.º 16 e 17): pais de Manuel António Mimoso (n.º 8), de José António (c.1813), de Josefa Emília (c.1820) e de Joaquim António (c.1835, casado com Anna).
-- Em 1867, José António era vivo, casado e jornaleiro, e foi padrinho do neto José.
+- São os **pentavós** (n.º 16 e 17). Casaram a **14-8-1814** em Godim.
+- ⚠ Corrigido: o padrinho do José de 1867 é "José António Mimoso, casado, jornaleiro", mas o assento não lhe chama avô. Pode ser o filho José António (n. 1815). Não há prova de que o pentavô fosse vivo em 1867.
 
-**Filhos de José António Mimoso e Joanna Emília** (óbitos de Godim) ✔
-| Filho | Nascimento aprox. | Óbito | Casamento(s) |
+**Filhos de José António Mimoso e Joanna Emília** (batismos e óbitos de Godim) ✔
+| Filho | Nascimento | Óbito | Casamento(s) |
 |---|---|---|---|
-| José António Mimoso | c. 1813 | 10-11-1889, Olival Basto, 76 anos | Viúvo de Maria Correa |
-| Manuel António Mimoso | c. 1816 | 11-2-1891, **Sergude**, 75 anos | 1.º Joaquina dos Santos; 2.º **Engracia Ferreira** (de Sedielos, m. 1-1-1900) |
+| José António Mimoso | **25-5-1815**, Covas (batizado 4-6-1815) | 10-11-1889, Olival Basto, "76 anos" | Viúvo de Maria Correa |
+| Antónia | 18-9-1816, Covas | provavelmente pequena | |
+| Manuel António Mimoso | **29-8-1819**, Covas | 11-2-1891, **Sergude** ("75 anos"; tinha 71) | 1.º Joaquina dos Santos (30-12-1852); 2.º **Engracia Ferreira** (de Sedielos, m. 1-1-1900) |
+| Antónia | 9-3-1822, Covas | | |
+| Thomazia | 23-7-1824, Covas | | |
 | Josefa Emília (proprietária) | c. 1820 | 1-11-1897, Estrada Nova, 77 anos | 1.º Francisco de Barros Pantana(?); 2.º António Pereira. **Casou 2 vezes e deixou filhos** |
 | Joaquim António Mimoso | c. 1835 | não encontrado em Godim entre 1880 e 1911 | Anna da Conceição (1862) |
 
 - Ramo de Sergude: Manuel António Mimoso e Joaquina dos Santos são os **tetravós diretos** (n.º 8 e 9), através do filho Francisco António.
-- "Casou 2 vezes e já tinha filhos": quem casou duas vezes foi a Josefa Emília. Quem "já tinha filhos" ao casar foi a trisavó Maria da Silva Amaral, mãe do Abel Mendes.
+- "Casou 2 vezes e já tinha filhos": quem casou duas vezes foi a Josefa Emília. Quem "já tinha filhos" ao casar foi a trisavó Maria da Silva Amaral, mãe do Abel.
 
 **Joaquim António Mimoso** e **Anna da Conceição** ✔
 - **Casamento:** 1-5-1862, às 6 horas da manhã, igreja de S. José de Godim, assento n.º 4 ✔ ([fontes/cas1862/p0004.jpg](fontes/cas1862/p0004.jpg) e [p0005.jpg](fontes/cas1862/p0005.jpg))
 - **Joaquim:** 27 anos, portanto nascido por volta de 1835. Solteiro, batizado em Godim. Pedreiro ou jornaleiro.
   - Avós paternos: **José Corrêa** e **Fructuosa Rodrigues**, de S. Pedro do Sul (Bispado de Viseu)
-  - Avós maternos: **Lourenço de Cesares(?)** e **Eufrásia Maria**, do lugar das Covas, em Godim
+  - Avós maternos: **Lourenço de Cesares** (é o Lourenço do Coral / de Cazares, galego) e **Eufrásia Maria**, do lugar das Covas, em Godim
 - **Anna:** 24 anos, portanto **nascida por volta de 1837–1838** em Gouvinhas. **Solteira**, ou seja, não era viúva.
   - Pai: **António José de Queirós**, proprietário, da freguesia de S. Pedro de Vila Real. Nos batismos dos filhos aparece como "António José da Cruz, sapateiro, natural de Vila Real": é a mesma pessoa, com apelido variável.
   - Mãe: **Thereza de Jesus**, de Godim
   - Avós paternos: **José Alves d'Abreu** e **Isabel Joaquina**, de S. Pedro de Vila Real
-  - Avós maternos: **João António Corrêa** e **Luiza(?) de Jesus**, de Godim
+  - Avós maternos: **João António Corrêa** e **Laura(?) de Jesus**, de Godim
   - Precisou do consentimento da mãe por ter menos de 25 anos. O pai não deu consentimento, o que pode querer dizer que já tinha morrido.
 - Testemunhas: Francisco José (viúvo, proprietário) e Thereza de Jesus (viúva, do Salgueiral; provavelmente a mãe da noiva)
 - O batismo de Anna (cerca de 1837–1838) não está online: os livros de Gouvinhas no tombo.pt só começam em 1849.
@@ -267,7 +301,189 @@ Filhos de "Joaquim António Mimoso" no índice de batismos de Godim:
 - **8-3-1899, casamento n.º 4:** **Joaquim António** (39 anos, jornaleiro, Sergude), filho de **Manuel António Mimoso** e **Joaquina dos Santos**, casou com **Ventura dos Anjos** (36 anos, natural de Moura Morta), filha de António Pereira Godinho/Cadête e Carlota de Jesus/dos Anjos. O casamento legitimou 6 filhos: Daniel (27-11-1886, Moura Morta), Maria (13-1-1890), Manuel (11-9-1893), Francisco (20-3-1895), **José (25/26-1-1897)** e Duarte (6-2-1899). Testemunhas: José António Mimoso, casado, e a mulher, Antónia Maria, de Sergude. ([fontes/cas1899/p0005.jpg](fontes/cas1899/p0005.jpg))
 - **18-10-1900, casamento n.º 23:** **Francisco António Mimoso** (45 anos, jornaleiro, Sergude), filho de Manuel António Mimoso e Joaquina dos Santos, casou com **Maria da Silva Amaral** (36 anos). Ele morreu a 7-5-1927 (testamento de 1921).
 - **José, batismo n.º 16 de 1897:** nasceu a 25-1-1897 às 19h e foi batizado a 7-2-1897. Filho natural de Ventura dos Anjos, de Sergude. O padrinho foi Francisco António Mimoso. **Na margem: casou com Maria Coelho Mendes a 6-1-1926 (Conservatória da Régua) e morreu em Godim a 27-6-1969.** ⇒ **Não é o bisavô**, que casou com a Francisca em 1927. ([fontes/bapt1897/p0011.jpg](fontes/bapt1897/p0011.jpg))
-- **José António Mimoso** (c.1854, filho de Manuel António) casou a 22-10-1892 com Antónia Maria, de 54 anos. É tio-avô do bisavô e foi padrinho dele em 1908.
+- **José António Mimoso** (provavelmente o José de 29-8-1857, filho de Manuel António) casou a 22-10-1892 com Antónia Maria, de 54 anos. É tio-avô do bisavô e foi padrinho dele em 1908.
+
+## Linha Mimoso: assentos validados (revisão de outubro de 2026)
+
+Todos os assentos abaixo foram relidos nas imagens originais. Leituras incertas estão marcadas com (?). As imagens também se abrem no [arvore.html](arvore.html), no painel de cada pessoa.
+
+### 2. José António Mimoso (bisavô): batismo n.º 40/1908, Godim ✔
+- **Nascimento:** 22-3-1908, às 6h, em Sergude. **Batismo:** 28-5-1908.
+- **Pais:** Francisco António, jornaleiro, e Maria de Jesus, doméstica, de Godim, moradores em Sergude.
+- **Avós:** Manuel António e Joaquina do Espírito Santo; José da Silva e Maria Amaral.
+- **Padrinhos:** José António Mimoso, jornaleiro, casado, e Anna Emília da Silva, proprietária, casada. Só a madrinha assinou.
+- **Padre:** coadjutor Francisco de Assis Ferreira.
+- **Margem 1:** casou com Francisca da Conceição Silva a 5-11-1927, assento 89, Régua. Nessa nota, a mãe dela pode ler-se "Maria Amélia(?)".
+- **Margem 2:** "Faleceu em Godim, Peso da Régua, no dia 28, assento 217 de hoje. Em 28 de Outubro de 1971". Logo, o óbito é de **28-10-1971**.
+- Fonte: [fontes/bapt1908/p0023.jpg](fontes/bapt1908/p0023.jpg)
+
+### Emília, irmã do bisavô: batismo n.º 66/1901, Godim ✔
+- **Nascimento:** 17-7-1901, às 14h, em Sergude. **Batismo:** 5-8-1901. ⚠ Antes estava 11-7-1901, por erro de leitura do índice.
+- **Avós:** Manuel António Mimoso e Joaquina dos Santos; José da Silva e Maria Amaral.
+- **Padrinhos:** Joaquim Elias dos Santos, sapateiro, de Fontelas, e Anna Emília da Silva, proprietária.
+- **Margem:**
+  - casou com Joaquim Pereira Meireles(?) a 20-12-1919 (Régua, assento 90/1919);
+  - morreu na Régua a **9-10-1930** (assento 285?/1930).
+- Fonte: [fontes/bapt1901/p0036.jpg](fontes/bapt1901/p0036.jpg)
+
+### 4. Francisco António Mimoso (trisavô)
+**Batismo, 14-10-1855, Godim ✔**
+- **Nascimento:** 5-10-1855. "Filho legítimo de Manoel António e Joaquina dos Santos, do lugar das Covinhas".
+- **Avós:** José António, natural de S. Pedro do Sul, e Joanna Emília, de Godim; António da Silva e Joanna dos Santos.
+- **Padrinhos:** José Bentim(?), "do Reino da Galiza", e Joaquina do Espírito Santo, de Sergude, solteiros.
+- **Testemunhas:** José Miguel Ferreira e José Cardoso, de Mesquita(?).
+- **Padre:** António Augusto de Vilhena. Sem notas na margem.
+- Fonte: [fontes/bapt1853-59/p0035.jpg](fontes/bapt1853-59/p0035.jpg)
+
+**Casamento n.º 23, 18-10-1900, Godim ✔**
+- **Noivo:** Francisco António Mimoso, 45 anos, solteiro, jornaleiro, natural de Godim, morador em Sergude.
+- **Noiva:** Maria da Silva Amaral, 36 anos, solteira, criada de servir, de Sergude, filha de José da Silva, pedreiro, e de Maria da Silva Amaral.
+- **Testemunhas:** Joaquim Elias dos Santos, casado, sapateiro, de Fontelas, e Anna Emília da Silva, casada, proprietária.
+- **Padre:** abade Alberto Teixeira de Carvalho.
+- O assento não dá avós, não legitima filhos e não tem notas na margem. A noiva nunca é chamada "Maria de Jesus" neste assento.
+- O casamento seguinte, n.º 24 do mesmo dia, é o do **Abel**, filho natural dela.
+- Fontes: [fontes/cas1900/p0025.jpg](fontes/cas1900/p0025.jpg), [p0026.jpg](fontes/cas1900/p0026.jpg)
+
+### 5. Maria da Silva Amaral (trisavó): batismo n.º 39/1864, Godim ✔
+- **Nascimento:** 17-9-1864, às 2h da manhã, em Sergude. **Batismo:** 2-10-1864. Batizada só "Maria", filha legítima, "primeira deste nome". Os pais tinham casado em Godim.
+- **Pais:** José da Silva, pedreiro, **natural de Loureiro**, e **Maria de Jesus Amaral**, de Godim.
+- **Avós paternos:** **20. Francisco da Silva** e **21. Rita da Conceição**.
+- **Avós maternos:** **22. Manuel Amaral** e **23. Joaquina Velha(?)**.
+- **Padrinhos:** Bernardo d'Amaral, casado, jornaleiro, de Sederma(?), e Maria da Conceição, solteira, proprietária, do Rodo (Régua).
+- **Padre:** coadjutor Carmine António de Sousa Pennas.
+- **Prováveis irmãos** (índice, pai "José da Silva"): Francisco 20-1-1862 (n.º 10), Preciosa 15-1-1867 (n.º 8), Manuel 4-12-1868, António 25-3-1871 (n.º 22), Luiz 28-10-1873 (n.º 48), Bibiana 4-1-1875 (n.º 10). Pode haver outro José da Silva em Godim; só o batismo da Maria foi lido.
+- O casamento dos pais não está em Godim de 1854 a 1864. Talvez em Loureiro, c. 1860–61.
+- Fonte: [fontes/bapt1864/p0020.jpg](fontes/bapt1864/p0020.jpg)
+
+**Abel, filho natural: batismo n.º 22/1881, Godim ✔**
+- **Nascimento:** 2-3-1881, às 14h. **Batismo:** 20-3-1881.
+- **Mãe:** "Maria de Jesus", empregada no governo doméstico, de Sergude. **Avós maternos:** José da Silva e Maria Amaral. Isto prova que Maria de Jesus e Maria da Silva Amaral são a mesma pessoa.
+- **Padrinho:** Barnabé Justino Monteiro, proprietário. Em vez de madrinha, tocou com a coroa de Nossa Senhora Alexandre Westermann(?), que trabalhava na ponte do Douro.
+- **Margem:** morreu em Godim a 3-5-1942 (assento 155/1942).
+- O apelido "Mendes" não aparece no batismo.
+- Fonte: [fontes/bapt1881/p0013.jpg](fontes/bapt1881/p0013.jpg)
+
+### 8. Manuel António Mimoso (tetravô)
+**Batismo, setembro de 1819, Godim ✔**
+- **Nascimento:** 29-8-1819. "Manoel, filho legítimo de José António, natural da freguesia de S. Pedro do Sul, Bispado de Viseu, morador no lugar das Covas desta freguesia de Godim, e Joanna Emília do dito lugar".
+- **Avós:** José António(!) e Fructuosa Rodrigues, de S. Pedro do Sul; **Lourenço de Cazares(?), "de Santo André de …, Reino de Galiza"**, e Eufrázia Thereza, das Covas.
+- **Padrinhos:** José Pinto Pereira Borges júnior e D. Anna(?) Victoria(?), filha de José Pinto Pereira Borges.
+- **Testemunhas:** Domingos José Osório e José Francisco Pereira.
+- **Padre:** pároco António Pinto de Araújo.
+- ⚠ Nasceu em 1819, não por volta de 1816. Os 75 anos do óbito estão exagerados; tinha 71.
+- Fonte: [fontes/bapt1817-25/p0026.jpg](fontes/bapt1817-25/p0026.jpg)
+
+**1.º casamento, 30-12-1852, igreja de S. José de Godim ✔** (último casamento de 1852, sem número)
+- **Noivo:** Manuel António, filho de José António, natural de S. Pedro do Sul, e de Joanna Emília, de Godim, moradores nas Covas.
+  - Avós: José Corrêa e Fructuoza Rodrigues, de S. Pedro do Sul; Lourenço de Corares(?) e Eufrásia Maria.
+- **Noiva:** Joaquina dos Santos, das Covinhas, filha de António da Silva e de Joanna dos Santos.
+  - **Avós paternos:** **36. José da Silva** e **37. Joanna Caetana**, de Godim.
+  - **Avós maternos:** **38. Manuel dos Santos** e **39. Maria Ayres**, da vila de Pendilhe(?), Bispado de Lamego.
+- **Testemunhas:** João Pedro da Silva e a mulher Maria da Conceição, das Covinhas. Assinaram de cruz.
+- **Padre:** pároco Francisco Gomes Carneiro.
+- Fonte: [fontes/cas1847-53/p0132.jpg](fontes/cas1847-53/p0132.jpg)
+
+**Óbito n.º 2/1891, Godim ✔**
+- **Data:** 11-2-1891, à 1h, em Sergude, com os sacramentos.
+- **Pessoa:** "75 anos", jornaleiro, casado em segundas núpcias com Engracia Ferreira, natural de Godim, filho de José António Mimoso e Joanna Emília.
+- Sem testamento, deixou filhos, sepultado no cemitério paroquial.
+- Fontes: [fontes/obi1891/p0003.jpg](fontes/obi1891/p0003.jpg), [p0004.jpg](fontes/obi1891/p0004.jpg)
+
+**Filhos com Joaquina dos Santos** (batismos de Godim):
+
+| Filho | Nascimento | Lugar | Padrinhos | Notas |
+|---|---|---|---|---|
+| José | 9-11-1853 (bat. 13-11) | Covinhas | José Miguel Ferreira e Joaquina do Espírito Santo | Deve ter morrido pequeno ([p0003](fontes/bapt1853-59/p0003.jpg)) |
+| **Francisco António** | **5-10-1855** | Covinhas | José Bentim(?) e Joaquina do Espírito Santo | Trisavô ([p0035](fontes/bapt1853-59/p0035.jpg)) |
+| José ("segundo do nome") | 29-8-1857 (bat. 4-9) | Salgueiral | José Bentim(?) e Joaquina do Espírito Santo | Provavelmente o José António que casou em 1892. O avô é escrito "José António Mimoso, de S. Pedro do Sul, Bispado de Viseu" ([p0061](fontes/bapt1853-59/p0061.jpg)) |
+| Joaquina | 28-8-1859 (bat. 11-9) | Salgueiral | José Bentim(?) e Joaquina Rosa Pontes(?) | Morreu em Godim a 1-12-1937 ([p0089](fontes/bapt1853-59/p0089.jpg)) |
+| Joaquim António | c. 1860 | | | Batismo não encontrado em Godim de 1851 a 1867 |
+| António | fev. 1863 (n.º 6) | Salgueiral | José Bentim(?), da Galiza, e Joaquina Rosa, de Sergude | O pai aparece como "mestre pedreiro". 1.º assento com o apelido: avô "José Antonio **Meimoso**" ([bapt1863/p0004](fontes/bapt1863/p0004.jpg)) |
+
+- O Manuel de 1891 (filho de Joaquim António e Ventura) morreu a 23-2-1891 com 18 dias (óbito n.º 8/1891, [fontes/obi1891/p0005.jpg](fontes/obi1891/p0005.jpg)).
+
+### 9. Joaquina dos Santos (tetravó): óbito n.º 24/1865, Godim ✔
+- **Data:** 9-10-1865, às 6h, em Sergude. Só recebeu o sacramento da Penitência.
+- **Pessoa:** 40 anos, por isso nascida por volta de 1825. Casada com Manuel António, jornaleiro, natural de Godim.
+- **Pais:** **18. António da Silva**, natural de Paradinha(?), concelho de Moimenta da Beira, e **19. Joanna dos Santos**, natural de Pendilhe, concelho de Castro Daire, diocese de Lamego. Ambos jornaleiros.
+- Sem testamento, deixou filhos, sepultada no cemitério público de Godim.
+- **Padre:** coadjutor Lourenço Pinto Teixeira e Madureira(?).
+- Fonte: [fontes/obi1865/p0008.jpg](fontes/obi1865/p0008.jpg)
+- **Óbito provável da mãe:** Joanna dos Santos, proprietária, viúva de António da Silva.
+  - Morreu a 17-12-1861 no Salgueiral, com 69 anos. Fez testamento e deixou 3 filhos.
+  - O assento não indica a terra dela. Fonte: [fontes/obi1861/p0010.jpg](fontes/obi1861/p0010.jpg)
+- **Prováveis irmãos da Joaquina** (filhos com os mesmos avós nos batismos): as mulheres de João Pedro (da Silva) e de Manuel Ferreira, nas Covinhas.
+
+**Engracia Ferreira, 2.ª mulher do Manuel: óbito n.º 1/1900 ✔**
+- **Data:** 1-1-1900, às 6h, em Sergude, sem sacramentos.
+- **Pessoa:** 63 anos, natural de Sedielos, viúva de Manuel António Mimoso. Filha de **João Ferreira e Anna da Conceição**, de Sedielos.
+- Sem filhos e sem testamento.
+- Fonte: [fontes/obi1900/p0003.jpg](fontes/obi1900/p0003.jpg)
+
+### 16. José António Mimoso e 17. Joanna Emília (pentavós)
+**Casamento, 14-8-1814, Godim ✔**
+- **Noivo:** José Antonio, filho de José Corrêa e Fratuoza Rodrigues, do lugar de **Pouves**, freguesia de S. Pedro do Sul, Bispado de Viseu.
+  - Avós paternos: "avô incerto" e Paschoa Maria, solteira, de Segadães, freguesia de Baiões.
+  - Avós maternos: Caetano Rodrigues, de Pouves, e Paschoa Maria. Este segundo nome da avó deve ser um erro do padre: os assentos de S. Pedro do Sul dizem Maria Francisca.
+- **Noiva:** Joanna Emília, de Godim, filha de **Lourenço do Coral** e Eufrázia Thereza, do lugar das Covas.
+  - Avós paternos: **68. José do Coral** e **69. Felipa(?) de Lago(?)**, "do Reino de Galiza".
+  - Avós maternos: não indicados.
+- **Testemunhas:** Manuel Dias e Joaquim António.
+- **Padre:** Raimundo José da Paixão Corrêa.
+- Fonte: [fontes/cas1812-19/p0012.jpg](fontes/cas1812-19/p0012.jpg)
+
+**Batismo provável de José António: 31-7-1774, S. Pedro do Sul ~**
+
+Transcrição:
+> Aos trinta e hum de Julho de mil sete centos setenta e quatro baptizou de minha licença o Padre Mathias José de Figueiredo desta Villa a Joseph de Pouves, filho de Joseph Corrêa natural de Segadaens, freguezia de Bayoens, e de sua mulher Fructuoza Rodrigues natural de Pouves, neto paterno de Joseph Corrêa da Corvaceira e Paschoa, solteira, natural do lugar e freguezia de Bordonhos, neto materno de Caetano Rodrigues natural de Drizes, freguezia da Varzea, e de sua mulher Maria Francisca de Pouves. Foram padrinhos o Padre João Corrêa e sua irmã Maria Tereza da Corvaceira, de que fiz este termo que assinei. — Vigr.º Joseph de Almeida
+
+- **Na margem:** "José / Pouves". Logo a seguir há uma nota de visitação ("Visto em Visita de 14 de Agosto de 1774").
+- Fontes: [fontes/sps_bapt1769-88/p0051.jpg](fontes/sps_bapt1769-88/p0051.jpg) (fundo da página direita), [p0052.jpg](fontes/sps_bapt1769-88/p0052.jpg) (topo da página esquerda)
+- **Porque é "provável" (≈70%) e não certo:**
+  - O assento bate certo com o casamento de 1814 em pais, lugar (Pouves) e freguesia, e é o único José do casal nos batismos de 1769–1797.
+  - Mas ele teria 40 anos ao casar, e os filhos nasceram entre 1815 e c.1835.
+  - O livro de batismos de S. Pedro do Sul de **8-1797 a 9-1816 não está no digitarq**, por isso não se pode excluir um José mais novo.
+  - O nome "José António" e o apelido Mimoso só aparecem em Godim. "Meimoso" está escrito pela primeira vez em 1857/1863.
+- **Óbitos:** nem ele nem Joanna Emília aparecem nos óbitos de Godim de 1854 a 1879. Em 1860 só foram vistas as margens, que não têm nomes.
+
+**Outros filhos do casal** (Godim):
+- **José**, nascido a 25-5-1815 e batizado a 4-6-1815, nas Covas ([fontes/bapt1806-17/p0122.jpg](fontes/bapt1806-17/p0122.jpg)). É o José António que morreu em 1889.
+  - Padrinhos: José António Gonçalves e Theodora Joaquina (por procuração).
+- **Antónia**, nascida a 18-9-1816 ([p0149](fontes/bapt1806-17/p0149.jpg)).
+  - Padrinhos: José Pinto Pereira Borges e a filha D. Antónia Victorina.
+- **Antónia**, nascida a 9-3-1822 ([fontes/bapt1817-25/p0075.jpg](fontes/bapt1817-25/p0075.jpg)).
+- **Thomazia**, nascida a 23-7-1824 ([p0117](fontes/bapt1817-25/p0117.jpg)).
+  - Padrinhos: João Pinto, de Sergude, e Thomazia Joaquina, do Salgueiral.
+- Josefa Emília (c.1820) e Joaquim António (c.1835): batismos ainda por encontrar.
+
+### 32. José Corrêa e 33. Fructuosa Rodrigues (hexavós): casamento de 11-2-1771, S. Pedro do Sul ✔
+
+Transcrição:
+> Aos honze de Fevereiro de mil e sette centos e setenta e hum se recebeo em minha presença na forma do Sagrado Concilio Tridentino e Constituiçaõ deste Bispado José Corrêa natural de Segadaens freguezia de Bayoens, filho natural de José Corrêa da Corvaceira(?) desta freguezia e de Paschoa Maria natural de Segadaens, com Fructuoza Rodrigues filha legitima de Caetano Rodrigues e de sua mulher Maria Francisca, todos do lugar de Pouves desta freguezia de Sam Pedro. Foram testemunhas Francisco Marques e Manoel Rodrigues ambos desta Villa […] O Coadjutor Mathias José de Fig.do
+
+- **Pais de José Corrêa:** **64. José Corrêa da Corvaceira(?)**, de S. Pedro do Sul, e **65. Paschoa Maria**, solteira. Ele era filho natural.
+- **Pais de Fructuosa:** **66. Caetano Rodrigues**, natural de Drizes/Brizes(?), freguesia de Várzea, e **67. Maria Francisca**, de Pouves. Em 1791 ela aparece como "Maria Rodrigues".
+- Fonte: [fontes/sps_cas1643-1783/p0150.jpg](fontes/sps_cas1643-1783/p0150.jpg)
+- **Filhos batizados em S. Pedro do Sul, todos "de Pouves":**
+  - José, 31-7-1774
+  - Maria, 30-7-1776
+  - António, 21-9-1777
+  - Manuel, 13-1-1779
+  - Maria, 9-12-1783
+  - Manuel, 17-4-1785
+  - António, 13-2-1787
+  - Margarida, 14-2-1791. Padrinhos: José de Oliveira e a irmã Margarida, filhos de António de Oliveira Mello. Fonte: [fontes/sps_bapt1788-97/p0041.jpg](fontes/sps_bapt1788-97/p0041.jpg)
+  - Margarida, 29-12-1792 ([p0071](fontes/sps_bapt1788-97/p0071.jpg))
+- **O que fica por esclarecer:**
+  - A terra de Paschoa Maria: o casamento diz Segadães, o batismo de 1774 diz Bordonhos.
+  - O casamento de 1814 escreve "avô incerto"; os de S. Pedro do Sul dão o nome do pai natural.
+
+### O que foi pesquisado e não encontrado
+- **Joaquim António**, filho de Manuel (c.1860): não está nos batismos de Godim de 1851 a 1867.
+- **Casamento de José da Silva com Maria de Jesus Amaral:** não está nos casamentos de Godim de 1854 a 1864.
+- **Óbitos de José António Mimoso (n.º 16) e Joanna Emília (n.º 17):** não estão em Godim de 1854 a 1879.
+- **Batismo de José António:** não está no livro de S. Pedro do Sul de 1788–1797, que foi lido todo. O livro de 1797–1816 não está online.
+- **Batismos de Josefa Emília (c.1820) e Joaquim António (c.1835),** filhos dos pentavós: falta procurar em 1819–1822 (com mais zoom) e em 1833–1840.
 
 ## Outras pessoas nos documentos
 
@@ -284,7 +500,7 @@ Filhos de "Joaquim António Mimoso" no índice de batismos de Godim:
 | Documento | Cota | O que diz o catálogo | Porque interessa |
 |---|---|---|---|
 | **Processo de inventário obrigatório, 1973**, Tribunal de Peso da Régua | PT/ADVRL/JUD/TJCPRG/C-B/082/1658 (Cx. 143) | Inventariada: **Francisca da Conceição Silva**. Inventariante: **Adão António Mimoso** | ✔ É a partilha da herança da bisavó (o "Silva" vem da mãe dela). Deve listar os 7 filhos. |
-| **Testamento público, 11-5-1906**, Cartório Notarial de Peso da Régua, 1.º ofício | PT/ADVRL/NOT/CNPRG1/007/0486/10 (fl. 18) | Testador: **José António Mimoso**, casado, freguesia de Godim | Provavelmente José António Mimoso (c.1854), casado com Antónia Maria e tio do bisavô. Interesse secundário. |
+| **Testamento público, 11-5-1906**, Cartório Notarial de Peso da Régua, 1.º ofício | PT/ADVRL/NOT/CNPRG1/007/0486/10 (fl. 18) | Testador: **José António Mimoso**, casado, freguesia de Godim | Provavelmente José António Mimoso (n. 1857), casado com Antónia Maria e tio do bisavô. Interesse secundário. |
 | **Testamento público, 7-2-1921**, Cartório Notarial de Peso da Régua, 5.º ofício | PT/ADVRL/NOT/CNPRG5/007/394/38 (fl. 47) | Testador: **Francisco António Mimoso**, casado, Godim, morreu a 7-5-1927 | ✔ **É o trisavô (n.º 4)**, pai do bisavô José António. O testamento deve nomear a mulher e os filhos. |
 | Processos judiciais de 1978 e 1981, Tribunal da Régua | TJCPRG/B-A/041/49, C-A/056/534, C-B/057/103 | Valentim António Mimoso é réu | Pouco interesse genealógico |
 
@@ -321,7 +537,11 @@ Filhos de "Joaquim António Mimoso" no índice de batismos de Godim:
 - [ ] Pedir o testamento de 1921 de Francisco António Mimoso, o trisavô (PT/ADVRL/NOT/CNPRG5/007/394/38).
 - [ ] Certidão de nascimento do avô (7-9-1930), cópia integral, para confirmar (civilonline.mj.pt).
 - [ ] Certidão de casamento do avô com Emília da Conceição Vicente: indica os pais dela e abre o ramo da avó.
-- [ ] Recuar mais uma geração: batismos de Francisco António Mimoso (c.1855) e Maria da Silva Amaral (c.1864), e os casamentos dos n.º 8+9, 10+11, 12+13 e 14+15. Estão todos nos livros online de Godim.
+- [x] Linha Mimoso validada contra os assentos originais (outubro de 2026): batismos de 1774, 1815, 1819, 1855, 1864; casamentos de 1771, 1814, 1852, 1900; óbitos de 1865, 1891, 1900. Ver "Linha Mimoso: assentos validados".
+- [ ] Casamento de José da Silva com Maria de Jesus Amaral (c.1860–61): procurar nos livros de Loureiro.
+- [ ] Casamentos dos n.º 12+13 e 14+15 (lado Vicente) nos livros de Godim.
+- [ ] Ler o texto dos 70 óbitos de Godim de 1860 (Joanna Emília) e procurar os óbitos dos pentavós depois de 1879.
+- [ ] Batismo de Joaquina dos Santos (c.1825), em Godim, para confirmar os pais e os avós.
 - [x] Encontrar os pais do bisavô José António Mimoso: Francisco António Mimoso e Maria de Jesus (batismo n.º 40/1908).
 - [x] Separar os dois Joaquim António Mimoso.
 - [x] Casamento do José de 1867: não aparece em Godim entre 1888 e 1911. Ficaram por ver 1885 (p3–10), 1886 e 1887, quando ele tinha 17–20 anos, o que torna um casamento pouco provável. Deixou de ser relevante, porque não é o bisavô.
