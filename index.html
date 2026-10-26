@@ -133,7 +133,8 @@
 // sp = spouse ids; b = birth; d = death; c = marriages; occ = occupation/residence; notes; src = source; ok = confirmed
 const people = {
   // ── Maria do Socorro and parents ─────────────────────────────
-  msg: { name: "Maria do Socorro Mimoso Guedes", role: "autora da pesquisa", s: "m", f: "armando", m: "silvia" },
+  msg: { name: "Maria do Socorro Mimoso Guedes", role: "autora da pesquisa", s: "m", f: "armando", m: "silvia", sp: ["vitor"], c: ["Vítor Roberto Martins Moreira"] },
+  frederico: { name: "Frederico Mimoso Guedes Moreira", s: "m", f: "vitor", m: "msg", notes: ["Filho de Vítor e Maria do Socorro. Datas por indicar."] },
   sandra: { name: "Sandra Isabel Mimoso Guedes", s: "m", f: "armando", m: "silvia" },
   silvia: { name: "Sílvia Maria Vicente Mimoso Guedes", s: "m", f: "ajm1930", m: "emiliaAv", sp: ["armando"],
     c: ["Armando Mesquita Guedes (adotou o apelido Guedes)"], notes: ["Na caderneta predial 92-B ficou com 1/4, depois 3/4 do prédio."] },
@@ -141,6 +142,29 @@ const people = {
   ajvm: { name: "António José Vicente Mimoso", s: "m", f: "ajm1930", m: "emiliaAv", notes: ["1/4 na caderneta predial 92-B."] },
   jaqvm: { name: "Joaquim António Vicente Mimoso", s: "m", f: "ajm1930", m: "emiliaAv", notes: ["1/4 na caderneta predial (cedido à irmã Sílvia)."] },
   josvm: { name: "José António Vicente Mimoso", s: "m", f: "ajm1930", m: "emiliaAv", notes: ["1/4 na caderneta predial (cedido à irmã Sílvia)."] },
+
+  // ── Vítor Moreira (marido de Maria do Socorro) e ascendência ──
+  vitor: { name: "Vítor Roberto Martins Moreira", s: "o", f: "gabriel", m: "luziaFM", sp: ["msg"], b: "29-11-1982, Valongo", c: ["Maria do Socorro Mimoso Guedes"],
+    src: "Assento de nascimento n.º 3101/2008, Conservatória do Registo Civil de Valongo (transcrição de nascimento de 1982)." },
+  gabriel: { name: "Gabriel Alberto Ferreira Moreira", s: "o", f: "fernando", m: "mariaFerreira", sp: ["luziaFM"], b: "c. 1954, Campo (Valongo)", occ: "Souto Pinheiro, Sobrado (1982)" },
+  luziaFM: { name: "Luzia Ferreira Martins Fernandes", s: "o", f: "augusto", m: "luziaFerreira", sp: ["gabriel"], b: "c. 1957, Sobrado (Valongo)", occ: "Souto Pinheiro, Sobrado (1982)" },
+  fernando: { name: "Fernando Moreira", role: "avô paterno", s: "o", f: "", m: "julia", sp: ["mariaFerreira"], b: "Fonte Arcada (Penafiel); data por apurar",
+    notes: ["Naturalidade por informação da família. Os livros paroquiais de Fonte Arcada só vão até 1911 e não há nenhum Fernando nos batismos de 1889–1911: deve ter nascido depois (c. 1915–1930).", "Pais por apurar. Só leva o apelido Moreira: se for filho de Júlia Maria, será filho natural."] },
+  mariaFerreira: { name: "Maria Ferreira", role: "avó paterna", s: "o", f: "manuelVale", m: "mariaEsperanca", sp: ["fernando"] },
+  augusto: { name: "Augusto Martins Fernandes", role: "avô materno", s: "o", sp: ["luziaFerreira"], notes: ["Pais por identificar."] },
+  luziaFerreira: { name: "Luzia Ferreira", role: "avó materna", s: "o", sp: ["augusto"], notes: ["Pais por identificar."] },
+  manuelVale: { name: "Manuel do Vale", s: "o", sp: ["mariaEsperanca"] },
+  mariaEsperanca: { name: "Maria Esperança Ferreira", s: "o", sp: ["manuelVale"] },
+  julia: { name: "Júlia Maria Moreira", s: "o", f: "joseCarlos", m: "diolinda", b: "4-3-1901, Fonte Arcada (batizada a 9-3-1901)", c: ["9-1931, Posto do Registo Civil de Lagares: António Rodrigues Coelho (de Galegos)"],
+    notes: ["Hipótese: bisavó paterna do Vítor. A família diz \"Júlia Maria Moreira\", mãe de Fernando; este batismo é o único encontrado com esse nome e família Moreira em Fonte Arcada, mas nenhum documento liga Júlia a Fernando.", "Casamento e óbito são posteriores a 1911 (registo civil de Penafiel, não está online)."],
+    src: "Batismo n.º 12/1901, Fonte Arcada (fontes/fa/bapt1897-02/p0036.jpg), com nota de casamento na margem." },
+  joseCarlos: { name: "José Carlos Moreira", s: "o", f: "antonioCarlosM", m: "juliaFranciscaAQ", sp: ["diolinda"], b: "c. 1866, Fonte Arcada", occ: "Lavrador proprietário, Preizal (1901)",
+    c: ["janeiro de 1896, Fonte Arcada (assento n.º 4): Diolinda Moreira dos Santos Rocha"], src: "Casamento n.º 4/1896, Fonte Arcada (fontes/fa/cas1891-11/p0093.jpg); batismo de Júlia (1901)." },
+  diolinda: { name: "Diolinda Moreira dos Santos Rocha", s: "o", f: "joseMariaSR", m: "anaMCunha", sp: ["joseCarlos"], b: "c. 1873, Fonte Arcada", src: "Casamento n.º 4/1896, Fonte Arcada; batismo de Júlia (1901)." },
+  antonioCarlosM: { name: "António Carlos Moreira", s: "o", sp: ["juliaFranciscaAQ"], src: "Casamento n.º 4/1896 e batismo de Júlia (1901), Fonte Arcada." },
+  juliaFranciscaAQ: { name: "Júlia Francisca de Araújo Queirós", s: "o", sp: ["antonioCarlosM"], src: "Casamento n.º 4/1896 e batismo de Júlia (1901), Fonte Arcada." },
+  joseMariaSR: { name: "José Maria dos Santos Rocha", s: "o", sp: ["anaMCunha"], src: "Casamento n.º 4/1896 e batismo de Júlia (1901), Fonte Arcada." },
+  anaMCunha: { name: "Ana Moreira da Cunha", s: "o", sp: ["joseMariaSR"], src: "Casamento n.º 4/1896 e batismo de Júlia (1901), Fonte Arcada." },
 
   // ── Grandparents and their siblings ─────────────────────────
   ajm1930: { name: "António José Mimoso", role: "avô", s: "m", f: "jam1908", m: "francisca", sp: ["emiliaAv"],
@@ -424,6 +448,15 @@ const LEVELS = {
 
 // [level, source] for every person
 const meta = {
+  frederico: ["fam", "Informação da família (Vítor Moreira)."],
+  vitor: ["doc", "Assento de nascimento n.º 3101/2008, Valongo."],
+  gabriel: ["doc", "Assento de nascimento do Vítor (pais)."], luziaFM: ["doc", "Assento de nascimento do Vítor (pais)."],
+  fernando: ["fam", "Informação da família (naturalidade Fonte Arcada); nome no assento do Gabriel."],
+  mariaFerreira: ["doc", "Nome dos pais do Gabriel."],
+  augusto: ["doc", "Nome dos pais da Luzia."], luziaFerreira: ["doc", "Nome dos pais da Luzia."],
+  manuelVale: ["fam", "Informação da família (2026-10-24)."], mariaEsperanca: ["fam", "Informação da família (2026-10-24)."],
+  julia: ["hip", ""],
+  joseCarlos: ["doc", ""], diolinda: ["doc", ""], antonioCarlosM: ["doc", ""], juliaFranciscaAQ: ["doc", ""], joseMariaSR: ["doc", ""], anaMCunha: ["doc", ""],
   msg: ["fam", "Informação da própria (Maria do Socorro)."],
   sandra: ["fam", "Informação da família."],
   silvia: ["fam", "Informação da família; caderneta predial 92-B (imagens/cardenetarustica.jpeg)."],
@@ -562,6 +595,8 @@ const meta = {
 
 // Scanned source images per person: [label, relative path]
 const IMG = {
+  fa1901: ["Batismo n.º 12/1901, Fonte Arcada (Júlia Maria)", "fontes/fa/bapt1897-02/p0036.jpg"],
+  fa1896: ["Casamento n.º 4/1896, Fonte Arcada (José Carlos Moreira e Diolinda)", "fontes/fa/cas1891-11/p0093.jpg"],
   s1774a: ["Batismo 1774, S. Pedro do Sul (início)", "fontes/sps_bapt1769-88/p0051.jpg"],
   s1774b: ["Batismo 1774, S. Pedro do Sul (fim)", "fontes/sps_bapt1769-88/p0052.jpg"],
   s1771: ["Casamento 1771, S. Pedro do Sul", "fontes/sps_cas1643-1783/p0150.jpg"],
@@ -646,6 +681,7 @@ const IMG = {
   i1909: ["Índice de batismos (1909)", "fontes/indice_godim/p0069.jpg"]
 };
 const IMGS = {
+  julia: ["fa1901"], joseCarlos: ["fa1896", "fa1901"], diolinda: ["fa1896", "fa1901"],
   jpMeireles: ["b1901"], frSilva: ["b1864"], ritaC: ["b1864"], manuelAmaral: ["b1864"], joaquinaVelha: ["b1864"],
   antSilvaP: ["c1852", "o1865", "b1855", "o1861"], joannaSantos: ["c1852", "o1865", "o1861"],
   joseSilvaG: ["c1852"], joannaCaetana: ["c1852"], manuelSantos: ["c1852"], mariaAyres: ["c1852"],
