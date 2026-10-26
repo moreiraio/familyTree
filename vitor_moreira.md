@@ -108,6 +108,9 @@ As idades nas certidões dão o ano de nascimento com um ano de margem (ex.: "30
 
 ### 12. Augusto Martins Fernandes (bisavô materno) ✔
 - Pai do avô Augusto (n.º 6). Fonte: assento n.º 793/2016 (Luzia).
+- **Batismo:** ✔ n.º 3/1872, Sobrado (`fontes/sobrado/bapt1872/p0003.jpg`, direita): **Augusto**, n. 2-1-1872 às 2h da manhã no lugar da **Pinguella**, Sobrado. Filho legítimo primeiro de Manuel Martins Fernandes, lavrador, natural de Sobrado, e de **Maria André**, natural de S. Julião de Água Longa, Santo Tirso; casados em Água Longa, moradores na Pinguella. Avós paternos **Joaquim Martins Fernandes** e **Maria Rodrigues(?) Luzia(?) Moreira**; maternos **José André** e **Margarida de Andrade**. Padrinho Manuel Martins, solteiro, lavrador, do lugar de Toronha(?), Recarei; madrinha Victória de Sousa, solteira, da Pinguella.
+  - **Margem:** faleceu em Sobrado a **1-9-1940** (registo de óbito n.º 229, Conservatória de Valongo).
+  - A mãe aparece como "Maria André" no batismo e "Maria de Andrade" no casamento de 1892: é a mesma pessoa (o pai dela era José André e a mãe Margarida de Andrade).
 - **Casamento:** ✔ 28-8-1892, igreja de São Miguel de Gandra (Paredes), assento n.º 8 (`fontes/gandra_cas1889-94/p0024.jpg` e `p0025.jpg`). Ele com 20 anos e alguns meses (n. c. 1872), solteiro, lavrador, natural e morador em Sobrado, **lugar do Paço**, filho legítimo de **Manuel Martins Fernandes** (n.º 24), lavrador, de Sobrado, e de **Maria de Andrade** (n.º 25), lavradeira, natural de S. Tiago(?) de Água Longa, Santo Tirso. Casou com consentimento do pai. Leitura com letra difícil nos lugares e idades.
 - **Filhos conhecidos:**
   - ✔ **Lucinda**, n. 19-1-1897 às 21h no lugar da Costa, Sobrado (batismo n.º 6/1897, `fontes/sobrado/bapt1897/p0006.jpg`, esquerda). Pais e avós iguais aos do casamento de 1892 (avós maternos escritos "João d'Oliveira e Rosa Alves dos Santos"). Padrinho Joaquim da Silva Pereira(?), madrinha Lucinda Martins de Andrade(?). **Margem:** casou a 22-5-1920 (Registo Civil de Sobrado, assento n.º 126) com António Pinheiro, 25 anos, filho de Albino Pinheiro e Rosa Ferreira dos Santos; viúva por morte dele a 27-?; faleceu como Lucinda Alves dos Santos (Sobrado).
@@ -115,7 +118,8 @@ As idades nas certidões dão o ano de nascimento com um ano de margem (ex.: "30
 
 ### 13. Deolinda Alves dos Santos (bisavó materna) ✔
 - Mãe do avô Augusto (n.º 6). Fonte: assento n.º 793/2016 (Luzia).
-- **Nascimento:** c. 1871–1872, natural e batizada em São Miguel de **Gandra**, Paredes; morava no lugar das Fontainhas em 1892.
+- **Batismo:** ✔ n.º 12/1872, São Miguel de Gandra, Paredes (`fontes/gandra_bapt1866-72/p0060.jpg`, esquerda): **Diolinda**, n. 25-5-1872 às 19h no lugar das **Fontainhas**, Gandra; batizada a 30-5-1872. Filha legítima (primeira deste nome) de João de Oliveira, carpinteiro, natural de Gandra, e de Rosa Alves, lavradeira, natural de Recarei; casados em Recarei. Avós paternos **António de Oliveira** e **Maria Martins**, jornaleiros, das Fontainhas; maternos **José António** e **Ana Margarida dos Santos**, lavradores, de Recarei. Padrinho Bernardino dos Santos, solteiro, lavrador, do lugar de Bustelo, Recarei; madrinha Marcelina dos Santos, solteira, do mesmo lugar.
+  - **Margem:** faleceu a **10-4-1957** (registo de óbito n.º 102; nota de 12-4-1957). Leitura difícil.
 - **Pais:** ✔ **João de Oliveira** (n.º 26), carpinteiro, natural de Gandra, e **Rosa Alves** (dos Santos) (n.º 27), lavradeira, natural de Nossa Senhora do Bom Despacho de Recarei, Paredes. Fonte: casamento n.º 8/1892, Gandra.
 - Casou com consentimento do pai (João de Oliveira ainda vivo em 1892).
 
@@ -130,8 +134,12 @@ As idades nas certidões dão o ano de nascimento com um ano de margem (ex.: "30
 - Mãe da avó Luzia Ferreira (n.º 7). Fonte: assento n.º 793/2016 (Luzia).
 
 ### 24–27. Trisavós maternos (pais de n.º 12 e 13) ✔
-- **24. Manuel Martins Fernandes**, lavrador, natural de Sobrado. **25. Maria de Andrade**, lavradeira, natural de S. Tiago(?) de Água Longa, Santo Tirso. Pais de Augusto (n.º 12). Fontes: casamento n.º 8/1892, Gandra; batismo n.º 6/1897, Sobrado.
-- **26. João de Oliveira**, carpinteiro, natural de Gandra (Paredes). **27. Rosa Alves dos Santos**, lavradeira, natural de Recarei (Paredes). Pais de Deolinda (n.º 13). Mesmas fontes.
+- **24. Manuel Martins Fernandes**, lavrador, natural de Sobrado; morava na Pinguella (1872). **25. Maria André** (ou Maria de Andrade), lavradeira, natural de **S. Julião de Água Longa**, Santo Tirso. Casaram em Água Longa antes de 1872. Pais de Augusto (n.º 12). Fontes: batismo n.º 3/1872, Sobrado; casamento n.º 8/1892, Gandra; batismo n.º 6/1897, Sobrado.
+- **26. João de Oliveira**, carpinteiro, natural de Gandra (Paredes). **27. Rosa Alves (dos Santos)**, lavradeira, natural de Recarei (Paredes). Casaram em Recarei antes de 1872. Pais de Deolinda (n.º 13). Fontes: batismo n.º 12/1872, Gandra; casamento n.º 8/1892.
+
+### 48–55. Quartos avós maternos ✔
+- Do batismo de Augusto (1872): **48. Joaquim Martins Fernandes** e **49. Maria Rodrigues(?) Luzia(?) Moreira** (leitura difícil), pais de n.º 24; **50. José André** e **51. Margarida de Andrade**, pais de n.º 25 (Água Longa).
+- Do batismo de Deolinda (1872): **52. António de Oliveira** e **53. Maria Martins**, jornaleiros, Fontainhas (Gandra), pais de n.º 26; **54. José António** e **55. Ana Margarida dos Santos**, lavradores, Recarei, pais de n.º 27.
 - ❓ Se o n.º 14 for o Joaquim de 1892: **28. António André Gaspar** e **29. Luzia Moreira**, lavradores de Sobrado (avós deles: Manuel André Gaspar e Maria Antónia da Costa; Joaquim Moreira André e Antónia Martins).
 
 ## Pesquisas feitas (sem resultado ou descartadas)
@@ -160,8 +168,9 @@ Revisto a 2026-10-26. Verificado no digitarq/tombo.pt:
 **Pesquisa possível online (livros de Sobrado até 1904)**
 - [x] Batismo da irmã do avô Augusto (Lucinda, 1897) e casamento dos bisavós (Gandra, 1892): feitos, dão os trisavós n.º 24–27.
 - [x] Batismo de Joaquim André Gaspar: candidato de 1892 encontrado (por confirmar).
-- [ ] Batismos de Augusto Martins Fernandes (c. 1872, Sobrado) e Deolinda (c. 1871, Gandra): dão os pais dos trisavós. Livros online (até 1904/1911).
-- [ ] Casamentos dos trisavós: Manuel Martins Fernandes × Maria de Andrade (Sobrado ou Água Longa, antes de 1872); João de Oliveira × Rosa Alves (Gandra ou Recarei, antes de 1871); António André Gaspar × Luzia Moreira (Sobrado, c. 1890–1891).
+- [x] Batismos de Augusto (2-1-1872, Sobrado) e Deolinda (25-5-1872, Gandra): feitos, dão n.º 48–55.
+- [x] Casamento António André Gaspar × Luzia Moreira: não está nos casamentos de Sobrado de 1890–1891 (talvez noutra freguesia).
+- [ ] Casamentos dos trisavós: Manuel Martins Fernandes × Maria André (S. Julião de Água Longa, Santo Tirso, c. 1865–1871); João de Oliveira × Rosa Alves (Recarei, Paredes, c. 1865–1871).
 - [ ] Depois, os casamentos dos bisavós e trisavós nos livros de Sobrado e Campo (até 1904) e de Fonte Arcada (até 1911).
 
 **Família**
