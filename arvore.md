@@ -154,6 +154,7 @@ n. 7-9-1930, Godim           Vicente ✔                     ══ Isaura Morei
 - **Casamento:** com Francisca da Conceição Vicente, a 5-11-1927, assento n.º 89, Conservatória de Peso da Régua ✔
 - **Óbito:** **28-10-1971**, Godim, assento 217/1971 da Conservatória da Régua. A nota diz "no dia 28, assento 217 de hoje" e tem a data de 28-10-1971 ✔
 - Na caderneta predial 92-B é o primeiro proprietário, com a anotação "Legado".
+- Em maio de 1956 (casado, proprietário, morador em Sergude) declarou no registo predial que tinha construído uma casa de andar e loja, com mirante e terraço (84 m², 7 divisões no 1.º andar), na Quinta da Pêssega, Sergude (descrição n.º 35.139).
 - A família dizia que era "filho único". Teve pelo menos uma irmã, Emília (17-7-1901 a 9-10-1930), casada em 1919 com Joaquim Pereira Meireles(?), e um meio-irmão do lado da mãe, Abel (1881–1942).
 - Fonte: [fontes/bapt1908/p0023.jpg](fontes/bapt1908/p0023.jpg)
 
@@ -228,6 +229,89 @@ Para confirmar, é preciso a **certidão de casamento dos avós** ou a de nascim
 6. José António Vicente Mimoso, 1/4 (riscado)
 
 Quando o avô morreu, o prédio ficou dividido pelos 4 filhos, com 1/4 cada. Depois, Joaquim e José passaram as suas quotas à Sílvia, que ficou com 3/4.
+
+### Descrição predial n.º 35.139 (Godim): Quinta da Pêssega, Sergude ✔
+Livro das Descrições Prediais B-89, fl. 181, Conservatória do Registo Predial de Peso da Régua. A descrição continua noutro livro. Fotografias: [imagens/descricao_35139_fl181.jpg](imagens/descricao_35139_fl181.jpg) e [imagens/descricao_35139_continuacao.jpg](imagens/descricao_35139_continuacao.jpg). É o mesmo prédio da caderneta 92-B e do registo de 1973. ⚠ O número certo é **35.139**, não 35.739.
+
+Leituras incertas estão marcadas com (?).
+
+**1. Descrição original** (anterior a 1937, sem data na fotografia)
+- "Prédio composto de vinha e monte, com casa de [r/c e] andar e lojas, sito no lugar de Sergude, freguesia de Godim."
+- Confrontações:
+  - nascente: Manuel Tração(?)
+  - poente: um quelho público
+  - norte: Manuel de Carvalho
+  - sul: José João Ferreira(?)
+- Valor venal: 3.000$00(?).
+
+**2. Averbamento n.º 1, abril de 1937** (efetuado a 14-4-1937)
+- Pelos documentos da **inscrição n.º 11.039** (livro G-25, fl. 134 v.º), o prédio "consta de vinha com oliveiras, árvores de fruta, mato e uma casa de armazém(?)".
+- Confrontações:
+  - nascente: Luiz da Conceição Pinto
+  - poente: o quelho
+  - norte: José Bento da Costa
+  - sul: José João Gomes
+- Inscrito na matriz sob o artigo 357. Valor: 16.000$00.
+
+**3. Averbamento n.º 2, apresentação n.º 1 de 3(?) de maio de 1956**
+- "A requerimento de **José António Mimoso, casado, proprietário, residente no lugar de Sergude**, freguesia de Godim", fica declarado que no prédio "foi construída uma **casa de andar e loja, com mirante e terraço**, com a superfície coberta de **84 m²**, tendo no primeiro andar 7 compartimentos, incluindo o mirante, e no rés-do-chão dois".
+- A parte rústica é de vinha da região demarcada do Douro, cultura arvense de sequeiro, oliveiras e mata, com **24.687 m²**.
+- Todo o prédio passa a ser misto, com a denominação **"Quinta da Pêssega"(?)**, lugar de Sergude.
+- Confrontações:
+  - nascente: Joaquim Macedo e outros
+  - poente: o quelho de servidão
+  - sul: Manuel Rosa Carmona(?)
+  - norte: José Bento da Costa
+- Inscrito na matriz cadastral sob o **artigo 92-B**. A participação para a matriz urbana foi feita a 1-5-1956.
+- ⇒ O bisavô construiu a casa da família em Sergude por volta de 1956. Na altura era casado e proprietário.
+
+**4. Averbamento n.º 3, apresentação n.º 3 de 9 de outubro de 1967**
+- Prédio misto.
+- **Parte rústica:** 5 parcelas com 24.687 m², artigo rústico 92-B:
+  - n.º 1, 2 e 5: cultura arvense de sequeiro, 3.ª classe
+  - n.º 3: cultura arvense de sequeiro, 2.ª classe
+  - n.º 4: vinha da região demarcada do Douro, 3.ª classe
+- **Parte urbana:** casa de rés-do-chão e 1.º andar para habitação, e uma construção tipo celeiro, em pedra e cal. Artigo urbano **678**.
+- Duas cadernetas prediais visadas a 6-10-1967.
+
+**5. Averbamento n.º 4, apresentação n.º 4 de 8 de junho de 1973** (o mesmo dia do registo de 1973 em [imagens/registopredial.jpeg](imagens/registopredial.jpeg))
+- A **parte urbana** (artigo 678, a casa) foi **desanexada**. Passou a ser um prédio distinto, **n.º 58.828**, livro B-149, fl. 22 v.º.
+- O que fica é só rústico: 5 parcelas, 24.687 m², **"Quinta da Pêssega"**, lugar de Sergude.
+- Confrontações:
+  - norte: caminho
+  - sul e poente: limite da freguesia de Fontelas
+  - nascente: caminho e outros
+- Artigo rústico 92-B. Valor venal: 65.190$00.
+- ⇒ A casa e o terreno separaram-se nas partilhas de 1973, depois da morte do bisavô (1971) e da bisavó (inventário de 1973).
+
+**6. Averbamentos posteriores**
+- 9-12-1988: emitido título(?).
+- Ap. 04 de 5-1-1989: rendimento colectável de 3.735$00.
+- 23-2-1989: descrição **extractada sob o n.º 00427/230289**. É o número atual da descrição informatizada de Godim.
+
+**Coluna "Referência aos outros livros de registo"** (inscrições ligadas ao prédio; as riscadas já foram canceladas ou substituídas):
+- Riscadas:
+  - F 9.º fl. 190 v.º n.º 3.887(?)
+  - G-25 fl. 134 v.º n.º **11.039** (a de 1937)
+  - G-23 fl. 160 n.º 10.6??(?)
+  - G-27 fl. 8 v.º n.º 11.995
+  - G-27 fl. 72 v.º n.º 12.214
+  - G-28 fl. 141 v.º n.º 12.986
+  - C-30 fl. ? n.º 13.984
+  - C-30 fl. 166 v.º n.º 14.163 (1/6 parte)
+  - G-42 fl. 11 n.º 33.224 (5/6)
+  - C-30 fl. 176 n.º 14.193 (1/6)
+  - C-30 fl. 191 n.º 14.233
+- Em vigor:
+  - B-149 fl. 22 v.º n.º 58.828 (a casa desanexada)
+  - G-42 fl. 12 n.º 33.225 (1/6)
+  - G-44 fl. 39 n.º 34.029 (5/6)
+
+**O que isto acrescenta à árvore**
+- ✔ Em 1956 o bisavô **José António Mimoso** era casado, proprietário e morador em Sergude. Construiu a casa com mirante na Quinta da Pêssega.
+- ❓ As inscrições no livro G (transmissões) mostram a cadeia de donos. A n.º 11.039, de 1937, pode ser a passagem da quinta do trisavô Francisco António (morto em 1927, com testamento de 1921) para o filho. Isto bate com a anotação "Legado" da caderneta.
+- ❓ As quotas em sextos (1/6 e 5/6) nas inscrições G-42 e G-44 sugerem uma partilha entre 6 herdeiros, ou a compra de 5/6 por um deles. Os 7 filhos da família podiam ser 6 vivos à data.
+- **A pedir:** certidão de teor da descrição **00427/Godim** (antiga 35.139), com todas as inscrições, sobretudo G-25 n.º 11.039, G-42 n.º 33.224/33.225 e G-44 n.º 34.029. Também a do prédio **58.828** (a casa). Cada inscrição diz quem comprou ou herdou, de quem e por que título (testamento, partilha, compra). Pode ajudar a identificar os 3 irmãos do avô que faltam.
 
 ### Família Mimoso em Godim no século XIX ✔ (livros paroquiais)
 
@@ -487,7 +571,7 @@ Transcrição:
 
 ## Outras pessoas nos documentos
 
-**Registo predial de 8/6/1973** (Godim, artigo 92-B, prédio n.º 35.739(?), livro B-89). Registos a favor de:
+**Registo predial de 8/6/1973** (Godim, artigo 92-B, prédio n.º 35.139, livro B-89, fl. 181; hoje descrição 00427/Godim). Registos a favor de:
 1. ✔ **Maria Emília da Conceição Vicente**, irmã do avô, e o marido **António Joaquim Vicente**, residentes em Picote, Miranda do Douro.
 2. ✔ **Manuel António da Silva** e a mulher **Ausenda(?) de Jesus Porto Silva**, residentes em Godim. ❓ A Ausenda pode ser outra irmã, e o marido pode ser um comprador.
 3. ✔ **Valentim António Mimoso** e a mulher **Isaura Moreira dos Anjos Mimoso**, residentes em Lisboa. Irmão do avô ✔
@@ -513,6 +597,7 @@ Transcrição:
 | Documento | Conteúdo |
 |---|---|
 | [imagens/cardenetarustica.jpeg](imagens/cardenetarustica.jpeg) | Caderneta predial rústica, artigo 92-B, Peso da Régua (freguesia de Vinhós). Lista de proprietários sucessivos. |
+| [imagens/descricao_35139_fl181.jpg](imagens/descricao_35139_fl181.jpg), [continuação](imagens/descricao_35139_continuacao.jpg) | Livro das Descrições Prediais B-89, fl. 181: descrição n.º 35.139, Quinta da Pêssega, Sergude (averbamentos de 1937 a 1989) |
 | [imagens/registopredial.jpeg](imagens/registopredial.jpeg) | Folha anexa à caderneta, Registo Predial de Peso da Régua, 8/6/1973 |
 | [fontes/indice_godim/](fontes/indice_godim/) | Índice de batismos de Godim, 1861–1911 (73 imagens, todas lidas) |
 | [fontes/bapt1867/](fontes/bapt1867/) | Livro de batismos de Godim de 1867 |
@@ -530,10 +615,11 @@ Transcrição:
 |---|---|
 | Certidões de nascimento, casamento e óbito do avô, do pai e da mãe | civilonline.mj.pt / ePortugal |
 | Livros do registo civil de 1911–1930 que não estão digitalizados | digitarq, botão "Pedir...", ou email para o ADVRL |
-| Registo predial n.º 35.739, livro B-89 | predialonline.pt ou Conservatória do Registo Predial da Régua |
+| Certidão de teor da descrição 00427/Godim (antiga 35.139, livro B-89) e do prédio 58.828, com todas as inscrições | predialonline.pt ou Conservatória do Registo Predial da Régua |
 
 ## Por fazer
 - [ ] **Pedir ao ADVRL o inventário de 1973** (PT/ADVRL/JUD/TJCPRG/C-B/082/1658). Deve listar os 7 filhos e os 3 irmãos que faltam.
+- [ ] Pedir a certidão de teor da descrição predial 00427/Godim (antiga 35.139) e do prédio 58.828, com as inscrições G-25 n.º 11.039 (1937), G-42 n.º 33.224/33.225 e G-44 n.º 34.029. Dizem quem herdou ou comprou, e de quem.
 - [ ] Pedir o testamento de 1921 de Francisco António Mimoso, o trisavô (PT/ADVRL/NOT/CNPRG5/007/394/38).
 - [ ] Certidão de nascimento do avô (7-9-1930), cópia integral, para confirmar (civilonline.mj.pt).
 - [ ] Certidão de casamento do avô com Emília da Conceição Vicente: indica os pais dela e abre o ramo da avó.
