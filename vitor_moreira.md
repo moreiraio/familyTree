@@ -11,17 +11,17 @@ Legenda: ✔ confirmado em documento · ◆ informação da família, sem docume
                               ┌─ 4. Fernando Moreira ✔
                               │                    └─ 9. Júlia Maria Moreira ◆
      ┌─ 2. Gabriel Alberto Ferreira Moreira ✔
-     │      n. 7-1-1954, Campo (Valongo)       ┌─ 10. Manuel do Vale ◆
+     │      n. 7-1-1954, Campo (Valongo)       ┌─ 10. Manuel do Vale ✔
      │                        └─ 5. Maria Ferreira ✔
-     │                                             └─ 11. Maria Esperança Ferreira ◆
+     │                                             └─ 11. Maria Ferreira ✔
  1. Vítor Roberto Martins Moreira ✔
-    n. 29-11-1982, Valongo                         ┌─ 12. ?
+    n. 29-11-1982, Valongo                         ┌─ 12. Augusto Martins Fernandes ✔
      │                        ┌─ 6. Augusto Martins Fernandes ✔
-     │                        │                    └─ 13. ?
+     │                        │                    └─ 13. Deolinda Alves dos Santos ✔
      └─ 3. Luzia Ferreira Martins Fernandes ✔
-            n. c. 1957, Sobrado (Valongo)          ┌─ 14. ?
+            n. 15-6-1957, Sobrado (Valongo)      ┌─ 14. Joaquim André Gaspar ✔
                               └─ 7. Luzia Ferreira ✔
-                                                   └─ 15. ?
+                                                   └─ 15. Ana Ferreira ✔
 ```
 
 ## Pessoas
@@ -43,6 +43,7 @@ Legenda: ✔ confirmado em documento · ◆ informação da família, sem docume
 - **Pais:** Fernando Moreira e Maria Ferreira
 
 ### 3. Luzia Ferreira Martins Fernandes (mãe) ✔
+- **Nascimento exato:** 15-6-1957, às 2h30, freguesia de Sobrado, Valongo (assento n.º 793/2016, informatização do assento 523/1957). Pai com 50 anos, mãe com 39, ambos naturais de Sobrado, Souto Pinheiro. **Avós paternos:** Augusto Martins Fernandes e Deolinda Alves dos Santos. **Avós maternos:** Joaquim André Gaspar e Ana Ferreira. Casou a 29-7-1978 (assento 234/1978); o casamento foi dissolvido por óbito do Gabriel a 4-2-2026.
 - **Nascimento:** cerca de 1957 (tinha 25 anos em 1982), freguesia de Sobrado, concelho de Valongo
 - **Estado em 1982:** casada
 - **Residência em 1982:** Lugar de Souto Pinheiro, Sobrado, Valongo
@@ -99,7 +100,10 @@ Legenda: ✔ confirmado em documento · ◆ informação da família, sem docume
 - **Martins Fernandes, tentativa nos casamentos de Sobrado (2026-10-26):** descarreguei os livros de casamentos 1883–1896 (`fontes/sobrado/cas1883…cas1896`, 240 imagens, só local). Nos casamentos os nomes dos noivos estão no corpo do assento, não na margem, por isso a leitura rápida não funcionou e **não localizei** o casamento de Augusto Martins Fernandes com Deolinda Alves dos Santos. O batismo n.º 6 de 1895 confirma só que ele é pai da noiva de António Pinheiro (n. 28-1-1895 em Villar, filho de Albino Pinheiro e Rosa Ferreira dos Santos): ela tinha 23 anos em 1920, logo nasceu c. 1897. Esse Augusto é de uma geração anterior ao avô (n. c. 1920–1930); ligação por provar.
 
 ### 6. Augusto Martins Fernandes (avô materno) ✔
+- **Nascimento:** c. 1906–1907 (50 anos em 1957), natural de Sobrado. **Pais:** Augusto Martins Fernandes e Deolinda Alves dos Santos ✔ (assento 793/2016). Logo o Augusto mais velho dos batismos de 1895–1920 **é o pai** do avô (e a noiva de António Pinheiro, n. c. 1897, é irmã dele).
 ### 7. Luzia Ferreira (avó materna) ✔
+- **Nascimento (do assento 793/2016):** 39 anos em 1957, logo nasceu c. 1917–1918, natural de Sobrado. **Pais:** Joaquim André Gaspar e Ana Ferreira ✔. Nasceu depois de 1911, fora dos livros online; os pais podem ter casado antes de 1905 (livros de Sobrado online até 1904).
+- (as pistas anteriores sobre Luzias de 1893/1903 em Sobrado ficam **descartadas**: nenhuma é filha de Gaspar.)
 - **Nascimento (estimado):** c. 1920–1930. ◆ Informação da família (2026-10-26): morreu por volta de 2000–2010, com cerca de 80 anos.
 - **Pesquisa:** nascida depois de 1911, fora dos livros paroquiais online de Sobrado e Valongo. Só por certidão (do nascimento da filha Luzia Ferreira Martins Fernandes, ou assento de casamento com Augusto Martins Fernandes).
 
