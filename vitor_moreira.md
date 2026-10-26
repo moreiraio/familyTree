@@ -1,124 +1,149 @@
 # Árvore genealógica — Vítor Roberto Martins Moreira
 
-Legenda: ✔ confirmado em documento · ◆ informação da família, sem documento · ❓ hipótese por confirmar · ? desconhecido
+Legenda: ✔ confirmado em documento · ~ dedução a partir de documentos · ◆ informação da família, sem documento · ❓ hipótese por confirmar · ? desconhecido
 
-**Filho:** Frederico Mimoso Guedes Moreira (com Maria do Socorro Mimoso Guedes).
+Vítor é casado com **Maria do Socorro Mimoso Guedes** (árvore Mimoso em `arvore.md`). **Filho:** Frederico Mimoso Guedes Moreira ◆.
 
 ## Ascendência
 
 ```
-                                                   ┌─ 8. ?
+                                                   ┌─ 8. ? (não indicado)
                               ┌─ 4. Fernando Moreira ✔
-                              │                    └─ 9. Júlia Maria Moreira ◆
+                              │    n. c. 1923, Fonte Arcada (Penafiel)
+                              │                    └─ 9. Maria Júlia Moreira ✔
      ┌─ 2. Gabriel Alberto Ferreira Moreira ✔
-     │      n. 7-1-1954, Campo (Valongo)       ┌─ 10. Manuel do Vale ✔
+     │      n. 7-1-1954, Campo (Valongo)           ┌─ 10. Manuel do Vale ✔
+     │      † 4-2-2026, Paranhos (Porto)
      │                        └─ 5. Maria Ferreira ✔
+     │                             n. c. 1922, Campo (Valongo)
      │                                             └─ 11. Maria Ferreira ✔
  1. Vítor Roberto Martins Moreira ✔
     n. 29-11-1982, Valongo                         ┌─ 12. Augusto Martins Fernandes ✔
      │                        ┌─ 6. Augusto Martins Fernandes ✔
+     │                        │    n. c. 1906, Sobrado (Valongo)
      │                        │                    └─ 13. Deolinda Alves dos Santos ✔
      └─ 3. Luzia Ferreira Martins Fernandes ✔
-            n. 15-6-1957, Sobrado (Valongo)      ┌─ 14. Joaquim André Gaspar ✔
+            n. 15-6-1957, Sobrado (Valongo)        ┌─ 14. Joaquim André Gaspar ✔
                               └─ 7. Luzia Ferreira ✔
+                                   n. c. 1917, Sobrado (Valongo)
                                                    └─ 15. Ana Ferreira ✔
 ```
+
+As idades nas certidões dão o ano de nascimento com um ano de margem (ex.: "30 anos" em janeiro de 1954 = nascido entre janeiro de 1923 e janeiro de 1924).
+
+## Documentos
+
+| Documento | Conservatória | Dá |
+|---|---|---|
+| Assento de nascimento n.º 3101/2008 (nascimento de 1982) | Valongo | Vítor e os pais |
+| Assento de nascimento n.º 61/2026 (informatização do n.º 32/1954, lavrado a 19-1-1954) | Valongo | Gabriel, pais (n.º 4–5) com idades e naturalidades, avós (n.º 9–11), casamento e óbito |
+| Assento de nascimento n.º 793/2016 (informatização do n.º 523/1957, lavrado a 27-6-1957) | Valongo | Luzia, pais (n.º 6–7) com idades e naturalidades, avós (n.º 12–15), casamento e averbamento do óbito do marido |
 
 ## Pessoas
 
 ### 1. Vítor Roberto Martins Moreira ✔
-- **Nascimento:** 29-11-1982, às 18h00, freguesia e concelho de Valongo
-- **Pais:** Gabriel Alberto Ferreira Moreira e Luzia Ferreira Martins Fernandes
-- **Fonte:** Assento de nascimento n.º 3101 de 2008, Conservatória do Registo Civil de Valongo, com data do assento de 19-6-2008. O assento foi feito em 2008 para um nascimento de 1982, por isso deve ser uma transcrição ou reconstituição do registo original.
+- **Nascimento:** 29-11-1982, às 18h00, freguesia e concelho de Valongo.
+- **Pais:** Gabriel Alberto Ferreira Moreira (28 anos) e Luzia Ferreira Martins Fernandes (25 anos), casados, moradores no Lugar de Souto Pinheiro, Sobrado.
+- **Fonte:** assento de nascimento n.º 3101/2008, Conservatória do Registo Civil de Valongo (assento de 19-6-2008, transcrição de um nascimento de 1982).
+- **Casamento:** com Maria do Socorro Mimoso Guedes ◆. **Filho:** Frederico Mimoso Guedes Moreira ◆.
 
 ### 2. Gabriel Alberto Ferreira Moreira (pai) ✔
-- **Nascimento:** 7-1-1954, às 16h, freguesia de Campo, concelho de Valongo ✔ (assento n.º 61/2026, Conservatória de Valongo, informatização do assento n.º 32/1954; certidão de 5-2-2026)
-- **Casamento:** 29-7-1978, na freguesia de Sobrado, com Luzia Ferreira Martins Fernandes (assento n.º 234/1978)
-- **Óbito:** 4-2-2026, freguesia de Paranhos, Porto (assento n.º 70/2026)
-- **Residência dos pais em 1954:** Lugar da Costeira, Campo, Valongo
-- **Avós no assento:** Maria Júlia Moreira (avó paterna) e Manuel do Vale e Maria Ferreira (avós maternos)
-- (antes da certidão:) cerca de 1954
-- **Estado em 1982:** casado
-- **Residência em 1982:** Lugar de Souto Pinheiro, Sobrado, Valongo
-- **Pais:** Fernando Moreira e Maria Ferreira
+- **Nascimento:** 7-1-1954, às 16h00, freguesia de Campo, Valongo.
+- **Pais:** Fernando Moreira (30 anos, casado, natural de Fonte Arcada, Penafiel) e Maria Ferreira (31 anos, casada, natural de Campo), moradores no Lugar da Costeira, Campo.
+- **Avós:** paterna Maria Júlia Moreira; maternos Manuel do Vale e Maria Ferreira.
+- **Casamento:** 29-7-1978, católico, Igreja Paroquial de Sobrado, com Luzia Ferreira Martins Fernandes (assento n.º 234/1978).
+- **Residência em 1982:** Lugar de Souto Pinheiro, Sobrado.
+- **Óbito:** 4-2-2026, freguesia de Paranhos, Porto (assento n.º 70/2026).
+- **Fonte:** assento de nascimento n.º 61/2026, Conservatória de Valongo.
 
 ### 3. Luzia Ferreira Martins Fernandes (mãe) ✔
-- **Nascimento exato:** 15-6-1957, às 2h30, freguesia de Sobrado, Valongo (assento n.º 793/2016, informatização do assento 523/1957). Pai com 50 anos, mãe com 39, ambos naturais de Sobrado, Souto Pinheiro. **Avós paternos:** Augusto Martins Fernandes e Deolinda Alves dos Santos. **Avós maternos:** Joaquim André Gaspar e Ana Ferreira. Casou a 29-7-1978 (assento 234/1978); o casamento foi dissolvido por óbito do Gabriel a 4-2-2026.
-- **Nascimento:** cerca de 1957 (tinha 25 anos em 1982), freguesia de Sobrado, concelho de Valongo
-- **Estado em 1982:** casada
-- **Residência em 1982:** Lugar de Souto Pinheiro, Sobrado, Valongo
-- **Pais:** Augusto Martins Fernandes e Luzia Ferreira
+- **Nascimento:** 15-6-1957, às 2h30, freguesia de Sobrado, Valongo.
+- **Pais:** Augusto Martins Fernandes (50 anos, casado, natural de Sobrado) e Luzia Ferreira (39 anos, casada, natural de Sobrado), moradores no Lugar de Souto Pinheiro, Sobrado.
+- **Avós:** paternos Augusto Martins Fernandes e Deolinda Alves dos Santos; maternos Joaquim André Gaspar e Ana Ferreira.
+- **Casamento:** 29-7-1978 com Gabriel Alberto Ferreira Moreira (assento n.º 234/1978); dissolvido por óbito dele a 4-2-2026.
+- **Fonte:** assento de nascimento n.º 793/2016, Conservatória de Valongo.
 
 ### 4. Fernando Moreira (avô paterno) ✔
-- **Naturalidade:** freguesia de Fonte Arcada, Penafiel ✔ (assento de nascimento do filho Gabriel, 1954). **Idade:** 30 anos em 1954, logo nasceu c. 1923–1924 (fora dos livros paroquiais online). Casado em 1954, residia no Lugar da Costeira, Campo.
-- **Mãe:** Maria Júlia Moreira ✔ (avó paterna de Gabriel no assento 61/2026). O pai de Fernando não é indicado no assento.
-- (antes da certidão:) ◆ informação da família (2026-10-26); data por apurar. Residia em Campo, Valongo (pai de Gabriel, n. em Campo).
-- **Mãe:** Júlia Maria Moreira (n.º 9) ◆
-
-- **Pesquisa (2026-10-26):** Fonte Arcada = https://tombo.pt/f/pnf12. Livros paroquiais só vão até 1911 (batismos até 03-1911, casamentos até 02-1911, óbitos até 03-1911). Fernando seria pai de Gabriel (n. c. 1954), logo nascido provavelmente c. 1915–1930: **fora do alcance dos livros paroquiais**. Registo civil de Penafiel pós-1911 não está no tombo.pt (só Casa da Roda). Só viável se tiver nascido antes de 1911 (possível se a diferença de idades for grande). Caminho principal: certidão de nascimento do pai (Gabriel), ou assento de nascimento de Fernando na Conservatória do Registo Civil de Penafiel.
-- **Pesquisa 2 (2026-10-26):** livro de batismos de Fonte Arcada 1908–1911 (PPNF12/001/0018, `fontes/fa/bapt1908-11/`, 55 imagens): li os nomes das margens de todos os assentos e **não há nenhum Fernando**. Também li as margens dos livros 0017 (1902–1907, `fontes/fa/bapt1902-07/`, ~65 imagens úteis), 0016 (1897–1902, `bapt1897-02/`, ~65) e 0015 (1889–1897, `bapt1889-97/`, ~145): **nenhum Fernando** legível. Limites: só li o nome próprio da margem (alguns ilegíveis ou só com traço de anulação) e as primeiras páginas de 0016 faltam. Conclusão provisória: Fernando provavelmente nasceu depois de 1911 (fora do alcance) ou o batismo foi noutra freguesia. Imagens descarregam por `https://digitarq.arquivos.pt/rdigital/dissemination?fileId=N` (ids sequenciais dentro do livro).
-
-### 9. Maria Júlia Moreira (bisavó paterna) ✔ ◆
-- **Correção (2026-10-26):** o assento de nascimento de Gabriel (61/2026) chama-lhe **Maria Júlia Moreira**, não "Júlia Maria". Ela é mãe de Fernando (n. c. 1923–24). A candidata do batismo de 1901 em Fonte Arcada chama-se **Júlia Maria** (ordem trocada): fica mais **fraca** como hipótese. Pelas datas (n. 1901, mãe aos 22) ainda é possível, mas um batismo de "Maria Júlia" nascida c. 1890–1905 em Fonte Arcada não foi visto nas margens (li só o nome próprio principal das margens 1889–1911).
-- Mãe de Fernando Moreira.
-- **Fonte:** informação da família (2026-10-24). Falta confirmar em documento.
-- **Pesquisa (2026-10-24):** li as margens de todos os batismos de Campo de 1885 a 1904 (ADPRT, PT/ADPRT/PRQ/PVLG02, imagens em `fontes/campo/`). Não há nenhuma "Júlia Maria". Há três "Júlia":
-  - ❓ **1890, n.º 77** (`bapt1890/p0041.jpg`, assento à direita): Júlia, nascida e batizada a 14-12-1890, no lugar da Azenha. Filha legítima de Tibúrcio de Sousa, ferreiro, natural de Campo, e de Maria Moreira, padeira, natural de Sobrado. Avós paternos: Victorino de Sousa e Margarida Dias. Avós maternos: Simão Moreira e Ana Moreira. Padrinhos: Joaquim de Sousa, mineiro, e Júlia Moreira, solteira, padeira. É a única com família Moreira. Candidata possível, por confirmar.
-  - ✗ 1903, n.º 64 (`bapt1903/p0034.jpg`): Júlia, filha de José Martins da Rocha e Ermelinda de Jesus. Morreu como Júlia Martins da Rocha em 1984. Não é ela.
-  - ✗ 1903, n.º 97 (`bapt1903/p0050.jpg`): Júlia, filha de Amaro dos Santos Rocha e Miquelina Ferreira. Morreu como Júlia dos Santos Rocha em 1981, em Penafiel. Não é ela.
-
-- **Pesquisa 3 (2026-10-26), Fonte Arcada:** ❓ **candidata forte**, batismo n.º 12 de 1901 (`fontes/fa/bapt1897-02/p0036.jpg`, assento à esquerda): **Júlia Maria**, nasceu às 18h de 4-3-1901 e foi batizada a 9-3-1901 em Fonte Arcada. Filha legítima de **José Carlos Moreira**, lavrador proprietário, natural de Fonte Arcada, e de **Diolinda Moreira dos Santos Rocha**, dona de casa, natural de Fonte Arcada; moradores no lugar de Preizal. Avós paternos: António Carlos Moreira e Júlia Francisca de Araújo Queirós. Avós maternos: José Maria dos Santos Rocha e Ana Moreira da Cunha. Padrinhos: Agostinho Moreira Aranha Furtado de Mendonça (Lagares) e Maria da Conceição Augusta Moreira, tia paterna.
-  - **Margem:** casou a 9 (setembro de 1931) no Posto do Registo Civil de Lagares com **António Rodrigues Coelho**, natural de Galegos, Penafiel.
-  - Leitura: se Fernando Moreira é filho dela, nasceu antes de 1931 (ela tinha 30 anos) e usa só o apelido da mãe, o que sugere filho natural. Hipótese por confirmar. Os apelidos Moreira e Rocha batem com os de Fonte Arcada e do Campo.
-  - **Casamento dos pais dela:** ✔ José Carlos Moreira (29 anos, solteiro, lavrador) e Diolinda Moreira dos Santos Rocha (22 anos, solteira), casados em Fonte Arcada em **janeiro de 1896**, assento n.º 4 (`fontes/fa/cas1891-11/p0093.jpg`; visto de Lagares a 23-1-1896). Ele filho de António Carlos Moreira e Júlia Francisca de Araújo Queirós; ela filha de José Maria dos Santos Rocha e Ana Moreira da Cunha (leitura de letra difícil nos lugares e idades). Júlia Maria, n. 1901, seria filha deste casal.
-  - **Casamento e óbito de Júlia (2026-10-26):** o casamento (9-1931, Posto do Registo Civil de Lagares) e o óbito são posteriores a 1911, por isso não estão online: tombo.pt não tem registo civil de Penafiel (só Casa da Roda) e a pesquisa web por "Júlia Maria Moreira" + "António Rodrigues Coelho" não deu nada. Só se obtém por certidão na Conservatória do Registo Civil de Penafiel (assento de casamento de 1931, que indica filhos legitimados e o óbito averbado) — o assento de nascimento de 1901 acima já permite pedir a cópia integral com averbamentos.
-
-- **Pesquisa "Maria Júlia" (2026-10-26):** percorri nomes de margem dos batismos de Fonte Arcada 1880–1883 (parte), 1885–1889 (parte); sem nenhuma "Maria Júlia" legível. As margens só mostram o primeiro nome (muitas "Maria"), por isso não é conclusivo; parado por custo/benefício. Melhor via: **certidão de casamento de Fernando Moreira e Maria Ferreira** (c. 1950–1953, Campo/Valongo; ele já era casado em 1954), que traz os pais dos dois.
+- **Nascimento:** c. 1923 (30 anos a 19-1-1954), freguesia de Fonte Arcada, Penafiel.
+- **Mãe:** Maria Júlia Moreira (n.º 9). **Pai:** não indicado no assento do Gabriel. Fernando usa só o apelido da mãe, o que sugere que era filho natural (~).
+- **Casamento:** com Maria Ferreira, antes de janeiro de 1954; data e local por apurar (provavelmente Campo, Valongo).
+- **Residência em 1954:** Lugar da Costeira, Campo, Valongo.
+- **Fonte:** assento n.º 61/2026 (Gabriel).
+- Nasceu depois de 1911, por isso o batismo não está nos livros paroquiais online de Fonte Arcada (acabam em 1911). O registo civil de Penafiel não está online.
 
 ### 5. Maria Ferreira (avó paterna) ✔
-- **Nascimento:** c. 1922–1923 (31 anos em 1954), freguesia de Campo, Valongo ✔ (assento do filho Gabriel). **Pais:** Manuel do Vale e **Maria Ferreira** ✔ (a família dizia Maria Esperança Ferreira; o assento diz só Maria Ferreira).
-- **Pais:** Manuel do Vale (n.º 10) e Maria Esperança Ferreira (n.º 11) ◆
-
-### 10. Manuel do Vale (bisavô paterno) ◆
-- Pai de Maria Ferreira.
-- **Fonte:** informação da família (2026-10-24).
-
-### 11. Maria Esperança Ferreira (bisavó paterna) ◆
-- Mãe de Maria Ferreira.
-- **Fonte:** informação da família (2026-10-24).- **Pesquisa Sobrado (2026-10-26), hipótese de bisavó "Luzia" (batismos 1890–1895, `fontes/sobrado/`):** li os nomes nas margens de 1890–1895 e achei seis Luzias; só duas podem ser relevantes (batismos depois de 1895 ainda por ver):
-  - ❓ **1893, n.º 30** (`bapt1893/p0017.jpg`, esquerda): **Luzia**, n. 19-6-1893 às 23h no lugar de Sobrado. Filha legítima de **Joaquim do Valle**, seareiro, natural de S. Martinho do Campo, e de **Margarida Alves**, costureira, natural de Sobrado. Avós paternos: José do Valle e Maria Moreira. Avós maternos: Joaquim Ferreira de Castro e Ana Alves. Padrinhos: Manuel Ferreira, marceneiro, e Luzia Moreira. **Margem:** casou a 18(?)-12-1920 (assento n.º 135, Posto do Registo Civil de Sobrado) com **Graciano Ferreira Neto**, 31 anos, natural de Sobrado, filho de Manuel Ferreira Neto e Ana de Almeida; enviuvou por morte dele em Valongo (assento n.º 355, c. 27-12-1975, leitura difícil). Averbamento de óbito dela: Valongo, assento n.º 60 (data ilegível). Se a avó Luzia Ferreira (c. 1920–1930) for filha deste casal, esta é a bisavó. Hipótese baseada só em nome, apelido Ferreira, datas e lugar.
-  - ❓ **1893, n.º 13** (`bapt1893/p0008.jpg`, direita): **Luzia**, n. 25-3-1893 às 20h no lugar de Villar. Filha ilegítima de uma mulher **Ferreira**, viúva, jornaleira (nome próprio ilegível), natural de Sobrado. Avós maternos: António Luiz Corrêa e Ana Ferreira. Sem averbamentos.
-  - Outras Luzias vistas (sem relação provada): 1890 n.º 20 (filha de Manuel Pinto de Sousa e Ana); 1893 n.º 54 (casou 23-5-1912 com Bernardino Barreiro da Silva, de 20 anos); 1894 n.º 40 (filha de José Monteiro e Ana Ferreira); 1895 n.º 34 (óbito averbado em 2-1954).
-- **Pesquisa Sobrado, continuação (2026-10-26), batismos 1896–1904:** mais Luzias, ainda só por nome:
-  - ❓ **1903, n.º 15** (`bapt1903/p0010.jpg`, direita): **Luzia**, n. 29-3-1903 às 9h no lugar de Valle Diorto(?), filha de Manuel Gizeto(?) Pereira e de ... Ferreira, fabricantes. **Margem:** casou "sob o nome de Luzia Ferreira" a 21-8-1920 (assento n.º 132/1920, Sobrado) com **Ventura da Rocha**, casamento dissolvido por óbito do marido (averbamento de 1975); faleceu a 5-5-1986 em Gandra, Paredes. Casou com 17 anos: uma filha c. 1921–1930 encaixa na avó. Por morrer em 1986, esta Luzia **não** pode ser a avó (que morreu c. 2000–2010), mas pode ser a bisavó.
-  - ❓ **1896, n.º 14** (`bapt1896/p0010.jpg`): Luzia, filha de José Ferreira Vieira(?) e Vitória; casou a 17-10-1924 com Manuel Andrade Gaspar(?), faleceu em Sobrado em 1957(?). Sem relação provada.
-  - ❓ **1897, n.º 22** (`bapt1897/p0014.jpg`): Luzia, filha de Victorino Coelho e Maria da Rocha; casou com Joaquim Monteiro (leitura difícil). Sem relação provada.
-  - ❓ **1899, n.º 15** (`bapt1899/p0009.jpg`, direita): Luzia, n. 13-4-1899 em Sobrado, filha de Manuel Ferreira de Castro e Margarida ...; sem averbamentos.
-  - 1902, n.º 1 (`bapt1902/p0002.jpg`): Luzia, n. 20-12-1901, filha de Ferreira e Joana ..., de S. Martinho de Frazão; sem averbamentos.
-  - 1904: nenhuma Luzia. Não li a página inteira de cada assento nem as Luzias fora das margens.
-- **Pista nova, Martins Fernandes:** o batismo n.º 6 de 1895 (`bapt1895/p0006.jpg`, margem esquerda) é de um António, que casou a 22-5-1920 (assento n.º 126, Sobrado) com uma Alves dos Santos de 23 anos, **filha de Augusto Martins Fernandes e de Deolinda Alves dos Santos**. É um Augusto Martins Fernandes mais velho (n. c. 1860–1875): pode ser avô ou parente do Augusto n.º 6. Também: batismo n.º 14 de 1903 (`bapt1903/p0010.jpg`, esquerda), **Manuel Martins Fernandes**, n. 25-3-1903 no lugar do Sapo, filho de António Martins Fernandes de Sousa, lavrador; casou a 4-2-1928 em São Paulo (Brasil) com Alcina Martins Ferreira (n.º 35/1903).
-- **Martins Fernandes, tentativa nos casamentos de Sobrado (2026-10-26):** descarreguei os livros de casamentos 1883–1896 (`fontes/sobrado/cas1883…cas1896`, 240 imagens, só local). Nos casamentos os nomes dos noivos estão no corpo do assento, não na margem, por isso a leitura rápida não funcionou e **não localizei** o casamento de Augusto Martins Fernandes com Deolinda Alves dos Santos. O batismo n.º 6 de 1895 confirma só que ele é pai da noiva de António Pinheiro (n. 28-1-1895 em Villar, filho de Albino Pinheiro e Rosa Ferreira dos Santos): ela tinha 23 anos em 1920, logo nasceu c. 1897. Esse Augusto é de uma geração anterior ao avô (n. c. 1920–1930); ligação por provar.
-- **Casamentos de Sobrado 1883–1904 (2026-10-26):** li os nomes dos noivos (primeira linha de cada assento) em todos os livros de casamentos de Sobrado de 1883 a 1904 (`fontes/sobrado/cas1883…cas1904`, só local). **Não encontrei** nem Augusto Martins Fernandes × Deolinda Alves dos Santos, nem Joaquim André Gaspar × Ana Ferreira. Leitura rápida de letra manuscrita, por isso pode haver falhas. Explicações possíveis: casaram antes de 1883, noutra freguesia (Deolinda pode ser de fora), ou depois de 1904 (os Gaspar, se ela nasceu c. 1917). Os livros de Sobrado online acabam em 1904. Parentes vistos (sem prova de ligação): Manuel André Gaspar × Conceição Marques Carneiro (1888, assento n.º 5); Maria André Gaspar (1893).
+- **Nascimento:** c. 1922 (31 anos a 19-1-1954), freguesia de Campo, Valongo.
+- **Pais:** Manuel do Vale (n.º 10) e Maria Ferreira (n.º 11).
+- **Fonte:** assento n.º 61/2026 (Gabriel).
 
 ### 6. Augusto Martins Fernandes (avô materno) ✔
-- **Nascimento:** c. 1906–1907 (50 anos em 1957), natural de Sobrado. **Pais:** Augusto Martins Fernandes e Deolinda Alves dos Santos ✔ (assento 793/2016). Logo o Augusto mais velho dos batismos de 1895–1920 **é o pai** do avô (e a noiva de António Pinheiro, n. c. 1897, é irmã dele).
+- **Nascimento:** c. 1906–1907 (50 anos a 27-6-1957), freguesia de Sobrado, Valongo.
+- **Pais:** Augusto Martins Fernandes (n.º 12) e Deolinda Alves dos Santos (n.º 13).
+- **Residência em 1957:** Lugar de Souto Pinheiro, Sobrado.
+- **Fonte:** assento n.º 793/2016 (Luzia).
+- Os livros paroquiais de Sobrado online acabam em 1904, por isso o batismo dele não está online.
+
 ### 7. Luzia Ferreira (avó materna) ✔
-- **Nascimento (do assento 793/2016):** 39 anos em 1957, logo nasceu c. 1917–1918, natural de Sobrado. **Pais:** Joaquim André Gaspar e Ana Ferreira ✔. Nasceu depois de 1911, fora dos livros online; os pais podem ter casado antes de 1905 (livros de Sobrado online até 1904).
-- (as pistas anteriores sobre Luzias de 1893/1903 em Sobrado ficam **descartadas**: nenhuma é filha de Gaspar.)
-- **Nascimento (estimado):** c. 1920–1930. ◆ Informação da família (2026-10-26): morreu por volta de 2000–2010, com cerca de 80 anos.
-- **Pesquisa:** nascida depois de 1911, fora dos livros paroquiais online de Sobrado e Valongo. Só por certidão (do nascimento da filha Luzia Ferreira Martins Fernandes, ou assento de casamento com Augusto Martins Fernandes).
+- **Nascimento:** c. 1917–1918 (39 anos a 27-6-1957), freguesia de Sobrado, Valongo.
+- **Pais:** Joaquim André Gaspar (n.º 14) e Ana Ferreira (n.º 15). O apelido Ferreira vem da mãe.
+- **Óbito:** por volta de 2000–2010, com cerca de 80 anos ◆ (informação da família). Bate com o nascimento c. 1917.
+- **Fonte:** assento n.º 793/2016 (Luzia).
+
+### 8. Pai de Fernando Moreira ?
+- Não indicado no assento do Gabriel. Pode constar no assento de nascimento ou de casamento de Fernando.
+
+### 9. Maria Júlia Moreira (bisavó paterna) ✔
+- **Mãe de Fernando Moreira.** Fonte: assento n.º 61/2026 (Gabriel). A família dizia "Júlia Maria Moreira"; o documento diz **Maria Júlia**.
+- **Nascimento:** por apurar. Como mãe de um filho nascido c. 1923, nasceu provavelmente c. 1880–1905.
+- **Hipóteses (nenhuma provada):**
+  - ❓ **Júlia Maria, Fonte Arcada, 1901** (batismo n.º 12/1901, `fontes/fa/bapt1897-02/p0036.jpg`, assento à esquerda): nasceu a 4-3-1901 às 18h, batizada a 9-3-1901, lugar de Preizal. Filha legítima de **José Carlos Moreira**, lavrador proprietário, e de **Diolinda Moreira dos Santos Rocha**, ambos de Fonte Arcada. Avós paternos António Carlos Moreira e Júlia Francisca de Araújo Queirós; maternos José Maria dos Santos Rocha e Ana Moreira da Cunha. Padrinhos: Agostinho Moreira Aranha Furtado de Mendonça (Lagares) e Maria da Conceição Augusta Moreira, tia paterna. **Margem:** casou em setembro de 1931(?) no Posto do Registo Civil de Lagares com António Rodrigues Coelho, de Galegos (Penafiel). A favor: apelido Moreira, Fonte Arcada, idade (22 anos em 1923). Contra: nomes em ordem trocada ("Júlia Maria" e não "Maria Júlia").
+    - Casamento dos pais: José Carlos Moreira (c. 29 anos) e Diolinda Moreira dos Santos Rocha (c. 22 anos), Fonte Arcada, janeiro de 1896, assento n.º 4 (`fontes/fa/cas1891-11/p0093.jpg`). Filiação igual à do batismo de 1901. Idades e data em letra difícil.
+  - ❓ **Júlia, Campo, 1890** (batismo n.º 77/1890, `fontes/campo/bapt1890/p0041.jpg`, à direita): nasceu a 14-12-1890 no lugar da Azenha, filha de Tibúrcio de Sousa, ferreiro, e de Maria Moreira, padeira de Sobrado. Avós paternos Victorino de Sousa e Margarida Dias; maternos Simão Moreira e Ana Moreira. Fraca: não se chama Maria Júlia e o apelido seria Sousa.
+
+### 10. Manuel do Vale (bisavô paterno) ✔
+- Pai de Maria Ferreira (n.º 5). Fonte: assento n.º 61/2026 (Gabriel).
+
+### 11. Maria Ferreira (bisavó paterna) ✔
+- Mãe de Maria Ferreira (n.º 5). Fonte: assento n.º 61/2026 (Gabriel). A família chamava-lhe "Maria Esperança Ferreira" ◆.
+
+### 12. Augusto Martins Fernandes (bisavô materno) ✔
+- Pai do avô Augusto (n.º 6). Fonte: assento n.º 793/2016 (Luzia).
+- **Outra filha (~):** a margem do batismo n.º 6/1895 de Sobrado (`fontes/sobrado/bapt1895/p0006.jpg`) diz que António, n. 28-1-1895 no lugar de Villar, filho de Albino Pinheiro e Rosa Ferreira dos Santos, casou a 22-5-1920 (Posto do Registo Civil de Sobrado, assento n.º 126) com uma Alves dos Santos de 23 anos (nome próprio ilegível), natural de Sobrado, **filha de Augusto Martins Fernandes e de Deolinda Alves dos Santos**. É quase certamente irmã do avô Augusto (n. c. 1897). Logo o casal já tinha filhos em 1897 e casou antes disso.
+
+### 13. Deolinda Alves dos Santos (bisavó materna) ✔
+- Mãe do avô Augusto (n.º 6). Fonte: assento n.º 793/2016 (Luzia).
+
+### 14. Joaquim André Gaspar (bisavô materno) ✔
+- Pai da avó Luzia Ferreira (n.º 7). Fonte: assento n.º 793/2016 (Luzia).
+- Gaspar em Sobrado (sem ligação provada): casamento de Manuel André Gaspar e Conceição Marques Carneiro (1888, n.º 5); casamento de uma Maria André Gaspar com Manuel Joaquim de Gonçalves(?) (1893, n.º 6).
+
+### 15. Ana Ferreira (bisavó materna) ✔
+- Mãe da avó Luzia Ferreira (n.º 7). Fonte: assento n.º 793/2016 (Luzia).
+
+## Pesquisas feitas (sem resultado ou descartadas)
+- **Batismos de Fonte Arcada 1889–1911** (`fontes/fa/bapt1889-97`, `bapt1897-02`, `bapt1902-07`, `bapt1908-11`): nenhum Fernando nas margens. Coerente com o nascimento c. 1923.
+- **"Maria Júlia" em Fonte Arcada:** margens dos batismos de 1880–1889 vistas em parte, sem resultado. As margens mostram só o primeiro nome (muitas "Maria"), por isso não é conclusivo.
+- **"Júlia Maria" em Campo, batismos 1885–1904** (`fontes/campo/`): só três Júlias. As de 1903 (n.º 64, filha de José Martins da Rocha; n.º 97, filha de Amaro dos Santos Rocha) estão excluídas pelos óbitos averbados (1984 e 1981).
+- **Luzias de Sobrado, batismos 1890–1904:** procuradas antes da certidão da mãe, como possível bisavó. **Descartadas:** a avó Luzia Ferreira nasceu c. 1917 e é filha de Joaquim André Gaspar, e nenhuma destas Luzias é dessa família.
+- **Casamentos de Sobrado 1883–1904** (`fontes/sobrado/cas1883…cas1904`): li os nomes dos noivos e não encontrei Augusto Martins Fernandes × Deolinda Alves dos Santos nem Joaquim André Gaspar × Ana Ferreira. A leitura foi rápida e pode ter falhas. Hipóteses: os Fernandes casaram antes de 1883 ou noutra freguesia; os Gaspar casaram depois de 1904 (a filha nasceu c. 1917).
+- **Arquivo Histórico Municipal de Valongo** (arquivo.cm-valongo.pt): não tem registos de nascimento, casamento ou óbito.
+- **Outros Martins Fernandes em Sobrado (sem ligação provada):** Manuel Martins Fernandes, n. 25-3-1903 no lugar do Sapo (batismo n.º 14/1903), filho de António Martins Fernandes de Sousa, casou em São Paulo (Brasil) a 4-2-1928; Serafim Martins Fernandes × Emília Marques Carneiro (casamento de 1896); Domingos Martins Fernandes × Maria Dias da Costa (1894); Manuel Martins Fernandes × Maria Fernandes de Moreira (1894).
 
 ## Por fazer
-- [ ] Certidão de nascimento (cópia integral) do pai, Gabriel Alberto Ferreira Moreira (c. 1954, Campo, Valongo): dá os bisavós paternos (n.º 8–11) e confirma Júlia Maria Moreira (n.º 9).
-- [ ] Certidão de nascimento (cópia integral) da mãe, Luzia Ferreira Martins Fernandes (c. 1957, Sobrado, Valongo): dá os bisavós maternos (n.º 12–15).
-- [ ] Datas e locais de nascimento dos avós (n.º 4–7): perguntar à família ou pedir as certidões de casamento dos avós.
-- [ ] Quando os bisavós estiverem identificados (nascidos por volta de 1880–1910), procurar os batismos nos livros paroquiais de Campo e Sobrado (Valongo, Arquivo Distrital do Porto) no tombo.pt.
+- [ ] **Assento de casamento de Fernando Moreira e Maria Ferreira** (antes de 1954, provavelmente Conservatória de Valongo): dá os pais dos dois, incluindo o pai de Fernando (n.º 8), se constar.
+- [ ] **Assento de nascimento de Fernando Moreira** (c. 1923, Conservatória de Penafiel): confirma a mãe Maria Júlia Moreira, o pai e os avós.
+- [ ] **Assento de nascimento de Augusto Martins Fernandes** (c. 1906, Sobrado; Conservatória de Valongo ou Arquivo Distrital do Porto): dá os avós (pais de Augusto e Deolinda).
+- [ ] **Assento de nascimento de Luzia Ferreira** (c. 1917, Sobrado; Conservatória de Valongo): dá os avós (pais de Joaquim André Gaspar e Ana Ferreira).
+- [ ] Com os avós identificados, procurar os batismos e casamentos dos bisavós nos livros paroquiais de Sobrado e Campo (até 1904 e 1911) e de Fonte Arcada (até 1911).
+- [ ] Datas de nascimento e casamento de Vítor e Maria do Socorro, e de Frederico ◆.
 
 ## Fontes online
 | Freguesia | tombo.pt |
 |---|---|
-| Valongo (concelho, registo civil) | https://tombo.pt/m/vlg |
-| Campo | https://tombo.pt/f/vlg02 (131/131 livros digitalizados) |
-| Sobrado | https://tombo.pt/f/vlg04 (157/158 livros digitalizados) |
-| Valongo | https://tombo.pt/f/vlg05 (117/117 livros digitalizados) |
-| Fonte Arcada (Penafiel) | https://tombo.pt/f/pnf12 (49/51 livros; paroquiais até 1911) |
+| Valongo (concelho) | https://tombo.pt/m/vlg (sem registo civil online) |
+| Campo | https://tombo.pt/f/vlg02 |
+| Sobrado | https://tombo.pt/f/vlg04 (livros paroquiais até 1904) |
+| Valongo | https://tombo.pt/f/vlg05 |
+| Fonte Arcada (Penafiel) | https://tombo.pt/f/pnf12 (livros paroquiais até 1911) |
+
+Imagens do digitarq: `https://digitarq.arquivos.pt/rdigital/dissemination?fileId=N` (ids sequenciais dentro de cada livro). Digitalizações só locais em `fontes/fa/`, `fontes/campo/` e `fontes/sobrado/`.
