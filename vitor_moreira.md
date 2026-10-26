@@ -108,23 +108,38 @@ As idades nas certidões dão o ano de nascimento com um ano de margem (ex.: "30
 
 ### 12. Augusto Martins Fernandes (bisavô materno) ✔
 - Pai do avô Augusto (n.º 6). Fonte: assento n.º 793/2016 (Luzia).
-- **Outra filha (~):** a margem do batismo n.º 6/1895 de Sobrado (`fontes/sobrado/bapt1895/p0006.jpg`) diz que António, n. 28-1-1895 no lugar de Villar, filho de Albino Pinheiro e Rosa Ferreira dos Santos, casou a 22-5-1920 (Posto do Registo Civil de Sobrado, assento n.º 126) com uma Alves dos Santos de 23 anos (nome próprio ilegível), natural de Sobrado, **filha de Augusto Martins Fernandes e de Deolinda Alves dos Santos**. É quase certamente irmã do avô Augusto (n. c. 1897). Logo o casal já tinha filhos em 1897 e casou antes disso.
+- **Casamento:** ✔ 28-8-1892, igreja de São Miguel de Gandra (Paredes), assento n.º 8 (`fontes/gandra_cas1889-94/p0024.jpg` e `p0025.jpg`). Ele com 20 anos e alguns meses (n. c. 1872), solteiro, lavrador, natural e morador em Sobrado, **lugar do Paço**, filho legítimo de **Manuel Martins Fernandes** (n.º 24), lavrador, de Sobrado, e de **Maria de Andrade** (n.º 25), lavradeira, natural de S. Tiago(?) de Água Longa, Santo Tirso. Casou com consentimento do pai. Leitura com letra difícil nos lugares e idades.
+- **Filhos conhecidos:**
+  - ✔ **Lucinda**, n. 19-1-1897 às 21h no lugar da Costa, Sobrado (batismo n.º 6/1897, `fontes/sobrado/bapt1897/p0006.jpg`, esquerda). Pais e avós iguais aos do casamento de 1892 (avós maternos escritos "João d'Oliveira e Rosa Alves dos Santos"). Padrinho Joaquim da Silva Pereira(?), madrinha Lucinda Martins de Andrade(?). **Margem:** casou a 22-5-1920 (Registo Civil de Sobrado, assento n.º 126) com António Pinheiro, 25 anos, filho de Albino Pinheiro e Rosa Ferreira dos Santos; viúva por morte dele a 27-?; faleceu como Lucinda Alves dos Santos (Sobrado).
+  - ✔ Augusto, avô do Vítor (n.º 6), c. 1906–1907.
 
 ### 13. Deolinda Alves dos Santos (bisavó materna) ✔
 - Mãe do avô Augusto (n.º 6). Fonte: assento n.º 793/2016 (Luzia).
+- **Nascimento:** c. 1871–1872, natural e batizada em São Miguel de **Gandra**, Paredes; morava no lugar das Fontainhas em 1892.
+- **Pais:** ✔ **João de Oliveira** (n.º 26), carpinteiro, natural de Gandra, e **Rosa Alves** (dos Santos) (n.º 27), lavradeira, natural de Nossa Senhora do Bom Despacho de Recarei, Paredes. Fonte: casamento n.º 8/1892, Gandra.
+- Casou com consentimento do pai (João de Oliveira ainda vivo em 1892).
 
 ### 14. Joaquim André Gaspar (bisavô materno) ✔
 - Pai da avó Luzia Ferreira (n.º 7). Fonte: assento n.º 793/2016 (Luzia).
-- Gaspar em Sobrado (sem ligação provada): casamento de Manuel André Gaspar e Conceição Marques Carneiro (1888, n.º 5); casamento de uma Maria André Gaspar com Manuel Joaquim de Gonçalves(?) (1893, n.º 6).
+- **Candidato (❓ provável):** ✔ batismo de **Joaquim**, n. 23-2-1892 às 7h no lugar de Sobrado (`fontes/sobrado/bapt1892/p0007.jpg`, direita). Filho legítimo primeiro de **António André Gaspar**, lavrador, natural de Sobrado, e de **Luzia Moreira**, lavradeira, de Sobrado. Avós paternos **Manuel André Gaspar** e **Maria Antónia da Costa**; maternos **Joaquim Moreira André** e **Antónia Martins**. Padrinho Joaquim André Gaspar, solteiro, lavrador.
+  - **Margem:** casou civilmente a 6-2-1920 (Registo Civil de Valongo/Sobrado, assento n.º 6) com **Cândida Moreira André**, 24 anos (n. 21-1-1895, Sobrado, filha de Joaquim Moreira da Costa e Margarida Moreira André). **Faleceu em Sobrado a 7-10-1925** (assento n.º 220). Confirmado pela margem do batismo de Cândida (n.º 4/1895, `bapt1895/p0005.jpg`), que lhe chama "Joaquim André Gaspar, 27 anos, natural de Sobrado, filho de António André Gaspar e de Luzia Moreira(?)".
+  - **A favor:** é o único Joaquim André Gaspar encontrado em Sobrado da idade certa; a **mãe dele chamava-se Luzia**, como a filha (n.º 7). **Contra / por explicar:** a avó Luzia (c. 1917) é filha de Ana Ferreira, não de Cândida, e usa só o apelido Ferreira, da mãe. Se for este Joaquim, Luzia foi filha natural antes do casamento dele em 1920 (ou de uma união anterior). Também explicaria porque a avó não usa Gaspar. Por confirmar com o assento de nascimento da avó Luzia.
+- Outros Gaspar em Sobrado (sem ligação provada): Manuel André Gaspar × Conceição Marques Carneiro (casamento de 1888, n.º 5).
 
 ### 15. Ana Ferreira (bisavó materna) ✔
 - Mãe da avó Luzia Ferreira (n.º 7). Fonte: assento n.º 793/2016 (Luzia).
+
+### 24–27. Trisavós maternos (pais de n.º 12 e 13) ✔
+- **24. Manuel Martins Fernandes**, lavrador, natural de Sobrado. **25. Maria de Andrade**, lavradeira, natural de S. Tiago(?) de Água Longa, Santo Tirso. Pais de Augusto (n.º 12). Fontes: casamento n.º 8/1892, Gandra; batismo n.º 6/1897, Sobrado.
+- **26. João de Oliveira**, carpinteiro, natural de Gandra (Paredes). **27. Rosa Alves dos Santos**, lavradeira, natural de Recarei (Paredes). Pais de Deolinda (n.º 13). Mesmas fontes.
+- ❓ Se o n.º 14 for o Joaquim de 1892: **28. António André Gaspar** e **29. Luzia Moreira**, lavradores de Sobrado (avós deles: Manuel André Gaspar e Maria Antónia da Costa; Joaquim Moreira André e Antónia Martins).
 
 ## Pesquisas feitas (sem resultado ou descartadas)
 - **Batismos de Fonte Arcada 1889–1911** (`fontes/fa/bapt1889-97`, `bapt1897-02`, `bapt1902-07`, `bapt1908-11`): nenhum Fernando nas margens. Coerente com o nascimento c. 1923.
 - **"Maria Júlia" em Fonte Arcada:** margens dos batismos de 1880–1889 vistas em parte, sem resultado. As margens mostram só o primeiro nome (muitas "Maria"), por isso não é conclusivo.
 - **"Júlia Maria" em Campo, batismos 1885–1904** (`fontes/campo/`): só três Júlias. As de 1903 (n.º 64, filha de José Martins da Rocha; n.º 97, filha de Amaro dos Santos Rocha) estão excluídas pelos óbitos averbados (1984 e 1981).
 - **Luzias de Sobrado, batismos 1890–1904:** procuradas antes da certidão da mãe, como possível bisavó. **Descartadas:** a avó Luzia Ferreira nasceu c. 1917 e é filha de Joaquim André Gaspar, e nenhuma destas Luzias é dessa família.
+- **Casamentos de Gandra 1881–1902** (`fontes/gandra_cas1881-88`, `gandra_cas1889-94`, `gandra_cas1895-02`): o casamento dos bisavós Augusto e Deolinda está em 1892 (n.º 8). Pista dada pelo batismo da Lucinda, que diz que os pais casaram em Gandra.
 - **Casamentos de Sobrado 1883–1904** (`fontes/sobrado/cas1883…cas1904`): li os nomes dos noivos e não encontrei Augusto Martins Fernandes × Deolinda Alves dos Santos nem Joaquim André Gaspar × Ana Ferreira. A leitura foi rápida e pode ter falhas. Hipóteses: os Fernandes casaram antes de 1883 ou noutra freguesia; os Gaspar casaram depois de 1904 (a filha nasceu c. 1917).
 - **Arquivo Histórico Municipal de Valongo** (arquivo.cm-valongo.pt): não tem registos de nascimento, casamento ou óbito.
 - **Outros Martins Fernandes em Sobrado (sem ligação provada):** Manuel Martins Fernandes, n. 25-3-1903 no lugar do Sapo (batismo n.º 14/1903), filho de António Martins Fernandes de Sousa, casou em São Paulo (Brasil) a 4-2-1928; Serafim Martins Fernandes × Emília Marques Carneiro (casamento de 1896); Domingos Martins Fernandes × Maria Dias da Costa (1894); Manuel Martins Fernandes × Maria Fernandes de Moreira (1894).
@@ -143,8 +158,10 @@ Revisto a 2026-10-26. Verificado no digitarq/tombo.pt:
 - [ ] Alternativa às duas anteriores: **casamento de Augusto Martins Fernandes e Luzia Ferreira** (antes de 1957, Conservatória de Valongo). Dá os pais dos dois de uma vez.
 
 **Pesquisa possível online (livros de Sobrado até 1904)**
-- [ ] **Batismo da irmã do avô Augusto** (filha de Augusto Martins Fernandes e Deolinda Alves dos Santos, n. entre 5-1896 e 5-1897). A margem deve ter o casamento de 22-5-1920 com António Pinheiro. O assento dá os avós paternos e maternos, ou seja os pais de n.º 12 e n.º 13. Procurar nos batismos de Sobrado de 1896–1897 (e outros irmãos de 1890–1904).
-- [ ] **Joaquim André Gaspar** (n. c. 1875–1895): procurar o batismo em Sobrado. Um candidato a pai é Manuel André Gaspar, que casou em 1888 com Conceição Marques Carneiro; nesse caso nasceu entre 1888 e 1904.
+- [x] Batismo da irmã do avô Augusto (Lucinda, 1897) e casamento dos bisavós (Gandra, 1892): feitos, dão os trisavós n.º 24–27.
+- [x] Batismo de Joaquim André Gaspar: candidato de 1892 encontrado (por confirmar).
+- [ ] Batismos de Augusto Martins Fernandes (c. 1872, Sobrado) e Deolinda (c. 1871, Gandra): dão os pais dos trisavós. Livros online (até 1904/1911).
+- [ ] Casamentos dos trisavós: Manuel Martins Fernandes × Maria de Andrade (Sobrado ou Água Longa, antes de 1872); João de Oliveira × Rosa Alves (Gandra ou Recarei, antes de 1871); António André Gaspar × Luzia Moreira (Sobrado, c. 1890–1891).
 - [ ] Depois, os casamentos dos bisavós e trisavós nos livros de Sobrado e Campo (até 1904) e de Fonte Arcada (até 1911).
 
 **Família**
