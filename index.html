@@ -245,7 +245,7 @@
 // sp = spouse ids; b = birth; d = death; c = marriages; occ = occupation/residence; notes; src = source; ok = confirmed
 const people = {
   // ── Maria do Socorro and parents ─────────────────────────────
-  msg: { name: "Maria do Socorro Mimoso Guedes", role: "autora da pesquisa", s: "m", f: "armando", m: "silvia", sp: ["vitor"], c: ["Vítor Roberto Martins Moreira"] },
+  msg: { name: "Maria do Socorro Mimoso Guedes", role: "autora da pesquisa", s: "m", f: "armando", m: "silvia", sp: ["vitor"], b: "18-9-1982", c: ["Vive com Vítor Roberto Martins Moreira"] },
   frederico: { name: "Frederico Mimoso Guedes Moreira", s: "m", f: "vitor", m: "msg", notes: ["Filho de Vítor e Maria do Socorro. Datas por indicar."] },
   sandra: { name: "Sandra Isabel Mimoso Guedes", s: "m", f: "armando", m: "silvia" },
   silvia: { name: "Sílvia Maria Vicente Mimoso Guedes", s: "m", f: "ajm1930", m: "emiliaAv", sp: ["armando"],
@@ -256,7 +256,8 @@ const people = {
   josvm: { name: "José António Vicente Mimoso", s: "m", f: "ajm1930", m: "emiliaAv", notes: ["1/4 na caderneta predial (cedido à irmã Sílvia)."] },
 
   // ── Vítor Moreira (marido de Maria do Socorro) e ascendência ──
-  vitor: { name: "Vítor Roberto Martins Moreira", s: "o", f: "gabriel", m: "luziaFM", sp: ["msg"], b: "29-11-1982, Valongo", c: ["Maria do Socorro Mimoso Guedes"],
+  paulo: { name: "Paulo Gabriel Martins Moreira", s: "o", f: "gabriel", m: "luziaFM", b: "14-10-1979", notes: ["Irmão de Vítor."] },
+  vitor: { name: "Vítor Roberto Martins Moreira", s: "o", f: "gabriel", m: "luziaFM", sp: ["msg"], b: "29-11-1982, Valongo", c: ["Vive com Maria do Socorro Mimoso Guedes"],
     src: "Assento de nascimento n.º 3101/2008, Conservatória do Registo Civil de Valongo (transcrição de nascimento de 1982)." },
   gabriel: { name: "Gabriel Alberto Ferreira Moreira", s: "o", f: "fernando", m: "mariaFerreira", sp: ["luziaFM"], b: "7-1-1954, 16h, Campo (Valongo)", d: "4-2-2026, Paranhos (Porto), assento 70/2026", c: ["29-7-1978, Sobrado (assento 234/1978): Luzia Ferreira Martins Fernandes"], occ: "Souto Pinheiro, Sobrado (1982)", src: "Assento de nascimento n.º 61/2026, Conservatória de Valongo (informatização do assento 32/1954)." },
   luziaFM: { name: "Luzia Ferreira Martins Fernandes", s: "o", f: "augusto", m: "luziaFerreira", sp: ["gabriel"], b: "15-6-1957, 2h30, Sobrado (Valongo)", c: ["29-7-1978, Sobrado (assento 234/1978): Gabriel Alberto Ferreira Moreira"], occ: "Souto Pinheiro, Sobrado (1982)", src: "Assento de nascimento n.º 793/2016, Conservatória de Valongo (informatização do assento 523/1957)." },
@@ -587,6 +588,7 @@ const LEVELS = {
 // [level, source] for every person
 const meta = {
   frederico: ["fam", "Informação da família (Vítor Moreira)."],
+  paulo: ["fam", "Informação da família (Vítor Moreira)."],
   vitor: ["doc", "Assento de nascimento n.º 3101/2008, Valongo."],
   gabriel: ["doc", "Assento de nascimento n.º 61/2026, Valongo."], luziaFM: ["doc", "Assento n.º 793/2016, Valongo."],
   fernando: ["doc", "Assento de nascimento n.º 61/2026 (Gabriel): pai, idade e naturalidade."],
