@@ -2,7 +2,7 @@
 
 Legenda: ✔ confirmado em documento · ~ dedução a partir de documentos · ◆ informação da família, sem documento · ❓ hipótese por confirmar · ? desconhecido
 
-Vítor é casado com **Maria do Socorro Mimoso Guedes** (árvore Mimoso em `arvore.md`). **Filho:** Frederico Mimoso Guedes Moreira ◆.
+Vítor vive com **Maria do Socorro Mimoso Guedes**, n. 18-9-1982 ◆ (árvore Mimoso em `arvore.md`). **Filho:** Frederico Mimoso Guedes Moreira ◆. **Irmão:** Paulo Gabriel Martins Moreira, n. 14-10-1979 ◆.
 
 ## Ascendência
 
@@ -45,7 +45,8 @@ As idades nas certidões dão o ano de nascimento com um ano de margem (ex.: "30
 - **Nascimento:** 29-11-1982, às 18h00, freguesia e concelho de Valongo.
 - **Pais:** Gabriel Alberto Ferreira Moreira (28 anos) e Luzia Ferreira Martins Fernandes (25 anos), casados, moradores no Lugar de Souto Pinheiro, Sobrado.
 - **Fonte:** assento de nascimento n.º 3101/2008, Conservatória do Registo Civil de Valongo (assento de 19-6-2008, transcrição de um nascimento de 1982).
-- **Casamento:** com Maria do Socorro Mimoso Guedes ◆. **Filho:** Frederico Mimoso Guedes Moreira ◆.
+- **Vive com** Maria do Socorro Mimoso Guedes (n. 18-9-1982) ◆. **Filho:** Frederico Mimoso Guedes Moreira ◆.
+- **Irmão:** Paulo Gabriel Martins Moreira, n. 14-10-1979 ◆.
 
 ### 2. Gabriel Alberto Ferreira Moreira (pai) ✔
 - **Nascimento:** 7-1-1954, às 16h00, freguesia de Campo, Valongo.
@@ -174,7 +175,7 @@ Revisto a 2026-10-26. Verificado no digitarq/tombo.pt:
 - [ ] Depois, os casamentos dos bisavós e trisavós nos livros de Sobrado e Campo (até 1904) e de Fonte Arcada (até 1911).
 
 **Família**
-- [ ] Data e local do casamento de Vítor e Maria do Socorro, e nascimento de Frederico ◆.
+- [ ] Nascimento de Frederico ◆; local de nascimento de Paulo e de Maria do Socorro ◆.
 - [ ] Data e local do óbito de Luzia Ferreira (c. 2000–2010) e se Augusto ou Fernando já morreram (o óbito averbado ajuda a pedir certidões).
 
 ## Fontes online
