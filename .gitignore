@@ -1,0 +1,12 @@
+# Scans are several GB and stay local (back them up outside Git).
+# Only the maps are tracked, so any page can be downloaded again with tools/digitarq.py:
+# fontes/livros.tsv (folder -> reference code -> docId) and each folder's ids.txt (page -> fileId).
+# Files already tracked from the first commits stay tracked.
+fontes/**
+!fontes/**/
+!fontes/**/ids.txt
+!fontes/livros.tsv
+!fontes/godim.html
+!fontes/books_8011.txt
+*.tif
+.playwright-mcp/
