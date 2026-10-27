@@ -1175,7 +1175,7 @@ document.getElementById("fit").onclick = fit;
 // View button: switch between the horizontal tree and the radial one; #radial in the URL opens the radial view
 const hints = {
   tree: document.querySelector(".hint").innerHTML,
-  radial: '<span class="long">antepassados em anéis, uma geração por anel · clique no círculo para abrir/fechar · clique no nome para ver detalhes · rode com os botões ↺ ↻</span><span class="short">Toque no círculo para abrir/fechar, no nome para ver detalhes · rode com ↺ ↻</span>'
+  radial: '<span class="long">antepassados em anéis, uma geração por anel · clique no círculo para abrir/fechar · clique no nome para ver detalhes · arraste com o botão direito para rodar</span><span class="short">Toque no círculo para abrir/fechar, no nome para ver detalhes · dois dedos para zoom e rodar</span>'
 };
 function setMode(m) {
   mode = m;
@@ -1191,13 +1191,59 @@ document.getElementById("view").onclick = () => setMode(mode === "radial" ? "tre
 // Rotation of the radial view: slider for any angle, buttons turn 15° at a time
 const rotInput = document.getElementById("rot");
 function setRot(v) {
-  rot = ((Math.round(v) % 360) + 360) % 360;
-  rotInput.value = rot;
+  rot = ((v % 360) + 360) % 360;
+  rotInput.value = Math.round(rot);
   render();
 }
 rotInput.oninput = e => setRot(+e.target.value);
 document.getElementById("rotl").onclick = () => setRot(rot - 15);
 document.getElementById("rotr").onclick = () => setRot(rot + 15);
+
+// Radial gestures. Mouse: drag with the right button to turn the circle around the focus.
+// Touch: two fingers zoom and turn together around the point between them (d3.zoom keeps one-finger panning)
+svg.on("contextmenu", e => { if (mode === "radial") e.preventDefault(); });
+let spin = null;
+svg.on("pointerdown.rot", e => {
+  if (mode !== "radial" || e.button !== 2) return;
+  const t = d3.zoomTransform(svg.node()), [x, y] = d3.pointer(e, svg.node());
+  spin = { id: e.pointerId, cx: t.x, cy: t.y, a: Math.atan2(y - t.y, x - t.x) };
+  svg.node().setPointerCapture(e.pointerId);
+});
+svg.on("pointermove.rot", e => {
+  if (!spin || e.pointerId !== spin.id) return;
+  const [x, y] = d3.pointer(e, svg.node()), a = Math.atan2(y - spin.cy, x - spin.cx);
+  setRot(rot + (a - spin.a) * 180 / Math.PI);
+  spin.a = a;
+});
+svg.on("pointerup.rot pointercancel.rot", () => spin = null);
+
+// The two-finger gesture is handled here, in the capture phase, so d3.zoom never sees it
+const mainEl = document.querySelector("main");
+let pinch = null;
+const touchAt = (e, id) => { const t = [...e.touches].find(t => t.identifier === id); return t && d3.pointer(t, svg.node()); };
+mainEl.addEventListener("touchstart", e => {
+  if (mode !== "radial" || e.touches.length < 2 || !svg.node().contains(e.target)) return;
+  e.stopPropagation();
+  const ids = [e.touches[0].identifier, e.touches[1].identifier];
+  pinch = { ids, t: d3.zoomTransform(svg.node()), rot, p: ids.map(id => touchAt(e, id)) };
+}, { capture: true });
+mainEl.addEventListener("touchmove", e => {
+  if (!pinch) return;
+  e.stopPropagation(); e.preventDefault();   // until every finger lifts, so d3.zoom does not jump
+  const q = pinch.ids.map(id => touchAt(e, id));
+  if (!q[0] || !q[1]) return;
+  const { t, p } = pinch;
+  const span = a => Math.hypot(a[1][0] - a[0][0], a[1][1] - a[0][1]), dir = a => Math.atan2(a[1][1] - a[0][1], a[1][0] - a[0][0]);
+  const k = Math.max(0.05, Math.min(3, t.k * span(q) / span(p))), s = k / t.k, da = dir(q) - dir(p);
+  // Keep the content that was under the fingers' midpoint under it, scaled by s and turned by da
+  const pm = [(p[0][0] + p[1][0]) / 2, (p[0][1] + p[1][1]) / 2], qm = [(q[0][0] + q[1][0]) / 2, (q[0][1] + q[1][1]) / 2];
+  const vx = pm[0] - t.x, vy = pm[1] - t.y, c = Math.cos(da), sn = Math.sin(da);
+  svg.call(zoom.transform, d3.zoomIdentity.translate(qm[0] - s * (c * vx - sn * vy), qm[1] - s * (sn * vx + c * vy)).scale(k));
+  setRot(pinch.rot + da * 180 / Math.PI);
+}, { capture: true, passive: false });
+const endPinch = e => { if (pinch && e.touches.length === 0) pinch = null; };
+mainEl.addEventListener("touchend", endPinch, { capture: true });
+mainEl.addEventListener("touchcancel", endPinch, { capture: true });
 document.getElementById("zin").onclick = () => svg.transition().duration(250).call(zoom.scaleBy, 1.3);
 document.getElementById("zout").onclick = () => svg.transition().duration(250).call(zoom.scaleBy, 1 / 1.3);
 // The legend starts open on wide screens and closed on phones; the button flips that default
