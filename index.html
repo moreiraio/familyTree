@@ -81,7 +81,8 @@
   .node:hover circle.dot { r: 8; }
   .node text { fill: var(--fg); font-size: 13px; font-weight: 500; cursor: pointer; paint-order: stroke; stroke: var(--bg); stroke-width: 5px; stroke-linejoin: round; }
   .node text.sub { fill: var(--muted); font-size: 11px; font-weight: 400; }
-  .node g:hover text.name { fill: var(--accent); }
+  .node g:hover text.name, .node:hover > text.name { fill: var(--accent); }
+  .node text tspan.yr { fill: var(--muted); font-size: 11px; font-weight: 400; }
   .node.focus text.name { font: 600 16px var(--serif); }
   .node.focus circle.dot { stroke-width: 3px; r: 8; filter: drop-shadow(0 0 6px color-mix(in srgb, var(--accent) 45%, transparent)); }
   .side-label { fill: var(--muted); font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: .12em; }
@@ -234,6 +235,7 @@
     <button id="back" disabled title="Voltar à pessoa anterior"><svg class="ico" viewBox="0 0 24 24"><path d="M15 18l-6-6 6-6"/></svg><span>Voltar</span></button>
     <button id="expand" title="Expandir todos os ramos"><svg class="ico" viewBox="0 0 24 24"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg><span>Expandir<span class="lg"> tudo</span></span></button>
     <button id="collapse" title="Recolher os ramos"><svg class="ico" viewBox="0 0 24 24"><path d="M4 14h6v6M20 10h-6V4M14 10l7-7M3 21l7-7"/></svg><span>Recolher</span></button>
+    <button id="view" title="Mudar entre árvore horizontal e radial"><svg class="ico" viewBox="0 0 24 24"><circle cx="12" cy="12" r="2"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="10"/></svg><span>Radial</span></button>
     <button id="fit" title="Centrar a árvore"><svg class="ico" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M12 2v4M12 18v4M2 12h4M18 12h4"/></svg><span>Centrar</span></button>
     <button id="legendBtn" aria-expanded="false" title="Mostrar / esconder a legenda"><svg class="ico" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 8h.01"/></svg><span>Legenda</span></button>
   </nav>
@@ -939,24 +941,25 @@ const color = p => p.ok ? css({ m: "--mimoso", v: "--vicente", o: "--other", u: 
 
 const svg = d3.select("#tree");
 const g = svg.append("g");
-const gLink = g.append("g"), gNode = g.append("g"), gLabel = g.append("g");
-const zoom = d3.zoom().scaleExtent([0.15, 3]).on("zoom", e => g.attr("transform", e.transform));
+const gLink = g.append("g"), gNode = g.append("g"), gLabel = g.append("g"), gRad = g.append("g");
+const zoom = d3.zoom().scaleExtent([0.05, 3]).on("zoom", e => g.attr("transform", e.transform));
 svg.call(zoom).on("dblclick.zoom", null);
 
 const dx = 36, dy = 250;
 const diagonal = d3.linkHorizontal().x(d => d.y).y(d => d.x);
 let focus = "msg";
+let mode = location.hash === "#radial" ? "radial" : "tree";   // "tree" horizontal, "radial" ancestors in rings
 const history = [];
 const open = new Set();     // keys "dir:path" of expanded nodes
 
-// Build a hierarchy in one direction: "up" follows parents, "down" follows children
-function build(dir) {
+// Build a hierarchy in one direction: "up" follows parents, "down" follows children; all ignores closed branches
+function build(dir, all = false) {
   const rec = (id, path, depth) => {
     const p = people[id];
     const key = dir + ":" + path;
     const next = dir === "up" ? parentsOf(p) : p.kids;
     const node = { id, key, has: next.length > 0 };
-    if (next.length && (depth === 0 || open.has(key))) node.children = next.map(n => rec(n, path + "/" + n, depth + 1));
+    if (next.length && (all || depth === 0 || open.has(key))) node.children = next.map(n => rec(n, path + "/" + n, depth + 1));
     return node;
   };
   return d3.hierarchy(rec(focus, focus, 0));
@@ -976,6 +979,11 @@ function defaultOpen() {
 }
 
 function render() {
+  document.getElementById("jump").value = focus;
+  document.getElementById("back").disabled = history.length === 0;
+  document.getElementById("expand").disabled = document.getElementById("collapse").disabled = mode === "radial";
+  if (mode === "radial") return renderRadial();
+  gRad.selectAll("*").remove();
   const layout = d3.tree().nodeSize([dx, dy]);
   const up = layout(build("up")), down = layout(build("down"));
   down.each(d => d.y = -d.y);
@@ -1018,9 +1026,39 @@ function render() {
   if (down.children) labels.push({ x: top(down), y: -10, t: "← descendentes", a: "end" });
   gLabel.selectAll("text").data(labels).join("text").attr("class", "side-label")
     .attr("x", d => d.y).attr("y", d => d.x).attr("text-anchor", d => d.a).text(d => d.t);
+}
 
-  document.getElementById("jump").value = focus;
-  document.getElementById("back").disabled = history.length === 0;
+// Radial view: the focus in the centre and every ancestor on rings around it, one ring per generation
+function renderRadial() {
+  gLink.selectAll("*").remove(); gNode.selectAll("*").remove(); gLabel.selectAll("*").remove(); gRad.selectAll("*").remove();
+  const root = build("up", true);
+  const radius = Math.max(root.height * 115, root.leaves().length * 18 / (2 * Math.PI));
+  d3.tree().size([2 * Math.PI, radius]).separation((a, b) => (a.parent === b.parent ? 1 : 2) / a.depth)(root);
+
+  gRad.append("g").selectAll("path").data(root.links()).join("path").attr("class", "link")
+    .attr("d", d3.linkRadial().angle(d => d.x).radius(d => d.y));
+
+  const deg = d => d.x * 180 / Math.PI - 90;
+  // Leaves and parents of the focus label outwards (clear of the centre), other inner nodes inwards
+  const out = d => d.x < Math.PI === (!d.children || d.depth === 1);
+  const node = gRad.append("g").selectAll("g").data(root.descendants()).join("g").attr("class", "node")
+    .classed("focus", d => d.depth === 0)
+    .attr("transform", d => `rotate(${deg(d)}) translate(${d.y},0)`)
+    .on("click", (ev, d) => show(d.data.id));
+  node.append("circle").attr("class", "hit").attr("r", 12);
+  node.append("circle").attr("class", "dot").attr("r", 6)
+    .attr("stroke", d => color(people[d.data.id])).attr("fill", css("--panel"))
+    .attr("stroke-dasharray", d => people[d.data.id].ok ? null : "2,2");
+  const text = node.append("text").attr("class", "name").attr("dy", "0.32em")
+    .attr("transform", d => d.depth === 0 ? `rotate(${-deg(d)})` : d.x >= Math.PI ? "rotate(180)" : null)
+    .attr("x", d => d.depth === 0 ? 0 : out(d) ? 10 : -10)
+    .attr("y", d => d.depth === 0 ? 26 : null)
+    .attr("text-anchor", d => d.depth === 0 ? "middle" : out(d) ? "start" : "end");
+  text.append("tspan").text(d => people[d.data.id].name);
+  text.append("tspan").attr("class", "yr").text(d => {
+    const p = people[d.data.id];
+    return " " + [LEVELS[p.conf].sym, lifespan(p)].filter(Boolean).join(" ");
+  });
 }
 
 function toggle(d) {
@@ -1094,8 +1132,13 @@ document.addEventListener("keydown", e => { if (e.key === "Escape") viewer.style
 // Centre the tree; when it is wider than the screen (phones), start from its left edge
 function fit() {
   const { width, height } = svg.node().getBoundingClientRect();
-  const k = width < 700 ? 0.7 : 0.85;
   const bb = g.node().getBBox();
+  if (mode === "radial") {
+    const k = Math.min(1, 0.95 * Math.min(width / bb.width, height / bb.height));
+    const t = d3.zoomIdentity.translate(width / 2 - (bb.x + bb.width / 2) * k, height / 2 - (bb.y + bb.height / 2) * k).scale(k);
+    return svg.transition().duration(400).call(zoom.transform, t);
+  }
+  const k = width < 700 ? 0.7 : 0.85;
   const tx = bb.width * k <= width - 24 ? width / 2 - (bb.x + bb.width / 2) * k : 12 - bb.x * k;
   const ty = bb.height * k <= height - 24 ? height / 2 - (bb.y + bb.height / 2) * k : height / 2;
   svg.transition().duration(400).call(zoom.transform, d3.zoomIdentity.translate(tx, ty).scale(k));
@@ -1116,6 +1159,20 @@ document.getElementById("back").onclick = () => history.length && setFocus(histo
 document.getElementById("expand").onclick = () => expandAll(true);
 document.getElementById("collapse").onclick = () => expandAll(false);
 document.getElementById("fit").onclick = fit;
+// View button: switch between the horizontal tree and the radial one; #radial in the URL opens the radial view
+const hints = {
+  tree: document.querySelector(".hint").innerHTML,
+  radial: '<span class="long">antepassados em anéis à volta da pessoa central, uma geração por anel · clique no nome para ver datas, casamentos, fontes e família</span><span class="short">Toque no nome para ver detalhes · dois dedos para zoom</span>'
+};
+function setMode(m) {
+  mode = m;
+  document.querySelector("#view span").textContent = m === "radial" ? "Horizontal" : "Radial";
+  document.querySelector(".hint").innerHTML = hints[m];
+  try { window.history.replaceState(null, "", m === "radial" ? "#radial" : location.pathname + location.search); } catch (e) {}
+  render();
+  fit();
+}
+document.getElementById("view").onclick = () => setMode(mode === "radial" ? "tree" : "radial");
 document.getElementById("zin").onclick = () => svg.transition().duration(250).call(zoom.scaleBy, 1.3);
 document.getElementById("zout").onclick = () => svg.transition().duration(250).call(zoom.scaleBy, 1 / 1.3);
 // The legend starts open on wide screens and closed on phones; the button flips that default
@@ -1140,8 +1197,7 @@ matchMedia("(prefers-color-scheme: dark)").addEventListener("change", render);
 svg.on("pointerdown.hint", () => { document.querySelector(".hint").classList.add("gone"); svg.on("pointerdown.hint", null); });
 
 defaultOpen();
-render();
-fit();
+setMode(mode);
 </script>
 </body>
 </html>
