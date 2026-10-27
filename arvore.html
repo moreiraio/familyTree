@@ -99,6 +99,11 @@
   .zoom button { width: 40px; height: 40px; border: 0; background: none; display: grid; place-items: center; }
   .zoom button + button { border-top: 1px solid var(--border); }
   .zoom button:hover { background: var(--accent-soft); color: var(--accent); }
+  .rot { position: absolute; left: 16px; bottom: calc(110px + env(safe-area-inset-bottom)); display: flex; align-items: center; gap: 2px; padding: 3px; border-radius: 14px; z-index: 4; }
+  .rot[hidden] { display: none; }
+  .rot button { width: 34px; height: 34px; border: 0; border-radius: 10px; background: none; display: grid; place-items: center; }
+  .rot button:hover { background: var(--accent-soft); color: var(--accent); }
+  .rot input { width: 130px; accent-color: var(--accent); }
 
   /* Legend */
   .legend { position: absolute; left: 16px; top: 16px; width: 250px; padding: 12px 14px; border-radius: 16px; z-index: 3; display: none; font-size: 12.5px; }
@@ -169,6 +174,7 @@
     .toolbar button { flex: 1 1 0; flex-direction: column; gap: 2px; padding: 7px 2px 6px; border-radius: 16px; font-size: 11px; }
     .toolbar .lg { display: none; }
     .zoom { display: none; }
+    .rot { left: auto; right: 12px; top: 12px; bottom: auto; }
     .legend { left: 12px; right: 12px; top: 12px; width: auto; }
     .legend ul { grid-template-columns: 1fr 1fr; }
     .hint { bottom: calc(80px + env(safe-area-inset-bottom)); border-radius: 12px; }
@@ -230,6 +236,11 @@
   <div class="zoom float">
     <button id="zin" aria-label="Aproximar" title="Aproximar"><svg class="ico" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg></button>
     <button id="zout" aria-label="Afastar" title="Afastar"><svg class="ico" viewBox="0 0 24 24"><path d="M5 12h14"/></svg></button>
+  </div>
+  <div class="rot float" hidden>
+    <button id="rotl" aria-label="Rodar para a esquerda" title="Rodar para a esquerda"><svg class="ico" viewBox="0 0 24 24"><path d="M3 4v5h5"/><path d="M3.5 9A9 9 0 1 1 5 17"/></svg></button>
+    <input id="rot" type="range" min="0" max="359" step="1" value="0" aria-label="Rodar a árvore radial (graus)">
+    <button id="rotr" aria-label="Rodar para a direita" title="Rodar para a direita"><svg class="ico" viewBox="0 0 24 24"><path d="M21 4v5h-5"/><path d="M20.5 9A9 9 0 1 0 19 17"/></svg></button>
   </div>
   <nav class="toolbar float" aria-label="Ações">
     <button id="back" disabled title="Voltar à pessoa anterior"><svg class="ico" viewBox="0 0 24 24"><path d="M15 18l-6-6 6-6"/></svg><span>Voltar</span></button>
@@ -949,6 +960,7 @@ const dx = 36, dy = 250;
 const diagonal = d3.linkHorizontal().x(d => d.y).y(d => d.x);
 let focus = "msg";
 let mode = location.hash === "#radial" ? "radial" : "tree";   // "tree" horizontal, "radial" ancestors in rings
+let rot = 0;                // rotation of the radial view, degrees
 const history = [];
 const open = new Set();     // keys "dir:path" of expanded nodes
 
@@ -974,14 +986,13 @@ function walk(dir, id, path, depth, max) {
 
 function defaultOpen() {
   open.clear();
-  walk("up", focus, focus, 0, 3);
+  walk("up", focus, focus, 0, mode === "radial" ? 30 : 3);   // the radial view starts with every ancestor
   walk("down", focus, focus, 0, 1);
 }
 
 function render() {
   document.getElementById("jump").value = focus;
   document.getElementById("back").disabled = history.length === 0;
-  document.getElementById("expand").disabled = document.getElementById("collapse").disabled = mode === "radial";
   if (mode === "radial") return renderRadial();
   gRad.selectAll("*").remove();
   const layout = d3.tree().nodeSize([dx, dy]);
@@ -1028,12 +1039,14 @@ function render() {
     .attr("x", d => d.y).attr("y", d => d.x).attr("text-anchor", d => d.a).text(d => d.t);
 }
 
-// Radial view: the focus in the centre and every ancestor on rings around it, one ring per generation
+// Radial view: the focus in the centre and its ancestors on rings around it, one ring per generation.
+// Branches open and close as in the horizontal tree; rot turns the whole circle (degrees)
 function renderRadial() {
   gLink.selectAll("*").remove(); gNode.selectAll("*").remove(); gLabel.selectAll("*").remove(); gRad.selectAll("*").remove();
-  const root = build("up", true);
+  const root = build("up");
   const radius = Math.max(root.height * 115, root.leaves().length * 18 / (2 * Math.PI));
   d3.tree().size([2 * Math.PI, radius]).separation((a, b) => (a.parent === b.parent ? 1 : 2) / a.depth)(root);
+  root.each(d => d.x = (d.x + rot * Math.PI / 180) % (2 * Math.PI));
 
   gRad.append("g").selectAll("path").data(root.links()).join("path").attr("class", "link")
     .attr("d", d3.linkRadial().angle(d => d.x).radius(d => d.y));
@@ -1043,13 +1056,13 @@ function renderRadial() {
   const out = d => d.x < Math.PI === (!d.children || d.depth === 1);
   const node = gRad.append("g").selectAll("g").data(root.descendants()).join("g").attr("class", "node")
     .classed("focus", d => d.depth === 0)
-    .attr("transform", d => `rotate(${deg(d)}) translate(${d.y},0)`)
-    .on("click", (ev, d) => show(d.data.id));
-  node.append("circle").attr("class", "hit").attr("r", 12);
-  node.append("circle").attr("class", "dot").attr("r", 6)
-    .attr("stroke", d => color(people[d.data.id])).attr("fill", css("--panel"))
+    .attr("transform", d => `rotate(${deg(d)}) translate(${d.y},0)`);
+  node.append("circle").attr("class", "hit").attr("r", 14).on("click", (ev, d) => toggle(d));
+  node.append("circle").attr("class", "dot").attr("r", 6).style("pointer-events", "none")
+    .attr("stroke", d => color(people[d.data.id]))
+    .attr("fill", d => d.data.has && !d.children ? color(people[d.data.id]) : css("--panel"))
     .attr("stroke-dasharray", d => people[d.data.id].ok ? null : "2,2");
-  const text = node.append("text").attr("class", "name").attr("dy", "0.32em")
+  const text = node.append("text").attr("class", "name").attr("dy", "0.32em").on("click", (ev, d) => show(d.data.id))
     .attr("transform", d => d.depth === 0 ? `rotate(${-deg(d)})` : d.x >= Math.PI ? "rotate(180)" : null)
     .attr("x", d => d.depth === 0 ? 0 : out(d) ? 10 : -10)
     .attr("y", d => d.depth === 0 ? 26 : null)
@@ -1162,10 +1175,12 @@ document.getElementById("fit").onclick = fit;
 // View button: switch between the horizontal tree and the radial one; #radial in the URL opens the radial view
 const hints = {
   tree: document.querySelector(".hint").innerHTML,
-  radial: '<span class="long">antepassados em anéis à volta da pessoa central, uma geração por anel · clique no nome para ver datas, casamentos, fontes e família</span><span class="short">Toque no nome para ver detalhes · dois dedos para zoom</span>'
+  radial: '<span class="long">antepassados em anéis, uma geração por anel · clique no círculo para abrir/fechar · clique no nome para ver detalhes · rode com os botões ↺ ↻</span><span class="short">Toque no círculo para abrir/fechar, no nome para ver detalhes · rode com ↺ ↻</span>'
 };
 function setMode(m) {
   mode = m;
+  document.querySelector(".rot").hidden = m !== "radial";
+  defaultOpen();
   document.querySelector("#view span").textContent = m === "radial" ? "Horizontal" : "Radial";
   document.querySelector(".hint").innerHTML = hints[m];
   try { window.history.replaceState(null, "", m === "radial" ? "#radial" : location.pathname + location.search); } catch (e) {}
@@ -1173,6 +1188,16 @@ function setMode(m) {
   fit();
 }
 document.getElementById("view").onclick = () => setMode(mode === "radial" ? "tree" : "radial");
+// Rotation of the radial view: slider for any angle, buttons turn 15° at a time
+const rotInput = document.getElementById("rot");
+function setRot(v) {
+  rot = ((Math.round(v) % 360) + 360) % 360;
+  rotInput.value = rot;
+  render();
+}
+rotInput.oninput = e => setRot(+e.target.value);
+document.getElementById("rotl").onclick = () => setRot(rot - 15);
+document.getElementById("rotr").onclick = () => setRot(rot + 15);
 document.getElementById("zin").onclick = () => svg.transition().duration(250).call(zoom.scaleBy, 1.3);
 document.getElementById("zout").onclick = () => svg.transition().duration(250).call(zoom.scaleBy, 1 / 1.3);
 // The legend starts open on wide screens and closed on phones; the button flips that default
