@@ -146,6 +146,11 @@ As idades nas certidões dão o ano de nascimento com um ano de margem (ex.: "30
 - Do batismo de Deolinda (1872): **52. António de Oliveira** e **53. Maria Martins**, jornaleiros, Fontainhas (Gandra), pais de n.º 26; **54. José António** e **55. Ana Margarida dos Santos**, lavradores, Recarei, pais de n.º 27.
 - ❓ Se o n.º 14 for o Joaquim de 1892: **28. António André Gaspar** e **29. Luzia Moreira**, lavradores de Sobrado (avós deles: Manuel André Gaspar e Maria Antónia da Costa; Joaquim Moreira André e Antónia Martins).
 
+### 96–103. Quintos avós maternos (pais de n.º 48–51) ✔
+- **Batismo de Manuel (n.º 24):** ✔ Sobrado, livro 1816–1851 (`fontes/sobrado_bapt1816-51/p0088.jpg`, fundo da esquerda e topo da direita): **Manuel**, n. 27(?)-10-1834 no lugar do **Passo**, Sobrado; batizado a 29-10-1834 pelo coadjutor José Martins Ferreira. Filho legítimo de Joaquim Martins Fernandes e Luzia Moreira. Avós paternos **96. Manuel Martins Fernandes** e **97. Ana Duarte**; maternos **98. Manuel Moreira Villar(?)** e **99. Ana Pinto**, todos do mesmo lugar. Padrinho Manuel Martins, tio; madrinha Maria, prima do batizado. Bate com os 29 anos no casamento de 1863.
+- **Batismo de Maria André (n.º 25):** ✔ S. Julião de Água Longa, livro 1842–1869 (`fontes/agualonga_bapt1842-69/p0012.jpg`, esquerda): **Maria**, n. 13-4-1843, filha legítima de José Francisco André e Margarida de Andrade, do lugar de **Sobradelo**. Avós paternos **100. Custódio Francisco André** e **101. Ana André**, de Sobradelo; maternos **102. José Bernardo de Andrade** e **103. Maria Monteiro**, de S. Tiago da Carreira. Padrinhos António, filho de António Francisco Pereira, e Maria, filha de Manuel Francisco Lourenço(?).
+  - Irmão: **José**, n. 7-2-1842, mesmos pais e avós (`p0005.jpg`, esquerda; avó materna escrita "Maria Fernandes Monteiro").
+
 ## Pesquisas feitas (sem resultado ou descartadas)
 - **Batismos de Fonte Arcada 1889–1911** (`fontes/fa/bapt1889-97`, `bapt1897-02`, `bapt1902-07`, `bapt1908-11`): nenhum Fernando nas margens. Coerente com o nascimento c. 1923.
 - **"Maria Júlia" em Fonte Arcada:** margens dos batismos de 1880–1889 vistas em parte, sem resultado. As margens mostram só o primeiro nome (muitas "Maria"), por isso não é conclusivo.
