@@ -51,7 +51,7 @@ No [arvore.html](arvore.html), cada pessoa tem uma **fonte** e um **nível de co
 │                         (Godim)                   └─ 23. Joaquina Velha(?) ~
 │
  1. António José Mimoso ✔
-    n. 7-9-1930, Godim                                                              ┌─ 24. António Vicente ✔
+    7-11-1930 Godim – 3-4-1995 Lordelo (Vila Real)                                  ┌─ 24. António Vicente ✔
          │                                       ┌─ 12. António Joaquim Vicente ✔┤
          │                                       │      (jornaleiro, Aviz)      └─ 25. Catharina de Jesus ✔
          │        ┌─ 6. António Vicente ✔ ───────┤
@@ -122,7 +122,7 @@ José António Mimoso (bat. 31-7-1774?) ══ Joanna Emília (Covas, Godim)   (
        ┌───────────────────────────┼───────────────────────────┬───────────────────────────┐
        │                           │                           │                           │
 António José Mimoso ✔        Maria Emília da Conceição     Valentim António Mimoso ✔    Adão António Mimoso ✔
-n. 7-9-1930, Godim           Vicente ✔                     ══ Isaura Moreira dos Anjos
+n. 7-11-1930, Godim          Vicente ✔                     ══ Isaura Moreira dos Anjos
 ══ Emília da Conceição       ══ António Joaquim Vicente       (Lisboa)                  + 3 irmãos por
    Vicente ✔                    (Picote)                                                   identificar
        │
@@ -137,14 +137,25 @@ n. 7-9-1930, Godim           Vicente ✔                     ══ Isaura Morei
 ## Pessoas
 
 ### António José Mimoso (avô) ✔
-- **Nascimento:** **7-9-1930**, Godim, Peso da Régua ✔
-- **Pai:** José António Mimoso ✔
-- **Mãe:** Francisca da Conceição Vicente ✔
+- **Nascimento:** **7-11-1930, às 17h**, freguesia de Godim, Peso da Régua ✔
+  - ⚠ A família dava 7-9-1930. O assento diz 7 de **novembro**.
+  - O registo foi lavrado a 17-11-1930.
+- **Pai:** José António Mimoso, 23 anos, casado, natural de Godim ✔
+- **Mãe:** Francisca da Silva Vicente (= Francisca da Conceição Vicente), 23 anos, casada, natural de Godim ✔
+- **Residência dos pais:** lugar de Sergude, Godim.
+- **Avós no assento:** Francisco António e Maria de Jesus (paternos); António Vicente Júnior e Maria da Silva (maternos). Isto confirma por documento civil a ligação do avô aos n.º 2–7 ✔
+- **Casamento:** **4-3-1961**, católico, Igreja Paroquial de Godim, com **Emília da Conceição Vicente Mimoso**.
+  - Assento n.º 41/1961 da Conservatória da Régua, averbado a 10-3-1961 ✔
+- **Óbito:** **3-4-1995**, freguesia de Lordelo, concelho de Vila Real.
+  - Assento n.º 199/1995 de Vila Real (Bol. n.º 132, Maço 5), averbado a 5-4-1995 ✔
+- **Fonte:** assento de nascimento n.º 655/1930, lavrado a 17-11-1930 na Conservatória do Registo Civil de Peso da Régua.
+  - Foi informatizado como assento n.º 70/2026, a 27-10-2026 (processo n.º 678/2026).
+  - Tem 2 averbamentos: o casamento e o óbito.
 - **Mulher:** Emília da Conceição Vicente ✔
 - ❓ Na caderneta predial aparece "António José Mimoso", riscado, a seguir ao pai. Isto indica que herdou o prédio e o deixou por morte.
 - ❓ A mãe e a mulher têm ambas o apelido Vicente. Podem ser parentes.
 - Não confundir a mulher, Emília da Conceição Vicente, com a irmã, Maria Emília da Conceição Vicente. São pessoas diferentes ✔
-- **Fonte do nascimento:** Conservatória do Registo Civil de Peso da Régua, 1930 (não está digitalizado; pedir a certidão)
+- **Próximo passo:** pedir a certidão do **casamento n.º 41/1961** da Conservatória da Régua. Indica os pais da avó Emília e abre o ramo dela. O assento paroquial está nos livros de Godim de 1961.
 
 ### José António Mimoso (pai do avô) ✔
 - **Nascimento:** 22-3-1908, às 6h, em Sergude, Godim. Batizado a 28-5-1908 (assento n.º 40) ✔
@@ -621,7 +632,8 @@ Transcrição:
 - [ ] **Pedir ao ADVRL o inventário de 1973** (PT/ADVRL/JUD/TJCPRG/C-B/082/1658). Deve listar os 7 filhos e os 3 irmãos que faltam.
 - [ ] Pedir a certidão de teor da descrição predial 00427/Godim (antiga 35.139) e do prédio 58.828, com as inscrições G-25 n.º 11.039 (1937), G-42 n.º 33.224/33.225 e G-44 n.º 34.029. Dizem quem herdou ou comprou, e de quem.
 - [ ] Pedir o testamento de 1921 de Francisco António Mimoso, o trisavô (PT/ADVRL/NOT/CNPRG5/007/394/38).
-- [ ] Certidão de nascimento do avô (7-9-1930), cópia integral, para confirmar (civilonline.mj.pt).
+- [x] Certidão de nascimento do avô: assento n.º 655/1930 (informatizado n.º 70/2026). Nasceu a 7-11-1930, casou a 4-3-1961 e morreu a 3-4-1995.
+- [ ] **Certidão de casamento n.º 41/1961, Conservatória da Régua** (avô × Emília da Conceição Vicente, Igreja de Godim, 4-3-1961). Dá os pais da avó.
 - [ ] Certidão de casamento do avô com Emília da Conceição Vicente: indica os pais dela e abre o ramo da avó.
 - [x] Linha Mimoso validada contra os assentos originais (outubro de 2026): batismos de 1774, 1815, 1819, 1855, 1864; casamentos de 1771, 1814, 1852, 1900; óbitos de 1865, 1891, 1900. Ver "Linha Mimoso: assentos validados".
 - [ ] Casamento de José da Silva com Maria de Jesus Amaral (c.1860–61): procurar nos livros de Loureiro.
