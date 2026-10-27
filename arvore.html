@@ -271,6 +271,10 @@ const people = {
   deolinda: { name: "Deolinda Alves dos Santos", role: "bisavó", s: "o", f: "joaoOliveira", m: "rosaAlves", sp: ["augustoPai"], b: "25-5-1872, 19h, Fontainhas, Gandra (Paredes)", d: "10-4-1957 (óbito 102; leitura difícil)", occ: "Fontainhas, Gandra (1892)",
     c: ["28-8-1892, Gandra: Augusto Martins Fernandes"], src: "Batismo n.º 12/1872, Gandra; casamento n.º 8/1892, Gandra; assento n.º 793/2016." },
   lucinda1897: { name: "Lucinda Alves dos Santos", s: "o", f: "augustoPai", m: "deolinda", b: "19-1-1897, 21h, lugar da Costa, Sobrado", c: ["22-5-1920, Sobrado (assento 126): António Pinheiro"],
+  maria1898F: { name: "Maria", s: "o", f: "augustoPai", m: "deolinda", b: "20-10-1898, lugar da Costa, Sobrado", c: ["3-5-1919, Sobrado (assento 107): Francisco Moreira"], src: "Batismo n.º 95/1898, Sobrado (fontes/sobrado/bapt1898/p0020.jpg)." },
+  antonio1900F: { name: "António", s: "o", f: "augustoPai", m: "deolinda", b: "5-9-1900, lugar da Costa, Sobrado", src: "Batismo n.º 35/1900, Sobrado (fontes/sobrado/bapt1900/p0019.jpg)." },
+  manuelJ1902F: { name: "Manuel Joaquim Martins Fernandes", s: "o", f: "augustoPai", m: "deolinda", b: "13-5-1902, lugar da Costa, Sobrado", d: "17-2-1984, Sobrado", c: ["1-4-1923(?): Ana Ferreira da Silva"], src: "Batismo n.º 18/1902, Sobrado (fontes/sobrado/bapt1902/p0011.jpg)." },
+  luciano1904F: { name: "Luciano", s: "o", f: "augustoPai", m: "deolinda", b: "14-5-1904, lugar da Costa, Sobrado", src: "Batismo n.º 27/1904, Sobrado (fontes/sobrado/bapt1904/p0015.jpg)." },
     src: "Batismo n.º 6/1897, Sobrado (fontes/sobrado/bapt1897/p0006.jpg), com notas na margem." },
   manuelMF: { name: "Manuel Martins Fernandes", s: "o", f: "joaquimMF", m: "mariaRLM", sp: ["mariaAndrade"], occ: "Lavrador, Pinguella, Sobrado", b: "27(?)-10-1834, lugar do Passo, Sobrado; batizado a 29-10-1834", c: ["26-4-1863, S. Julião de Água Longa (Santo Tirso), assento n.º 3: Maria André"], src: "Casamento n.º 8/1892, Gandra; batismo n.º 6/1897, Sobrado." },
   mariaAndrade: { name: "Maria André (de Andrade)", s: "o", f: "joseAndre", m: "margaridaA", sp: ["manuelMF"], b: "13-4-1843, Sobradelo, S. Julião de Água Longa (Santo Tirso)", c: ["26-4-1863, Água Longa: Manuel Martins Fernandes"], occ: "Lavradeira", src: "Casamento n.º 8/1892, Gandra; batismo n.º 6/1897, Sobrado." },
@@ -295,7 +299,7 @@ const people = {
   anaMargarida: { name: "Ana Margarida dos Santos", s: "o", sp: ["joseAntonioR"], occ: "Lavradeira, Recarei", src: "Batismo n.º 12/1872, Gandra." },
   luziaFerreira: { name: "Luzia Ferreira", role: "avó materna", s: "o", f: "joaquimAG", m: "anaFerreira", sp: ["augusto"], b: "c. 1917–1918, Sobrado (Valongo)", d: "c. 2000–2010 (família)", occ: "Souto Pinheiro, Sobrado (1957)", notes: ["39 anos em 1957, casada, natural de Sobrado. Morreu por volta de 2000–2010 (família)."], src: "Assento de nascimento n.º 793/2016 (filha Luzia)." },
   joaquimAG: { name: "Joaquim André Gaspar", role: "bisavô", s: "o", f: "antonioAG", m: "luziaMoreira", sp: ["anaFerreira"], b: "23-2-1892, Sobrado? (candidato)", d: "7-10-1925, Sobrado? (candidato)", occ: "Sobrado",
-    notes: ["Pai da avó Luzia (assento 793/2016). Candidato: Joaquim, n. 23-2-1892 em Sobrado, filho de António André Gaspar e Luzia Moreira; casou em 1920 com Cândida Moreira André e morreu em 1925. A mãe dele chamava-se Luzia, como a filha; a avó usaria só o apelido da mãe por ser filha natural. Por confirmar."],
+    notes: ["Pai da avó Luzia (assento 793/2016). Candidato: Joaquim, n. 23-2-1892 em Sobrado, filho de António André Gaspar e Luzia Moreira; casou em 1920 com Cândida Moreira André e morreu em 1925. A mãe dele chamava-se Luzia, como a filha; a avó usaria só o apelido da mãe por ser filha natural. Por confirmar.", "Há outro Joaquim André Gaspar, solteiro, lavrador, adulto em 1892 (padrinho deste batismo). Só o assento de nascimento da avó Luzia decide."],
     src: "Assento n.º 793/2016. Candidato: batismo de 1892, Sobrado (fontes/sobrado/bapt1892/p0007.jpg) e margem do batismo n.º 4/1895." },
   antonioAG: { name: "António André Gaspar", s: "o", sp: ["luziaMoreira"], occ: "Lavrador, Sobrado", notes: ["Pais: Manuel André Gaspar e Maria Antónia da Costa."], src: "Batismo de Joaquim, 1892, Sobrado." },
   luziaMoreira: { name: "Luzia Moreira", s: "o", sp: ["antonioAG"], occ: "Lavradeira, Sobrado", notes: ["Pais: Joaquim Moreira André e Antónia Martins."], src: "Batismo de Joaquim, 1892, Sobrado." },
@@ -604,7 +608,7 @@ const meta = {
   mariaFerreira: ["doc", "Assento de nascimento n.º 61/2026 (Gabriel)."],
   augusto: ["doc", "Assento n.º 793/2016 (Luzia)."], luziaFerreira: ["doc", "Assento n.º 793/2016 (Luzia)."],
   augustoPai: ["doc", "Casamento n.º 8/1892, Gandra; assento n.º 793/2016."], deolinda: ["doc", "Casamento n.º 8/1892, Gandra; assento n.º 793/2016."],
-  lucinda1897: ["doc", "Batismo n.º 6/1897, Sobrado."], manuelMF: ["doc", ""], mariaAndrade: ["doc", "Batismo n.º 3/1872 (Maria André) e casamento n.º 8/1892 (Maria de Andrade)."],
+  lucinda1897: ["doc", "Batismo n.º 6/1897, Sobrado."], maria1898F: ["doc", ""], antonio1900F: ["doc", ""], manuelJ1902F: ["doc", ""], luciano1904F: ["doc", ""], manuelMF: ["doc", ""], mariaAndrade: ["doc", "Batismo n.º 3/1872 (Maria André) e casamento n.º 8/1892 (Maria de Andrade)."],
   joao1866: ["doc", ""], manuelMF2: ["doc", ""], anaDuarte: ["doc", ""], manuelMV: ["prov", ""], anaPinto: ["doc", ""], custodioFA: ["doc", ""], anaAndre: ["doc", ""], joseBA: ["doc", ""], mariaMonteiro: ["doc", ""], joaquimMF: ["doc", ""], mariaRLM: ["doc", "Casamento n.º 3/1863, Água Longa."], joseAndre: ["doc", ""], margaridaA: ["doc", ""], antonioOliv: ["doc", ""], mariaMartinsG: ["doc", ""], joseAntonioR: ["doc", ""], anaMargarida: ["doc", ""], joaoOliveira: ["doc", ""], rosaAlves: ["doc", ""],
   antonioAG: ["hip", "Ligação via o candidato Joaquim de 1892."], luziaMoreira: ["hip", "Ligação via o candidato Joaquim de 1892."],
   joaquimAG: ["doc", "Assento n.º 793/2016 (avós maternos)."], anaFerreira: ["doc", "Assento n.º 793/2016 (avós maternos)."],
@@ -749,6 +753,10 @@ const meta = {
 
 // Scanned source images per person: [label, relative path]
 const IMG = {
+  so1898: ["Batismo n.º 95/1898, Sobrado (Maria)", "fontes/sobrado/bapt1898/p0020.jpg"],
+  so1900: ["Batismo n.º 35/1900, Sobrado (António)", "fontes/sobrado/bapt1900/p0019.jpg"],
+  so1902: ["Batismo n.º 18/1902, Sobrado (Manuel Joaquim)", "fontes/sobrado/bapt1902/p0011.jpg"],
+  so1904: ["Batismo n.º 27/1904, Sobrado (Luciano)", "fontes/sobrado/bapt1904/p0015.jpg"],
   so1834: ["Batismo de Manuel, 1834, Sobrado", "fontes/sobrado_bapt1816-51/p0088.jpg"],
   al1843: ["Batismo de Maria, 1843, Água Longa", "fontes/agualonga_bapt1842-69/p0012.jpg"],
   ga1866: ["Batismo n.º 26/1866, Gandra (João, irmão da Deolinda)", "fontes/gandra_bapt1866-72/p0010.jpg"],
@@ -846,6 +854,7 @@ const IMG = {
   i1909: ["Índice de batismos (1909)", "fontes/indice_godim/p0069.jpg"]
 };
 const IMGS = {
+  maria1898F: ["so1898"], antonio1900F: ["so1900"], manuelJ1902F: ["so1902"], luciano1904F: ["so1904"],
   manuelMF2: ["so1834"], anaDuarte: ["so1834"], manuelMV: ["so1834"], anaPinto: ["so1834"], custodioFA: ["al1843"], anaAndre: ["al1843"], joseBA: ["al1843"], mariaMonteiro: ["al1843"],
   joao1866: ["ga1866"],
   augustoPai: ["so1872", "ga1892a", "ga1892b", "so1897"], deolinda: ["ga1872", "ga1892a", "ga1892b", "so1897"], joaquimMF: ["so1872", "al1863"], mariaRLM: ["so1872", "al1863"], joseAndre: ["so1872", "al1863"], margaridaA: ["so1872", "al1863"], antonioOliv: ["ga1872"], mariaMartinsG: ["ga1872"], joseAntonioR: ["ga1872"], anaMargarida: ["ga1872"], lucinda1897: ["so1897"], manuelMF: ["so1834", "al1863", "so1872", "ga1892b"], mariaAndrade: ["al1843", "al1863", "so1872", "ga1892b"], joaoOliveira: ["ga1872", "ga1892b"], rosaAlves: ["ga1872", "ga1892b"],
