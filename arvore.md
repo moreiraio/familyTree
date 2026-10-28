@@ -39,13 +39,13 @@ No [arvore.html](arvore.html), cada pessoa tem uma **fonte** e um **nível de co
              dos Santos ✔  └─ 19. Joanna dos Santos ✔┤
              c.1825–9-10-1865  (Pendilhe, Castro    └─ 39. Maria Ayres ✔ (Pendilhe?)
                                 Daire; m. 1861?)
-    ┌─ 4. Francisco António Mimoso ✔ (5-10-1855 Covinhas – 7-5-1927, jornaleiro, Sergude)
+    ┌─ 4. Francisco António Mimoso ✔ (5-10-1855 Covinhas – 7-5-1927, jornaleiro, depois proprietário, Sergude)
     │
 ┌─ 2. José António Mimoso ✔ (22-3-1908 Sergude – 28-10-1971 Godim; casou 5-11-1927)
 │   │                                               ┌─ 20. Francisco da Silva ✔
 │   │              ┌─ 10. José da Silva ✔ ──────────┤
 │   │              │   pedreiro, n. Loureiro        └─ 21. Rita da Conceição ✔
-│   └─ 5. Maria da Silva Amaral (Maria de Jesus) ✔ (17-9-1864 Sergude)
+│   └─ 5. Maria da Silva Amaral (Maria de Jesus) ✔ (17-9-1864 Sergude; viva 7-2-1921)
 │                  │                                ┌─ 22. Manuel Amaral ✔
 │                  └─ 11. Maria de Jesus Amaral ✔ ──┤
 │                         (Godim)                   └─ 23. Joaquina Velha(?) ~
@@ -61,7 +61,7 @@ No [arvore.html](arvore.html), cada pessoa tem uma **fonte** e um **nível de co
          └─ 3. Francisca da Conceição Vicente ✔
                n. 28-3-1906, Sergude, Godim                                     ┌─ 28. José Rodrigues ✔
                   │                              ┌─ 14. Francisco Rodrigues ✔ ──┤
-                  │                              │      (Velho), jornaleiro     └─ 29. Anna de Jesus ✔
+                  │                              │      (Velho), proprietário   └─ 29. Anna de Jesus ✔
                   └─ 7. Maria Emília/Carolina ───┤
                        da Silva ✔                │                              ┌─ 30. António da Silva ✔ (pescador)
                        n. 10-8-1874 Godim        └─ 15. Anna Emília (da Silva) ✔┤
@@ -89,9 +89,9 @@ Continuação da linha de S. Pedro do Sul (n.º 64–67 → n.º 128–135, octa
 ```
 
 - **2. José António Mimoso (bisavô):** batismo n.º 40/1908, Godim. Detalhes em "Linha Mimoso: assentos validados", mais abaixo. Morreu a **28-10-1971** em Godim (assento 217/1971). ✔ Fonte: [fontes/bapt1908/p0023.jpg](fontes/bapt1908/p0023.jpg)
-- **4. Francisco António Mimoso:** nasceu a **5-10-1855** nas Covinhas, Godim ([fontes/bapt1853-59/p0035.jpg](fontes/bapt1853-59/p0035.jpg)). Casou a 18-10-1900 com 45 anos ([fontes/cas1900/p0025.jpg](fontes/cas1900/p0025.jpg)). Testamento a 7-2-1921. Morreu a 7-5-1927, seis meses antes do casamento do filho.
-- **5. Maria da Silva Amaral (Maria de Jesus):** nasceu a **17-9-1864** em Sergude ([fontes/bapt1864/p0020.jpg](fontes/bapt1864/p0020.jpg)). Filha de José da Silva, pedreiro natural de Loureiro, e de Maria de Jesus Amaral. Antes de casar teve um filho natural, **Abel** (2-3-1881 a 3-5-1942).
-- **Irmãos do bisavô:** Emília (17-7-1901 a 9-10-1930; casou em 1919) e o meio-irmão Abel, do lado da mãe.
+- **4. Francisco António Mimoso:** nasceu a **5-10-1855** nas Covinhas, Godim ([fontes/bapt1853-59/p0035.jpg](fontes/bapt1853-59/p0035.jpg)). Casou a 18-10-1900 com 45 anos ([fontes/cas1900/p0025.jpg](fontes/cas1900/p0025.jpg)). Testamento a 7-2-1921 ([fontes/not_cnprg5_394/p0097.jpg](fontes/not_cnprg5_394/p0097.jpg)). Morreu a 7-5-1927, seis meses antes do casamento do filho.
+- **5. Maria da Silva Amaral (Maria de Jesus):** nasceu a **17-9-1864** em Sergude ([fontes/bapt1864/p0020.jpg](fontes/bapt1864/p0020.jpg)). Filha de José da Silva, pedreiro natural de Loureiro, e de Maria de Jesus Amaral. Antes de casar teve **4 filhos naturais**, perfilhados: **Abel** (2-3-1881 a 3-5-1942), **Manuel**, **Francisco** e **Valentim Mendes**. Fez testamento a **7-2-1921** ([fontes/not_cnprg5_394/p0094.jpg](fontes/not_cnprg5_394/p0094.jpg)). ⚠ Antes estava "um filho natural, Abel".
+- **Irmãos do bisavô:** Emília (17-7-1901 a 9-10-1930; casou em 1919) e 4 meios-irmãos do lado da mãe: Abel, Manuel, Francisco e Valentim Mendes.
 - **8. Manuel António Mimoso:** nasceu a **29-8-1819** nas Covas, Godim ([fontes/bapt1817-25/p0026.jpg](fontes/bapt1817-25/p0026.jpg)). Casou a **30-12-1852** com Joaquina dos Santos ([fontes/cas1847-53/p0132.jpg](fontes/cas1847-53/p0132.jpg)). Ela morreu a 9-10-1865, e ele casou depois com Engracia Ferreira. Morreu a 11-2-1891 em Sergude; o assento dá-lhe 75 anos, mas tinha 71.
 - **9. Joaquina dos Santos:** morreu a 9-10-1865 em Sergude, com 40 anos ([fontes/obi1865/p0008.jpg](fontes/obi1865/p0008.jpg)). Filha de **18. António da Silva** (de Paradinha?, Moimenta da Beira) e de **19. Joanna dos Santos** (de Pendilhe, Castro Daire).
 - **16. José António Mimoso:** casou a **14-8-1814** em Godim com **17. Joanna Emília**, das Covas ([fontes/cas1812-19/p0012.jpg](fontes/cas1812-19/p0012.jpg)). O batismo provável é o de 31-7-1774 em Pouves, S. Pedro do Sul ([fontes/sps_bapt1769-88/p0051.jpg](fontes/sps_bapt1769-88/p0051.jpg)).
@@ -104,7 +104,7 @@ Continuação da linha de S. Pedro do Sul (n.º 64–67 → n.º 128–135, octa
 - Lado materno: confirmado até aos trisavós (n.º 24–31), 6 gerações.
 - **Casamento de 6 e 7:** 10-6-1894, igreja de Godim, assento n.º 7 ✔ ([fontes/cas1894/p0009.jpg](fontes/cas1894/p0009.jpg), [p0010.jpg](fontes/cas1894/p0010.jpg))
   - António Vicente: 21 anos, solteiro, caiador, natural de Godim, morador em Aviz. Filho de António Joaquim Vicente e Josefa Rosa, proprietários de Godim.
-  - Noiva, chamada **Maria Carolina da Silva** no casamento e Maria Emília da Silva no batismo da filha: 19 anos, natural de Godim, moradora em Sergude(?). Filha de Francisco Rodrigues Velho e Anna Emília da Silva, proprietários de Godim.
+  - Noiva, chamada **Maria Carolina da Silva** no casamento e Maria Emília da Silva no batismo da filha: 19 anos, natural de Godim, moradora em **Sergude**. Filha de Francisco Rodrigues Velho e Anna Emília da Silva, proprietários de Godim. ⚠ Antes estava "Sergude(?)": o assento e o batismo de 1874 dizem claramente Sergude.
   - Testemunhas: Francisco Mendes e Francisca Rosa, viúva. É a mesma Francisca Rosa que foi madrinha da Francisca em 1906.
   - Averbamento: António Vicente morreu em 1948. O assento de batismo dá a data de 10-6-1948 (n.º 134).
 - **Lado paterno: resolvido** até aos octavós (n.º 128–135), 7 gerações acima do avô. O ramo galego (n.º 68–69) fica nos heptavós.
@@ -137,7 +137,7 @@ José António Mimoso (bat. 31-7-1774?) ══ Joanna Emília (Covas, Godim)   (
                  │
                  ├── José (9-11-1853, morreu pequeno?)
                  ├── Francisco António Mimoso (5-10-1855 – 7-5-1927) ══ Maria da Silva Amaral / Maria de Jesus (1900)
-                 │        │                                     (ela já tinha um filho: Abel, 2-3-1881 – 3-5-1942)
+                 │        │      (ela já tinha 4 filhos naturais: Abel 1881–1942, Manuel, Francisco e Valentim Mendes)
                  │        ├── Maria Emília (17-7-1901 – 9-10-1930) ══ Joaquim Pereira Meireles (1919)
                  │        └── José António Mimoso (22-3-1908 – 28-10-1971) ══ Francisca da Conceição Vicente (n. 1906)
                  │                 casaram a 5-11-1927, Sergude/Conservatória da Régua   ↓ (continua em baixo)
@@ -191,12 +191,14 @@ n. 7-11-1930, Godim          Vicente ✔                     ══ Isaura Morei
 - **Nascimento:** 22-3-1908, às 6h, em Sergude, Godim. Batizado a 28-5-1908 (assento n.º 40) ✔
 - **Pais:** Francisco António (Mimoso), jornaleiro, e Maria de Jesus (= Maria da Silva Amaral), doméstica ✔
 - **Padrinhos:** José António Mimoso, jornaleiro, casado (o tio), e Anna Emília da Silva, proprietária, casada. Só a madrinha assinou. Batizou o coadjutor Francisco de Assis Ferreira.
+  - ~ A madrinha é muito provavelmente a tetravó **n.º 15, Anna Emília da Silva** (mesma assinatura que em 1903; ver a secção dos n.º 14 e 15). Seria madrinha do bisavô e avó da futura mulher dele, a Francisca.
 - **Avós:** Manuel António e Joaquina do Espírito Santo; José da Silva e Maria Amaral.
 - **Casamento:** com Francisca da Conceição Vicente, a 5-11-1927, assento n.º 89, Conservatória de Peso da Régua ✔
 - **Óbito:** **28-10-1971**, Godim, assento 217/1971 da Conservatória da Régua. A nota diz "no dia 28, assento 217 de hoje" e tem a data de 28-10-1971 ✔
 - Na caderneta predial 92-B é o primeiro proprietário, com a anotação "Legado".
 - Em maio de 1956 (casado, proprietário, morador em Sergude) declarou no registo predial que tinha construído uma casa de andar e loja, com mirante e terraço (84 m², 7 divisões no 1.º andar), na Quinta da Pêssega, Sergude (descrição n.º 35.139).
-- A família dizia que era "filho único". Teve pelo menos uma irmã, Emília (17-7-1901 a 9-10-1930), casada em 1919 com Joaquim Pereira Meireles, e um meio-irmão do lado da mãe, Abel (1881–1942).
+- A família dizia que era "filho único". Teve pelo menos uma irmã, Emília (17-7-1901 a 9-10-1930), casada em 1919 com Joaquim Pereira Meireles, e **4 meios-irmãos** do lado da mãe: Abel (1881–1942), Manuel, Francisco e Valentim Mendes (testamento da mãe, 1921). ⚠ Antes estava só o Abel.
+- O catálogo do ADVRL tem um **auto de emancipação** de 1927 (a mãe contra o bisavô, com 19 anos) e o **inventário** dele, de 1971 (ver "Registos encontrados no catálogo do ADVRL").
 - Fonte: [fontes/bapt1908/p0023.jpg](fontes/bapt1908/p0023.jpg)
 
 ### Francisca da Conceição Vicente (mãe do avô) ✔
@@ -240,6 +242,58 @@ Casamentos de rapazes Vicente nascidos em Godim, segundo as notas na margem dos 
 | Manuel (n. 18-3-1906) | Custódio Vicente e Isaura da Conceição | Maria Emília Teixeira(?), casamento católico a 1-3-1952 | Pouco provável |
 
 Para confirmar, é preciso a **certidão de casamento dos avós** ou a de nascimento da Emília: indicam os pais dela.
+
+### 14. Francisco Rodrigues Velho e 15. Anna Emília da Silva (tetravós) ✔
+Pais da trisavó Maria Carolina (n.º 7). Avós da bisavó Francisca.
+- **Lugar:** Sergude, Godim, desde pelo menos 1874 ✔.
+- **Ocupação:** **jornaleiros** em 1874 (batismo da filha Maria); **proprietários** em 1894, 1903 e 1908 ✔. ⚠ No diagrama o n.º 14 estava como "jornaleiro": era-o só em 1874. Subiram de estatuto entre 1874 e 1894.
+- **Nomes:** em 1874 aparecem só como "Francisco Rodrigues" e "Anna Emilia", sem "Velho" e sem "da Silva".
+- **Francisco Rodrigues Velho estava vivo a 26-3-1911**: foi testemunha e assinou no batismo do neto Américo (n.º 23/1911), "avô do baptizando" ✔ ([fontes/bapt1911/m0013.jpg](fontes/bapt1911/m0013.jpg), página direita).
+- **Anna Emília estava viva e casada a 28-5-1908** (madrinha do bisavô).
+
+**Batismo n.º 22/1903, António (irmão da bisavó Francisca), Godim ✔** ([fontes/bapt1903/m0013.jpg](fontes/bapt1903/m0013.jpg), página esquerda)
+> "... filho legitimo de Antonio Vicente, caiador, e de Maria Carolina, empregada no serviço domestico, naturaes d'esta freguezia, n'ella recebidos, parochianos e moradores no logar de Sergude, neto paterno de Antonio Joaquim Vicente e Josefa Rosa, e materno de Francisco Rodrigues Velho e Anna Emilia da Silva. Foram padrinhos os avós maternos Francisco Rodrigues Velho e sua mulher Anna Emilia da Silva, proprietarios, d'esta freguezia ... os padrinhos commigo assignaram."
+- Assinam "Francisco Rodrigues Velho" e "Anna Emilia da Silva", depois "O Abb.e Alberto Teix.a de Carvalho".
+
+**Batismo n.º 23/1911, Américo (filho de Bernardino Vicente × Emília Rosa), Godim ✔** ([fontes/bapt1911/m0013.jpg](fontes/bapt1911/m0013.jpg), página direita)
+> "... neto paterno de Antonio Vicente e Josepha Rosa, materno de Francisco Rodrigues Velho e Anna Emilia da Silva. Foi padrinho Joaquim da Luz, solteiro, creado de servir na Regoa, e a testemunha Francisco Rodrigues Velho, avô do baptizando ... assignou só o ultimo por o primeiro não saber escrever."
+- Nasceu a 11-3-1911, batizado a 26-3-1911. O assento não diz que algum avô tivesse morrido.
+
+**A testemunha de 1900 e madrinha de 1901 e 1908 é a n.º 15 ~** (≈80%)
+- Uma "Anna Emília da Silva, proprietária" aparece em 4 assentos da família Mimoso:
+  - testemunha do casamento dos trisavós n.º 4 × 5, 18-10-1900 (casada, "natural d'esta freguezia") ([fontes/cas1900/p0026.jpg](fontes/cas1900/p0026.jpg));
+  - madrinha da Emília, irmã do bisavô, 5-8-1901 ([fontes/bapt1901/p0036.jpg](fontes/bapt1901/p0036.jpg));
+  - madrinha do **bisavô José António**, 28-5-1908 (casada) ([fontes/bapt1908/p0023.jpg](fontes/bapt1908/p0023.jpg)).
+- A assinatura destes assentos tem **a mesma mão** que a de 1903, onde ela assina como avó materna, ao lado do marido: o mesmo "A" de "Anna" com laçada, o mesmo "da" ligado, o mesmo "S" alto, o mesmo traçado inseguro.
+- A qualificação é a mesma (proprietária, casada, de Godim). Até 1911 não se encontrou outra Anna Emília da Silva em Godim. Nenhum dos assentos de 1900, 1901 e 1908 nomeia o marido.
+- ⇒ A tetravó da linha Vicente foi **madrinha do bisavô** e era **avó da futura mulher dele**, a bisavó Francisca.
+- ❓ Não há documento que diga que a Maria da Silva Amaral, "criada de servir, de Sergude" em 1900, servia em casa dela.
+- Nota: a Emília Rosa que morreu a 2-3-1906 (obi1906, n.º 1, Souto, viúva de João de Almeida) **não** é a n.º 31: o marido é outro.
+
+**Óbitos dos n.º 14 e 15: procurados e NÃO encontrados** (livros de óbitos de Godim em fontes/; vistas todas as margens, abertas as entradas "Anna", "Francisco" e "Emília" possíveis)
+
+| Livro | Páginas | Resultado |
+|---|---|---|
+| obi1899 | p0002–p0027 | nada |
+| obi1900 | p0002–p0028 | n.º 21 Anna Valbina, viúva de Manuel Carlos de Aguilar: não é |
+| obi1901 | p0002–p0031 | nada |
+| obi1902 | p0002–p0023 | nada |
+| obi1903 | p0002–p0023 | n.º 5 Francisco Ribeiro, 80 anos, de Baião: não é |
+| obi1904 | p0002–p0029 | nada |
+| obi1905 | p0002–p0024 | n.º 20 Anna (18 meses), n.º 46 Francisco (3 meses): não são |
+| obi1906 | p0002–p0025 | n.º 1 Emília Rosa (ver acima), n.º 40 Francisco Rodrigues, 22 anos, de Felgueiras (Resende): não são |
+| obi1907 | p0002–p0023 | nada |
+| obi1908 | p0001–p0023 | nada |
+| obi1909 | p0003–p0019 | n.º 27 Anna (8 meses): não é |
+| obi1910 | p0003–p0022 | n.º 26 Anna Lucia, 85 anos; n.º 38 Anna, 3 anos: não são |
+| obi1911 | p0003–p0007 (fim do livro paroquial) | nada |
+
+- ⇒ Morreram depois de 1911. Os óbitos estão no **registo civil** da Régua, que não está online.
+- **Catálogo do ADVRL** (28-10-2026): nenhum testamento, inventário ou processo em nome de Anna/Ana Emília da Silva ou de Francisco Rodrigues Velho, em Godim ou na Régua. "Rodrigues Velho" na Régua só aparece no inventário de José Rodrigues Velho e Ana Rita (1845, C-A/082/415) e em Maria da Conceição Vicente Rodrigues Velho Teixeira (1968, C-A/082/3207; ❓ talvez descendente Vicente, não verificado).
+
+**Casamento dos n.º 14 × 15: não encontrado; período delimitado**
+- O índice de batismos (fontes/indice_godim, p0011–p0019) dá filhos de um "Francisco Rodrigues": Francisco 15-11-1871 (n.º 48), **Maria 10-8-1874 (n.º 38, a n.º 7)** e Francisca 21-2-1877 (n.º 21). Só a Maria está verificada; há outros Francisco Rodrigues em Godim.
+- ⇒ Casamento por volta de **1865–1873**. Os livros de casamentos de Godim desse período **não estão descarregados**: 002/024 (1865, c1b46000cfb445ee8369943e63d3c04f), 002/025 (1866, e45d88f7061f4a1a921b665df056a26b), 002/026 (1867, cd736576ec4d44dbb5d9687433b8251d), 002/027 (1868, 132f42d682a1442ca50acc53e1588a27), 002/028 (1869, 35dfb37965be4b2489f9587785192618), 002/029 (1870, f05ac04db1f64751ad25efade8a3eb02), 002/030 (1871–1876, c3cb81ec6b5f48939caa69ea7ed9a23e, 39 imagens).
 
 ### Maria Emília da Conceição Vicente (irmã do avô) ✔
 - Filha de José António Mimoso e de Francisca da Conceição Vicente. Usava só os apelidos da mãe.
@@ -352,6 +406,10 @@ Leituras incertas estão marcadas com (?).
 - ✔ Em 1956 o bisavô **José António Mimoso** era casado, proprietário e morador em Sergude. Construiu a casa com mirante na Quinta da Pêssega.
 - ❓ As inscrições no livro G (transmissões) mostram a cadeia de donos. A n.º 11.039, de 1937, pode ser a passagem da quinta do trisavô Francisco António (morto em 1927, com testamento de 1921) para o filho. Isto bate com a anotação "Legado" da caderneta.
 - ❓ As quotas em sextos (1/6 e 5/6) nas inscrições G-42 e G-44 sugerem uma partilha entre 6 herdeiros, ou a compra de 5/6 por um deles. Os 7 filhos da família podiam ser 6 vivos à data.
+- ❓ **Hipótese nova (28-10-2026):** os 6 herdeiros podem ser os **6 filhos da trisavó Maria Amaral**. No testamento de 7-2-1921 ela declara 6 herdeiros necessários: 2 legítimos (Maria Emília e José António) e 4 perfilhados (Abel, Manuel, Francisco e Valentim Mendes) ✔. Se a quinta era dela, ou do casal, a parte dela foi partilhada em sextos. O bisavô terá depois juntado as outras 5/6, por compra ou partilha. Isto explicaria as inscrições de 1/6 (C-30 n.º 14.163 e 14.193, G-42 n.º 33.225) e de 5/6 (G-42 n.º 33.224, G-44 n.º 34.029), e talvez o "Legado" da caderneta. Está bem fundada, mas não há documento que a prove.
+- ❓ A ideia de um **legado de Anna Emília da Silva** (n.º 15) ficou **mais fraca**: o catálogo do ADVRL não tem testamento, inventário nem processo em nome dela ou do marido, e nenhum registo nomeia a Pêssega ou um legado (pesquisa de 28-10-2026).
+- ❓ **Continua por explicar** como o casal Francisco António × Maria Amaral passou de jornaleiros (1900–1908) a **proprietários** (1921). A aquisição da quinta, se foi deles, terá sido entre 1908 e 1921. Nenhum dos dois testamentos de 1921 nomeia prédios.
+- As fontes mais prováveis para a origem da quinta são o **inventário de Francisco António (1927, Cx. 69)** e o **inventário do bisavô (1971, Cx. 143)**. Ver "Registos encontrados no catálogo do ADVRL".
 - **A pedir:** certidão de teor da descrição **00427/Godim** (antiga 35.139), com todas as inscrições, sobretudo G-25 n.º 11.039, G-42 n.º 33.224/33.225 e G-44 n.º 34.029. Também a do prédio **58.828** (a casa). Cada inscrição diz quem comprou ou herdou, de quem e por que título (testamento, partilha, compra). Pode ajudar a identificar os 3 irmãos do avô que faltam.
 
 ### Família Mimoso em Godim no século XIX ✔ (livros paroquiais)
@@ -375,7 +433,7 @@ Leituras incertas estão marcadas com (?).
 | Joaquim António Mimoso | **8-11-1835**, Covas (batizado 22-11-1835) ✔ (⚠ antes "c. 1835") | não encontrado em Godim entre 1880 e 1911 | Anna da Conceição (1862) |
 
 - Ramo de Sergude: Manuel António Mimoso e Joaquina dos Santos são os **tetravós diretos** (n.º 8 e 9), através do filho Francisco António.
-- "Casou 2 vezes e já tinha filhos": quem casou duas vezes foi a Josefa Emília. Quem "já tinha filhos" ao casar foi a trisavó Maria da Silva Amaral, mãe do Abel.
+- "Casou 2 vezes e já tinha filhos": quem casou duas vezes foi a Josefa Emília. Quem "já tinha filhos" ao casar foi a trisavó Maria da Silva Amaral, mãe de 4 filhos naturais (Abel, Manuel, Francisco e Valentim Mendes).
 
 **Joaquim António Mimoso** e **Anna da Conceição** ✔
 - **Casamento:** 1-5-1862, às 6 horas da manhã, igreja de S. José de Godim, assento n.º 4 ✔ ([fontes/cas1862/p0004.jpg](fontes/cas1862/p0004.jpg) e [p0005.jpg](fontes/cas1862/p0005.jpg))
@@ -439,7 +497,8 @@ Todos os assentos abaixo foram relidos nas imagens originais. Leituras incertas 
 - **Nascimento:** 22-3-1908, às 6h, em Sergude. **Batismo:** 28-5-1908.
 - **Pais:** Francisco António, jornaleiro, e Maria de Jesus, doméstica, de Godim, moradores em Sergude.
 - **Avós:** Manuel António e Joaquina do Espírito Santo; José da Silva e Maria Amaral.
-- **Padrinhos:** José António Mimoso, jornaleiro, casado, e Anna Emília da Silva, proprietária, casada. Só a madrinha assinou.
+- **Padrinhos:** José António Mimoso, jornaleiro, casado, e Anna Emília da Silva, proprietária, casada. Só a madrinha assinou ("+ Anna Emilia da Silva").
+  - ~ A madrinha é provavelmente a **n.º 15** (comparação de assinaturas; ver a secção dos n.º 14 e 15).
 - **Padre:** coadjutor Francisco de Assis Ferreira.
 - **Margem 1:** casou com Francisca da Conceição Silva a 5-11-1927, assento 89, Régua. Nessa nota, a mãe dela pode ler-se "Maria Amélia(?)".
 - **Margem 2:** "Faleceu em Godim, Peso da Régua, no dia 28, assento 217 de hoje. Em 28 de Outubro de 1971". Logo, o óbito é de **28-10-1971**.
@@ -448,7 +507,8 @@ Todos os assentos abaixo foram relidos nas imagens originais. Leituras incertas 
 ### Emília, irmã do bisavô: batismo n.º 66/1901, Godim ✔
 - **Nascimento:** 17-7-1901, às 14h, em Sergude. **Batismo:** 5-8-1901. ⚠ Antes estava 11-7-1901, por erro de leitura do índice.
 - **Avós:** Manuel António Mimoso e Joaquina dos Santos; José da Silva e Maria Amaral.
-- **Padrinhos:** Joaquim Elias dos Santos, sapateiro, de Fontelas, e Anna Emília da Silva, proprietária.
+- **Padrinhos:** Joaquim Elias dos Santos, sapateiro, de Fontelas, e Anna Emília da Silva, proprietária. Só a madrinha assinou.
+  - ~ A madrinha é provavelmente a **n.º 15** (mesma assinatura que em 1900, 1903 e 1908).
 - **Margem:**
   - casou com Joaquim Pereira Meireles a 20-12-1919 (Régua, assento 90/1919);
   - morreu na Régua a **9-10-1930** (assento 285?/1930).
@@ -466,14 +526,15 @@ Todos os assentos abaixo foram relidos nas imagens originais. Leituras incertas 
 **Casamento n.º 23, 18-10-1900, Godim ✔**
 - **Noivo:** Francisco António Mimoso, 45 anos, solteiro, jornaleiro, natural de Godim, morador em Sergude.
 - **Noiva:** Maria da Silva Amaral, 36 anos, solteira, criada de servir, de Sergude, filha de José da Silva, pedreiro, e de Maria da Silva Amaral.
-- **Testemunhas:** Joaquim Elias dos Santos, casado, sapateiro, de Fontelas, e Anna Emília da Silva, casada, proprietária.
+- **Testemunhas:** Joaquim Elias dos Santos, casado, sapateiro, de Fontelas, e Anna Emília da Silva, casada, proprietária, "natural d'esta freguezia". Só ela assinou.
+  - ~ É provavelmente a **n.º 15** (ver a secção dos n.º 14 e 15).
 - **Padre:** abade Alberto Teixeira de Carvalho.
 - O assento não dá avós, não legitima filhos e não tem notas na margem. A noiva nunca é chamada "Maria de Jesus" neste assento.
-- O casamento seguinte, n.º 24 do mesmo dia, é o do **Abel**, filho natural dela.
+- O casamento seguinte, n.º 24 do mesmo dia, é o do **Abel**, filho natural dela. Os outros 3 filhos naturais (Manuel, Francisco e Valentim Mendes) não são legitimados neste assento.
 - Fontes: [fontes/cas1900/p0025.jpg](fontes/cas1900/p0025.jpg), [p0026.jpg](fontes/cas1900/p0026.jpg)
 
 **Testamento público, 7-2-1921, Régua ✔**
-- **Onde:** cartório do notário António Cardoso(?) da Fonseca Mirandella, Rua Serpa Pinto, Peso da Régua. ADVRL PT/ADVRL/NOT/CNPRG5/007/394/38, fl. 47 e 47 v.º. Fotografias enviadas pela família.
+- **Onde:** cartório do notário António Cardoso(?) da Fonseca Mirandella, Rua Serpa Pinto, Peso da Régua. ADVRL PT/ADVRL/NOT/CNPRG5/007/394/38, fl. 47 e 47 v.º. Fotografias enviadas pela família. O livro 394 está digitalizado: fl. 47 = [fontes/not_cnprg5_394/p0097.jpg](fontes/not_cnprg5_394/p0097.jpg), fl. 47 v.º = [fontes/not_cnprg5_394/p0098.jpg](fontes/not_cnprg5_394/p0098.jpg). Segue-se ao testamento da mulher, feito no mesmo dia (fl. 45 v.º–46 v.º; ver a secção do n.º 5).
 - **Testador:** "Francisco Antonio Mimoso, casado, proprietario, morador no logar de Sergude, freguezia de Godim". Em 1900 e 1908 era jornaleiro; em 1921 já é **proprietário**. Não sabia ler nem escrever, por isso não assinou. Diz que é o seu primeiro testamento.
 - **Família declarada:** casado com **Maria Amaral**, com quem vive. "De cujo matrimonio existem **dois filhos**, de nomes **Maria Emilia, casada com Joaquim Pereira Meireles, moradora em Sergude** e **José Antonio, ainda solteiro, menor e convivente com elle testador**."
 - **Disposições:**
@@ -483,18 +544,19 @@ Todos os assentos abaixo foram relidos nas imagens originais. Leituras incertas 
   - Não dispõe sobre funeral nem bens d'alma. Nomeia a mulher **testamenteira**.
 - **Testemunhas:** António Ignacio Teixeira, empregado comercial; Aureliano da Costa Pinto, oficial do Registo Civil; Padre Francisco Rodrigues Paulo, solteiro, proprietário. Todos da Régua.
 - **Averbamentos** (margem superior do fl. 47 v.º):
-  1. "O testador faleceu aos **7/5/1927**, conforme registo de obito sob o **n.º 147**, da Conservatoria do Registo Civil d'este concelho. Peso da Regoa, 14 de Abril de 1936(?)." ●
+  1. "O testador faleceu aos **7/5/1927**, conforme registo de obito sob o **n.º 147**, da Conservatoria do Registo Civil d'este concelho. Peso da Regoa, 14 de Abril de 1936(?)." ● Relido na imagem do arquivo (p0098): o 3.º algarismo parece "3" e o último "6" ou "8"(?). Não parece 1937.
   2. "Por escritura hoje outorgada neste Cartório, exarada de folhas 21 a 23 do livro de escrituras diversas **B-31**, foi feita a **habilitação** com base neste testamento. Peso da Régua, 13/8(?)/1971." ●
 - **O que isto diz:**
-  - ✔ Em 1921 havia só dois filhos vivos do casamento. O Abel não aparece porque era filho natural só da mulher.
+  - ✔ Em 1921 havia só dois filhos vivos do casamento. Os 4 filhos naturais da mulher (Abel, Manuel, Francisco e Valentim Mendes) não aparecem, porque não eram filhos dele.
   - ⚠ O apelido do genro estava marcado "Meireles(?)". O testamento escreve claramente **Joaquim Pereira Meireles**.
   - A filha de 1901, batizada "Emília", aparece como **Maria Emília**.
   - A trisavó (n.º 5) estava viva a 7-2-1921. "Maria Amaral" é mais uma forma do nome dela.
   - Depois da morte da Maria Emília (1930), o bisavô ficou o **único filho vivo**. Isto explica a ideia de família de que era "filho único".
-  - ❓ A habilitação de 1971 foi antes da morte do bisavô (28-10-1971). Deve ter servido para acertar a parte da Maria Emília. Pode estar ligada às quotas em sextos da descrição predial 35.139.
+  - ❓ A habilitação de 1971 foi antes da morte do bisavô (28-10-1971). Deve ter servido para acertar a parte da Maria Emília. Pode estar ligada às quotas em sextos da descrição predial 35.139 (os 6 filhos da Maria Amaral; ver a secção do n.º 5).
   - ❓ O averbamento de 14-4-1936(?) e o averbamento n.º 1 da descrição 35.139 (14-4-1937) têm o mesmo dia e mês. Pode ser o ano mal lido.
   - O testamento não nomeia prédios.
-- Fontes: [imagens/testamento1921_fl47.jpg](imagens/testamento1921_fl47.jpg), [imagens/testamento1921_fl47v.jpg](imagens/testamento1921_fl47v.jpg)
+- Fontes: [imagens/testamento1921_fl47.jpg](imagens/testamento1921_fl47.jpg), [imagens/testamento1921_fl47v.jpg](imagens/testamento1921_fl47v.jpg); no arquivo, [fontes/not_cnprg5_394/p0097.jpg](fontes/not_cnprg5_394/p0097.jpg), [fontes/not_cnprg5_394/p0098.jpg](fontes/not_cnprg5_394/p0098.jpg)
+- **Inventário de 1927** (catálogo): processo de inventário obrigatório de **Francisco António Mimoso**, inventariante **Maria Amaral**, PT/ADVRL/JUD/TJCPRG/C-B/082/677, Cx. 69 ●. Não digitalizado. Deve ter a relação de bens e a partilha.
 
 ### 5. Maria da Silva Amaral (trisavó): batismo n.º 39/1864, Godim ✔
 - **Nascimento:** 17-9-1864, às 2h da manhã, em Sergude. **Batismo:** 2-10-1864. Batizada só "Maria", filha legítima, "primeira deste nome". Os pais tinham casado em Godim.
@@ -505,15 +567,67 @@ Todos os assentos abaixo foram relidos nas imagens originais. Leituras incertas 
 - **Padre:** coadjutor Carmine António de Sousa Pennas.
 - **Prováveis irmãos** (índice, pai "José da Silva"): Francisco 20-1-1862 (n.º 10), Preciosa 15-1-1867 (n.º 8), Manuel 4-12-1868, António 25-3-1871 (n.º 22), Luiz 28-10-1873 (n.º 48), Bibiana 4-1-1875 (n.º 10). Pode haver outro José da Silva em Godim; só o batismo da Maria foi lido.
 - O casamento dos pais não está em Godim de 1854 a 1864. Talvez em Loureiro, c. 1860–61.
+- **Formas do nome:** Maria (batismo, 1864), **Maria de Jesus** (batismos dos filhos, 1881 e 1908), **Maria da Silva Amaral** (casamento, 1900), **Maria Amaral** (testamentos de 1921). O auto de emancipação de 1927 (catálogo do ADVRL, C-A/153/39) junta as três: "Maria da Silva Amaral, Maria Amaral, Maria de Jesus" ●.
+- **Ocupação:** criada de servir (1900); doméstica (1908); **proprietária** (1921).
+- Estava **viva a 7-2-1921**. A data da morte não é conhecida. Não há inventário em nome dela no catálogo do ADVRL. Foi inventariante do marido em 1927 e autora do auto de emancipação do filho em 1927 ●.
 - Fonte: [fontes/bapt1864/p0020.jpg](fontes/bapt1864/p0020.jpg)
+
+**Testamento público de Maria Amaral, 7-2-1921, Régua ✔**
+- **Onde:** cartório do notário António Cardoso da Fonseca Mirandella, Rua Serpa Pinto, Peso da Régua. ADVRL **PT/ADVRL/NOT/CNPRG5/007/394/37**, fl. 45 v.º–46 v.º. Livro 394 (11-5-1920 a 5-3-1921), docId 8bcc7d0356f645209df1f9eb500a7a22.
+- **Imagens:** fl. 45 v.º = [fontes/not_cnprg5_394/p0094.jpg](fontes/not_cnprg5_394/p0094.jpg); fl. 46 = [fontes/not_cnprg5_394/p0095.jpg](fontes/not_cnprg5_394/p0095.jpg); fl. 46 v.º = [fontes/not_cnprg5_394/p0096.jpg](fontes/not_cnprg5_394/p0096.jpg). Imagem = 2 × folha + 3. O testamento do marido vem logo a seguir (fl. 47–47 v.º, p0097–p0098).
+- **Margem do título:** "D.L.(?)". **Sem averbamentos**: a morte dela não está anotada.
+
+Transcrição (ortografia do original):
+
+> [fl. 45v] D.L.(?) / Testamento de Maria Amaral, casada, moradora em Sergude, freguezia de Godim
+>
+> Aos sete de Fevereiro de mil novecentos e vinte e um, n'esta villa e comarca de Peso da Regoa, na rua Serpa Pinto e em meu cartorio, perante mim notario da comarca Antonio Cardoso da Fonseca Mirandella e as tres testemunhas idoneas Antonio Ignacio Teixeira, empregado commercial, Aureliano da Costa Pinto, official do Registo Civil, estes casados e Padre Francisco Rodrigues Paulo, solteiro, maior, proprietario, todos moradores n'esta villa, compareceu Maria Amaral, casada, proprietaria, moradora no logar de Sergude, freguezia de Godim, d'esta comarca, pessoa que eu e as testemunhas conhecemos pela propria, cuja identidade, proprio, reconhecemos e nos certificamos de que ella se acha em seu perfeito juizo e livre de toda e qualquer coacção. E pela referida Maria Amaral em presença das mencionadas testemunhas foi dito que faz o seu testamento e disposição de ultima vontade pela forma seguinte: Que nada dispõe quanto ao seu funeral e bens d'alma, o que fica á vontade de seu testamenteiro. Que é casada com Francisco Antonio Mimoso, com quem convive e de cujo matrimonio existem dois filhos, de nomes Maria Emilia, casada com Joaquim Pereira Meireles e José Antonio, solteiro, menor, este convivente com a testadora e aquella moradora no referido logar de Sergude; e antes do seu dito casamento houve ella testadora de homem livre, e sendo ella habil para contrahir matrimonio com elle, quatro filhos illegitimos de nomes Abel Mendes, casado com Maria da Conceição, Manuel Mendes casado com Elisa da Con-
+>
+> [fl. 46] ceição, Francisco Mendes, casado com Celestina da Conceição e Valentim Mendes casado com Magnifica da Conceição, todos moradores no referido logar de Sergude. Que todos esses quatro filhos estão no respectivo assento de nascimento mencionados como filhos naturaes d'ella testadora e assim os tem como perfilhados, para todos os effeitos, em datas anteriores á do seu matrimonio, perfilhação essa que aqui ratifica e confirma para os effeitos legaes. Que os seus indicados seis filhos, os dois legitimos e os quatro perfilhados são os herdeiros necessarios d'ella testadora, na proporção que a lei determina. Que para que não haja diferenças na legitima materna que devem receber os filhos legitimos e os perfilhados, ella testadora, pelas forças da sua quota disponivel, lega aos seus quatro filhos perfilhados os bens que sejam sufficientes para que cada um dos mesmos seus filhos perfilhados herde tanto como cada um dos legitimos na herança d'ella testadora. Que nomeia seu testamenteiro seu marido. Que por esta forma tinha feito o seu testamento, que é o primeiro. Assim o disse do que fé, digo, do que dou fé. Na presença das indicadas testemunhas lavrei ininterruptamente este testamento que ellas assignam não o assignando a testadora por não saber escrever, como tambem não sabe ler, pelo que eu o li em voz alta na presença da mesma testadora e testemunhas. Dou fé que foram cumpridas e praticadas em acto continuo todas as formalidades. O imposto de sello devido na importancia de um escudo e cincoenta centavos vae ser adeante pago em estam-
+>
+> [fl. 46v] digo, d'ella testadora, salvo, porém, o usofructo dos bens legados na forma exposta, o qual usofructo é para o marido d'ella testadora, visto que ao seu dito marido lega ella o usofructo de toda a sua referida quota disponivel emquanto fôr vivo e dispensando-o de caução. Que nomeia testamenteiro o seu dito marido. Que por esta forma tinha feito o seu testamento que é o primeiro. Assim o disse, do que dou fé. Na presença das indicadas testemunhas lavrei ininterruptamente este testamento que ellas assignam não o assignando a testadora por não saber escrever, como tambem não sabe ler, pelo que eu o li em voz alta na presença da mesma testadora e testemunhas. Dou fé que foram cumpridas e praticadas em acto continuo todas as formalidades. O imposto de sello devido na importancia de um escudo e cincoenta centavos vae ser adeante pago em estampilhas fiscaes. Eu Antonio Cardoso da Fonseca Mirandella, notario, o escrevi, li em voz alta perante a testadora e testemunhas e tambem assigno.
+>
+> [assinaturas] Ant.º Ignacio Teixeira / Aureliano da Costa Pinto / Padre Francisco Rodrigues Paulo / Ant.º Cardoso da F.ca Mirandella. [Conta: testamento 5$00, rasa $53, total 5$53, distribuição $38, selo $45, total 6$36 "seiscentos e trinta e seis centavos"(?)]. Estampilhas de 1$00, $50, $02(?) e contribuição industrial $70, inutilizadas a 7 de Fevereiro de 1921.
+
+- **Nota sobre o texto:** no fim do fl. 46, "d'ella testadora" está sublinhado. O "digo" do fl. 46 v.º retoma a partir daí. A fórmula final do fl. 46 ("Que nomeia seu testamenteiro … em estam-") ficou sem efeito e foi reescrita no fl. 46 v.º, depois da cláusula do usufruto.
+- **Família declarada:**
+  - casada com **Francisco António Mimoso**, com quem vive;
+  - 2 filhos legítimos: **Maria Emília**, casada com Joaquim Pereira Meireles, moradora em Sergude; **José António**, solteiro, menor, vive com a mãe (o bisavô);
+  - ⚠ **4 filhos naturais**, tidos antes do casamento "de homem livre", que ela podia ter casado. Não diz o nome do pai. Estão nos assentos de nascimento como filhos naturais dela e foram **perfilhados** antes do casamento:
+    - **Abel Mendes**, casado com **Maria da Conceição**;
+    - **Manuel Mendes**, casado com **Elisa da Conceição**;
+    - **Francisco Mendes**, casado com **Celestina da Conceição**;
+    - **Valentim Mendes**, casado com **Magnífica da Conceição**;
+    - todos moradores em **Sergude**.
+  - ⚠ **Correção:** antes estava que ela tinha "um filho natural, Abel". Eram 4. O apelido Mendes sugere que o pai era um Mendes (❓).
+- **Disposições:**
+  - Os **6 filhos** (2 legítimos e 4 perfilhados) são os **herdeiros necessários**, "na proporção que a lei determina".
+  - Para que os perfilhados não recebam menos do que os legítimos, deixa-lhes, pela **quota disponível**, os bens necessários para cada um herdar tanto como cada filho legítimo.
+  - Deixa ao marido o **usufruto** de toda a quota disponível, enquanto for vivo, sem caução.
+  - Não dispõe sobre funeral nem bens d'alma. Nomeia o **marido testamenteiro**. É o primeiro testamento.
+- **Testemunhas:** as mesmas do testamento do marido: António Ignacio Teixeira, Aureliano da Costa Pinto e Padre Francisco Rodrigues Paulo.
+- Não sabia ler nem escrever. O testamento **não nomeia prédios**.
+- ◆ Não confundir **Valentim Mendes** (meio-irmão do bisavô) com **Valentim António Mimoso** (irmão do avô).
 
 **Abel, filho natural: batismo n.º 22/1881, Godim ✔**
 - **Nascimento:** 2-3-1881, às 14h. **Batismo:** 20-3-1881.
 - **Mãe:** "Maria de Jesus", empregada no governo doméstico, de Sergude. **Avós maternos:** José da Silva e Maria Amaral. Isto prova que Maria de Jesus e Maria da Silva Amaral são a mesma pessoa.
 - **Padrinho:** Barnabé Justino Monteiro, proprietário. Em vez de madrinha, tocou com a coroa de Nossa Senhora Alexandre Westermann(?), que trabalhava na ponte do Douro.
 - **Margem:** morreu em Godim a 3-5-1942 (assento 155/1942).
-- O apelido "Mendes" não aparece no batismo.
+- O apelido "Mendes" não aparece no batismo. Mas o testamento da mãe (1921) chama-lhe **Abel Mendes**, casado com Maria da Conceição, e diz que foi **perfilhado** antes de 1900. A perfilhação pode estar noutro documento.
 - Fonte: [fontes/bapt1881/p0013.jpg](fontes/bapt1881/p0013.jpg)
+
+**Manuel, Francisco e Valentim Mendes, filhos naturais ✔ (testamento de 1921)**
+- Nasceram antes do casamento da mãe (18-10-1900). A ordem do testamento (Abel, Manuel, Francisco, Valentim) pode ser a dos nascimentos ~.
+- Casados em 1921, moradores em Sergude: **Manuel** × **Elisa da Conceição**; **Francisco** × **Celestina da Conceição**; **Valentim** × **Magnífica da Conceição**.
+- Batismos **ainda não procurados**. Devem estar em Godim entre 1881 e 1900, como filhos naturais de Maria de Jesus.
+- ❓ Pistas no catálogo do ADVRL, não verificadas:
+  - inventário de um **Francisco Mendes** em 1942, inventariante **Celestina Augusta** (C-C/082/739, Cx. 78);
+  - um **Eduardo Mendes** (com Silvana da Conceição) foi réu numa ação do bisavô em 1948 (C-B/056/104). Pode ser filho de um dos meios-irmãos;
+  - em 1973, uma ação de Eduardo Mendes contra Francisco Mendes, Elisa da Conceição Mendes, Albertina Mendes, Maria Magnífica e outros (C-A/056/452). "Elisa" e "Magnífica" lembram as mulheres de Manuel e de Valentim.
+- ❓ Uma "Eliza da Conceição" é mãe de Maria (do Carmo?) Mendes (n. 11-5-1903), mas o pai é **Simão** Mendes, não Manuel. Por verificar.
+- ❓ Uma testemunha do casamento de 1894 (n.º 6 × 7) chama-se Francisco Mendes. Não se sabe se é parente.
+
 
 ### 8. Manuel António Mimoso (tetravô)
 **Batismo, setembro de 1819, Godim ✔**
@@ -879,7 +993,24 @@ Transcrição:
 | **Processo de inventário obrigatório, 1973**, Tribunal de Peso da Régua | PT/ADVRL/JUD/TJCPRG/C-B/082/1658 (Cx. 143) | Inventariada: **Francisca da Conceição Silva**. Inventariante: **Adão António Mimoso** | ✔ É a partilha da herança da bisavó (o "Silva" vem da mãe dela). Deve listar os 7 filhos. |
 | **Testamento público, 11-5-1906**, Cartório Notarial de Peso da Régua, 1.º ofício | PT/ADVRL/NOT/CNPRG1/007/0486/10 (fl. 18) | Testador: **José António Mimoso**, casado, freguesia de Godim | Provavelmente José António Mimoso (n. 1857), casado com Antónia Maria e tio do bisavô. Interesse secundário. |
 | **Testamento público, 7-2-1921**, Cartório Notarial de Peso da Régua, 5.º ofício | PT/ADVRL/NOT/CNPRG5/007/394/38 (fl. 47) | Testador: **Francisco António Mimoso**, casado, Godim, morreu a 7-5-1927 | ✔ **É o trisavô (n.º 4)**, pai do bisavô José António. Fotografado pela família (fl. 47–47v). Transcrito na secção do n.º 4. |
+| **Testamento público, 7-2-1921**, Cartório Notarial da Régua, 5.º ofício | PT/ADVRL/NOT/CNPRG5/007/394/37 (fl. 45 v.º) | Testadora: **Maria Amaral**, casada, Godim | ✔ **É a trisavó (n.º 5).** O registo não está digitalizado, mas o **livro 394 está** (fontes/not_cnprg5_394, p0094–p0096). Lido e transcrito na secção do n.º 5: 4 filhos naturais perfilhados. |
+| **Processo de inventário obrigatório, 1927**, Tribunal da Régua | PT/ADVRL/JUD/TJCPRG/C-B/082/677 (Cx. 69; cota original 636) | Inventariado: **Francisco António Mimoso**. Inventariante: **Maria Amaral** | ● É o inventário do trisavô (n.º 4). Deve ter a relação de bens, a avaliação e a partilha. A fonte mais provável para a origem da Quinta da Pêssega antes de 1937. |
+| **Auto de emancipação, 1927**, Tribunal da Régua | PT/ADVRL/JUD/TJCPRG/C-A/153/39 (Cx. 1; cota original 360) | Autora: "Maria da Silva Amaral, Maria Amaral, Maria de Jesus". Réu: **José António Mimoso** | ● A mãe emancipou o bisavô (19 anos) depois da morte do pai, provavelmente por causa do inventário. Confirma que as três formas do nome são a mesma pessoa. |
+| **Processo de inventário obrigatório, 1971**, Tribunal da Régua | PT/ADVRL/JUD/TJCPRG/C-B/082/1630 (Cx. 143; cota original 13) | Inventariado: **José António Mimoso**. Inventariante: **Francisca da Conceição Silva** | ● É o inventário do bisavô (m. 28-10-1971). Deve descrever a Quinta da Pêssega e o título de aquisição. Está na **mesma caixa** que o inventário de 1973. |
+| Ação ordinária, 1928, Tribunal da Régua | PT/ADVRL/JUD/TJCPRG/C-A/053/205 (Cx. 25) | Autores: João Monteiro Guedes, Maria José Vaz Feijó Monteiro Guedes, Maria José Pimenta Vaz Feijó Monteiro. Réus: Joaquim Pereira de Meireles, Joaquim Ferreira Meireles, Maria Emília Meireles, Emília da Silva Meireles | ~ Provavelmente o genro Joaquim Pereira Meireles e a Maria Emília Mimoso (irmã do bisavô). Identificação provável, não certa. |
+| Processo de embargo, 1928, Tribunal da Régua | PT/ADVRL/JUD/TJCPRG/C-D/166/6 (Cx. 1) | Os mesmos autores. Réus: Joaquim Pereira Meireles e Maria Emília Meireles | ~ Ligado à ação anterior. |
+| Ação de despejo, 1941, Tribunal da Régua | PT/ADVRL/JUD/TJCPRG/C-B/060/127 (Cx. 5) | Autor: **José António Mimoso**. Réus: António Cavalheiro, António Cavalheiro Guedes, Maria Luísa Correia | ~ Provavelmente o bisavô, como senhorio em 1941. |
+| Ação sumária, 1948, Tribunal da Régua | PT/ADVRL/JUD/TJCPRG/C-B/056/104 (Cx. 10) | Autores: **José António Mimoso** e **Francisca da Conceição**. Réus: **Eduardo Mendes** e Silvana da Conceição | ~ Os bisavós. ❓ Eduardo Mendes pode ser filho de um dos meios-irmãos Mendes. Ligado ao inventário de Silvana da Conceição (1969, C-B/081/90; inventariante Eduardo Mendes). |
+| Processo de inventário obrigatório, 1942, Tribunal da Régua | PT/ADVRL/JUD/TJCPRG/C-C/082/739 (Cx. 78) | Inventariado: **Francisco Mendes**. Inventariante: Celestina Augusta | ❓ Talvez o meio-irmão Francisco Mendes, casado com Celestina da Conceição em 1921. Não verificado. |
+| Ação sumária, 1973, Tribunal da Régua | PT/ADVRL/JUD/TJCPRG/C-A/056/452 | Autor: Eduardo Mendes. Réus: Francisco Mendes, Elisa da Conceição Mendes, Albertina Mendes, Maria Magnífica e outros | ❓ "Elisa" e "Magnífica" lembram as mulheres de Manuel e de Valentim Mendes. |
+| Justificação para arresto, 1902, Tribunal da Régua | PT/ADVRL/JUD/TJCPRG/C-A/177/61 | Réus: Joaquim António Mimoso e Ventura dos Anjos | Ramo colateral de Sergude. Pouco interesse. |
+| Testamento público, 11-5-1906, 1.º ofício | PT/ADVRL/NOT/CNPRG1/007/0486/9 | Testadora: **Antónia Maria**, casada, Godim (no mesmo dia do testamento de José António Mimoso, 0486/10) | Provavelmente a mulher do tio-avô José António (n. 1857). Interesse secundário. Livro 0486 não verificado. |
 | Processos judiciais de 1978 e 1981, Tribunal da Régua | TJCPRG/B-A/041/49, C-A/056/534, C-B/057/103 | Valentim António Mimoso é réu | Pouco interesse genealógico |
+
+**Nota sobre o catálogo (28-10-2026):**
+- Os processos judiciais (TJCPRG) e os registos individuais de testamentos **não estão digitalizados**. Os livros de testamentos (série 007) e os livros de escrituras (série 006, CNPRG1–5, 1900–1954) **estão digitalizados**, mas só os testamentos têm índice por nome, e só para c. 1900–1925.
+- **Nenhum registo** do catálogo nomeia a Quinta da Pêssega, Sergude ou um legado. Nenhum registo de Maria Amaral como inventariada. Nenhum de Maria Emília com o apelido Mimoso.
+- Sem a data das escrituras (inscrições prediais G-25 n.º 11.039, G-42, G-44), ler os livros de escrituras às cegas não é viável.
 
 ### Adão António Mimoso (irmão do avô) ✔
 - Nome completo segundo o inventário de 1973: **Adão António Mimoso**
@@ -899,6 +1030,7 @@ Transcrição:
 | [fontes/bapt1871-76/](fontes/bapt1871-76/) | Batismos dos trisavós António Vicente (1872) e Maria da Silva (1874) |
 | [fontes/cas1862/](fontes/cas1862/), [cas1894](fontes/cas1894/), [cas1899](fontes/cas1899/), [cas1900](fontes/cas1900/) | Casamentos de 1862, 1894, 1899 e 1900 |
 | [fontes/bapt1897/p0011.jpg](fontes/bapt1897/p0011.jpg) | Batismo do José de 1897 (filho de Ventura dos Anjos) |
+| [fontes/not_cnprg5_394/](fontes/not_cnprg5_394/) | Livro de testamentos CNPRG5/007/394 (1920–1921): testamentos de Maria Amaral (p0094–p0096) e de Francisco António Mimoso (p0097–p0098) |
 | fontes/bapt1896 … bapt1911 | Batismos dos rapazes Vicente (1896–1911), com as notas na margem |
 | [arvore.html](arvore.html) | Árvore interativa: navegar por pais, filhos, irmãos e cônjuges |
 
@@ -908,6 +1040,8 @@ Transcrição:
 |---|---|
 | Certidões de nascimento, casamento e óbito do avô, do pai e da mãe | civilonline.mj.pt / ePortugal |
 | Livros do registo civil de 1911–1930 que não estão digitalizados | digitarq, botão "Pedir...", ou email para o ADVRL |
+| Processos do Tribunal da Régua (inventários de 1927, 1971 e 1973; auto de emancipação de 1927; processos de 1928) | ADVRL: digitarq, botão "Pedir...", ou email, indicando a cota e a caixa (ver "Registos encontrados no catálogo do ADVRL") |
+| Escritura de habilitação de 1971 (livro B-31, fls. 21–23) | Cartório Notarial da Régua, ou ADVRL se o livro já lá estiver |
 | Certidão de teor da descrição 00427/Godim (antiga 35.139, livro B-89) e do prédio 58.828, com todas as inscrições | predialonline.pt ou Conservatória do Registo Predial da Régua |
 | Batismos de S. Pedro do Sul de 8-1797 a 9-1816 (não estão no digitarq): saber se o livro existe ou se há duplicado | Arquivo Distrital de Viseu (ADVIS), por email, ou Diocese de Viseu |
 | Livros paroquiais de Baiões, Bordonhos e S. Pedro do Sul anteriores a 1911 | Já estão online no digitarq (PT/ADVIS/PRQ/PSPS01, PSPS02, PSPS14); não é preciso pedir |
@@ -917,11 +1051,20 @@ Transcrição:
 *Atualizado a 28-10-2026.*
 
 ### 1. Pedir documentos (não estão online)
-- [ ] **Certidão de casamento n.º 41/1961, Conservatória da Régua** (avô × Emília da Conceição Vicente, Igreja de Godim, 4-3-1961). Dá os pais da avó e abre o ramo dela. É o passo mais importante.
-- [ ] **Inventário de 1973, ADVRL** (PT/ADVRL/JUD/TJCPRG/C-B/082/1658). Deve listar os 7 filhos e os 3 irmãos do avô que faltam.
-- [ ] Certidão de teor da descrição predial 00427/Godim (antiga 35.139) e do prédio 58.828, com as inscrições G-25 n.º 11.039 (1937), G-42 n.º 33.224/33.225 e G-44 n.º 34.029. Dizem quem herdou ou comprou, e de quem.
-- [ ] **Escritura de habilitação de herdeiros de 13-8(?)-1971**, Cartório Notarial da Régua, livro de escrituras diversas B-31, fls. 21–23. Deve nomear os herdeiros vivos em 1971 (filhos da Maria Emília? morte da trisavó Maria Amaral?).
-- [ ] Certidão do óbito n.º 147/1927 de Francisco António Mimoso, Conservatória da Régua.
+**Ramo da avó Emília** (independente da lista seguinte):
+- [ ] **Certidão de casamento n.º 41/1961, Conservatória da Régua** (avô × Emília da Conceição Vicente, Igreja de Godim, 4-3-1961). Dá os pais da avó e abre o ramo dela.
+
+**Quinta da Pêssega, irmãos do avô e linha Mimoso, por prioridade** (atualizado a 28-10-2026):
+1. [ ] **Certidão de teor da descrição predial 00427/Godim** (antiga 35.139), com **todo o histórico**: inscrições G-25 n.º 11.039 (1937), C-30 n.º 14.163 e 14.193 (1/6), G-42 n.º 33.224/33.225 e G-44 n.º 34.029; e a do prédio 58.828 (a casa). Dizem quem herdou ou comprou, de quem e por que título. predialonline.pt.
+2. [ ] **Inventário de José António Mimoso, 1971**, ADVRL PT/ADVRL/JUD/TJCPRG/C-B/082/1630 (**Cx. 143**). Deve descrever a Quinta da Pêssega e o título de aquisição, e listar os 7 filhos.
+3. [ ] **Inventário de Francisco António Mimoso, 1927**, ADVRL PT/ADVRL/JUD/TJCPRG/C-B/082/677 (**Cx. 69**). Relação de bens e partilha; origem da quinta antes de 1937.
+4. [ ] **Inventário de Francisca da Conceição Silva, 1973**, ADVRL PT/ADVRL/JUD/TJCPRG/C-B/082/1658 (**Cx. 143**, a mesma caixa do n.º 2: pedir os dois juntos). Deve listar os 7 filhos e os 3 irmãos do avô que faltam.
+5. [ ] **Escritura de habilitação de herdeiros de 13-8(?)-1971**, Cartório Notarial da Régua, livro de escrituras diversas **B-31**, fls. 21–23. Deve nomear os herdeiros vivos em 1971.
+6. [ ] **Auto de emancipação de 1927**, ADVRL PT/ADVRL/JUD/TJCPRG/C-A/153/39 (Cx. 1).
+7. [ ] **Processos de 1928** contra Joaquim Pereira Meireles e Maria Emília Meireles: C-A/053/205 (Cx. 25) e C-D/166/6 (Cx. 1).
+8. [ ] **Óbitos civis** (Conservatória da Régua): Francisco António Mimoso (**n.º 147/1927**); Maria Amaral (data desconhecida, depois de 7-2-1921); Anna Emília da Silva (depois de 28-5-1908); Francisco Rodrigues Velho (depois de 26-3-1911).
+
+**Outros:**
 - [ ] Batismos de S. Pedro do Sul de 8-1797 a 9-1816: perguntar ao ADVIS ou à Diocese de Viseu se o livro existe. Confirmaria o batismo do pentavô (n.º 16).
 
 ### 2. Pesquisa online: lado Mimoso (Godim)
@@ -934,6 +1077,7 @@ Transcrição:
 - [ ] Rever a data de nascimento do António de 1863 (n.º 6, [bapt1863/p0004.jpg](fontes/bapt1863/p0004.jpg)): "vinte e oito(?) de Fevereiro" não bate com o batismo a 22-2.
 - [ ] ❓ Ver se João Pereira × Maria Delfina (pais de António Pereira, 1860) são os tetravós João Pereira × Delfina Rosa (pais de Josefa Rosa, n.º 13).
 - [ ] Batismo de Joaquina dos Santos (c.1825), em Godim, para confirmar os pais e os avós.
+- [ ] Batismos de **Manuel, Francisco e Valentim Mendes**, filhos naturais de Maria de Jesus (= Maria da Silva Amaral), em Godim entre 1881 e 1900: procurar no índice (fontes/indice_godim) e ler os assentos. Ver se a margem tem perfilhação e se o pai é nomeado.
 
 ### 3. Pesquisa online: lado Corrêa (S. Pedro do Sul, Baiões, Bordonhos)
 - [ ] (Prioridade baixa.) Vigário António Gomes Mimozo: data da primeira assinatura (óbitos de S. Pedro do Sul, p0171–p0193). A hipótese ficou fraca: o apelido só aparece em Godim em 1857 (ver "Origem do apelido Mimoso").
@@ -948,10 +1092,14 @@ Transcrição:
 - [ ] Pais de Caetano Rodrigues e de Maria Francisca (n.º 132–135): batismos e casamentos em Várzea, Carvalhais e S. Félix.
 
 ### 4. Pesquisa online: lado Vicente / Silva
-- [ ] Casamentos dos n.º 12+13 e 14+15 nos livros de Godim.
+- [ ] Casamento dos n.º 12+13 nos livros de Godim.
+- [ ] **Casamento de Francisco Rodrigues Velho × Anna Emília da Silva** (n.º 14+15), c. 1865–1873: casamentos de Godim 1865–1876, livros 002/024 a 002/030 (docIds na secção dos n.º 14 e 15). **Não descarregados.**
 - [ ] Casamento de José da Silva com Maria de Jesus Amaral (c.1860–61): procurar nos livros de Loureiro.
 
 ### Feito
+- [x] **Testamento de Maria Amaral (n.º 5), 7-2-1921**: lido no livro digitalizado CNPRG5/007/394 (p0094–p0096) e transcrito (secção do n.º 5). 6 herdeiros: 2 filhos legítimos e 4 naturais perfilhados (Abel, Manuel, Francisco e Valentim Mendes).
+- [x] Catálogo do ADVRL pesquisado por Mimoso, Maria Amaral, Anna Emília da Silva, Rodrigues Velho, Pêssega, Sergude e Mendes (28-10-2026): registos novos na tabela "Registos encontrados no catálogo do ADVRL".
+- [x] Anna Emília da Silva de 1900, 1901 e 1908 = n.º 15 (~, comparação de assinaturas com o batismo de 1903). Óbitos dos n.º 14 e 15 procurados em Godim 1899–1911, sem resultado.
 - [x] Testamento de 1921 do trisavô Francisco António Mimoso: fotografado e transcrito (secção do n.º 4). Dois filhos vivos em 1921: Maria Emília (× Joaquim Pereira Meireles) e José António.
 - [x] Certidão de nascimento do avô: assento n.º 655/1930 (informatizado n.º 70/2026). Nasceu a 7-11-1930, casou a 4-3-1961 e morreu a 3-4-1995.
 - [x] Linha Mimoso validada contra os assentos originais (outubro de 2026): batismos de 1708, 1714, 1745, 1774, 1815, 1819, 1855, 1864; casamentos de 1744, 1771, 1814, 1852, 1900; óbitos de 1795, 1865, 1891, 1900. Ver "Linha Mimoso: assentos validados".
