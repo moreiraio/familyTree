@@ -561,6 +561,7 @@ Todos os assentos abaixo foram relidos nas imagens originais. Leituras incertas 
 Transcrição:
 > Aos trinta e hum de Julho de mil sete centos setenta e quatro baptizou de minha licença o Padre Mathias José de Figueiredo desta Villa a Joseph de Pouves, filho de Joseph Corrêa natural de Segadaens, freguezia de Bayoens, e de sua mulher Fructuoza Rodrigues natural de Pouves, neto paterno de Joseph Corrêa da Corvaceira e Paschoa, solteira, natural do lugar e freguezia de Bordonhos, neto materno de Caetano Rodrigues natural de Drizes, freguezia da Varzea, e de sua mulher Maria Francisca de Pouves. Foram padrinhos o Padre João Corrêa e sua irmã Maria Tereza da Corvaceira, de que fiz este termo que assinei. — Vigr.º Joseph de Almeida
 
+- **Leitura revista a 28-10-2026** (recortes ampliados do topo de p0052): a mãe é **"Fructuoza"**, não "Francisca", e a avó é **"Pascoa solteira"**, não "Pascoa Silveira". Uma outra transcrição tinha estas duas leituras. Ficam rejeitadas porque não batem com a letra nem com os assentos de 1745 (filho natural de mãe solteira) e de 1771 (Fructuosa).
 - **Na margem:** "José / Pouves". Logo a seguir há uma nota de visitação ("Visto em Visita de 14 de Agosto de 1774").
 - **Os padrinhos são tios-avós do batizado:**
   - **Maria Tereza**, da Corvaceira, morreu solteira a **2-6-1795**. O óbito diz que era filha do **Capitão João Marques** e de **Maria Corrêa**, da Quinta da Corvaceira ✔. São os mesmos pais que o batismo de 1745 dá a José Corrêa da Corvaceira (n.º 64). Logo Maria Tereza era irmã de n.º 64.
