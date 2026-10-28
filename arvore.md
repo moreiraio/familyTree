@@ -125,10 +125,11 @@ José Corrêa (bat. 10-10-1745, Baiões; m. 26-5-1796?) ══ Fructuosa Rodrigu
         │
 José António Mimoso (bat. 31-7-1774?) ══ Joanna Emília (Covas, Godim)   (casaram 14-8-1814, Godim)
         │
-        ├── José António Mimoso (25-5-1815 – 10-11-1889) ══ Maria Correa
-        ├── Antónia (1816) · Antónia (1822) · Thomazia (1824)
-        ├── Josefa Emília (c.1820–1897) ══ 1.º F. de Barros Pantana(?); 2.º António Pereira
-        ├── Joaquim António Mimoso (c.1835) ══ Anna da Conceição (1862)   [ramo colateral]
+        ├── José António Mimoso (25-5-1815 – 10-11-1889) ══ Maria Delfina (Maria Correa), 6-2-1838
+        ├── Antónia (1816) · Antónia (1822) · Thomazia (1824) · Maria (1830) · Joaquim (1832, morreu pequeno?)
+        ├── Josefa Emília (19-1-1827? – 1-11-1897) ══ F. de Barros Pantana(?); António Pereira
+        │        └── António (c.1858 – 18-2-1860)
+        ├── Joaquim António Mimoso (8-11-1835) ══ Anna da Conceição (1862)   [ramo colateral]
         │        └── Maria, Guilherme(?), José (1867), Maria, Maria, Filomena, Manuel, Bernardo
         │
         └── Manuel António Mimoso (29-8-1819 – 11-2-1891, Sergude)
@@ -363,13 +364,15 @@ Leituras incertas estão marcadas com (?).
 **Filhos de José António Mimoso e Joanna Emília** (batismos e óbitos de Godim) ✔
 | Filho | Nascimento | Óbito | Casamento(s) |
 |---|---|---|---|
-| José António Mimoso | **25-5-1815**, Covas (batizado 4-6-1815) | 10-11-1889, Olival Basto, "76 anos" | Viúvo de Maria Correa |
+| José António Mimoso | **25-5-1815**, Covas (batizado 4-6-1815) | 10-11-1889, Olival Basto, "76 anos" | **Maria Delfina** (6-2-1838); no óbito "viúvo de Maria Correa" |
 | Antónia | 18-9-1816, Covas | provavelmente pequena | |
 | Manuel António Mimoso | **29-8-1819**, Covas | 11-2-1891, **Sergude** ("75 anos"; tinha 71) | 1.º Joaquina dos Santos (30-12-1852); 2.º **Engracia Ferreira** (de Sedielos, m. 1-1-1900) |
 | Antónia | 9-3-1822, Covas | | |
 | Thomazia | 23-7-1824, Covas | | |
-| Josefa Emília (proprietária) | c. 1820 | 1-11-1897, Estrada Nova, 77 anos | 1.º Francisco de Barros Pantana(?); 2.º António Pereira. **Casou 2 vezes e deixou filhos** |
-| Joaquim António Mimoso | c. 1835 | não encontrado em Godim entre 1880 e 1911 | Anna da Conceição (1862) |
+| Josefa Emília (proprietária) | **19-1-1827**, Covas ~ (⚠ antes "c. 1820", pela idade do óbito) | 1-11-1897, Estrada Nova, "77 anos" (tinha 70) | 1.º Francisco de Barros Pantana(?); 2.º António Pereira. **Casou 2 vezes e deixou filhos**. Filha do casal ✔ (óbito do filho António, n.º 10/1860) |
+| Maria | **12(?)-8-1830**, Covas (batizada 22-8-1830) | | |
+| Joaquim | **9-10-1832**, Covas (batizado 21-10-1832) | provavelmente pequeno (outro Joaquim em 1835) | |
+| Joaquim António Mimoso | **8-11-1835**, Covas (batizado 22-11-1835) ✔ (⚠ antes "c. 1835") | não encontrado em Godim entre 1880 e 1911 | Anna da Conceição (1862) |
 
 - Ramo de Sergude: Manuel António Mimoso e Joaquina dos Santos são os **tetravós diretos** (n.º 8 e 9), através do filho Francisco António.
 - "Casou 2 vezes e já tinha filhos": quem casou duas vezes foi a Josefa Emília. Quem "já tinha filhos" ao casar foi a trisavó Maria da Silva Amaral, mãe do Abel.
@@ -377,6 +380,7 @@ Leituras incertas estão marcadas com (?).
 **Joaquim António Mimoso** e **Anna da Conceição** ✔
 - **Casamento:** 1-5-1862, às 6 horas da manhã, igreja de S. José de Godim, assento n.º 4 ✔ ([fontes/cas1862/p0004.jpg](fontes/cas1862/p0004.jpg) e [p0005.jpg](fontes/cas1862/p0005.jpg))
 - **Joaquim:** 27 anos, portanto nascido por volta de 1835. Solteiro, batizado em Godim. Pedreiro ou jornaleiro.
+  - ✔ Batismo encontrado: nasceu a **8-11-1835** e foi batizado a 22-11-1835 (ver "Outros filhos do casal", na secção 16 e 17).
   - Avós paternos: **José Corrêa** e **Fructuosa Rodrigues**, de S. Pedro do Sul (Bispado de Viseu)
   - Avós maternos: **Lourenço de Cesares** (é o Lourenço do Coral / de Cazares, galego) e **Eufrásia Maria**, do lugar das Covas, em Godim
 - **Anna:** 24 anos, portanto **nascida por volta de 1837–1838** em Gouvinhas. **Solteira**, ou seja, não era viúva.
@@ -519,10 +523,10 @@ Todos os assentos abaixo foram relidos nas imagens originais. Leituras incertas 
 |---|---|---|---|---|
 | José | 9-11-1853 (bat. 13-11) | Covinhas | José Miguel Ferreira e Joaquina do Espírito Santo | Deve ter morrido pequeno ([p0003](fontes/bapt1853-59/p0003.jpg)) |
 | **Francisco António** | **5-10-1855** | Covinhas | José Bentim(?) e Joaquina do Espírito Santo | Trisavô ([p0035](fontes/bapt1853-59/p0035.jpg)) |
-| José ("segundo do nome") | 29-8-1857 (bat. 4-9) | Salgueiral | José Bentim(?) e Joaquina do Espírito Santo | Provavelmente o José António que casou em 1892. O avô é escrito "José António Mimoso, de S. Pedro do Sul, Bispado de Viseu" ([p0061](fontes/bapt1853-59/p0061.jpg)) |
-| Joaquina | 28-8-1859 (bat. 11-9) | Salgueiral | José Bentim(?) e Joaquina Rosa Pontes(?) | Morreu em Godim a 1-12-1937 ([p0089](fontes/bapt1853-59/p0089.jpg)) |
+| José ("segundo do nome") | 29-8-1857 (bat. 4-9) | Salgueiral | José Bentim(?) e Joaquina do Espírito Santo | Provavelmente o José António que casou em 1892. O avô é escrito "José Antonio **Mimozo**, aquelle de S. Pedro do Sul, Bispado de Vizeu". **É o 1.º assento de Godim com o apelido** ([p0061](fontes/bapt1853-59/p0061.jpg)) |
+| Joaquina | 28-8-1859 (bat. 11-9) | Salgueiral | José Bentim, "da Galiza e residente no Coral", e Joaquina Rosa Pontes(?) | Avô "José Antonio Mimozo". Morreu em Godim a 1-12-1937 ([p0089](fontes/bapt1853-59/p0089.jpg)) |
 | Joaquim António | c. 1860 | | | Batismo não encontrado em Godim de 1851 a 1867 |
-| António | fev. 1863 (n.º 6) | Salgueiral | José Bentim(?), da Galiza, e Joaquina Rosa, de Sergude | O pai aparece como "mestre pedreiro". 1.º assento com o apelido: avô "José Antonio **Meimoso**" ([bapt1863/p0004](fontes/bapt1863/p0004.jpg)) |
+| António | fev. 1863 (n.º 6) | Salgueiral | José Bentim(?), da Galiza, e Joaquina Rosa, de Sergude | O pai aparece como "mestre pedreiro". Avô "José Antonio **Meimoso**, de S. Pedro do Sul, jornaleiro" ([bapt1863/p0004](fontes/bapt1863/p0004.jpg)). ⚠ Antes dizia-se que era o 1.º assento com o apelido. Não é: "Mimozo" já está em 1857, 1859 e 1860. "Meimoso" é só a grafia do novo coadjutor Hermenegildo Pereira da Silva. A hora e o dia do nascimento ("vinte e oito(?) de Fevereiro") não batem com o batismo a 22-2: por rever |
 
 - O Manuel de 1891 (filho de Joaquim António e Ventura) morreu a 23-2-1891 com 18 dias (óbito n.º 8/1891, [fontes/obi1891/p0005.jpg](fontes/obi1891/p0005.jpg)).
 
@@ -573,12 +577,14 @@ Transcrição:
   - O assento bate certo com o casamento de 1814 em pais, lugar (Pouves) e freguesia, e é o único José do casal nos batismos de 1769–1797.
   - Mas ele teria 40 anos ao casar, e os filhos nasceram entre 1815 e c.1835.
   - O livro de batismos de S. Pedro do Sul de **8-1797 a 9-1816 não está no digitarq**, por isso não se pode excluir um José mais novo.
-  - O nome "José António" e o apelido Mimoso só aparecem em Godim. "Meimoso" está escrito pela primeira vez em 1857/1863.
-- **Origem do apelido Mimoso ❓ (hipótese):**
-  - Em nov.–dez. de 1811 os óbitos de S. Pedro do Sul são assinados por **"O Vigr.º Antonio Gomez Mimozo"** ([fontes/sps_obi1765-1815/p0194.jpg](fontes/sps_obi1765-1815/p0194.jpg), [p0195.jpg](fontes/sps_obi1765-1815/p0195.jpg)). Em 1809 (p0170) ainda assinava o cura Domingos Soares Ribeiro.
-  - É o primeiro "Mimoso" ligado a S. Pedro do Sul. José António pode ter tomado o apelido de um padrinho ou protetor.
-  - **Não há prova.** Não apareceu nenhum Mimoso em Pouves nem na Corvaceira.
-- **Óbitos:** nem ele nem Joanna Emília aparecem nos óbitos de Godim de 1854 a 1879. Em 1860 só foram vistas as margens, que não têm nomes.
+  - O nome "José António" e o apelido Mimoso só aparecem em Godim. ⚠ Antes dizia-se "Meimoso, pela primeira vez em 1857/1863". O certo é: **"Mimozo" em 1857** (1.º), 1859 e 1860; **"Meimoso" em 1863**. Ver "Origem do apelido Mimoso", mais abaixo.
+- **Origem do apelido Mimoso:** ver a secção própria, a seguir aos filhos. Em resumo (~): é uma alcunha adotada em Godim c. 1856–57, e não um apelido trazido de S. Pedro do Sul.
+- **Óbitos:** nem ele nem Joanna Emília aparecem nos óbitos de Godim de **1833 a 1879**.
+  - 1833–1853 (obi1833-41, obi1841-46, obi1846-53) foram vistos por faixas, não linha a linha. 1854–1879 pelas margens. ⚠ Antes dizia-se "em 1860 só foram vistas as margens": **1860 foi agora lido assento a assento** (os 70).
+  - O casamento do filho Manuel, a **30-12-1852**, diz "residentes nas Covas": estavam provavelmente vivos nessa data ~.
+  - Depois disso, nenhum assento os dá como "defuntos" (1853–1863). Mas os padres desta época quase nunca o escrevem, por isso isto não prova que estivessem vivos.
+  - Hipóteses: morreram fora de Godim; morreram depois de 1879 (Joanna Emília); ou o assento escapou nas leituras por faixas ou pelas margens.
+  - Detalhe das pesquisas em "O que foi pesquisado e não encontrado".
 
 **Outros filhos do casal** (Godim):
 - **José**, nascido a 25-5-1815 e batizado a 4-6-1815, nas Covas ([fontes/bapt1806-17/p0122.jpg](fontes/bapt1806-17/p0122.jpg)). É o José António que morreu em 1889.
@@ -588,7 +594,96 @@ Transcrição:
 - **Antónia**, nascida a 9-3-1822 ([fontes/bapt1817-25/p0075.jpg](fontes/bapt1817-25/p0075.jpg)).
 - **Thomazia**, nascida a 23-7-1824 ([p0117](fontes/bapt1817-25/p0117.jpg)).
   - Padrinhos: João Pinto, de Sergude, e Thomazia Joaquina, do Salgueiral.
-- Josefa Emília (c.1820) e Joaquim António (c.1835): batismos ainda por encontrar.
+- Nota sobre a Antónia de 1822: neste assento o avô paterno é "José Antonio e **Albertina(?) de Jesus**, da Villa de S. Pedro do Sul". É uma variante isolada, quase certamente erro do escrivão (os outros assentos dizem Fructuosa Rodrigues).
+
+**Josefa: batismo de 30-1-1827, Godim ✔** (identificação com a Josefa Emília: provável ~)
+> Jozefa filha Legitima de Jozé Antonio, e de Joanna Emilia do Lugar das Covas, desta Freguezia de São Jozé de Godim. Neta Paterna de Jozé Antonio, e de Furtuoza Rodrigues de São Pedro do Sul, Bispado de Vizeu; Materna Lourenço de Cazares do Reino de Galliza de Santo Andre de Cumerana(?) Bispado de Tui, e de Eufrazia Thereza dos Arcurellos(?), Bispado de Lamego: Naceu a dezanove de Janeiro de mil oito centos e vinte e sete, e foi Baptizada no dia trinta do mesmo nesta Igreja de São Jozé de Godim por mim Antonio Pinto d'Araujo Parocho da mesma. Forão padrinhos Francisco Antonio Pereira d'Ariz, e Jozefa Joaquina das Covas ambos desta Freguezia, e forão testemunhas Jozé Gonçalves(?) da Quintam, e Jozé Pinto d'Ariz, de que fiz este assento. — Antonio Pinto de Ar.º
+
+- Fonte: [fontes/bapt1825-33/p0028.jpg](fontes/bapt1825-33/p0028.jpg), página direita, 1.º assento.
+- ⚠ O relatório de pesquisa dava os padrinhos como ilegíveis, os avós maternos "do lugar das Covas" e o coadjutor Carvalhaes como escrivão. A releitura do recorte ampliado dá o texto acima: assina o pároco **António Pinto de Araújo**.
+- **Novidade:** Eufrázia Thereza (n.º 35) é dada como "**dos Arcurellos(?)**, Bispado de Lamego". Bate com o casamento de 1852 ("Eufrasia Maria da(?) Arcuretllos(?)"). Talvez Arcozelos (Moimenta da Beira), que era do Bispado de Lamego ❓. O lugar de Lourenço, "Santo André de Cumerana(?), Bispado de Tui", completa o "Santo André de …" de 1819.
+- **Porque é "provável" e não certo:** o nome e os pais batem, e não há outra Josefa do casal em 1817–1833. Mas o óbito de 1897 dá "77 anos" (c.1820); em 1897 teria 70. As idades dos óbitos costumam estar exageradas (ver o Manuel António).
+- ✔ **Que a Josefa Emília é filha do casal está agora documentado** pelo óbito do filho dela (abaixo).
+
+**Óbito n.º 10/1860, Godim: António, neto, filho de Josefa Emília ✔**
+> N.º 10 / Dia 18 / Mez de Fevereiro / Anno de 1860 — Aos desoito dias do mez de Fevereiro do anno de mil oito centos e sessenta, ás nove horas da manhã, no lugar das Covas desta Freguezia, Concelho do Peso da Regoa, Terceiro Districto Ecclesiastico de Sobre Tamega, Diocese do Porto, falleceo Antonio — de profissão pobre, idade dois annos, estado solteiro, Parochiano desta Freguezia, filho legitimo de Antonio Pereira e Josefa Emilia, nepto paterno de João Pereira e Maria Delfina, e materno de José Antonio Mimozo e Joanna Emilia. E para constar lavrei este assento em duplicado que assignei. Era ut supra. — O Presbytero Francisco Gomes Carneiro
+
+- Fonte: [fontes/obi1860/p0005.jpg](fontes/obi1860/p0005.jpg), página esquerda, 1.º assento completo (fl. 3 v.º). Sem notas na margem.
+- **Josefa Emília** era casada com **António Pereira** (filho de João Pereira e Maria Delfina) e vivia nas Covas em 1858–1860.
+- O avô é "José Antonio Mimozo", sem "defunto".
+- ❓ Os tetravós Vicente **João Pereira e Delfina (Rosa)**, pais de Josefa Rosa (n.º 13), têm os mesmos nomes que os pais deste António Pereira. Podem ser o mesmo casal, e então António Pereira seria irmão de Josefa Rosa. Sem prova.
+
+**Maria: batismo de 22-8-1830, Godim ✔** (irmã até agora desconhecida)
+> Maria filha legitima de José Antonio do Lugar das Covas freguezia de S. José de Godim, e de Joanna Emilia do dito Lugar e freguezia. Neta Paterna de José Correa e Frutuoza Rodrigues da freguezia de S. Pedro do Sul, Bispado de Viseu, e Materna de Lourenço de Cazares, e de sua mulher Eufrazia Maria do Lugar das Covas desta [freguezia]. Nasceo no dia doze(?) de Agosto deste mesmo [anno], e foi solemnemente Baptizada por mim o Reverendo Encommendado abaixo assignado no dia vinte e dous deste mez de Agosto de mil oito centos e trinta. Forão Padrinhos Pedro Rodrigues, residente na freguezia(?) de S. Faustino(?) do Peso da Regoa, e Madrinha Maria Joaquina(?) de S. Faustino(?) [...] do Lugar de Sergude desta mesma freguezia, sendo seu Procurador Maria(?) Cardoza(?) do mesmo Lugar e freguezia. Testemunhas Manoel Lopes e Antonio Pinto do Lugar de Mera desta freguezia de S. José de Godim [...] — O Vigario Encommendado Manoel Joaquim Pereira
+
+- Fonte: [fontes/bapt1825-33/p0067.jpg](fontes/bapt1825-33/p0067.jpg), página direita, ao meio. Os nomes dos padrinhos são de leitura duvidosa (?).
+
+**Joaquim (1.º): batismo de 21-10-1832, Godim ✔**
+> Joaquim filho legitimo de José Antonio, e de Joanna Emilia do lugar das Covas desta freguezia. Neto Paterno de José Antonio, e de Frutuoza Maria de S. Pedro do Sul, Bispado de Viseu. Materno de Lourenço de Cazares, e sua mulher Eufrazia Maria do mesmo Lugar das Covas desta freguezia. Naceo no dia nove de Outubro, e foi solemnemente Baptizado na Igreja desta freguezia por mim o Parocho Encommendado Manoel Joaquim Pereira no dia vinte, e hum do mesmo mez, e anno de mil oito centos, e trinta, e dous. Forão Padrinhos Manoel Corte(?) da freguezia de S. Martinho de Borguedo(?), Bispado de Tuy, e Anna Joaquina da freguezia do Pezo da Regoa. Forão testemunhas Antonio Coelho, Anna Joaquina digo Joaquim Correa do Lugar de Vente(?) ambos desta freguezia [...]
+
+- Fonte: [fontes/bapt1825-33/p0085.jpg](fontes/bapt1825-33/p0085.jpg) (fundo da página direita) e [p0086.jpg](fontes/bapt1825-33/p0086.jpg) (topo da esquerda).
+- A avó paterna aparece como "Frutuoza **Maria**". O padrinho é galego.
+- Deve ter morrido antes de 11-1835, quando nasceu outro Joaquim.
+
+**Joaquim (2.º) = Joaquim António Mimoso: batismo de 22-11-1835, Godim ✔**
+- Está num caderno de batismos tardios cosido no livro de casamentos de 1833–42 (fl. 88 v.º). O livro de batismos tem a remissão: "Joaquim filho de José Antonio e Joanna Emilia … se acha lansado a folhas 88 v.º" ([fontes/bapt1833-40/p0023.jpg](fontes/bapt1833-40/p0023.jpg), página esquerda).
+> Joaquim f.º legitimo de José Antonio e Joanna Emilia do lugar das Covas desta freg.ª de São José de Godim, neto paterno de José Correia e Fortuoza [= Fructuosa] Rodrigues de S. Pedro do Sul, Bispado de Viseu, e materno de Lourenço de Cazares, e Eufrasia Maria do d.º lugar das Covas. Nasceo a oito de Novembro de mil e oito centos trinta e cinco, e foi solemnemente baptizado em vinte dois do d.º mez e anno por mim Antonio Pinto de Araujo Parocho da d.ª freg.ª. Forão padrinhos José Vieira e Anna(?) da Conceição do d.º lugar das Covas. Testemunhas José Antonio Ferraz(?) e Domingos Antunes ambos desta freg.ª. Fiz este assento e o Parocho Antonio Pinto de Araujo. [assinaturas:] José Ant.º Ferraz(?) — Domingos + Antunes
+
+- Fonte: [fontes/cas1833-42/p0010.jpg](fontes/cas1833-42/p0010.jpg), página esquerda, em baixo.
+- Bate com os 27 anos do casamento de 1-5-1862. O batismo diz só "Joaquim".
+
+**Casamento do filho José António com Maria Delfina, 6-2-1838, Godim ✔**
+> José Antonio filho de José Antonio, e Joanna Emilia do lugar das Covas desta freg.ª de São José de Godim, neto paterno de José Antonio e Fortuoza Rodrigues da Vila(?) de S. Pedro do Sul, Bispado de Vizeu, e materno de Lourenço de Cazares e Eufrazia Thereza, aquelle de Galiza, freg.ª de Rebordelo(?), e esta do(s) [Arcurellos?], celebrou-se com Maria Delfina, filha de Antonio Correia de Almeida, e Thereza Victorina do Lugar de Ariz desta freg.ª de Godim, neta paterna de avô incerto, e [avó] de Eva Maria, e materna de José Vicente e Maria Caetana do dito lugar de Ariz; nesta Igr.ª de S. José de Godim na presença de mim Antonio Pinto de Araujo Parocho da mesma no dia seis de Fevereiro de mil oito centos trinta e oito. Forão testemunhas Domingos Gomes e José Vieira das Covas desta freg.ª [...]
+
+- Fonte: [fontes/cas1833-42/p0014.jpg](fontes/cas1833-42/p0014.jpg), fundo da página esquerda e topo da direita.
+- A terra de Eufrázia e a freguesia galega de Lourenço são de leitura difícil (?).
+- É a "**Maria Correa**" do óbito de 1889 (o apelido vem do pai, António Correia de Almeida). Foi madrinha em 1867 como "Maria Delfina Correia".
+
+**O padrinho José Bentim, galego, da quinta do Coral**
+- José Bentim (ou "Bentein(?)") foi padrinho dos filhos de Manuel António em 1855, 1857, 1859 e 1863 (e de outra criança em 1856, [fontes/bapt1853-59/p0049.jpg](fontes/bapt1853-59/p0049.jpg)). É "do Reino de Galiza", "da quinta do Coral" ou "residente no Coral"; em 1863 é casado e caseiro.
+- Nos casamentos de 1833–42 está o óbito de **António Bentim**, natural de S.ta Marinha de Porfirião(?), Bispado de Tuy, 40 anos, casado, jornaleiro, morador na **quinta do Coral**. Morreu de "Pleuris" a 12(?)-10-1841 ([fontes/cas1833-42/p0012.jpg](fontes/cas1833-42/p0012.jpg)).
+- O Coral é o lugar de Lourenço "do Coral", sogro de n.º 16. Havia uma rede de galegos na quinta do Coral ligada à família de Joanna Emília. Não explica o apelido.
+
+### Origem do apelido Mimoso (n.º 16)
+
+**Conclusão ~ (provável):** "Mimoso" é uma **alcunha da família, adotada em Godim c. 1856–57**. Não é um apelido trazido de S. Pedro do Sul.
+
+Como é chamado José António (n.º 16) nos assentos:
+
+| Ano | Assento | Como é escrito | Fonte |
+|---|---|---|---|
+| 1774 | batismo, S. Pedro do Sul | "Joseph de Pouves", filho de Joseph Corrêa | [sps_bapt1769-88/p0051](fontes/sps_bapt1769-88/p0051.jpg) |
+| 1814 | casamento, Godim | "José Antonio", filho de José Corrêa e Fratuoza Rodrigues | [cas1812-19/p0012](fontes/cas1812-19/p0012.jpg) |
+| 1815–1838 | batismos dos filhos (1815, 1816, 1819, 1822, 1824, 1827, 1830, 1832, 1835) e casamento do filho José (1838) | sempre só "José Antonio", do lugar das Covas | ver acima |
+| 1852 | casamento do filho Manuel | "José Antonio natural de S. Pedro do Sul", "residentes nas Covas" | [cas1847-53/p0132](fontes/cas1847-53/p0132.jpg) |
+| 1853 | batismo do neto José | "José Antonio, natural de S. Pedro do Sul" | [bapt1853-59/p0003](fontes/bapt1853-59/p0003.jpg) |
+| 1855 | batismo do neto Francisco (trisavô) | "José Antonio natural de S. Pedro do Sul" | [bapt1853-59/p0035](fontes/bapt1853-59/p0035.jpg) |
+| **1857** | batismo do neto José | **"José Antonio Mimozo"**: 1.º Mimoso em Godim | [bapt1853-59/p0061](fontes/bapt1853-59/p0061.jpg) |
+| 1859 | batismo da neta Joaquina | "José Antonio Mimozo" | [bapt1853-59/p0089](fontes/bapt1853-59/p0089.jpg) |
+| 1860 | óbito n.º 10 do neto António | "José Antonio Mimozo" | [obi1860/p0005](fontes/obi1860/p0005.jpg) |
+| 1863 | batismo n.º 6 do neto António | "José Antonio **Meimoso**", jornaleiro | [bapt1863/p0004](fontes/bapt1863/p0004.jpg) |
+
+- **O mesmo padre** escreveu os batismos de 1853, 1855, 1857 e 1859: o pároco **Francisco Gomes Carneiro**. Os de 1853 e 1855 não têm o apelido; os de 1857 e 1859 têm. Logo o apelido não vem de um costume novo de escrita. Foi dado ao pároco, pelo pai ou pelos padrinhos, entre 10-1855 e 9-1857.
+- "Meimoso" (1863) é só a grafia do novo coadjutor, Hermenegildo Pereira da Silva.
+- **Só o avô (n.º 16) é chamado Mimoso** nestes assentos. O pai, Manuel António, nunca o é em 1853–1863.
+- Não se encontrou **nenhuma outra família Mimoso em Godim antes de 1857** (batismos de 1817–1857, casamentos de 1833–1846; ver as pesquisas negativas).
+- Em 1857 n.º 16 teria c. 82 anos (se nasceu em 1774).
+- **Hipótese do vigário ❓ (fraca):** em nov.–dez. de 1811 os óbitos de S. Pedro do Sul são assinados por **"O Vigr.º Antonio Gomez Mimozo"** ([fontes/sps_obi1765-1815/p0194.jpg](fontes/sps_obi1765-1815/p0194.jpg), [p0195.jpg](fontes/sps_obi1765-1815/p0195.jpg)). Em 1809 (p0170) ainda assinava o cura Domingos Soares Ribeiro. A ideia era que José António tomasse o apelido de um padrinho ou protetor. ⚠ Fica fraca: se o apelido viesse de S. Pedro do Sul (antes de 1814), devia aparecer em Godim desde 1814. Só aparece 43 anos depois. Não há nenhum Mimoso em Pouves nem na Corvaceira.
+
+**Padres de Godim, 1817–1863** (quem escreve e assina os assentos vistos):
+
+| Período | Padre | Fonte |
+|---|---|---|
+| 1817–1822 | pároco António Pinto de Araújo | bapt1817-25 (1819: [p0026](fontes/bapt1817-25/p0026.jpg)) |
+| 1822–1824 | coadjutor Francisco d'Almeida Carvalhaes | bapt1817-25 ([p0075](fontes/bapt1817-25/p0075.jpg)) |
+| 1827 | pároco António Pinto de Araújo | [bapt1825-33/p0028](fontes/bapt1825-33/p0028.jpg) |
+| 1828–1833 | "Vigário Encomendado" Manuel Joaquim Pereira | bapt1825-33, p0055–p0091 |
+| 1833–1838 | pároco António Pinto de Araújo | bapt1833-40; cas1833-42 |
+| 1842–1843 | encomendado António Francisco(?) Pereira(?) | cas1842-46, p0001–p0003 |
+| 1844–1859 | pároco (desde 1859 "Reitor") **Francisco Gomes Carneiro**; com padres auxiliares que batizam "com licença" em 1853–57 (António Augusto de Vilhena, D. Joaquim de Mello, Manuel Pinto Coelho, António Francisco Pereira, José de Gouveia) | cas1842-46, cas1847-53, bapt1853-59, obi1860 |
+| 1863 | coadjutor Hermenegildo Pereira da Silva (novo modelo de assento, impresso e numerado) | [bapt1863/p0004](fontes/bapt1863/p0004.jpg) |
+| 1865 | coadjutor Lourenço Pinto Teixeira e Madureira(?) | [obi1865/p0008](fontes/obi1865/p0008.jpg) |
+
 
 ### 32. José Corrêa e 33. Fructuosa Rodrigues (hexavós): casamento de 11-2-1771, S. Pedro do Sul ✔
 
@@ -722,9 +817,26 @@ Transcrição:
 ### O que foi pesquisado e não encontrado
 - **Joaquim António**, filho de Manuel (c.1860): não está nos batismos de Godim de 1851 a 1867.
 - **Casamento de José da Silva com Maria de Jesus Amaral:** não está nos casamentos de Godim de 1854 a 1864.
-- **Óbitos de José António Mimoso (n.º 16) e Joanna Emília (n.º 17):** não estão em Godim de 1854 a 1879.
+- **Óbitos de José António Mimoso (n.º 16) e Joanna Emília (n.º 17):** não estão em Godim de 1833 a 1879 (detalhe abaixo).
 - **Batismo de José António:** não está no livro de S. Pedro do Sul de 1788–1797, que foi lido todo. O livro de 1797–1816 não está online.
-- **Batismos de Josefa Emília (c.1820) e Joaquim António (c.1835),** filhos dos pentavós: falta procurar em 1819–1822 (com mais zoom) e em 1833–1840.
+- ~~Batismos de Josefa Emília (c.1820) e Joaquim António (c.1835)~~: encontrados (1827 e 1835).
+
+**Pesquisas de 28-10-2026 (óbitos de n.º 16/17 e origem do apelido):**
+
+| Livro (pasta; cota; docId) | Páginas | Anos | Método | Resultado |
+|---|---|---|---|---|
+| obi1860 (003/037; 188353af…) | p0001–p0018 (n.º 1–70) | 2-1-1860 a 23-12-1860 | lido assento a assento | Só o n.º 10 (neto António). Nenhum José António / Joanna Emília |
+| obi1846-53 (003/063; 3efc2076…) | p0001–p0068 | 1846–1853 | faixas com o início de cada assento e margens; ampliações em p0032 e p0045 | Nada. Tinta desbotada em várias páginas: **releitura linha a linha por fazer** |
+| obi1841-46 (003/062; b95272ca…) | p0001–p0036 | 1841–1846 | p0001–p0009 em meias-páginas; o resto por faixas | Nada |
+| obi1833-41 (003/061; e297de5f…) | p0001–p0038 | 1833–12-1841 | faixas; p0031–p0038 em página inteira | Nada. Excluídos (homónimos): José António de Cidadelhe, 65 anos, solteiro, mendigo, Salgueiral, m. 7-2-1841 (p0035); José António, solteiro, 25 anos, filho de Henrique Ferreira e Maria Rita, m. 28-9-1841 (p0037); José António Guedes, da Quintã, m. 10-5-1840 (p0032); José António Carvalho de Araújo Abreu, de Ariz, 59 anos, m. 1-3-1840 (p0031); José António, filho de Manuel António Martins, Salgueiral, m. 13-7-1834 (p0011); Joanna, mulher de José da Silva, Quintã, m. 10-6-1834 (p0010) |
+| bapt1817-25 (001/059; e45fbe04…) | p0001–p0110 | 1817–1824 | folheado | Nenhuma Josefa do casal; nenhum Mimoso. p0111–p0128 (1825) não vistas |
+| bapt1825-33 (001/060; 1df7394b…) | p0001–p0091 | 1825–6-1833 | folheado | Josefa 1827, Maria 1830, Joaquim 1832. Nenhum Mimoso |
+| bapt1833-40 (001/061; c526237f…) | p0001–p0028 com atenção; p0029–p0082 só capa e fim | 1833–1840 | folheado em parte | Remissão do Joaquim de 1835 (p0023). **1836–1840 por folhear** |
+| cas1833-42 (002/061; 062844dc…) | p0001–p0026 | 1833–1842 | folheado | Casamento de José António 1838 (p0014); batismo tardio de Joaquim 1835 (p0010); óbito de António Bentim 1841 (p0012). Nenhum Mimoso. O 1.º casamento de Josefa não está aqui |
+| cas1842-46 (002/062; de8b3447…) | p0001–p0012 | 1842–1846 | folheado | Nada da família; nenhum Mimoso |
+| bapt1853-59 (001/064) | p0003, p0035–p0061, p0089 | 11-1853; 10-1855 a 9-1857; 8-1859 | lido | O 1.º "Mimozo" é o de p0061 (4-9-1857) |
+
+- **Não pesquisados:** óbitos de 1812–1833 (003/058–060; não fazem falta, o casal teve filhos até 1835); bapt1846-53; casamentos de 1820–1833 (cas1820-28, cas1827-33) e de 1847–1859 (só se leu o p0132 de 1852); óbitos de 1880–1890 para Joanna Emília.
 
 ## Outras pessoas nos documentos
 
@@ -789,12 +901,17 @@ Transcrição:
 
 ### 2. Pesquisa online: lado Mimoso (Godim)
 - [ ] Batismo de **Joaquim António**, filho de Manuel (c.1860). Não está em Godim de 1851 a 1867.
-- [ ] Batismos de Josefa Emília (c.1820) e Joaquim António (c.1835), filhos dos pentavós: ver 1819–1822 com mais zoom e 1833–1840.
-- [ ] Óbitos dos pentavós José António Mimoso e Joanna Emília (n.º 16 e 17): ler o texto dos 70 óbitos de Godim de 1860 e procurar depois de 1879.
+- [ ] Óbitos dos pentavós José António Mimoso e Joanna Emília (n.º 16 e 17). Já vistos 1833–1879 (1860 lido assento a assento). Falta:
+  - releitura completa, linha a linha, de **obi1846-53** (vista só por faixas, tinta desbotada);
+  - **Joanna Emília** nos óbitos de **1880–1890** (já em fontes/).
+- [ ] Casamentos de Godim **1820–1833** (cas1820-28, cas1827-33, por descarregar) e **1847–1859** (cas1847-53, cas1854-59): casamento(s) de **Josefa Emília** (com Francisco de Barros Pantana? e com António Pereira) e de outros filhos.
+- [ ] Batismos de Godim **1846–1853** (bapt1846-53, não visto) e **bapt1833-40, p0029–p0080 (1836–1840)**: filhos tardios do casal; filhos de António Pereira × Josefa Emília; padrinhos.
+- [ ] Rever a data de nascimento do António de 1863 (n.º 6, [bapt1863/p0004.jpg](fontes/bapt1863/p0004.jpg)): "vinte e oito(?) de Fevereiro" não bate com o batismo a 22-2.
+- [ ] ❓ Ver se João Pereira × Maria Delfina (pais de António Pereira, 1860) são os tetravós João Pereira × Delfina Rosa (pais de Josefa Rosa, n.º 13).
 - [ ] Batismo de Joaquina dos Santos (c.1825), em Godim, para confirmar os pais e os avós.
 
 ### 3. Pesquisa online: lado Corrêa (S. Pedro do Sul, Baiões, Bordonhos)
-- [ ] **Origem do apelido Mimoso**: data da primeira assinatura do vigário António Gomes Mimozo (óbitos de S. Pedro do Sul, p0171–p0193) e procurá-lo como padrinho ou testemunha. Hipótese (?).
+- [ ] (Prioridade baixa.) Vigário António Gomes Mimozo: data da primeira assinatura (óbitos de S. Pedro do Sul, p0171–p0193). A hipótese ficou fraca: o apelido só aparece em Godim em 1857 (ver "Origem do apelido Mimoso").
 - [ ] Casamentos de S. Pedro do Sul **1783–1832** (PSPS14/002/0002, docId 95bd02d99d264d508ff70a2356cf6685): irmãos de José António (n.º 16).
 - [ ] Transcrever por inteiro o óbito de José Corrêa (n.º 32), 26-5-1796 ([fontes/sps_obi1765-1815/p0101.jpg](fontes/sps_obi1765-1815/p0101.jpg)): mulher, idade, testamento.
 - [ ] Batismos de S. Pedro do Sul 1683–1769, **p0212–p0299**: as folhas de contacto já estão feitas (`.playwright-mcp/pjc/m_sps_bapt1683-1769_212_215.jpg` … `_296_299.jpg`). Procurar um José mais novo de João Marques × Maria Corrêa, por causa da cruz no batismo de 1714.
@@ -817,5 +934,8 @@ Transcrição:
 - [x] Casamento de Caetano Rodrigues × Maria Francisca (n.º 66 e 67), 30-7-1744: deu os n.º 132–135.
 - [x] Encontrar os pais do bisavô José António Mimoso: Francisco António Mimoso e Maria de Jesus (batismo n.º 40/1908).
 - [x] Separar os dois Joaquim António Mimoso.
+- [x] Batismos de Josefa (19-1-1827) e de Joaquim António (8-11-1835), e ainda Maria (1830) e Joaquim (1832), filhos dos pentavós. Casamento do filho José António com Maria Delfina (6-2-1838).
+- [x] Origem do apelido Mimoso: o 1.º "Mimozo" em Godim é de 4-9-1857 (alcunha adotada c. 1856–57).
+- [x] Óbitos de Godim de 1860 lidos assento a assento; óbitos de 1833–1853 vistos por faixas.
 - [x] Casamento do José de 1867: não aparece em Godim entre 1888 e 1911. Ficaram por ver 1885 (p3–10), 1886 e 1887, quando ele tinha 17–20 anos, o que torna um casamento pouco provável. Deixou de ser relevante, porque não é o bisavô.
 - [x] Procurar a família Vicente nos livros de Godim: a família da Francisca está feita, e para a Emília há candidatos (ver a secção "Família Vicente de Godim").

@@ -77,7 +77,9 @@ Published site: https://moreiraio.github.io/familyTree/ (repo moreiraio/familyTr
 - **Paternal Mimoso line:** validated against the original records up to n.º 128–135 (roles go up to octavô/octavó).
   - n.º 16, José António Mimoso, married Joanna Emília in Godim on 14-8-1814. His probable baptism is 31-7-1774 in Pouves, S. Pedro do Sul.
   - His parents, José Corrêa × Fructuosa Rodrigues, married 11-2-1771. José Corrêa (n.º 32) was baptised 10-10-1745 in Baiões, the natural son of José Corrêa da Corvaceira (n.º 64), whose parents were Cap. João Marques × Maria Corrêa (n.º 128/129).
-  - Open: n.º 64's own baptism (Joseph 1714, which has a margin cross); the "Mimoso" origin (hypothesis: vigário António Gomes Mimozo, S. Pedro do Sul, 1811).
+  - Open: n.º 64's own baptism (Joseph 1714, which has a margin cross).
+  - Origin of the surname: the first "Mimozo" in Godim is the baptism of 4-9-1857 (same pároco as 1853/1855, which have no surname). It is probably a family alcunha adopted c.1856–57, not brought from S. Pedro do Sul. The vigário Mimozo (1811) hypothesis is weak.
+  - Deaths of n.º 16/17 not found in Godim deaths 1833–1879. Both were probably alive at the end of 1852.
 - **Vicente/Silva line** of the bisavó Francisca: done to n.º 24–31. Its marriages 12+13 and 14+15 are not yet searched.
 - **Open questions:**
   - the parents of the avó, Emília da Conceição Vicente; this needs the certidão of marriage 41/1961, Conservatória da Régua;
