@@ -17,13 +17,13 @@ No [arvore.html](arvore.html), cada pessoa tem uma **fonte** e um **nível de co
 ## Objetivo: ascendência de António José Mimoso (n. 1930)
 
 ```
-                                                                              ┌─ 64. José Corrêa da Corvaceira(?) ~
+                                                                              ┌─ 64. José Corrêa da Corvaceira ✔ (→ 128/129)
                                                    ┌─ 32. José Corrêa ✔ ───────┤      (S. Pedro do Sul; pai natural)
-                                                   │   n. Segadães (Baiões)    └─ 65. Paschoa Maria ✔ (solteira)
-                                                   │   casou 11-2-1771
-                           ┌─ 16. José António ────┤   (S. Pedro do Sul)       ┌─ 66. Caetano Rodrigues ✔ (Drizes, Várzea)
+                                                   │   bat. 10-10-1745 Baiões  └─ 65. Paschoa (Maria) ✔ (solteira; → 130/131)
+                                                   │   casou 11-2-1771, S. Pedro do Sul
+                           ┌─ 16. José António ────┤   m. 26-5-1796 Pouves ~   ┌─ 66. Caetano Rodrigues ✔ (Drizes, Várzea; → 132/133)
                            │   Mimoso ✔            └─ 33. Fructuosa Rodrigues ✔┤
-                           │   bat. 31-7-1774 Pouves       (Pouves)            └─ 67. Maria Francisca ✔ (Pouves)
+                           │   bat. 31-7-1774 Pouves       (Pouves)            └─ 67. Maria Francisca ✔ (Pouves; → 134/135)
                            │   (S. Pedro do Sul) ~
                            │   casou 14-8-1814 Godim                           ┌─ 68. José do Coral ~ (Galiza)
                            │                       ┌─ 34. Lourenço do Coral / ─┤
@@ -68,6 +68,26 @@ No [arvore.html](arvore.html), cada pessoa tem uma **fonte** e um **nível de co
                        m. 18-10-1938                                            └─ 31. Emília Rosa ✔
 ```
 
+Continuação da linha de S. Pedro do Sul (n.º 64–67 → n.º 128–135, octavós):
+
+```
+                         ┌─ 128. Capitão João Marques ✔ (Quinta da Corvaceira; já lá vivia em 1706)
+ 64. José Corrêa da ─────┤
+     Corvaceira ✔        └─ 129. Maria Corrêa ✔ (Corvaceira; família do lugar de Sá / Ribeiro de Moure(?), Carvalhais)
+     bat. 27-12-1714? ~
+                         ┌─ 130. Francisco(?) Gonçalves(?) ~ (natural de Segadães, morador em Bordonhos)
+ 65. Paschoa (Maria) ────┤
+     n. Bordonhos        └─ 131. Domingas João ✔ (Bordonhos)
+
+                         ┌─ 132. João Rodrigues ✔ (Drizes, Várzea)
+ 66. Caetano Rodrigues ──┤
+     casou 30-7-1744     └─ 133. Antónia Ribeiro ✔ (Drizes, Várzea)
+
+                         ┌─ 134. Domingos João ✔ (Favarrela(?), Carvalhais)
+ 67. Maria Francisca ────┤
+     n. Pouves           └─ 135. Maria Francisca ✔ (S. Félix)
+```
+
 - **2. José António Mimoso (bisavô):** batismo n.º 40/1908, Godim. Detalhes em "Linha Mimoso: assentos validados", mais abaixo. Morreu a **28-10-1971** em Godim (assento 217/1971). ✔ Fonte: [fontes/bapt1908/p0023.jpg](fontes/bapt1908/p0023.jpg)
 - **4. Francisco António Mimoso:** nasceu a **5-10-1855** nas Covinhas, Godim ([fontes/bapt1853-59/p0035.jpg](fontes/bapt1853-59/p0035.jpg)). Casou a 18-10-1900 com 45 anos ([fontes/cas1900/p0025.jpg](fontes/cas1900/p0025.jpg)). Testamento a 7-2-1921. Morreu a 7-5-1927, seis meses antes do casamento do filho.
 - **5. Maria da Silva Amaral (Maria de Jesus):** nasceu a **17-9-1864** em Sergude ([fontes/bapt1864/p0020.jpg](fontes/bapt1864/p0020.jpg)). Filha de José da Silva, pedreiro natural de Loureiro, e de Maria de Jesus Amaral. Antes de casar teve um filho natural, **Abel** (2-3-1881 a 3-5-1942).
@@ -76,6 +96,8 @@ No [arvore.html](arvore.html), cada pessoa tem uma **fonte** e um **nível de co
 - **9. Joaquina dos Santos:** morreu a 9-10-1865 em Sergude, com 40 anos ([fontes/obi1865/p0008.jpg](fontes/obi1865/p0008.jpg)). Filha de **18. António da Silva** (de Paradinha?, Moimenta da Beira) e de **19. Joanna dos Santos** (de Pendilhe, Castro Daire).
 - **16. José António Mimoso:** casou a **14-8-1814** em Godim com **17. Joanna Emília**, das Covas ([fontes/cas1812-19/p0012.jpg](fontes/cas1812-19/p0012.jpg)). O batismo provável é o de 31-7-1774 em Pouves, S. Pedro do Sul ([fontes/sps_bapt1769-88/p0051.jpg](fontes/sps_bapt1769-88/p0051.jpg)).
 - **32–39 e 64–69:** saem do casamento dos pais de José António (11-2-1771, S. Pedro do Sul), do batismo de 1774, do casamento de 1814 e do casamento de Manuel em 1852.
+- **32. José Corrêa:** batizado a **10-10-1745** em Baiões, filho natural de Paschoa, solteira, de Segadães, e de José Corrêa, solteiro, da Corvaceira ✔ ([fontes/baioes_misto1614-1776/p0261.jpg](fontes/baioes_misto1614-1776/p0261.jpg), [p0262.jpg](fontes/baioes_misto1614-1776/p0262.jpg)). Morreu a **26-5-1796** em Pouves ~ ([fontes/sps_obi1765-1815/p0101.jpg](fontes/sps_obi1765-1815/p0101.jpg); assento ainda não transcrito por inteiro).
+- **128–135:** saem do batismo de 1745 (avós de José Corrêa) e do casamento de Caetano Rodrigues com Maria Francisca, a **30-7-1744** ([fontes/sps_cas1643-1783/p0104.jpg](fontes/sps_cas1643-1783/p0104.jpg)).
   - O "Lourenço de Cesares(?)" de 1862 é **Lourenço do Coral / de Cazares**, galego.
 - **6. António Vicente:** nasceu a 1-12-1872 às 23h em Godim e foi batizado a 17-12-1872 (assento n.º 69). Os pais moravam em Aviz e eram jornaleiros. Morreu a 10-6-1948 (assento n.º 134/1948, Régua). Fonte: [fontes/bapt1871-76/p0033.jpg](fontes/bapt1871-76/p0033.jpg)
 - **7. Maria (Emília/Carolina) da Silva:** nasceu a 10-8-1874 às 23h em Godim e foi batizada a 30-8-1874 (assento n.º 38). O padrinho foi o avô materno, António da Silva, pescador. A madrinha foi Carolina Lúcia da Conceição, e o nome "Carolina" deve vir dela. Morreu a 18-10-1938 (assento n.º 268/1938, Régua). Fonte: [fontes/bapt1871-76/p0056.jpg](fontes/bapt1871-76/p0056.jpg)
@@ -85,12 +107,19 @@ No [arvore.html](arvore.html), cada pessoa tem uma **fonte** e um **nível de co
   - Noiva, chamada **Maria Carolina da Silva** no casamento e Maria Emília da Silva no batismo da filha: 19 anos, natural de Godim, moradora em Sergude(?). Filha de Francisco Rodrigues Velho e Anna Emília da Silva, proprietários de Godim.
   - Testemunhas: Francisco Mendes e Francisca Rosa, viúva. É a mesma Francisca Rosa que foi madrinha da Francisca em 1906.
   - Averbamento: António Vicente morreu em 1948. O assento de batismo dá a data de 10-6-1948 (n.º 134).
-- **Lado paterno: resolvido** até aos heptavós (n.º 64–69), 6 gerações acima do avô.
+- **Lado paterno: resolvido** até aos octavós (n.º 128–135), 7 gerações acima do avô. O ramo galego (n.º 68–69) fica nos heptavós.
 
 ## Árvore alargada (inclui ramos colaterais e hipóteses)
 
 ```
-José Corrêa ══ Fructuosa Rodrigues   (casaram 11-2-1771, S. Pedro do Sul; lugar de Pouves)
+Capitão João Marques ══ Maria Corrêa   (Quinta da Corvaceira, S. Pedro do Sul)
+        │   filhos batizados em S. Pedro do Sul: João 1708 (= Padre João Corrêa? ~), Manuel 1709 (+),
+        │   Felix 1711(?) (+), António 1713 (+), Joseph 1714 (+?), Maria 1716, Luiza 1718, Maria 1720,
+        │   Luis 1721, Domingos 1723.  Maria Tereza, solteira, m. 2-6-1795 ✔
+        │
+José Corrêa da Corvaceira ── Paschoa (Maria), solteira, de Segadães (n. Bordonhos)   [não casaram]
+        │
+José Corrêa (bat. 10-10-1745, Baiões; m. 26-5-1796?) ══ Fructuosa Rodrigues   (casaram 11-2-1771, S. Pedro do Sul; lugar de Pouves)
         │   filhos batizados em S. Pedro do Sul: José 1774, Maria 1776, António 1777, Manuel 1779,
         │   Maria 1783, Manuel 1785, António 1787, Margarida 1791, Margarida 1792
         │
@@ -518,7 +547,7 @@ Todos os assentos abaixo foram relidos nas imagens originais. Leituras incertas 
 ### 16. José António Mimoso e 17. Joanna Emília (pentavós)
 **Casamento, 14-8-1814, Godim ✔**
 - **Noivo:** José Antonio, filho de José Corrêa e Fratuoza Rodrigues, do lugar de **Pouves**, freguesia de S. Pedro do Sul, Bispado de Viseu.
-  - Avós paternos: "avô incerto" e Paschoa Maria, solteira, de Segadães, freguesia de Baiões.
+  - Avós paternos: "avô incerto" e Paschoa Maria, solteira, de Segadães, freguesia de Baiões. Os assentos de 1745, 1771 e 1774 nomeiam o pai natural: José Corrêa, da Corvaceira.
   - Avós maternos: Caetano Rodrigues, de Pouves, e Paschoa Maria. Este segundo nome da avó deve ser um erro do padre: os assentos de S. Pedro do Sul dizem Maria Francisca.
 - **Noiva:** Joanna Emília, de Godim, filha de **Lourenço do Coral** e Eufrázia Thereza, do lugar das Covas.
   - Avós paternos: **68. José do Coral** e **69. Felipa(?) de Lago(?)**, "do Reino de Galiza".
@@ -533,12 +562,21 @@ Transcrição:
 > Aos trinta e hum de Julho de mil sete centos setenta e quatro baptizou de minha licença o Padre Mathias José de Figueiredo desta Villa a Joseph de Pouves, filho de Joseph Corrêa natural de Segadaens, freguezia de Bayoens, e de sua mulher Fructuoza Rodrigues natural de Pouves, neto paterno de Joseph Corrêa da Corvaceira e Paschoa, solteira, natural do lugar e freguezia de Bordonhos, neto materno de Caetano Rodrigues natural de Drizes, freguezia da Varzea, e de sua mulher Maria Francisca de Pouves. Foram padrinhos o Padre João Corrêa e sua irmã Maria Tereza da Corvaceira, de que fiz este termo que assinei. — Vigr.º Joseph de Almeida
 
 - **Na margem:** "José / Pouves". Logo a seguir há uma nota de visitação ("Visto em Visita de 14 de Agosto de 1774").
+- **Os padrinhos são tios-avós do batizado:**
+  - **Maria Tereza**, da Corvaceira, morreu solteira a **2-6-1795**. O óbito diz que era filha do **Capitão João Marques** e de **Maria Corrêa**, da Quinta da Corvaceira ✔. São os mesmos pais que o batismo de 1745 dá a José Corrêa da Corvaceira (n.º 64). Logo Maria Tereza era irmã de n.º 64.
+  - **Padre João Corrêa** deve ser o **João** batizado a **3-7-1708**, filho do mesmo casal ~. Nenhum assento visto o chama "Padre" junto destes pais. Mas em 1774 é "irmão" de Maria Tereza, e é o único João do casal.
+  - ⚠ Antes supunha-se apenas que "devem ser parentes". Também fica excluída a ideia de serem filhos de n.º 64.
+  - Detalhes na secção "Família da Quinta da Corvaceira", mais abaixo.
 - Fontes: [fontes/sps_bapt1769-88/p0051.jpg](fontes/sps_bapt1769-88/p0051.jpg) (fundo da página direita), [p0052.jpg](fontes/sps_bapt1769-88/p0052.jpg) (topo da página esquerda)
 - **Porque é "provável" (≈70%) e não certo:**
   - O assento bate certo com o casamento de 1814 em pais, lugar (Pouves) e freguesia, e é o único José do casal nos batismos de 1769–1797.
   - Mas ele teria 40 anos ao casar, e os filhos nasceram entre 1815 e c.1835.
   - O livro de batismos de S. Pedro do Sul de **8-1797 a 9-1816 não está no digitarq**, por isso não se pode excluir um José mais novo.
   - O nome "José António" e o apelido Mimoso só aparecem em Godim. "Meimoso" está escrito pela primeira vez em 1857/1863.
+- **Origem do apelido Mimoso ❓ (hipótese):**
+  - Em nov.–dez. de 1811 os óbitos de S. Pedro do Sul são assinados por **"O Vigr.º Antonio Gomez Mimozo"** ([fontes/sps_obi1765-1815/p0194.jpg](fontes/sps_obi1765-1815/p0194.jpg), [p0195.jpg](fontes/sps_obi1765-1815/p0195.jpg)). Em 1809 (p0170) ainda assinava o cura Domingos Soares Ribeiro.
+  - É o primeiro "Mimoso" ligado a S. Pedro do Sul. José António pode ter tomado o apelido de um padrinho ou protetor.
+  - **Não há prova.** Não apareceu nenhum Mimoso em Pouves nem na Corvaceira.
 - **Óbitos:** nem ele nem Joanna Emília aparecem nos óbitos de Godim de 1854 a 1879. Em 1860 só foram vistas as margens, que não têm nomes.
 
 **Outros filhos do casal** (Godim):
@@ -554,10 +592,11 @@ Transcrição:
 ### 32. José Corrêa e 33. Fructuosa Rodrigues (hexavós): casamento de 11-2-1771, S. Pedro do Sul ✔
 
 Transcrição:
-> Aos honze de Fevereiro de mil e sette centos e setenta e hum se recebeo em minha presença na forma do Sagrado Concilio Tridentino e Constituiçaõ deste Bispado José Corrêa natural de Segadaens freguezia de Bayoens, filho natural de José Corrêa da Corvaceira(?) desta freguezia e de Paschoa Maria natural de Segadaens, com Fructuoza Rodrigues filha legitima de Caetano Rodrigues e de sua mulher Maria Francisca, todos do lugar de Pouves desta freguezia de Sam Pedro. Foram testemunhas Francisco Marques e Manoel Rodrigues ambos desta Villa […] O Coadjutor Mathias José de Fig.do
+> Aos honze de Fevereiro de mil e sette centos e setenta e hum se recebeo em minha presença na forma do Sagrado Concilio Tridentino e Constituiçaõ deste Bispado José Corrêa natural de Segadaens freguezia de Bayoens, filho natural de José Corrêa da Corvaceira desta freguezia e de Paschoa Maria natural de Segadaens, com Fructuoza Rodrigues filha legitima de Caetano Rodrigues e de sua mulher Maria Francisca, todos do lugar de Pouves desta freguezia de Sam Pedro. Foram testemunhas Francisco Marques e Manoel Rodrigues ambos desta Villa […] O Coadjutor Mathias José de Fig.do
 
-- **Pais de José Corrêa:** **64. José Corrêa da Corvaceira(?)**, de S. Pedro do Sul, e **65. Paschoa Maria**, solteira. Ele era filho natural.
-- **Pais de Fructuosa:** **66. Caetano Rodrigues**, natural de Drizes/Brizes(?), freguesia de Várzea, e **67. Maria Francisca**, de Pouves. Em 1791 ela aparece como "Maria Rodrigues".
+- **Pais de José Corrêa:** **64. José Corrêa da Corvaceira**, de S. Pedro do Sul, e **65. Paschoa Maria**, solteira. Ele era filho natural.
+  - ⚠ A leitura "Corvaceira" estava marcada com (?). Fica **confirmada**: está escrita assim no batismo de 1745 (duas vezes), no batismo de 1774 e no óbito de Maria Tereza de 1795 ("quinta da Corvaceira"). Não é "Carvalheira" nem "Covaceira". Nos batismos de 1706–1723 também aparece "Corvaseira" e "Corvaleira".
+- **Pais de Fructuosa:** **66. Caetano Rodrigues**, natural de Drizes, freguesia de Várzea, e **67. Maria Francisca**, de Pouves. Em 1791 ela aparece como "Maria Rodrigues". ⚠ "Drizes/Brizes(?)": o casamento de 1744 confirma **Drizes**.
 - Fonte: [fontes/sps_cas1643-1783/p0150.jpg](fontes/sps_cas1643-1783/p0150.jpg)
 - **Filhos batizados em S. Pedro do Sul, todos "de Pouves":**
   - José, 31-7-1774
@@ -570,8 +609,114 @@ Transcrição:
   - Margarida, 14-2-1791. Padrinhos: José de Oliveira e a irmã Margarida, filhos de António de Oliveira Mello. Fonte: [fontes/sps_bapt1788-97/p0041.jpg](fontes/sps_bapt1788-97/p0041.jpg)
   - Margarida, 29-12-1792 ([p0071](fontes/sps_bapt1788-97/p0071.jpg))
 - **O que fica por esclarecer:**
-  - A terra de Paschoa Maria: o casamento diz Segadães, o batismo de 1774 diz Bordonhos.
+  - ⚠ ~~A terra de Paschoa Maria: o casamento diz Segadães, o batismo de 1774 diz Bordonhos.~~ Resolvido pelo batismo de 1745: Paschoa era **natural de Bordonhos e moradora em Segadães**. As duas versões estavam certas.
   - O casamento de 1814 escreve "avô incerto"; os de S. Pedro do Sul dão o nome do pai natural.
+
+**Batismo de José Corrêa (n.º 32): 10-10-1745, Baiões ✔**
+- **Livro:** Baiões, misto 1614–1776 (PT/ADVIS/PRQ/PSPS01/004/0001), fl. 256 e 256v.
+- **Fontes:** [fontes/baioes_misto1614-1776/p0261.jpg](fontes/baioes_misto1614-1776/p0261.jpg) (último assento da página direita, muito desbotado) e [fontes/baioes_misto1614-1776/p0262.jpg](fontes/baioes_misto1614-1776/p0262.jpg) (primeiro assento da página esquerda).
+- A data de nascimento não é dada. Assento anterior: 9-9-1745. Assento seguinte: 1-11-1745.
+
+Transcrição (em p0261 as linhas 4 a 6 estão quase apagadas; a parte em p0262 lê-se bem):
+> Aos dez dias do mez de Outubro de mil settecentos quarenta e cinco nesta Igr.a de S. Eulalia de Bayoẽs baptizei e puz os Santos oleos a Joseph filho de Paschoa solt.ra moradora no Lugar de Segadaens desta freguezia e natural do Lugar de [B]ordonhos(?) da mesma(?) freguezia, onde foi baptizada, filha de [Fra]ncisco(?) Gonçalves(?) natural do mesmo Lugar de Segadaens
+> [p0262] desta freguezia, e morador no Lugar e freguezia de Bordonhos, e de sua mulher Domingas João, naturaes e moradores no dito Lugar e freguezia de Bordonhos onde foi baptizada(?), e estes são os Avós maternos deste baptizado; deu a May por Pay a Joseph Corrêa solt.ro morador na Corvaceira freg.a de S. Pedro do Sul onde foi baptizado, filho de João Marques e de sua mulher Maria Corrêa do mesmo lugar da Corvaceira freg.a de S. P.o do Sul onde foram baptizados, e estes são os Avós paternos do baptizado. Foram padrinhos Manoel Corrêa de Ramos e Domingas Maria solt.ra filha de Antonia Corrêa, todos do Lugar de Segadaens, de que fiz este termo que assignei dia mez e anno ut supra. — O Abb.e Mathias do Valle
+
+- **Margem:** quase toda na dobra. Lê-se "[Jo]ze f.o … [Pas]choa(?) … solt.ra … Seg.(?)".
+- **Mãe:** **65. Paschoa**, solteira, moradora em Segadães, natural de Bordonhos.
+- **Avós maternos:** **130. Francisco(?) Gonçalves(?)** ~, natural de Segadães e morador em Bordonhos (nome quase apagado: "…ncisco" lê-se razoavelmente, "Gonçalves" é duvidoso), e **131. Domingas João** ✔, natural e moradora em Bordonhos.
+- **Pai declarado pela mãe:** **64. Joseph Corrêa**, solteiro, morador na Corvaceira, freguesia de S. Pedro do Sul.
+- **Avós paternos:** **128. João Marques** e **129. Maria Corrêa**, da Corvaceira ✔.
+- **Padrinhos:** Manuel Corrêa de Ramos, de Segadães (pai de vários filhos batizados em Baiões em 1740–1745), e Domingas Maria, solteira, filha de Antónia Corrêa, de Segadães.
+- **Porque é ele:** mãe Paschoa, solteira, de Segadães e de Bordonhos; pai José Corrêa da Corvaceira. Tudo bate com 1771 e 1774. Tinha 25 anos ao casar e 28 quando nasceu o filho José.
+- **Diferenças pequenas:** aqui a mãe é só "Paschoa"; em 1771 é "Paschoa Maria".
+- **Outros achados em Baiões:** Domingas Maria (a madrinha), solteira, de Segadães, teve os filhos naturais Leonarda (21-6-1739, p0249) e Bárbara (8-8-1742, p0255). Era filha de João de Almeida, da Figueirosa (Bordonhos), e de Antónia Corrêa, solteira, de Segadães. Parentesco com Paschoa possível, mas sem prova.
+- **Outros José, filhos naturais em Baiões, que não são ele:** 14-9-1734, filho de Antónia, solteira, de Segadães (p0180); 17-8-1738, filho de Anna, solteira, da Lage (p0247).
+
+**Óbito de José Corrêa (n.º 32): 26-5-1796, Pouves ~**
+- José Corrêa, de Pouves, morreu a **26-5-1796** ([fontes/sps_obi1765-1815/p0101.jpg](fontes/sps_obi1765-1815/p0101.jpg)).
+- Identificado pela margem e pelo lugar. **O assento ainda não foi transcrito por inteiro**: falta confirmar o nome da mulher, o estado e a idade.
+
+### 64. José Corrêa da Corvaceira e 65. Paschoa (heptavós)
+- **64. José Corrêa:** solteiro em 1745, morador na Corvaceira, freguesia de S. Pedro do Sul, onde foi batizado. Filho de **128. Capitão João Marques** e **129. Maria Corrêa** ✔ (batismo de 1745).
+  - O apelido Corrêa vem da mãe, não do pai.
+  - **Batismo provável: Joseph, 27-12-1714** ~ ([fontes/sps_bapt1683-1769/p0122.jpg](fontes/sps_bapt1683-1769/p0122.jpg), página esquerda, topo; p0123 é duplicado).
+  - Transcrição:
+    > Aos vinte e sete dias de dezembro de mil e sete centos e quatorze ad. baptizei a Joseph f.º de Joam Marques e de sua m.er Maria Correa m.res na Corvaleira foram padrinhos Jos. Correa e sua m.er M.ª de Barros do lugar de Sá freg.ª de Carvalhais de que fiz este termo que asignei. O Vigr.º Miguel Gomes Barr.º
+  - Margem: "Joseph / Corvaseira".
+  - **Dúvida:** a margem tem uma **cruz (+)**. A mesma cruz está nos batismos de Manuel (1709), Felix (1711) e António (1713). Pode marcar morte em criança. Se for assim, n.º 64 é um José mais novo, nas páginas ainda não vistas (p0212 em diante). Não há outro José do casal em p0092–p0211 (1706–c.1736).
+  - Teria 30 anos em 1745.
+  - O óbito dele não está nos óbitos de S. Pedro do Sul de 1765–1815.
+- **65. Paschoa (Maria):** solteira, natural de Bordonhos e moradora em Segadães (Baiões). Filha de **130. Francisco(?) Gonçalves(?)** e **131. Domingas João**, de Bordonhos ✔ (batismo de 1745). O batismo dela estará no livro misto de Bordonhos de 1667–1765, provavelmente entre 1715 e 1728 (ainda por ver).
+
+### Família da Quinta da Corvaceira: 128. Capitão João Marques e 129. Maria Corrêa (octavós) ✔
+- Moravam na **Quinta da Corvaceira**, freguesia de S. Pedro do Sul. João Marques já lá vivia em **1706**: foi padrinho a 11-4-1706 ([fontes/sps_bapt1683-1769/p0092.jpg](fontes/sps_bapt1683-1769/p0092.jpg)).
+- Maria Corrêa era provavelmente filha de um **José Corrêa** do Ribeiro de Moure(?) / lugar de Sá, freguesia de Carvalhais ~. Em 1708 a madrinha Perpétua Antónia, "filha de José Corrêa do Ribeiro de Moure(?)", é "irmã da mãe do baptizado".
+- Fontes: batismo de 1745 (avós paternos de n.º 32) e óbito de Maria Tereza (1795).
+
+**Óbito de Maria Tereza, solteira: 2-6-1795, S. Pedro do Sul ✔**
+- Livro: óbitos 1765–1815 (PT/ADVIS/PRQ/PSPS14/003/0002). Último assento da página direita de [fontes/sps_obi1765-1815/p0096.jpg](fontes/sps_obi1765-1815/p0096.jpg), continua no topo de [p0097.jpg](fontes/sps_obi1765-1815/p0097.jpg).
+- Margem: "M.ª Tereza / solt.ra Corvaceira / [ofícios(?)] 3 Sab.(?)".
+
+Transcrição:
+> Aos dois de Junho de mil sette centos noventa e cinco faleceo da vida prezente com todos os Sacramentos, com testamento que fica na mam de seu herdeiro o Jeronimo(?) Cordeiro(?), Maria Tereza solteira filha do Capitam Joam Marques e de sua mulher Maria Corrêa da quinta da Corvaceira; [fez-se-lhe(?)] por ella o dito … [p0097:] … foi sepultada no Convento dos Religiosos … (continuação pouco legível)
+
+- O nome do herdeiro é uma leitura difícil.
+
+**Filhos do casal batizados em S. Pedro do Sul** (livro de batismos 1683–1769, PT/ADVIS/PRQ/PSPS14/001/0002). Ficam como notas, não como pessoas na árvore:
+
+| Data | Nome | Imagem | Padrinhos | Notas |
+|---|---|---|---|---|
+| **3-7-1708** | **João** | [p0099](fontes/sps_bapt1683-1769/p0099.jpg), pág. dir., meio | Luís Leitão Pereira, da vila, e Perpétua Ant.ª, filha de José Corrêa do Ribeiro de Moure(?), Carvalhais, "irmã da mãe do baptizado" | **Provável Padre João Corrêa** ~ |
+| 17-9-1709 | Manuel | p0104, pág. dir., topo | o vigário Miguel Gomes Barreto e Marianna de Chaves(?), mulher de João Cardoso | Cruz (+) na margem; "Corvaleira" |
+| 13-7-1711(?) | Felix | p0112, pág. esq. | — | Cruz na margem |
+| 12-2-1713 | António | p0116, pág. dir., topo | P.e Jerónimo(?) Correa(?), do lugar de Sá, e M.ª F.(?), de José(?) Corrêa, do Ribeiro(?), Carvalhais | Cruz na margem |
+| **27-12-1714** | **Joseph** | [p0122](fontes/sps_bapt1683-1769/p0122.jpg), pág. esq., topo | José Corrêa e a mulher M.ª de Barros, do lugar de Sá, Carvalhais | **Provável n.º 64** ~; cruz na margem |
+| 30-11-1716 | Maria | [p0129](fontes/sps_bapt1683-1769/p0129.jpg), pág. esq., meio | Simão Cardoso de Mesquita, da vila, e Perpétua de Siqueira, mulher de José Corrêa | Pode ser a Maria Tereza |
+| 6(?)-12-1718 | Luiza | p0135, pág. dir. | — | — |
+| **18-4-1720** | **Maria** (2.ª do nome) | [p0141](fontes/sps_bapt1683-1769/p0141.jpg), pág. esq., fundo | Baptista Corrêa, de S. Miguel do Outeiro, e M.ª de Barros, mulher de José Corrêa, do lugar de Sá | Provável **Maria Tereza** ~ (teria 75 anos em 1795) |
+| 8-12-1721 | Luis | p0147, pág. esq. | — | — |
+| 30-11-1723 | Domingos | p0156, pág. esq., topo | — | Na margem, "Jos." riscado |
+
+Transcrição do batismo de João (p0099):
+> Aos tres dias do mes de julho de mil e sete centos e oito annos baptizei a joam filho de joam marques e de sua m.er M.ª Correa da Corvaseira foram padrinhos Luis Leitam Pereira desta V.ª e Perpetua Ant.ª f.ª de Jos. Correa do Ribeiro de Moure(?) freg.ª de Carvalhais irmã da mai do baptizado de q. fiz este termo que asignei. O Vigr.º Miguel Gomes Barreiro(?)
+
+- O nome composto "Maria Tereza" não aparece em nenhum batismo.
+- O casamento de João Marques com Maria Corrêa (c.1700–1706) não foi encontrado (ver em baixo o que falta ver).
+
+### 66. Caetano Rodrigues e 67. Maria Francisca (heptavós): casamento de 30-7-1744, S. Pedro do Sul ✔
+- Livro: casamentos 1643–1783 (PT/ADVIS/PRQ/PSPS14/002/0001), [fontes/sps_cas1643-1783/p0104.jpg](fontes/sps_cas1643-1783/p0104.jpg), página direita, 2.º assento.
+- Margem: "Caetano Roiz com M.ª Fran.ca".
+
+Transcrição:
+> Aos trinta dias do mez de Julho de mil settecentos quarenta e quatro se receberam em minha prezença Caetano Rodrigues filho de João Rodrigues e de sua mulher Antonia Ribeiro do lugar de Drizes freguezia de Varzea com Maria Francisca natural de Pouves filha de Domingos João e de sua mulher Maria Francisca, esta da freguezia de S. Felix e elle do lugar de Favarrella(?) freguezia de Carvalhais. Forão testemunhas Fructuoso de Paiva e Domingos da Rocha, e Joseph Rodrigues, este da Villa de S. Pedro e estoutros do lugar de Pouves desta freguezia … O Vigr.º Braz Joseph de Almeyda
+
+- **Pais de Caetano:** **132. João Rodrigues** e **133. Antónia Ribeiro**, do lugar de Drizes, freguesia de Várzea.
+- **Pais de Maria Francisca:** **134. Domingos João**, do lugar de Favarrela(?), freguesia de Carvalhais, e **135. Maria Francisca**, da freguesia de S. Félix.
+- Uma das testemunhas chama-se **Fructuoso** de Paiva, de Pouves. A filha do casal chamou-se Fructuosa.
+- Confirma a leitura "Drizes" (antes "Drizes/Brizes(?)").
+
+### Pesquisas sem resultado e páginas por ver (S. Pedro do Sul e Baiões, outubro de 2026)
+- **Baiões, misto 1614–1776** (PSPS01/004/0001, docId 9ef32c1e1c1445aba16a7a8ab95c4e4a; imagem = fólio + 5):
+  - Descarregado: p0020, p0060, p0100, p0140, p0176–p0290 e p0300.
+  - Batismos lidos assento a assento: **1734 a 10-10-1745** (p0180–p0262).
+  - Livro antigo: p0176–p0187 = jul. 1734 a 29-8-1737. Livro novo: começa em p0245 a 12-2-1738. p0188–p0244 são casamentos e óbitos.
+  - **Possível lacuna:** set. 1737 a fev. 1738.
+  - p0263–p0290 (c.1745–1760) descarregadas mas **não lidas**.
+- **S. Pedro do Sul, óbitos 1765–1815** (PSPS14/003/0002, docId 2e908cda8c114e00b54a77c8ca644097, p0001–p0209): margens de todas as páginas vistas.
+  - **Não estão** os óbitos do Padre João Corrêa nem de José Corrêa da Corvaceira (n.º 64). O único João Corrêa adulto é casado, da Ponte de S. Bartolomeu (p0193, nov. 1811). José Corrêa de Paiva, da Ponte, casado (p0072, nov. 1789), não é n.º 64.
+  - Logo morreram antes de 8-1765 (impossível para o padre, vivo em 1774), depois de 8-1815, ou fora da freguesia.
+  - Outras entradas "Corvaceira" que não são da família: p0006 (Manuel Fr.co(?)), p0010 (Salvador), p0022 (Maria, solteira pobre, "assistente na Corvaceira", 23-10-1772), p0045 (Manuel Roiz), p0050 (Vicente, pobre).
+  - Imagens duplicadas: p0014/15 e p0050/51.
+- **S. Pedro do Sul, batismos 1683–1769** (PSPS14/001/0002, docId 7100f48fd0f2404ab1cc65712d02c2c1; o digitarq mostra 880 imagens, mas são 440 em duplicado):
+  - Margens vistas em **p0092–p0211** (c.1706–c.1736).
+  - **Não vistas:** p0001–p0091 (1683–1706), p0212–p0299 (as folhas de contacto foram feitas mas não vistas) e p0300–p0440 (1752–1769).
+- **S. Pedro do Sul, casamentos 1643–1783** (PSPS14/002/0001):
+  - Margens vistas em p0075–p0129 (c.1723–1756). Vistas em resolução reduzida: p0039 (1697), p0044–p0051 (1701–1707, leitura fraca), p0087, p0104, p0115, p0128.
+  - **Não vistas:** p0035–p0038, p0040–p0043 e p0052–p0074 (c.1707–1723).
+  - Não está o casamento de João Marques × Maria Corrêa (c.1700–1706, nas páginas vistas). Não está nenhum casamento de José Corrêa da Corvaceira entre 1723 e 1783.
+  - p0115 (1748): Domingas Correa, de Segadães, mãe de uma filha natural do P.e Felippe de Almeyda. Mostra que havia Corrêas em Segadães; não resolve nada sobre Paschoa.
+- **Casamentos de S. Pedro do Sul 1783–1832** (PSPS14/002/0002): não pesquisados.
+- **Bordonhos** (PSPS02): não pesquisado.
 
 ### O que foi pesquisado e não encontrado
 - **Joaquim António**, filho de Manuel (c.1860): não está nos batismos de Godim de 1851 a 1867.
@@ -627,19 +772,48 @@ Transcrição:
 | Certidões de nascimento, casamento e óbito do avô, do pai e da mãe | civilonline.mj.pt / ePortugal |
 | Livros do registo civil de 1911–1930 que não estão digitalizados | digitarq, botão "Pedir...", ou email para o ADVRL |
 | Certidão de teor da descrição 00427/Godim (antiga 35.139, livro B-89) e do prédio 58.828, com todas as inscrições | predialonline.pt ou Conservatória do Registo Predial da Régua |
+| Batismos de S. Pedro do Sul de 8-1797 a 9-1816 (não estão no digitarq): saber se o livro existe ou se há duplicado | Arquivo Distrital de Viseu (ADVIS), por email, ou Diocese de Viseu |
+| Livros paroquiais de Baiões, Bordonhos e S. Pedro do Sul anteriores a 1911 | Já estão online no digitarq (PT/ADVIS/PRQ/PSPS01, PSPS02, PSPS14); não é preciso pedir |
 
 ## Por fazer
-- [ ] **Pedir ao ADVRL o inventário de 1973** (PT/ADVRL/JUD/TJCPRG/C-B/082/1658). Deve listar os 7 filhos e os 3 irmãos que faltam.
-- [ ] Pedir a certidão de teor da descrição predial 00427/Godim (antiga 35.139) e do prédio 58.828, com as inscrições G-25 n.º 11.039 (1937), G-42 n.º 33.224/33.225 e G-44 n.º 34.029. Dizem quem herdou ou comprou, e de quem.
-- [ ] Pedir o testamento de 1921 de Francisco António Mimoso, o trisavô (PT/ADVRL/NOT/CNPRG5/007/394/38).
-- [x] Certidão de nascimento do avô: assento n.º 655/1930 (informatizado n.º 70/2026). Nasceu a 7-11-1930, casou a 4-3-1961 e morreu a 3-4-1995.
-- [ ] **Certidão de casamento n.º 41/1961, Conservatória da Régua** (avô × Emília da Conceição Vicente, Igreja de Godim, 4-3-1961). Dá os pais da avó.
-- [ ] Certidão de casamento do avô com Emília da Conceição Vicente: indica os pais dela e abre o ramo da avó.
-- [x] Linha Mimoso validada contra os assentos originais (outubro de 2026): batismos de 1774, 1815, 1819, 1855, 1864; casamentos de 1771, 1814, 1852, 1900; óbitos de 1865, 1891, 1900. Ver "Linha Mimoso: assentos validados".
-- [ ] Casamento de José da Silva com Maria de Jesus Amaral (c.1860–61): procurar nos livros de Loureiro.
-- [ ] Casamentos dos n.º 12+13 e 14+15 (lado Vicente) nos livros de Godim.
-- [ ] Ler o texto dos 70 óbitos de Godim de 1860 (Joanna Emília) e procurar os óbitos dos pentavós depois de 1879.
+
+*Atualizado a 28-10-2026.*
+
+### 1. Pedir documentos (não estão online)
+- [ ] **Certidão de casamento n.º 41/1961, Conservatória da Régua** (avô × Emília da Conceição Vicente, Igreja de Godim, 4-3-1961). Dá os pais da avó e abre o ramo dela. É o passo mais importante.
+- [ ] **Inventário de 1973, ADVRL** (PT/ADVRL/JUD/TJCPRG/C-B/082/1658). Deve listar os 7 filhos e os 3 irmãos do avô que faltam.
+- [ ] Certidão de teor da descrição predial 00427/Godim (antiga 35.139) e do prédio 58.828, com as inscrições G-25 n.º 11.039 (1937), G-42 n.º 33.224/33.225 e G-44 n.º 34.029. Dizem quem herdou ou comprou, e de quem.
+- [ ] Testamento de 1921 de Francisco António Mimoso, o trisavô (PT/ADVRL/NOT/CNPRG5/007/394/38).
+- [ ] Batismos de S. Pedro do Sul de 8-1797 a 9-1816: perguntar ao ADVIS ou à Diocese de Viseu se o livro existe. Confirmaria o batismo do pentavô (n.º 16).
+
+### 2. Pesquisa online: lado Mimoso (Godim)
+- [ ] Batismo de **Joaquim António**, filho de Manuel (c.1860). Não está em Godim de 1851 a 1867.
+- [ ] Batismos de Josefa Emília (c.1820) e Joaquim António (c.1835), filhos dos pentavós: ver 1819–1822 com mais zoom e 1833–1840.
+- [ ] Óbitos dos pentavós José António Mimoso e Joanna Emília (n.º 16 e 17): ler o texto dos 70 óbitos de Godim de 1860 e procurar depois de 1879.
 - [ ] Batismo de Joaquina dos Santos (c.1825), em Godim, para confirmar os pais e os avós.
+
+### 3. Pesquisa online: lado Corrêa (S. Pedro do Sul, Baiões, Bordonhos)
+- [ ] **Origem do apelido Mimoso**: data da primeira assinatura do vigário António Gomes Mimozo (óbitos de S. Pedro do Sul, p0171–p0193) e procurá-lo como padrinho ou testemunha. Hipótese (?).
+- [ ] Casamentos de S. Pedro do Sul **1783–1832** (PSPS14/002/0002, docId 95bd02d99d264d508ff70a2356cf6685): irmãos de José António (n.º 16).
+- [ ] Transcrever por inteiro o óbito de José Corrêa (n.º 32), 26-5-1796 ([fontes/sps_obi1765-1815/p0101.jpg](fontes/sps_obi1765-1815/p0101.jpg)): mulher, idade, testamento.
+- [ ] Batismos de S. Pedro do Sul 1683–1769, **p0212–p0299**: as folhas de contacto já estão feitas (`.playwright-mcp/pjc/m_sps_bapt1683-1769_212_215.jpg` … `_296_299.jpg`). Procurar um José mais novo de João Marques × Maria Corrêa, por causa da cruz no batismo de 1714.
+- [ ] Casamentos de S. Pedro do Sul 1643–1783, páginas **p0035–p0038, p0040–p0043 e p0052–p0074**: casamento de João Marques × Maria Corrêa (c.1700–1706). Rever p0044–p0051 com mais zoom.
+- [ ] **Batismo de Paschoa (n.º 65)** em Bordonhos (c.1715–1728) e casamento de Francisco(?) Gonçalves(?) × Domingas João: livro misto PT/ADVIS/PRQ/PSPS02/004/0002 (1667–1765), docId **fff99daf03e1428c81b9f724b2703f76**, 305 imagens.
+- [ ] Pais de Maria Corrêa (n.º 129): provavelmente José Corrêa, de Sá / Ribeiro de Moure(?), nos livros de **Carvalhais**, que ainda não foram pesquisados. Ver também os batismos de S. Pedro do Sul p0001–p0091 (1683–1706).
+- [ ] Óbito de n.º 64 antes de 1765 (óbitos PSPS14/003/0001) e óbitos de 1815 em diante (003/0003).
+- [ ] Ler Baiões p0263–p0290 (1745–1760, já descarregadas) e confirmar a possível lacuna de set. 1737 a fev. 1738.
+- [ ] Pais de Caetano Rodrigues e de Maria Francisca (n.º 132–135): batismos e casamentos em Várzea, Carvalhais e S. Félix.
+
+### 4. Pesquisa online: lado Vicente / Silva
+- [ ] Casamentos dos n.º 12+13 e 14+15 nos livros de Godim.
+- [ ] Casamento de José da Silva com Maria de Jesus Amaral (c.1860–61): procurar nos livros de Loureiro.
+
+### Feito
+- [x] Certidão de nascimento do avô: assento n.º 655/1930 (informatizado n.º 70/2026). Nasceu a 7-11-1930, casou a 4-3-1961 e morreu a 3-4-1995.
+- [x] Linha Mimoso validada contra os assentos originais (outubro de 2026): batismos de 1708, 1714, 1745, 1774, 1815, 1819, 1855, 1864; casamentos de 1744, 1771, 1814, 1852, 1900; óbitos de 1795, 1865, 1891, 1900. Ver "Linha Mimoso: assentos validados".
+- [x] Batismo de José Corrêa (n.º 32): 10-10-1745, Baiões. Deu os pais de n.º 64 e 65 (n.º 128–131).
+- [x] Padrinhos de 1774: Padre João Corrêa e Maria Tereza, irmãos de n.º 64 (filhos do Cap. João Marques e Maria Corrêa, da Quinta da Corvaceira).
+- [x] Casamento de Caetano Rodrigues × Maria Francisca (n.º 66 e 67), 30-7-1744: deu os n.º 132–135.
 - [x] Encontrar os pais do bisavô José António Mimoso: Francisco António Mimoso e Maria de Jesus (batismo n.º 40/1908).
 - [x] Separar os dois Joaquim António Mimoso.
 - [x] Casamento do José de 1867: não aparece em Godim entre 1888 e 1911. Ficaram por ver 1885 (p3–10), 1886 e 1887, quando ele tinha 17–20 anos, o que torna um casamento pouco provável. Deixou de ser relevante, porque não é o bisavô.
