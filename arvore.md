@@ -151,8 +151,8 @@ José António Mimoso (bat. 31-7-1774?) ══ Joanna Emília (Covas, Godim)   (
                                    │   (7 filhos; faltam 3)
        ┌───────────────────────────┼───────────────────────────┬───────────────────────────┐
        │                           │                           │                           │
-António José Mimoso ✔        Maria Emília da Conceição     Valentim António Mimoso ✔    Adão António Mimoso ✔
-n. 7-11-1930, Godim          Vicente ✔                     ══ Isaura Moreira dos Anjos
+António José Mimoso ✔        Maria Emília da Conceição     Valentim António Mimoso ●    Adão António Mimoso ●
+n. 7-11-1930, Godim          Vicente ●                     ══ Isaura Moreira dos Anjos
 ══ Emília da Conceição       ══ António Joaquim Vicente       (Lisboa)                  + 3 irmãos por
    Vicente ✔                    (Picote)                                                   identificar
        │
@@ -295,16 +295,33 @@ Pais da trisavó Maria Carolina (n.º 7). Avós da bisavó Francisca.
 - O índice de batismos (fontes/indice_godim, p0011–p0019) dá filhos de um "Francisco Rodrigues": Francisco 15-11-1871 (n.º 48), **Maria 10-8-1874 (n.º 38, a n.º 7)** e Francisca 21-2-1877 (n.º 21). Só a Maria está verificada; há outros Francisco Rodrigues em Godim.
 - ⇒ Casamento por volta de **1865–1873**. Os livros de casamentos de Godim desse período **não estão descarregados**: 002/024 (1865, c1b46000cfb445ee8369943e63d3c04f), 002/025 (1866, e45d88f7061f4a1a921b665df056a26b), 002/026 (1867, cd736576ec4d44dbb5d9687433b8251d), 002/027 (1868, 132f42d682a1442ca50acc53e1588a27), 002/028 (1869, 35dfb37965be4b2489f9587785192618), 002/029 (1870, f05ac04db1f64751ad25efade8a3eb02), 002/030 (1871–1876, c3cb81ec6b5f48939caa69ea7ed9a23e, 39 imagens).
 
-### Maria Emília da Conceição Vicente (irmã do avô) ✔
-- Filha de José António Mimoso e de Francisca da Conceição Vicente. Usava só os apelidos da mãe.
+### Revalidação dos irmãos do avô (2-11-2026)
+- ⚠ Nenhum irmão tem assento lido (nascimento, batismo ou casamento) que dê os pais. Os livros paroquiais online acabam em 1911, e os assentos civis dos anos 1930 não estão no ADVRL. O ✔ que estava em Maria Emília, Valentim e Adão era exagerado: passou a ●.
+- **Fontes que existem:**
+  - ◆ **Família:** o casal teve 7 filhos.
+  - ● **Registo predial de 1973**, relido a 2-11-2026 (ver "Outras pessoas nos documentos"). A inscrição G-42 n.º 33.224 é uma **aquisição de 5/6** da Quinta da Pêssega a favor de 1.º Maria Emília × António Joaquim Vicente, 2.º Manuel António da Silva × Ausenda(?) de Jesus Porto Silva, 3.º Valentim António Mimoso × Isaura, 4.º José António (Mimoso?) …, e talvez mais nomes fora da fotografia. Não diz "filhos" nem "herdeiros".
+  - ● **Catálogo do ADVRL:** Adão António Mimoso é o inventariante no inventário da mãe, 1973. O catálogo não diz o parentesco.
+- **Leitura provável (~):** 5/6 repartidos por 5 herdeiros, 1/6 cada, mais 1/6 noutra inscrição (G-42 n.º 33.225), provavelmente do avô. Isto dá **6 herdeiros** na partilha dos bisavós: 6 filhos vivos, ou 7 filhos com um já morto. Depois, a inscrição G-44 n.º 34.029 (5/6) será o avô a juntar as partes dos irmãos. Bate com a caderneta, onde o avô aparece como dono do prédio todo.
+- **Candidatos:**
+  - António José ✔ (o avô);
+  - Maria Emília ●;
+  - Valentim ●;
+  - Adão ● (fora da parte visível da fotografia, se for herdeiro aqui);
+  - ~ um **José António (Mimoso?)**, o 4.º da lista; o resto do nome está fora da fotografia;
+  - ~ **Ausenda de Jesus Porto Silva** ou o marido Manuel António da Silva (um dos dois será filho; ela é mais provável).
+- ⚠ Antes dizia-se que o 4.º nome era "provavelmente José António Vicente Mimoso". Isso está errado: esse é o filho do avô, que em 1973 era menor e não herdava dos avós com o pai vivo.
+- **Para confirmar:** o inventário de 1973 (Cx. 143), as inscrições G-42 n.º 33.224/33.225 e G-44 n.º 34.029 na Conservatória da Régua (todos os nomes, com parentesco), ou uma nova fotografia da folha anexa inteira, se continuar no verso.
+
+### Maria Emília da Conceição Vicente (irmã do avô) ●
+- Filha de José António Mimoso e de Francisca da Conceição Vicente (família; registo predial de 1973). Usava só os apelidos da mãe.
 - Casada com **António Joaquim Vicente**. Em 1973 moravam em Picote, Miranda do Douro.
 - Aparece no registo predial de 1973 como titular do prédio 92-B.
 
 ### Irmãos ainda por identificar
-- O casal teve **7 filhos**. Estão identificados 4: António José, Maria Emília, Valentim e Adão.
-- ❓ Uma possibilidade é Ausenda de Jesus Porto Silva, casada com Manuel António da Silva, que vivia em Godim e aparece no registo predial de 1973.
+- O casal teve **7 filhos** (família). Estão identificados 4: António José, Maria Emília, Valentim e Adão.
+- ~ Prováveis: **José António (Mimoso?)** e **Ausenda de Jesus Porto Silva** (ou o marido, Manuel António da Silva). Os dois estão entre os adquirentes de 5/6 no registo predial de 1973. Ver "Revalidação dos irmãos do avô".
 
-### Valentim António Mimoso (irmão do avô) ✔
+### Valentim António Mimoso (irmão do avô) ●
 - Casado com **Isaura Moreira dos Anjos Mimoso**. Em 1973 moravam em Lisboa.
 - Aparece no registo predial de 1973 como titular do prédio 92-B.
 
@@ -405,7 +422,8 @@ Leituras incertas estão marcadas com (?).
 **O que isto acrescenta à árvore**
 - ✔ Em 1956 o bisavô **José António Mimoso** era casado, proprietário e morador em Sergude. Construiu a casa com mirante na Quinta da Pêssega.
 - ❓ As inscrições no livro G (transmissões) mostram a cadeia de donos. A n.º 11.039, de 1937, pode ser a passagem da quinta do trisavô Francisco António (morto em 1927, com testamento de 1921) para o filho. Isto bate com a anotação "Legado" da caderneta.
-- ❓ As quotas em sextos (1/6 e 5/6) nas inscrições G-42 e G-44 sugerem uma partilha entre 6 herdeiros, ou a compra de 5/6 por um deles. Os 7 filhos da família podiam ser 6 vivos à data.
+- ~ As quotas em sextos nas inscrições G-42 e G-44 são da **partilha dos bisavós (1971–1973)**: a folha anexa de 1973 mostra a G-42 n.º 33.224 como "aquisição de 5/6" a favor dos irmãos do avô (relida a 2-11-2026). São 6 herdeiros; a G-44 n.º 34.029 (5/6) será o avô a comprar ou receber as partes dos irmãos.
+- ⚠ (2-11-2026) A hipótese seguinte já não serve para as inscrições G-42 e G-44, que são da partilha dos bisavós (ver acima). Só pode valer para as inscrições antigas de 1/6 no livro C-30 (n.º 14.163 e 14.193), que continuam por explicar.
 - ❓ **Hipótese nova (28-10-2026):** os 6 herdeiros podem ser os **6 filhos da trisavó Maria Amaral**. No testamento de 7-2-1921 ela declara 6 herdeiros necessários: 2 legítimos (Maria Emília e José António) e 4 perfilhados (Abel, Manuel, Francisco e Valentim Mendes) ✔. Se a quinta era dela, ou do casal, a parte dela foi partilhada em sextos. O bisavô terá depois juntado as outras 5/6, por compra ou partilha. Isto explicaria as inscrições de 1/6 (C-30 n.º 14.163 e 14.193, G-42 n.º 33.225) e de 5/6 (G-42 n.º 33.224, G-44 n.º 34.029), e talvez o "Legado" da caderneta. Está bem fundada, mas não há documento que a prove.
 - ❓ A ideia de um **legado de Anna Emília da Silva** (n.º 15) ficou **mais fraca**: o catálogo do ADVRL não tem testamento, inventário nem processo em nome dela ou do marido, e nenhum registo nomeia a Pêssega ou um legado (pesquisa de 28-10-2026).
 - ❓ **Continua por explicar** como o casal Francisco António × Maria Amaral passou de jornaleiros (1900–1908) a **proprietários** (1921). A aquisição da quinta, se foi deles, terá sido entre 1908 e 1921. Nenhum dos dois testamentos de 1921 nomeia prédios.
@@ -998,13 +1016,17 @@ Transcrição:
 
 ## Outras pessoas nos documentos
 
-**Registo predial de 8/6/1973** (Godim, artigo 92-B, prédio n.º 35.139, livro B-89, fl. 181; hoje descrição 00427/Godim). Registos a favor de:
-1. ✔ **Maria Emília da Conceição Vicente**, irmã do avô, e o marido **António Joaquim Vicente**, residentes em Picote, Miranda do Douro.
-2. ✔ **Manuel António da Silva** e a mulher **Ausenda(?) de Jesus Porto Silva**, residentes em Godim. ❓ A Ausenda pode ser outra irmã, e o marido pode ser um comprador.
-3. ✔ **Valentim António Mimoso** e a mulher **Isaura Moreira dos Anjos Mimoso**, residentes em Lisboa. Irmão do avô ✔
-4. ✔ **José António Mimoso** … (o resto está fora da fotografia) ❓ Provavelmente o irmão José António Vicente Mimoso.
+**Registo predial de 8/6/1973** (Godim, artigo 92-B, prédio n.º 35.139, livro B-89, fl. 181; hoje descrição 00427/Godim). Relido a 2-11-2026 ([imagens/registopredial.jpeg](imagens/registopredial.jpeg)):
+- **Inscrição:** "Aquisição de 5/6", livro **G-42**, fl. **11**, n.º **33.224**. Na coluna "Data em que caducou": 10/2/1975(?). Conferido e rubricado a 8/6/1973.
+- **A favor de:**
+  1. "**Maria Emília da Conceição Vicente** e marido **António Joaquim Vicente**, casados sob o regime da comunhão geral de bens, residentes na freguesia de Picote, concelho de Miranda do Douro";
+  2. "**Manuel António da Silva** e mulher **Ausen(da?) de Jesus Porto Silva**, casados sob o regime da comunhão geral de bens, residentes na freguesia de Godim, concelho do Peso da Régua";
+  3. "**Valentim António Mimoso** e mulher **Isaura Moreira dos Anjos Mimoso**, casados sob o regime da comunhão geral de bens, residentes na cidade de Lisboa";
+  4. "**José António** [Mimoso?] …": o resto está fora da fotografia. Pode haver mais nomes.
+- O registo não diz o parentesco. ⚠ Antes dizia-se que o n.º 4 era "provavelmente José António Vicente Mimoso". Está errado: esse é o filho do avô, menor em 1973.
+- ⚠ Antes estava ✔ em cada nome, como se o parentesco estivesse provado. O registo prova os nomes, as moradas e a quota; o parentesco com o avô é ● (com a família) ou ~.
 
-❓ Este registo parece ser a partilha da herança de José António Mimoso e de Francisca entre os filhos.
+~ É, muito provavelmente, a partilha da herança de José António Mimoso (m. 1971) e de Francisca (inventário de 1973): 5/6 a 5 herdeiros e 1/6 (G-42 n.º 33.225) a outro, provavelmente o avô.
 
 ## Registos encontrados no catálogo do ADVRL (digitarq; não estão digitalizados, é preciso pedir)
 
@@ -1032,7 +1054,7 @@ Transcrição:
 - **Nenhum registo** do catálogo nomeia a Quinta da Pêssega, Sergude ou um legado. Nenhum registo de Maria Amaral como inventariada. Nenhum de Maria Emília com o apelido Mimoso.
 - Sem a data das escrituras (inscrições prediais G-25 n.º 11.039, G-42, G-44), ler os livros de escrituras às cegas não é viável.
 
-### Adão António Mimoso (irmão do avô) ✔
+### Adão António Mimoso (irmão do avô) ●
 - Nome completo segundo o inventário de 1973: **Adão António Mimoso**
 - Foi inventariante (cabeça de casal) no inventário da mãe, Francisca da Conceição Vicente (no catálogo aparece como "Silva", apelido da mãe dela), em 1973.
 
