@@ -323,7 +323,7 @@ Pais da trisavó Maria Carolina (n.º 7). Avós da bisavó Francisca.
 5. Joaquim António Vicente Mimoso, 1/4 (riscado)
 6. José António Vicente Mimoso, 1/4 (riscado)
 
-Quando o avô morreu, o prédio ficou dividido pelos 4 filhos, com 1/4 cada. Depois, Joaquim e José passaram as suas quotas à Sílvia, que ficou com 3/4.
+⚠ Corrigido a 2-11-2026 pela certidão permanente da descrição 00427/Godim (ver abaixo). Antes dizia-se que o prédio se dividiu pelos 4 filhos **quando o avô morreu**. Na verdade, o avô e a avó **doaram** em vida os 7 prédios aos 4 filhos, com 1/4 cada (Ap. 1 de 25-6-1993). Depois, Sílvia e Armando **compraram** 2/4 ao Joaquim e ao José (1998) e 1/4 ao António José (2009). Hoje têm o prédio todo (4/4).
 
 ### Descrição predial n.º 35.139 (Godim): Quinta da Pêssega, Sergude ✔
 Livro das Descrições Prediais B-89, fl. 181, Conservatória do Registo Predial de Peso da Régua. A descrição continua noutro livro. Fotografias: [imagens/descricao_35139_fl181.jpg](imagens/descricao_35139_fl181.jpg) e [imagens/descricao_35139_continuacao.jpg](imagens/descricao_35139_continuacao.jpg). É o mesmo prédio da caderneta 92-B e do registo de 1973. ⚠ O número certo é **35.139**, não 35.739.
@@ -411,6 +411,26 @@ Leituras incertas estão marcadas com (?).
 - ❓ **Continua por explicar** como o casal Francisco António × Maria Amaral passou de jornaleiros (1900–1908) a **proprietários** (1921). A aquisição da quinta, se foi deles, terá sido entre 1908 e 1921. Nenhum dos dois testamentos de 1921 nomeia prédios.
 - As fontes mais prováveis para a origem da quinta são o **inventário de Francisco António (1927, Cx. 69)** e o **inventário do bisavô (1971, Cx. 143)**. Ver "Registos encontrados no catálogo do ADVRL".
 - **A pedir:** certidão de teor da descrição **00427/Godim** (antiga 35.139), com todas as inscrições, sobretudo G-25 n.º 11.039, G-42 n.º 33.224/33.225 e G-44 n.º 34.029. Também a do prédio **58.828** (a casa). Cada inscrição diz quem comprou ou herdou, de quem e por que título (testamento, partilha, compra). Pode ajudar a identificar os 3 irmãos do avô que faltam.
+
+**Certidão permanente PP-3523-53910-170804-000427, descrição 427/19890223 (Godim), emitida a 30-10-2026 ●** (enviada pela família a 2-11-2026)
+- **Tipo:** "Informação em Vigor". Mostra só as inscrições ativas desde a informatização (1989). **Não traz o histórico**: as inscrições em livro G-25 n.º 11.039 (1937), C-30, G-42 n.º 33.224/33.225 e G-44 n.º 34.029 **não aparecem**.
+- **Descrição:**
+  - Prédio rústico, "Quinta da Pêssega - Sergude ou Quinta da Pêcega - Sergude".
+  - 24.687 m², cultura arvense de sequeiro e vinha da região demarcada do Douro.
+  - Matriz rústica 92, secção 1B, união de freguesias de Peso da Régua e Godim.
+  - Confrontações iguais às de 1937: norte caminho; sul e poente limite de Fontelas; nascente caminho e outro.
+  - Vem da descrição em livro n.º 35.139, livro B-89.
+  - Av. Ap. 1349 de 10-8-2017: desanexado o n.º 2.058, com 359 m².
+- **Ap. 1 de 25-6-1993, aquisição por doação, abrange 7 prédios:**
+  - Doadores: **António José Mimoso** e **Emília da Conceição Vicente Mimoso**, casados em comunhão geral, moradores em Sergude.
+  - Donatários, 1/4 cada: António José Vicente Mimoso, Joaquim António Vicente Mimoso e José António Vicente Mimoso, todos solteiros, maiores, de Sergude; e Sílvia Maria Vicente Mimoso Guedes, casada com Armando Mesquita Guedes (comunhão de adquiridos), moradora em Valbom, Gondomar.
+- **Ap. 5 de 25-3-1998, compra de 2/4, abrange 3 prédios:** compradores Armando Mesquita Guedes e Sílvia; vendedores Joaquim António e José António Vicente Mimoso.
+- **Ap. 2660 de 27-1-2009, compra de 1/4, abrange 3 prédios:** compradores Armando e Sílvia, já moradores em Godim; vendedor António José Vicente Mimoso.
+- **O que isto acrescenta:**
+  - ✔ A avó **Emília da Conceição Vicente Mimoso** estava viva a 25-6-1993. Casou com o avô em comunhão geral.
+  - ✔ Em 1993 o avô tinha pelo menos **7 prédios**, todos doados aos filhos.
+  - O título de aquisição do próprio avô (as inscrições G-42/G-44 de 1/6 e 5/6) já não está em vigor, e por isso não aparece.
+  - **Nada sobre a origem da quinta.** Para isso é preciso o histórico em livro. Ver "Por fazer".
 
 ### Família Mimoso em Godim no século XIX ✔ (livros paroquiais)
 
@@ -1055,7 +1075,7 @@ Transcrição:
 - [ ] **Certidão de casamento n.º 41/1961, Conservatória da Régua** (avô × Emília da Conceição Vicente, Igreja de Godim, 4-3-1961). Dá os pais da avó e abre o ramo dela.
 
 **Quinta da Pêssega, irmãos do avô e linha Mimoso, por prioridade** (atualizado a 28-10-2026):
-1. [ ] **Certidão de teor da descrição predial 00427/Godim** (antiga 35.139), com **todo o histórico**: inscrições G-25 n.º 11.039 (1937), C-30 n.º 14.163 e 14.193 (1/6), G-42 n.º 33.224/33.225 e G-44 n.º 34.029; e a do prédio 58.828 (a casa). Dizem quem herdou ou comprou, de quem e por que título. predialonline.pt.
+1. [ ] **Certidão de teor da descrição predial 00427/Godim** (antiga 35.139), com **todo o histórico**. ⚠ A certidão permanente online (pedida a 30-10-2026) só traz a informação em vigor desde 1993 e não serve. É preciso pedir à **Conservatória da Régua**, ao balcão ou por email, uma **certidão (fotocópia) das inscrições em livro**: inscrições G-25 n.º 11.039 (1937), C-30 n.º 14.163 e 14.193 (1/6), G-42 n.º 33.224/33.225 e G-44 n.º 34.029; e a do prédio 58.828 (a casa). Dizem quem herdou ou comprou, de quem e por que título. predialonline.pt.
 2. [ ] **Inventário de José António Mimoso, 1971**, ADVRL PT/ADVRL/JUD/TJCPRG/C-B/082/1630 (**Cx. 143**). Deve descrever a Quinta da Pêssega e o título de aquisição, e listar os 7 filhos.
 3. [ ] **Inventário de Francisco António Mimoso, 1927**, ADVRL PT/ADVRL/JUD/TJCPRG/C-B/082/677 (**Cx. 69**). Relação de bens e partilha; origem da quinta antes de 1937.
 4. [ ] **Inventário de Francisca da Conceição Silva, 1973**, ADVRL PT/ADVRL/JUD/TJCPRG/C-B/082/1658 (**Cx. 143**, a mesma caixa do n.º 2: pedir os dois juntos). Deve listar os 7 filhos e os 3 irmãos do avô que faltam.
