@@ -73,7 +73,7 @@ Published site: https://moreiraio.github.io/familyTree/ (repo moreiraio/familyTr
   - run `python` without `-I` (PIL lives in user site-packages);
   - Playwright can only write inside the repo, so screenshots go to `.playwright-mcp/`.
 
-## State (October 2026)
+## State (November 2026)
 - **Paternal Mimoso line:** validated against the original records up to n.º 128–135 (roles go up to octavô/octavó).
   - n.º 16, José António Mimoso, married Joanna Emília in Godim on 14-8-1814. His probable baptism is 31-7-1774 in Pouves, S. Pedro do Sul.
   - His parents, José Corrêa × Fructuosa Rodrigues, married 11-2-1771. José Corrêa (n.º 32) was baptised 10-10-1745 in Baiões, the natural son of José Corrêa da Corvaceira (n.º 64), whose parents were Cap. João Marques × Maria Corrêa (n.º 128/129).
@@ -83,13 +83,13 @@ Published site: https://moreiraio.github.io/familyTree/ (repo moreiraio/familyTr
 - **Vicente/Silva line** of the bisavó Francisca: done to n.º 24–31. Its marriages 12+13 and 14+15 are not yet searched.
 - **Open questions:**
   - the parents of the avó, Emília da Conceição Vicente; this needs the certidão of marriage 41/1961, Conservatória da Régua;
-  - 3 unidentified siblings of the avô;
+  - how the Quinta da Pêssega (descrição 35.139) came to the bisavô (caderneta says "Legado");
   - Joaquim António's baptism (about 1860);
   - the marriage of José da Silva × Maria de Jesus Amaral (probably in Loureiro);
   - the deaths of n.º 16 and 17.
+- **Siblings of the avô:** done. The 1971 inventário (ADVRL C-B/082/1630, read from family photos in `fontes/inv1971/`) names 8 children of the bisavô, one (Joaquim António) dead before 1971 with a son. The family's "7 children" was wrong.
 - **Documents to request:**
-  - ADVRL inventário 1973 (PT/ADVRL/JUD/TJCPRG/C-B/082/1658);
-  - testamento of 1921 (PT/ADVRL/NOT/CNPRG5/007/394/38);
-  - certidão de teor of the predial descrição 00427/Godim;
-  - civil certidões of the avô.
+  - Conservatória do Registo Predial da Régua: photocopies of the old book inscriptions of descrição 35.139 (G-23 n.º 19.622(?) cited in the 1967 mortgage, G-25 n.º 11.039 of 1937, and the other cancelled ones). The online certidão permanente shows only entries in force since 1993;
+  - ADVRL inventário 1927 of Francisco António Mimoso (PT/ADVRL/JUD/TJCPRG/C-B/082/677, Cx. 69);
+  - civil certidões, including marriage 41/1961 for the avó's parents.
 - See "Por fazer" in arvore.md for the full list.
