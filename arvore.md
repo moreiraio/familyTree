@@ -88,7 +88,7 @@ Continuação da linha de S. Pedro do Sul (n.º 64–67 → n.º 128–135, octa
      n. Pouves           └─ 135. Maria Francisca ✔ (S. Félix)
 ```
 
-- **2. José António Mimoso (bisavô):** batismo n.º 40/1908, Godim. Detalhes em "Linha Mimoso: assentos validados", mais abaixo. Morreu a **28-10-1971** em Godim (assento 217/1971). ✔ Fonte: [fontes/bapt1908/p0023.jpg](fontes/bapt1908/p0023.jpg)
+- **2. José António Mimoso (bisavô):** batismo n.º 40/1908, Godim. Detalhes em "Linha Mimoso: assentos validados", mais abaixo. Morreu a **28-10-1971** em Godim (assento 217/1971; "Ictus Cerebral", 63 anos; fez testamento). ✔ Fontes: [fontes/bapt1908/p0023.jpg](fontes/bapt1908/p0023.jpg); certidão de óbito no inventário de 1971, [m0003](fontes/inv1971/PT-ADVRL-JUD-TJCPRG-C-B-082-1630_m0003.jpg).
 - **4. Francisco António Mimoso:** nasceu a **5-10-1855** nas Covinhas, Godim ([fontes/bapt1853-59/p0035.jpg](fontes/bapt1853-59/p0035.jpg)). Casou a 18-10-1900 com 45 anos ([fontes/cas1900/p0025.jpg](fontes/cas1900/p0025.jpg)). Testamento a 7-2-1921 ([fontes/not_cnprg5_394/p0097.jpg](fontes/not_cnprg5_394/p0097.jpg)). Morreu a 7-5-1927, seis meses antes do casamento do filho.
 - **5. Maria da Silva Amaral (Maria de Jesus):** nasceu a **17-9-1864** em Sergude ([fontes/bapt1864/p0020.jpg](fontes/bapt1864/p0020.jpg)). Filha de José da Silva, pedreiro natural de Loureiro, e de Maria de Jesus Amaral. Antes de casar teve **4 filhos naturais**, perfilhados: **Abel** (2-3-1881 a 3-5-1942), **Manuel**, **Francisco** e **Valentim Mendes**. Fez testamento a **7-2-1921** ([fontes/not_cnprg5_394/p0094.jpg](fontes/not_cnprg5_394/p0094.jpg)). ⚠ Antes estava "um filho natural, Abel".
 - **Irmãos do bisavô:** Emília (17-7-1901 a 9-10-1930; casou em 1919) e 4 meios-irmãos do lado da mãe: Abel, Manuel, Francisco e Valentim Mendes.
@@ -147,21 +147,28 @@ José António Mimoso (bat. 31-7-1774?) ══ Joanna Emília (Covas, Godim)   (
                  │        └── Daniel, Maria, Manuel (1891, morreu com 18 dias), Manuel (1893), Francisco, José (1897), Duarte, Crispim (1902)
                  └── António (fev. 1863)
 
-                     José António Mimoso (1908) ══ Francisca da Conceição Vicente (1906)
-                                   │   (7 filhos; faltam 3)
-       ┌───────────────────────────┼───────────────────────────┬───────────────────────────┐
-       │                           │                           │                           │
-António José Mimoso ✔        Maria Emília da Conceição     Valentim António Mimoso ●    Adão António Mimoso ●
-n. 7-11-1930, Godim          Vicente ●                     ══ Isaura Moreira dos Anjos
-══ Emília da Conceição       ══ António Joaquim Vicente       (Lisboa)                  + 3 irmãos por
-   Vicente ✔                    (Picote)                                                   identificar
-       │
-       ├── António José Vicente Mimoso ✔
-       ├── Joaquim António Vicente Mimoso ✔
-       ├── José António Vicente Mimoso ✔
-       └── Sílvia Maria Vicente Mimoso (Guedes) ✔ ══ Armando Mesquita Guedes ✔
-                   ├── Maria do Socorro Mimoso Guedes ✔ ← autora da pesquisa
-                   └── Sandra Isabel Mimoso Guedes ✔
+                     José António Mimoso (1908–1971) ══ Francisca da Conceição Vicente/Silva (1906–1972/73)
+                                   │   8 filhos legítimos ✔ (inventário 1971, auto de declarações de 3-12-1971)
+                                   │   ⚠ a família dizia 7: o 3.º já tinha morrido antes de 1971
+                                   │
+   ├── 1. Maria Emília da Conceição Vicente ✔ ══ António Joaquim Vicente (Picote, Miranda do Douro)
+   │
+   ├── 2. António José Mimoso ✔ (o avô, n. 7-11-1930) ══ Emília da Conceição Vicente ✔ (natural de Godim)
+   │        ├── António José Vicente Mimoso ✔
+   │        ├── Joaquim António Vicente Mimoso ✔
+   │        ├── José António Vicente Mimoso ✔
+   │        └── Sílvia Maria Vicente Mimoso (Guedes) ✔ ══ Armando Mesquita Guedes ✔
+   │                    ├── Maria do Socorro Mimoso Guedes ✔ ← autora da pesquisa
+   │                    └── Sandra Isabel Mimoso Guedes ✔
+   │
+   ├── 3. Joaquim António Mimoso ✔ († antes de 28-10-1971) ══ Clemência Sequeira (casou de novo; Marco de Canaveses)
+   │        └── António Joaquim Mimoso ✔ (n. c.1956; representou o pai na herança)
+   │
+   ├── 4. Manuel António da Silva ✔ (apelido Silva da mãe) ══ Ausenda de Jesus Porto Silva (Vila Nova de Foz Côa)
+   ├── 5. Tadeu António Mimoso ✔ ══ Maria Beatriz Mesquita Vicente (Godim)
+   ├── 6. Valentim António Mimoso ✔ ══ Isaura Moreira dos Santos (Poiares, Régua)
+   ├── 7. José António Mimoso "Júnior" ✔ ══ (Maria) Fernanda da Silva Correia (Penha Longa, Marco de Canaveses)
+   └── 8. Adão António Mimoso ✔ ══ Maria José Fonseca Teixeira (Vilamarim, Mesão Frio)
 ```
 
 ## Pessoas
@@ -181,8 +188,9 @@ n. 7-11-1930, Godim          Vicente ●                     ══ Isaura Morei
 - **Fonte:** assento de nascimento n.º 655/1930, lavrado a 17-11-1930 na Conservatória do Registo Civil de Peso da Régua.
   - Foi informatizado como assento n.º 70/2026, a 27-10-2026 (processo n.º 678/2026).
   - Tem 2 averbamentos: o casamento e o óbito.
-- **Mulher:** Emília da Conceição Vicente ✔
-- ❓ Na caderneta predial aparece "António José Mimoso", riscado, a seguir ao pai. Isto indica que herdou o prédio e o deixou por morte.
+- **Mulher:** Emília da Conceição Vicente ✔. ⚠ **Natural de Godim** (procuração de 7-3-1972, [m0052](fontes/inv1971/PT-ADVRL-JUD-TJCPRG-C-B-082-1630_m0052.jpg)), dado novo. Assina "Emília da Conceição Vicente" (1971) e "Emília da Conceição Vicente Mimoso" (1972). O tribunal escreve "Maria Emília Vicente Mimoso" por lapso (aparece assim no auto de declarações e na arrematação).
+- **Em 1971–1974 (inventário do pai):** 2.º dos 8 filhos legítimos, comerciante, natural de Godim, a morar em Sergude. Ver "Linha Mimoso: assentos validados".
+- ⚠ Na caderneta predial aparece "António José Mimoso", riscado, a seguir ao pai. Antes lia-se isto como herança do prédio todo. Não foi: ficou com **1/6** da casa e da Quinta da Pêssega por licitação (7-3-1972) e **comprou os outros 5/6** em hasta pública a 28-5-1974 (1.181.000$00).
 - ❓ A mãe e a mulher têm ambas o apelido Vicente. Podem ser parentes.
 - Não confundir a mulher, Emília da Conceição Vicente, com a irmã, Maria Emília da Conceição Vicente. São pessoas diferentes ✔
 - **Próximo passo:** pedir a certidão do **casamento n.º 41/1961** da Conservatória da Régua. Indica os pais da avó Emília e abre o ramo dela. O assento paroquial está nos livros de Godim de 1961.
@@ -195,10 +203,14 @@ n. 7-11-1930, Godim          Vicente ●                     ══ Isaura Morei
 - **Avós:** Manuel António e Joaquina do Espírito Santo; José da Silva e Maria Amaral.
 - **Casamento:** com Francisca da Conceição Vicente, a 5-11-1927, assento n.º 89, Conservatória de Peso da Régua ✔
 - **Óbito:** **28-10-1971**, Godim, assento 217/1971 da Conservatória da Régua. A nota diz "no dia 28, assento 217 de hoje" e tem a data de 28-10-1971 ✔
+  - Certidão no inventário ([m0003](fontes/inv1971/PT-ADVRL-JUD-TJCPRG-C-B-082-1630_m0003.jpg)): "faleceu de Ictus Cerebral", 63 anos, natural de Godim, "filho de Francisco António e de Maria de Jesus", casado com Francisca da Conceição Silva; deixou bens, herdeiros sujeitos a inventário obrigatório e **testamento**.
+- **Testamento de 25-1-1971** (Cartório Notarial da Régua, livro de testamentos públicos n.º 11, fls. 80 v.º–81, [m0030](fontes/inv1971/PT-ADVRL-JUD-TJCPRG-C-B-082-1630_m0030.jpg)): institui a mulher herdeira da **quota disponível**; revoga o testamento de **24-8-1970** (mesmo livro, fls. 38–38 v.º; conteúdo desconhecido). Confirma "filho de Francisco António Mimoso e de Maria de Jesus" ✔
+- **8 filhos legítimos** (um, Joaquim António, morto antes dele): ver "Revalidação dos irmãos do avô" e o inventário em "Linha Mimoso: assentos validados".
+- **Hipoteca de 11-12-1967** à Caixa Nacional de Crédito (60.000$00; escritura no livro de notas C-19, fls. 71 v.º–74, Cartório Notarial da Régua), sobre a Quinta da Pêssega. Diz que o prédio estava registado a favor do casal pela inscrição **G-23 n.º 19.622(?)** (~).
 - Na caderneta predial 92-B é o primeiro proprietário, com a anotação "Legado".
 - Em maio de 1956 (casado, proprietário, morador em Sergude) declarou no registo predial que tinha construído uma casa de andar e loja, com mirante e terraço (84 m², 7 divisões no 1.º andar), na Quinta da Pêssega, Sergude (descrição n.º 35.139).
 - A família dizia que era "filho único". Teve pelo menos uma irmã, Emília (17-7-1901 a 9-10-1930), casada em 1919 com Joaquim Pereira Meireles, e **4 meios-irmãos** do lado da mãe: Abel (1881–1942), Manuel, Francisco e Valentim Mendes (testamento da mãe, 1921). ⚠ Antes estava só o Abel.
-- O catálogo do ADVRL tem um **auto de emancipação** de 1927 (a mãe contra o bisavô, com 19 anos) e o **inventário** dele, de 1971 (ver "Registos encontrados no catálogo do ADVRL").
+- O catálogo do ADVRL tem um **auto de emancipação** de 1927 (a mãe contra o bisavô, com 19 anos). O **inventário** dele, de 1971, foi fotografado pela família e lido (ver "Linha Mimoso: assentos validados").
 - Fonte: [fontes/bapt1908/p0023.jpg](fontes/bapt1908/p0023.jpg)
 
 ### Francisca da Conceição Vicente (mãe do avô) ✔
@@ -210,8 +222,9 @@ n. 7-11-1930, Godim          Vicente ●                     ══ Isaura Morei
 - **Notas na margem do assento** (averbamentos do registo civil):
   1. Casou com **José António Mimoso** na Conservatória de Peso da Régua a **5-11-1927**, assento n.º 89 ✔
   2. O casamento foi dissolvido por morte do marido, que faleceu num dia 28 (mês e ano por ler). Averbamento de 28-10-1971 ✔
-  3. Ela morreu em Godim, assento n.º 222, por volta de 1972–1973 (data exata por confirmar). Bate com o inventário de 1973 ✔
-- O apelido "Silva" do inventário de 1973 vem da mãe, Maria Emília da Silva.
+  3. Ela morreu em Godim, assento n.º 222 (data exata por confirmar). ⚠ O inventário de 1971 restringe a data: **depois de 26-6-1972 e antes de 10-4-1973**, quando o inventário dela foi incorporado no do marido ([m0087](fontes/inv1971/PT-ADVRL-JUD-TJCPRG-C-B-082-1630_m0087.jpg)). Antes estava "por volta de 1972–1973". Bate com o inventário de 1973 ✔
+- O apelido "Silva" dos processos de 1971–1974 vem da mãe, Maria Emília da Silva. Um dos filhos, Manuel António da Silva, usa-o em vez de Mimoso.
+- Natural de Godim e **analfabeta** (não assinava; impressão digital): procuração de 7-3-1972, [m0052](fontes/inv1971/PT-ADVRL-JUD-TJCPRG-C-B-082-1630_m0052.jpg).
 - Deu à filha o nome da própria mãe: Maria Emília.
 - Fonte: [fontes/bapt1906/p0020.jpg](fontes/bapt1906/p0020.jpg); digitarq fileViewer/2aee694048ec4f96b442dea5d743c178, imagem 20
 
@@ -295,35 +308,55 @@ Pais da trisavó Maria Carolina (n.º 7). Avós da bisavó Francisca.
 - O índice de batismos (fontes/indice_godim, p0011–p0019) dá filhos de um "Francisco Rodrigues": Francisco 15-11-1871 (n.º 48), **Maria 10-8-1874 (n.º 38, a n.º 7)** e Francisca 21-2-1877 (n.º 21). Só a Maria está verificada; há outros Francisco Rodrigues em Godim.
 - ⇒ Casamento por volta de **1865–1873**. Os livros de casamentos de Godim desse período **não estão descarregados**: 002/024 (1865, c1b46000cfb445ee8369943e63d3c04f), 002/025 (1866, e45d88f7061f4a1a921b665df056a26b), 002/026 (1867, cd736576ec4d44dbb5d9687433b8251d), 002/027 (1868, 132f42d682a1442ca50acc53e1588a27), 002/028 (1869, 35dfb37965be4b2489f9587785192618), 002/029 (1870, f05ac04db1f64751ad25efade8a3eb02), 002/030 (1871–1876, c3cb81ec6b5f48939caa69ea7ed9a23e, 39 imagens).
 
-### Revalidação dos irmãos do avô (2-11-2026)
-- ⚠ Nenhum irmão tem assento lido (nascimento, batismo ou casamento) que dê os pais. Os livros paroquiais online acabam em 1911, e os assentos civis dos anos 1930 não estão no ADVRL. O ✔ que estava em Maria Emília, Valentim e Adão era exagerado: passou a ●.
-- **Fontes que existem:**
-  - ◆ **Família:** o casal teve 7 filhos.
-  - ● **Registo predial de 1973**, relido a 2-11-2026 (ver "Outras pessoas nos documentos"). A inscrição G-42 n.º 33.224 é uma **aquisição de 5/6** da Quinta da Pêssega a favor de 1.º Maria Emília × António Joaquim Vicente, 2.º Manuel António da Silva × Ausenda(?) de Jesus Porto Silva, 3.º Valentim António Mimoso × Isaura, 4.º José António (Mimoso?) …, e talvez mais nomes fora da fotografia. Não diz "filhos" nem "herdeiros".
-  - ● **Catálogo do ADVRL:** Adão António Mimoso é o inventariante no inventário da mãe, 1973. O catálogo não diz o parentesco.
-- **Leitura provável (~):** 5/6 repartidos por 5 herdeiros, 1/6 cada, mais 1/6 noutra inscrição (G-42 n.º 33.225), provavelmente do avô. Isto dá **6 herdeiros** na partilha dos bisavós: 6 filhos vivos, ou 7 filhos com um já morto. Depois, a inscrição G-44 n.º 34.029 (5/6) será o avô a juntar as partes dos irmãos. Bate com a caderneta, onde o avô aparece como dono do prédio todo.
-- **Candidatos:**
-  - António José ✔ (o avô);
-  - Maria Emília ●;
-  - Valentim ●;
-  - Adão ● (fora da parte visível da fotografia, se for herdeiro aqui);
-  - ~ um **José António (Mimoso?)**, o 4.º da lista; o resto do nome está fora da fotografia;
-  - ~ **Ausenda de Jesus Porto Silva** ou o marido Manuel António da Silva (um dos dois será filho; ela é mais provável).
-- ⚠ Antes dizia-se que o 4.º nome era "provavelmente José António Vicente Mimoso". Isso está errado: esse é o filho do avô, que em 1973 era menor e não herdava dos avós com o pai vivo.
-- **Para confirmar:** o inventário de 1973 (Cx. 143), as inscrições G-42 n.º 33.224/33.225 e G-44 n.º 34.029 na Conservatória da Régua (todos os nomes, com parentesco), ou uma nova fotografia da folha anexa inteira, se continuar no verso.
+### Os 8 filhos do bisavô (inventário de 1971; corrige a revalidação de 2-11-2026) ✔
+O **auto de declarações da cabeça de casal, de 3-12-1971** ([m0007](fontes/inv1971/PT-ADVRL-JUD-TJCPRG-C-B-082-1630_m0007.jpg), [m0008](fontes/inv1971/PT-ADVRL-JUD-TJCPRG-C-B-082-1630_m0008.jpg)), lista os filhos legítimos de José António Mimoso × Francisca da Conceição Silva, nesta ordem (que o mapa de partilha, [m0071](fontes/inv1971/PT-ADVRL-JUD-TJCPRG-C-B-082-1630_m0071.jpg), [m0074](fontes/inv1971/PT-ADVRL-JUD-TJCPRG-C-B-082-1630_m0074.jpg), repete). Não dá idades. A ordem é provavelmente a de nascimento (~). Cada filho tem assinatura autógrafa nas citações e na procuração de 7-3-1972 ([m0011](fontes/inv1971/PT-ADVRL-JUD-TJCPRG-C-B-082-1630_m0011.jpg), [m0052](fontes/inv1971/PT-ADVRL-JUD-TJCPRG-C-B-082-1630_m0052.jpg)).
 
-### Maria Emília da Conceição Vicente (irmã do avô) ●
-- Filha de José António Mimoso e de Francisca da Conceição Vicente (família; registo predial de 1973). Usava só os apelidos da mãe.
-- Casada com **António Joaquim Vicente**. Em 1973 moravam em Picote, Miranda do Douro.
-- Aparece no registo predial de 1973 como titular do prédio 92-B.
+| N.º | Filho | Cônjuge | Naturalidade (1972) | Residência 1971–1974 | Profissão |
+|---|---|---|---|---|---|
+| 1 | **Maria Emília da Conceição Vicente** (assina também "Maria Emília Vicente Mimoso") | **António Joaquim Vicente** (natural de Godim) | Godim | Picote (Barragem; "Barrocal do Douro"), Miranda do Douro | ela doméstica; ele trolha (1971), pintor (1973) |
+| 2 | **António José Mimoso** (o avô) | **Emília da Conceição Vicente (Mimoso)** | Godim (ambos) | Sergude, Godim | comerciante |
+| 3 | **Joaquim António Mimoso** († antes de 28-10-1971) | **Clemência Sequeira** (casada de novo em 1971) | | ela: Barragem do Carrapatelo, Penha Longa, Marco de Canaveses | |
+| 3a | neto **António Joaquim Mimoso**, solteiro, "menor de 15 anos" (n. c.1956) | | | com a mãe | |
+| 4 | **Manuel António da Silva** | **Ausenda de Jesus Porto (da) Silva** | ele Godim; ela Vila Nova de Foz Côa (freguesia e concelho) | Bairro de Godim (1973–74 "Bairro Calouste Gulbenkian") | comerciante |
+| 5 | **Tadeu António Mimoso** | **Maria Beatriz Mesquita Vicente Mimoso** | Godim (ambos) | Ariz, Godim | comerciante |
+| 6 | **Valentim António Mimoso** | **Isaura Moreira dos Santos Mimoso** (analfabeta) | ele Godim; ela Poiares (Régua) | Lisboa em 1971–72; Sergude em 1973–74 | agricultor |
+| 7 | **José António Mimoso ("Júnior")** | **(Maria) Fernanda da Silva Correia** | ele Godim; ela Penha Longa (Marco de Canaveses) | Barragem da Valeira / Bairro de Sidrô, S. João da Pesqueira | comerciante |
+| 8 | **Adão António Mimoso** | **Maria José Fonseca Teixeira Mimoso** (comunhão de adquiridos) | ele Godim; ela Vilamarim (Mesão Frio) | Sergude, Godim | funcionário camarário |
 
-### Irmãos ainda por identificar
-- O casal teve **7 filhos** (família). Estão identificados 4: António José, Maria Emília, Valentim e Adão.
-- ~ Prováveis: **José António (Mimoso?)** e **Ausenda de Jesus Porto Silva** (ou o marido, Manuel António da Silva). Os dois estão entre os adquirentes de 5/6 no registo predial de 1973. Ver "Revalidação dos irmãos do avô".
+- Níveis: lista, cônjuges e naturalidades **✔** (documentos originais com assinaturas). Ordem de nascimento **~**. Datas de nascimento e casamento dos filhos: **não constam** do processo.
+- **Correções (5-11-2026):**
+  - ⚠ **8 filhos, não 7.** A família dizia 7. O 3.º, Joaquim António, morreu antes do pai e foi representado pelo filho (despacho de 8-4-1972, [m0062](fontes/inv1971/PT-ADVRL-JUD-TJCPRG-C-B-082-1630_m0062.jpg): "Houve do casal oito filhos, um dos quais – Joaquim António – faleceu antes do pai, deixando a representá-lo um filho legítimo").
+  - ⚠ **Manuel António da Silva é o filho** (o auto nomeia sempre primeiro o filho; o neto, o despacho e a informação de 10-4-1972 chamam-lhe "irmão" e "cunhado" dos outros). **Ausenda de Jesus Porto Silva é a nora.** Antes dizia-se "um dos dois será filho; ela é mais provável": errado.
+  - ⚠ **Isaura Moreira dos Santos**, não "dos Anjos". O processo escreve "dos Santos" em todo o lado ([m0020](fontes/inv1971/PT-ADVRL-JUD-TJCPRG-C-B-082-1630_m0020.jpg), [m0052](fontes/inv1971/PT-ADVRL-JUD-TJCPRG-C-B-082-1630_m0052.jpg), [m0089](fontes/inv1971/PT-ADVRL-JUD-TJCPRG-C-B-082-1630_m0089.jpg)). A leitura "dos Anjos" vinha do registo predial de 1973 e fica como erro de leitura ou do registo.
+  - ⚠ O "4.º nome" do registo predial de 1973, "José António [Mimoso?]", é **José António Mimoso Júnior** (7.º filho), casado com Maria Fernanda da Silva Correia. Continua errado ser o filho do avô, José António Vicente Mimoso.
+  - ⚠ **Tadeu António Mimoso** não constava de nenhum documento anterior.
+- **Os sextos (corrige a leitura de 2-11-2026 e a "hipótese nova" de 28-10-2026):**
+  - Nada tem a ver com os "6 filhos de Maria Amaral" (hipótese **afastada**) nem com a partilha da trisavó.
+  - No inventário, a **licitação de 7-3-1972** ([m0059](fontes/inv1971/PT-ADVRL-JUD-TJCPRG-C-B-082-1630_m0059.jpg)): o **lote 3** = verba 12 (casa de rés-do-chão e 1.º andar, art. urbano **678**) + verba 13 (**Quinta da Pêssega**, art. rústico **92-B**), ambas na descrição **35.139**, 81.390$ de valor matricial, foi licitado por **650.000$00** por **seis filhos em comum, 1/6 cada**: Maria Emília, António José (o avô), Manuel António da Silva, Valentim, José António e Adão. O lote 2 (verbas 9–11, Sergude) foi licitado por 210.000$ pelos mesmos seis. **Tadeu e o neto António Joaquim não licitaram** e receberam tornas em dinheiro (34.094$08 e 34.094$09, pagas por Adão).
+  - **Ação de divisão de coisa comum n.º 13-A/71** (Valentim e Isaura contra os outros 5; autuada a 23-11-1973; [m0088](fontes/inv1971/PT-ADVRL-JUD-TJCPRG-C-B-082-1630_m0088.jpg), [m0090](fontes/inv1971/PT-ADVRL-JUD-TJCPRG-C-B-082-1630_m0090.jpg)). Conferência a 25-1-1974 sem acordo: venda em hasta pública ([m0113](fontes/inv1971/PT-ADVRL-JUD-TJCPRG-C-B-082-1630_m0113.jpg), [m0114](fontes/inv1971/PT-ADVRL-JUD-TJCPRG-C-B-082-1630_m0114.jpg)). **Arrematação a 28-5-1974** pelo avô, por **1.181.000$00** ([m0152](fontes/inv1971/PT-ADVRL-JUD-TJCPRG-C-B-082-1630_m0152.jpg)): já era dono de 1/6 e pagou os outros 5/6 (984.166$00; sisa de 78.734$00 paga a 26-6-1974). Adão e António Joaquim Vicente prescindiram do depósito e receberam 196.833$40 cada. **Sentença de adjudicação definitiva a 8-7-1974** ([m0177](fontes/inv1971/PT-ADVRL-JUD-TJCPRG-C-B-082-1630_m0177.jpg)), "livre de quaisquer ónus ou encargos", registada no livro 94, fl. 90. Valentim, Manuel António e José António receberam 191.566$40 cada (produto 1.181.000$ menos créditos graduados 31.601$60, dividido por 6).
+  - ⇒ **Os 5/6 do avô vêm desta compra de 1974**, não de herança. O 1/6 dele vem da licitação de 1972.
+  - Leitura das inscrições do registo predial (~): **G-42 n.º 33.224** (5/6, a favor dos 5 irmãos licitantes que não são o avô: Maria Emília, Manuel António, Valentim, José António, Adão) e **G-42 n.º 33.225** (1/6, o avô) = a adjudicação de 1972; **G-44 n.º 34.029** (5/6) = a arrematação de 1974. As datas das inscrições não foram vistas; é leitura por coincidência de quotas.
+  - **C-30 n.º 13.924** (9-10-1967, fl. 99 v.º; o despacho de 31-1-1975 diz fl. 95 v.º): hipoteca de 60.000$ à Caixa Nacional de Crédito. **C-30 n.º 14.193** (8-6-1973, fl. 176): **hipoteca legal** sobre 1/6 a favor da viúva Francisca, por 40.000$ de tornas devidas por António José (certidão da partilha de 26-6-1972). Ambas mandadas cancelar a 31-1-1975 ([m0224](fontes/inv1971/PT-ADVRL-JUD-TJCPRG-C-B-082-1630_m0224.jpg)), a pedido da avó Emília ([m0223](fontes/inv1971/PT-ADVRL-JUD-TJCPRG-C-B-082-1630_m0223.jpg)), que tinha dificuldade em registar o prédio. Continuam por explicar C-30 n.º 14.163 (1/6) e n.º 14.233 (o "13.984" da lista pode ser o 13.924 mal lido).
+  - Discrepâncias por esclarecer: a escritura é de 11-12-1967 mas o registo provisório é de 9-10-1967 (um dos dois está errado no original); as tornas de António José à mãe foram contadas em 101.905$91 no mapa de partilha, mas a hipoteca legal garante 40.000$.
+- **Para confirmar:** as inscrições G-42 n.º 33.224/33.225, G-44 n.º 34.029 e **G-23 n.º 19.622** na Conservatória da Régua (datas e títulos).
 
-### Valentim António Mimoso (irmão do avô) ●
-- Casado com **Isaura Moreira dos Anjos Mimoso**. Em 1973 moravam em Lisboa.
-- Aparece no registo predial de 1973 como titular do prédio 92-B.
+### Maria Emília da Conceição Vicente (irmã do avô, n.º 1 dos filhos) ✔
+- Natural de Godim. Casada com **António Joaquim Vicente** (também de Godim; trolha, depois pintor). Moravam em Picote (Barragem, "Barrocal do Douro"), Miranda do Douro.
+- Usava só os apelidos da mãe. Licitou 1/6 em 1972 e recebeu 196.833$40 em 1974. Em 16-2-1974 deu procuração ao Dr. Fernando Amaral para vender a sua sexta parte da Quinta da Pêssega por 108.330$ ([m0131](fontes/inv1971/PT-ADVRL-JUD-TJCPRG-C-B-082-1630_m0131.jpg), [m0132](fontes/inv1971/PT-ADVRL-JUD-TJCPRG-C-B-082-1630_m0132.jpg); comprador não nomeado).
+
+### Joaquim António Mimoso (irmão do avô, n.º 3) ✔ († antes de 28-10-1971)
+- Casou com **Clemência Sequeira** (comunhão geral). Morreu antes do pai; data e local por apurar. Filho: **António Joaquim Mimoso** (c.1956, solteiro, menor em 1971–72), representado pela mãe, que morava na Barragem do Carrapatelo, Penha Longa, Marco de Canaveses ([m0014](fontes/inv1971/PT-ADVRL-JUD-TJCPRG-C-B-082-1630_m0014.jpg), [m0015](fontes/inv1971/PT-ADVRL-JUD-TJCPRG-C-B-082-1630_m0015.jpg)).
+- ⚠ Não confundir com **Joaquim António Mimoso** (c.1860, filho de Manuel António, ramo colateral, casou com Ventura dos Anjos).
+
+### Manuel António da Silva, Tadeu, José António Júnior e Adão (irmãos do avô) ✔
+- **Manuel António da Silva** (n.º 4) × Ausenda de Jesus Porto Silva. Credor da herança por 732$.
+- **Tadeu António Mimoso** (n.º 5) × Maria Beatriz Mesquita Vicente Mimoso. Advogado próprio (Dr. António Teixeira Veludo; procuração de 7-3-1972, [m0054](fontes/inv1971/PT-ADVRL-JUD-TJCPRG-C-B-082-1630_m0054.jpg)). Declarou ser credor de 12.500$ (empréstimo particular), mas o MP não aprovou a dívida por falta de documento.
+- **José António Mimoso Júnior** (n.º 7) × Maria Fernanda da Silva Correia. Credor da herança por 8.000$.
+- **Adão António Mimoso** (n.º 8) × Maria José Fonseca Teixeira Mimoso. Cabeça de casal no inventário da mãe (1973, ADVRL C-B/082/1658). Assinou a rogo da mãe.
+
+### Valentim António Mimoso (irmão do avô, n.º 6) ✔
+- Casado com **Isaura Moreira dos Santos Mimoso** (natural de Poiares). Em 1971–72 moravam em Lisboa (Travessa da Portuguesa; depois Rua da Bica Duarte Belo); em 1973–74 já em Sergude.
+- Autor da ação 13-A/71, que levou à arrematação do avô.
 
 ### Filhos do avô e de Emília da Conceição Vicente ✔
 - **António José Vicente Mimoso** ✔
@@ -394,7 +427,7 @@ Leituras incertas estão marcadas com (?).
   - sul e poente: limite da freguesia de Fontelas
   - nascente: caminho e outros
 - Artigo rústico 92-B. Valor venal: 65.190$00.
-- ⇒ A casa e o terreno separaram-se nas partilhas de 1973, depois da morte do bisavô (1971) e da bisavó (inventário de 1973).
+- ⚠ Antes dizia-se "a casa e o terreno separaram-se nas partilhas de 1973". Não: no inventário de 1971 as verbas 12 (casa, art. 678) e 13 (quinta, art. 92-B) estão no mesmo lote 3 e na mesma descrição 35.139, e foram licitadas e depois arrematadas **juntas** (1972 e 1974). A desanexação de 8-6-1973 é um ato do registo (o mesmo dia da hipoteca legal C-30 n.º 14.193), não de partilha. Em 1974 o tribunal e as partes tratam tudo como "um só prédio misto" ([m0114](fontes/inv1971/PT-ADVRL-JUD-TJCPRG-C-B-082-1630_m0114.jpg), [m0120](fontes/inv1971/PT-ADVRL-JUD-TJCPRG-C-B-082-1630_m0120.jpg)). Por esclarecer: porque a certidão de encargos de 28-1-1974 só cobre o rústico.
 
 **6. Averbamentos posteriores**
 - 9-12-1988: emitido título(?).
@@ -422,13 +455,13 @@ Leituras incertas estão marcadas com (?).
 **O que isto acrescenta à árvore**
 - ✔ Em 1956 o bisavô **José António Mimoso** era casado, proprietário e morador em Sergude. Construiu a casa com mirante na Quinta da Pêssega.
 - ❓ As inscrições no livro G (transmissões) mostram a cadeia de donos. A n.º 11.039, de 1937, pode ser a passagem da quinta do trisavô Francisco António (morto em 1927, com testamento de 1921) para o filho. Isto bate com a anotação "Legado" da caderneta.
-- ~ As quotas em sextos nas inscrições G-42 e G-44 são da **partilha dos bisavós (1971–1973)**: a folha anexa de 1973 mostra a G-42 n.º 33.224 como "aquisição de 5/6" a favor dos irmãos do avô (relida a 2-11-2026). São 6 herdeiros; a G-44 n.º 34.029 (5/6) será o avô a comprar ou receber as partes dos irmãos.
-- ⚠ (2-11-2026) A hipótese seguinte já não serve para as inscrições G-42 e G-44, que são da partilha dos bisavós (ver acima). Só pode valer para as inscrições antigas de 1/6 no livro C-30 (n.º 14.163 e 14.193), que continuam por explicar.
-- ❓ **Hipótese nova (28-10-2026):** os 6 herdeiros podem ser os **6 filhos da trisavó Maria Amaral**. No testamento de 7-2-1921 ela declara 6 herdeiros necessários: 2 legítimos (Maria Emília e José António) e 4 perfilhados (Abel, Manuel, Francisco e Valentim Mendes) ✔. Se a quinta era dela, ou do casal, a parte dela foi partilhada em sextos. O bisavô terá depois juntado as outras 5/6, por compra ou partilha. Isto explicaria as inscrições de 1/6 (C-30 n.º 14.163 e 14.193, G-42 n.º 33.225) e de 5/6 (G-42 n.º 33.224, G-44 n.º 34.029), e talvez o "Legado" da caderneta. Está bem fundada, mas não há documento que a prove.
+- ✔ (5-11-2026) As quotas em sextos das inscrições G-42 e G-44 vêm do **inventário de 1971**: 1/6 cada para 6 filhos licitantes (7-3-1972); G-42 n.º 33.224 = 5/6 dos cinco irmãos, G-42 n.º 33.225 = 1/6 do avô; a G-44 n.º 34.029 (5/6) = **compra do avô em hasta pública, 28-5-1974** (~, inscrições não vistas; coincidência de quotas). Ver "Os 8 filhos do bisavô".
+- ⚠ (5-11-2026) C-30 n.º 14.193 já está explicada: hipoteca legal da viúva (40.000$ de tornas). Fica por explicar a C-30 n.º 14.163 (1/6).
+- ⚠ **Hipótese afastada (5-11-2026):** os 6 sextos são os 6 filhos licitantes de 1972, não os 6 filhos da trisavó. O texto que segue ficou só como registo do que se pensava. Os 6 herdeiros podem ser os **6 filhos da trisavó Maria Amaral**. No testamento de 7-2-1921 ela declara 6 herdeiros necessários: 2 legítimos (Maria Emília e José António) e 4 perfilhados (Abel, Manuel, Francisco e Valentim Mendes) ✔. Se a quinta era dela, ou do casal, a parte dela foi partilhada em sextos. O bisavô terá depois juntado as outras 5/6, por compra ou partilha. Isto explicaria as inscrições de 1/6 (C-30 n.º 14.163 e 14.193, G-42 n.º 33.225) e de 5/6 (G-42 n.º 33.224, G-44 n.º 34.029), e talvez o "Legado" da caderneta. Estava errada.
 - ❓ A ideia de um **legado de Anna Emília da Silva** (n.º 15) ficou **mais fraca**: o catálogo do ADVRL não tem testamento, inventário nem processo em nome dela ou do marido, e nenhum registo nomeia a Pêssega ou um legado (pesquisa de 28-10-2026).
 - ❓ **Continua por explicar** como o casal Francisco António × Maria Amaral passou de jornaleiros (1900–1908) a **proprietários** (1921). A aquisição da quinta, se foi deles, terá sido entre 1908 e 1921. Nenhum dos dois testamentos de 1921 nomeia prédios.
-- As fontes mais prováveis para a origem da quinta são o **inventário de Francisco António (1927, Cx. 69)** e o **inventário do bisavô (1971, Cx. 143)**. Ver "Registos encontrados no catálogo do ADVRL".
-- **A pedir:** certidão de teor da descrição **00427/Godim** (antiga 35.139), com todas as inscrições, sobretudo G-25 n.º 11.039, G-42 n.º 33.224/33.225 e G-44 n.º 34.029. Também a do prédio **58.828** (a casa). Cada inscrição diz quem comprou ou herdou, de quem e por que título (testamento, partilha, compra). Pode ajudar a identificar os 3 irmãos do avô que faltam.
+- ⚠ O inventário do bisavô (1971) foi lido e **não dá o título de aquisição** da quinta (as relações de bens e as certidões das Finanças só dão a matriz e a descrição). A única pista é a escritura de hipoteca de 1967: o casal tinha o prédio registado pela inscrição **G-23 n.º 19.622(?)** (~). A fonte mais provável para a origem antes de 1937 é o **inventário de Francisco António (1927, Cx. 69)**.
+- **A pedir:** certidão de teor da descrição **00427/Godim** (antiga 35.139), com todas as inscrições, sobretudo **G-23 n.º 19.622 (prioritária: título de aquisição do casal)**, G-25 n.º 11.039, G-42 n.º 33.224/33.225 e G-44 n.º 34.029. Também a do prédio **58.828** (a casa). Cada inscrição diz quem comprou ou herdou, de quem e por que título (testamento, partilha, compra). Pode ajudar a identificar os 3 irmãos do avô que faltam.
 
 **Certidão permanente PP-3523-53910-170804-000427, descrição 427/19890223 (Godim), emitida a 30-10-2026 ●** (enviada pela família a 2-11-2026)
 - **Tipo:** "Informação em Vigor". Mostra só as inscrições ativas desde a informatização (1989). **Não traz o histórico**: as inscrições em livro G-25 n.º 11.039 (1937), C-30, G-42 n.º 33.224/33.225 e G-44 n.º 34.029 **não aparecem**.
@@ -541,6 +574,89 @@ Todos os assentos abaixo foram relidos nas imagens originais. Leituras incertas 
 - **Margem 1:** casou com Francisca da Conceição Silva a 5-11-1927, assento 89, Régua. Nessa nota, a mãe dela pode ler-se "Maria Amélia(?)".
 - **Margem 2:** "Faleceu em Godim, Peso da Régua, no dia 28, assento 217 de hoje. Em 28 de Outubro de 1971". Logo, o óbito é de **28-10-1971**.
 - Fonte: [fontes/bapt1908/p0023.jpg](fontes/bapt1908/p0023.jpg)
+
+### 2. José António Mimoso (bisavô): inventário obrigatório n.º 13/71, Tribunal da Régua (1971–1975) ✔
+Fonte: ADVRL PT/ADVRL/JUD/TJCPRG/C-B/082/1630 (Cx. 143; cota original 13), 2.ª Secção, escrivão José Henriques Júnior. Fotografado pela família: 275 imagens em fontes/inv1971. Os links abaixo abrem a imagem; o ficheiro é `fontes/inv1971/PT-ADVRL-JUD-TJCPRG-C-B-082-1630_mNNNN.jpg`. Leituras incertas com (?).
+
+**Resumo**
+- Inventariado **José António Mimoso**, casado, proprietário, morador em Sergude, Godim. Cabeça de casal: a viúva **Francisca da Conceição Silva**, que não sabia escrever (assinou a rogo o filho Adão ou o solicitador Fausto Pinto Marinho). Valor total **862.258$00** ([m0001](fontes/inv1971/PT-ADVRL-JUD-TJCPRG-C-B-082-1630_m0001.jpg)).
+- Autuado a 18-11-1971, a requerimento do Delegado do MP de 16-11-1971 ([m0002](fontes/inv1971/PT-ADVRL-JUD-TJCPRG-C-B-082-1630_m0002.jpg)).
+- **8 filhos legítimos**; um (Joaquim António) morto antes do pai e representado pelo filho.
+- A casa e a Quinta da Pêssega (descrição 35.139) ficaram aos **seis filhos licitantes, 1/6 cada**. Em 1974 o avô comprou-as inteiras em hasta pública.
+- O processo **não indica o título de aquisição** de nenhum prédio.
+- Apensos: **13-A/71** (divisão de coisa comum, 1973–1975, m0088–m0234), **13-B/71** (reclamação de créditos, 1974, m0235–m0268) e execução de custas contra o avô (m0269–m0274, extinta a 20-11-1974).
+
+**Óbito civil n.º 217/1971** (certidão da Conservatória do Registo Civil do Peso da Régua, passada a 8-11-1971; [m0003](fontes/inv1971/PT-ADVRL-JUD-TJCPRG-C-B-082-1630_m0003.jpg)) ✔
+> "No dia vinte e oito de Outubro de mil novecentos e setenta e um, na freguesia de Godim, concelho do Peso da Régua, faleceu de Ictus Cerebral JOSÉ ANTÓNIO MIMOSO de sessenta e tres anos, natural da freguesia de Godim … filho de FRANCISCO ANTÓNIO e de MARIA DE JESUS, no estado casado com FRANCISCA DA CONCEIÇÃO SILVA. … O falecido deixou herdeiros sujeitos a inventário obrigatório, deixou bens e fez testamento. … Nada Consta."
+
+**Testamento de 25-1-1971** (Cartório Notarial da Régua, livro de testamentos públicos n.º 11, fls. 80 v.º–81; notária Isaura Augusta Figueira; [m0030](fontes/inv1971/PT-ADVRL-JUD-TJCPRG-C-B-082-1630_m0030.jpg), [m0031](fontes/inv1971/PT-ADVRL-JUD-TJCPRG-C-B-082-1630_m0031.jpg)) ✔
+> "… compareceu José António Mimoso, casado, natural da freguesia de Godim … residente no lugar de Sergude, filho de Francisco António Mimoso e de Maria de Jesus. … Que institui herdeira da sua quota disponível sua mulher Francisca da Conceição. Que revoga qualquer testamento anteriormente feito, designadamente o que outorgou neste Cartório em vinte e quatro de Agosto do ano findo, exarado de folhas trinta e oito a trinta e oito verso do presente livro."
+- Testemunhas: António Melo e Fernando Ferreira. Averbamento de 12-11-1971: morreu a 28-10-1971 (óbito 217).
+
+**Auto de declarações da cabeça de casal, 3-12-1971** (juiz Dr. José Martins da Costa; [m0007](fontes/inv1971/PT-ADVRL-JUD-TJCPRG-C-B-082-1630_m0007.jpg), [m0008](fontes/inv1971/PT-ADVRL-JUD-TJCPRG-C-B-082-1630_m0008.jpg)) ✔
+> "Que o inventariado, seu marido, se chamava efectivamente JOSÉ ANTONIO MIMOSO e faleceu no dia 28 de Outubro findo, na casa de sua residência situada no lugar de Sergude … tendo deixado testamento público no qual beneficiou a declarante com a sua quota disponível. Que era casado com ela declarante segundo o regime da comunhão geral de bens e em primeiras núpcias de ambos, de cujo casamento existem os seguintes – FILHOS LEGÍTIMOS DE AMBOS –
+> PRIMEIRO – MARIA EMÍLIA DA CONCEIÇÃO [sic] VICENTE, casada … com ANTONIO JOAQUIM VICENTE, ela doméstica e ele trolha, residentes na freguesia de Picote, (Barragem), comarca de Miranda do Douro;
+> SEGUNDO – ANTONIO JOSÉ MIMOSO, casado … com MARIA EMÍLIA VICENTE MIMOSO, ele comerciante e ela doméstica, residentes no lugar de Sergude …;
+> TERCEIRO – JOAQUIM ANTONIO MIMOSO, casado que foi com CLEMENCIA SEQUEIRA, em regime da comunhão geral de bens, ele falecido antes do ora inventariado e ela, actualmente casada, doméstica, residente na Barragem de Carrapatelo, comarca do Marco de Canaveses, tendo ele deixado a representá-lo o seguinte filho que do inventariado é NETO a) – ANTONIO JOAQUIM MIMOSO, solteiro, menor de 15 anos de idade, residente com sua mãe na referida Barragem;
+> QUARTO – MANUEL ANTONIO DA SILVA, casado … com AUSENDA DE JESUS PORTO SILVA, ele comerciante e ela doméstica, residentes no Bairro de Godim …;
+> QUINTO – TADEU ANTONIO MIMOSO, casado … com MARIA BEATRIZ MESQUITA VICENTE MIMOSO, ele comerciante e ela doméstica, residentes em Ariz, freguesia de Godim …;
+> SEXTO – VALENTIM ANTONIO MIMOSO, casado … com ISAÚRA MOREIRA DOS SANTOS MIMOSO, ele agricultor e ela doméstica, residentes na Travessa da Portuguesa, 27-3.º-Direito, da comarca de Lisboa;
+> SÉTIMO – JOSÉ ANTONIO MIMOSO, casado … com FERNANDA DA SILVA CORREIA, ele comerciante e ela doméstica, residentes na Barragem da Valeira, comarca de São João da Pesqueira;
+> OITAVO – ADÃO ANTONIO MIMOSO, casado … com MARIA JOSÉ FONSECA TEIXEIRA MIMOSO, ele funcionário camarário e ela doméstica, residentes no lugar de Sergude, freguesia de Godim.
+> Que os bens a inventariar são móveis e imóveis estes situados nos limites da freguesia de Godim … Que há dívidas passivas, não as havendo activas, assim como também não há bens a conferir."
+- Notas a lápis na margem: "cit. fls. 11" (2.º, 4.º, 5.º, 8.º), "cit. fls. 39" (1.º), "cit. fls. 15" (neto), "cit. fls. 34" (6.º), "cit. fls. 21" (Isaura), "cit. fls. 16 v.º" (7.º).
+- Assinaturas autógrafas na citação de 7-12-1971 ([m0011](fontes/inv1971/PT-ADVRL-JUD-TJCPRG-C-B-082-1630_m0011.jpg)): Adão, Tadeu, Maria José Fonseca Teixeira Mimoso, Maria Beatriz Mesquita Vicente, Manuel António da Silva, Auzenda de Jesus Porto da Silva, **António José Mimoso** e **Emília da Conceição Vicente**. A avó assina assim, por isso "Maria Emília Vicente Mimoso" é lapso do tribunal.
+
+**Procuração de 7-3-1972** (Cartório Notarial da Régua; [m0052](fontes/inv1971/PT-ADVRL-JUD-TJCPRG-C-B-082-1630_m0052.jpg), [m0053](fontes/inv1971/PT-ADVRL-JUD-TJCPRG-C-B-082-1630_m0053.jpg)) ✔ (naturalidades)
+- Francisca: "natural da freguesia de Godim". Maria Emília e o marido: naturais de Godim. **António José Mimoso e esposa Emília da Conceição Vicente Mimoso: "naturais da já mencionada freguesia de Godim"**. Valentim natural de Godim, Isaura de **Poiares**. Adão de Godim, Maria José de **Vilamarim, Mesão Frio** (comunhão de adquiridos). Manuel António da Silva de Godim, Ausenda de **Vila Nova de Foz Côa**. José António Mimoso Júnior de Godim, Maria Fernanda da Silva Correia de **Penha Longa, Marco de Canaveses**. Procurador: Dr. Alcides Sequeira.
+- Tadeu e a mulher (ambos "naturais da freguesia de Godim", Ariz) outorgaram procuração separada ao Dr. António Teixeira Veludo ([m0054](fontes/inv1971/PT-ADVRL-JUD-TJCPRG-C-B-082-1630_m0054.jpg)).
+
+**Relação de bens** (juntada 21-12-1971; [m0023](fontes/inv1971/PT-ADVRL-JUD-TJCPRG-C-B-082-1630_m0023.jpg), [m0024](fontes/inv1971/PT-ADVRL-JUD-TJCPRG-C-B-082-1630_m0024.jpg)) ✔ Imóveis, todos em Godim; as descrições prediais estão à margem, escritas pela Conservatória.
+| Verba (descrição de 18-2-1972) | Prédio | Matriz | Descrição predial | Valor matricial |
+|---|---|---|---|---|
+| 9 (1.ª) | vinha de 50 m², Sergude (confronta Victoriano Teixeira) | cadastral art. 144-B | 33.258, fl. 36, B-85 | 210$ |
+| 10 (2.ª) | casa de dois andares, Sergude | urbana art. 356 | 41.009, fl. 23 v.º, B-103 | 49.840$ |
+| 11 (3.ª) | casa de dois andares, Sergude | urbana art. 355 | 41.008, fl. 23, B-103 | 22.620$ |
+| 12 (4.ª) | casa de rés-do-chão e 1.º andar, Sergude (confronta com o proprietário) | urbana art. **678** | **35.139**, fl. 181, B-89 | 16.200$ |
+| 13 (5.ª) | **Quinta da Pêssega**, 24.687 m², cultura arvense de sequeiro e vinha com oliveiras (confronta Fontelas) | cadastral art. **92-B** | **35.139**, fl. 181, B-89 | 65.190$ |
+- Móveis: 8 verbas em mau estado, 2.250$ ([m0025](fontes/inv1971/PT-ADVRL-JUD-TJCPRG-C-B-082-1630_m0025.jpg), [m0026](fontes/inv1971/PT-ADVRL-JUD-TJCPRG-C-B-082-1630_m0026.jpg)). Imóveis 154.060$. Passivo 70.900$20. Nota da Conservatória: as buscas foram feitas em nome de Francisca e do marido; **não há título de aquisição**.
+- **Passivo:** hipoteca de 11-12-1967 (livro C-19, fls. 71 v.º e seg.; Caixa Geral de Depósitos) 42.000$ (fixado em 44.000$ com juros); Tadeu 12.500$ (não aprovada pelo MP); José António (Barragem da Valeira) 8.000$; funeral (Armindo de Almeida) 3.975$; Companhia de Seguros Douro 1.693$20; Farmácia Almeida 1.400$; Élio Bernardo Rodrigues 600$; Manuel António da Silva 732$ ([m0028](fontes/inv1971/PT-ADVRL-JUD-TJCPRG-C-B-082-1630_m0028.jpg), [m0029](fontes/inv1971/PT-ADVRL-JUD-TJCPRG-C-B-082-1630_m0029.jpg)).
+
+**Conferência de interessados e licitações, 7-3-1972** ([m0056](fontes/inv1971/PT-ADVRL-JUD-TJCPRG-C-B-082-1630_m0056.jpg), [m0057](fontes/inv1971/PT-ADVRL-JUD-TJCPRG-C-B-082-1630_m0057.jpg), [m0058](fontes/inv1971/PT-ADVRL-JUD-TJCPRG-C-B-082-1630_m0058.jpg), [m0059](fontes/inv1971/PT-ADVRL-JUD-TJCPRG-C-B-082-1630_m0059.jpg)) ✔
+> "O lote n.º 1 foi licitado pela cabeça de casal pela importância de 2.258$00; O lote n.º 2 foi licitado por 210.000$00 pelos interessados Maria Emília da Conceição e marido; António José Mimoso e mulher; Valentim António Mimoso e mulher; Manuel António da Silva e mulher; Adão António Mimoso e mulher e José António Mimoso e mulher, em comum e na proporção de 1/6 (um sexto), para cada um; O lote n.º 3 foi licitado pelos interessados do lote n.º 2, pelo valor de 650.000$00, para lhes ser adjudicado em comum e na mesma proporção de 1/6 (um sexto)."
+- Lote 1 = móveis; lote 2 = verbas 9, 10, 11; **lote 3 = verbas 12 e 13**. 2.258 + 210.000 + 650.000 = 862.258$00.
+- A dívida à CGD (verba 1 do passivo) fica a cargo de quem ficar com as verbas 12 e 13, com desconto de 44.000$.
+
+**Despacho determinativo da partilha, 8-4-1972** (juiz José Martins da Costa; [m0062](fontes/inv1971/PT-ADVRL-JUD-TJCPRG-C-B-082-1630_m0062.jpg), [m0063](fontes/inv1971/PT-ADVRL-JUD-TJCPRG-C-B-082-1630_m0063.jpg)) ✔
+> "Houve do casal oito filhos, um dos quais – Joaquim António – faleceu antes do pai, deixando a representá-lo um filho legítimo. … Os bens que constituem o lote n.º 3 (verbas n.ºs 12 e 13) serão adjudicados aos seis licitantes, pelo valor da licitação, com o desconto do montante de 44.000$00 (verba n.º 1 do passivo). Este passivo é da responsabilidade dos mesmos licitantes, na proporção de um sexto para cada um."
+- Aplica o novo Código Civil. Meação da viúva (1/2) mais a quota disponível (1/3 da outra metade); os outros 2/3 em **8 legítimas iguais** (34.094$08/09 cada), a do pré-falecido para o filho.
+- Informação de 10-4-1972 ([m0063](fontes/inv1971/PT-ADVRL-JUD-TJCPRG-C-B-082-1630_m0063.jpg), [m0064](fontes/inv1971/PT-ADVRL-JUD-TJCPRG-C-B-082-1630_m0064.jpg)): cada um dos 6 licitantes leva bens de 136.000$ e repõe tornas de ~101.906$ à mãe; **Adão** paga ainda ao sobrinho António Joaquim (34.094$09) e ao irmão Tadeu (34.094$08). Mapa de partilha: [m0070](fontes/inv1971/PT-ADVRL-JUD-TJCPRG-C-B-082-1630_m0070.jpg), [m0075](fontes/inv1971/PT-ADVRL-JUD-TJCPRG-C-B-082-1630_m0075.jpg).
+- **Sentença homologatória, 11-5-1972** ([m0079](fontes/inv1971/PT-ADVRL-JUD-TJCPRG-C-B-082-1630_m0079.jpg)): homologa a partilha. Certidão da partilha passada a 26-6-1972.
+
+**Morte de Francisca da Conceição Silva:** depois de 26-6-1972 (ainda aparece como credora e meeira) e antes de **10-4-1973**: "incorporei nos presentes autos os de inventário obrigatório por óbito de Francisca da Conceição Silva" ([m0087](fontes/inv1971/PT-ADVRL-JUD-TJCPRG-C-B-082-1630_m0087.jpg)). A 1-2-1974 os autores da ação 13-A/71 escrevem: "a credora, mãe de Autor e Réus, faleceu, motivo porque foi instaurado este inventário" ([m0114](fontes/inv1971/PT-ADVRL-JUD-TJCPRG-C-B-082-1630_m0114.jpg)).
+
+**Ação especial de divisão de coisa comum n.º 13-A/71** (apenso; autuada a 23-11-1973) ✔
+- **Autores:** Valentim António Mimoso e Isaura Moreira dos Santos (Sergude). **Réus:** os outros cinco casais ([m0088](fontes/inv1971/PT-ADVRL-JUD-TJCPRG-C-B-082-1630_m0088.jpg), [m0090](fontes/inv1971/PT-ADVRL-JUD-TJCPRG-C-B-082-1630_m0090.jpg)). Pedido: a casa (art. 678) e a quinta (art. 92-B), "estes prédios ficaram a pertencer aos A.A. e R.R., na proporção de uma sexta parte para cada um deles". A casa não se divide em substância e a quinta não tem a área legal.
+- **Conferência de 25-1-1974:** sem acordo; venda em hasta pública. Todos declararam que os dois prédios "constituem uma só unidade predial" ([m0113](fontes/inv1971/PT-ADVRL-JUD-TJCPRG-C-B-082-1630_m0113.jpg), [m0114](fontes/inv1971/PT-ADVRL-JUD-TJCPRG-C-B-082-1630_m0114.jpg)).
+- **Certidão predial de 28-1-1974** ([m0115](fontes/inv1971/PT-ADVRL-JUD-TJCPRG-C-B-082-1630_m0115.jpg), [m0116](fontes/inv1971/PT-ADVRL-JUD-TJCPRG-C-B-082-1630_m0116.jpg)): descrição 35.139 (rústico de 5 parcelas, 24.687 m²); hipoteca C-30 n.º 13.924 (9-10-1967, 60.000$, Caixa Nacional de Crédito); hipoteca legal C-30 n.º 14.193 (8-6-1973, 40.000$, a favor de Francisca, sobre 1/6).
+- **Arrematação, 28-5-1974** ([m0152](fontes/inv1971/PT-ADVRL-JUD-TJCPRG-C-B-082-1630_m0152.jpg), [m0153](fontes/inv1971/PT-ADVRL-JUD-TJCPRG-C-B-082-1630_m0153.jpg)): "o maior preço oferecido foi de 1 181 000$00, por **António José Mimoso, casado, proprietário, residente em Sergude** … O Mmº Juiz adjudicou o prédio ao arrematante, o qual se deu por entregue do mesmo." Foi dispensado de depositar a sua sexta parte. Depositou 98.416$ e depois 523.584$ (total 622.000$; [m0154](fontes/inv1971/PT-ADVRL-JUD-TJCPRG-C-B-082-1630_m0154.jpg), [m0174](fontes/inv1971/PT-ADVRL-JUD-TJCPRG-C-B-082-1630_m0174.jpg)).
+- **Sisa** de 78.734$ sobre 984.166$ (os 5/6), paga a 26-6-1974 ([m0166](fontes/inv1971/PT-ADVRL-JUD-TJCPRG-C-B-082-1630_m0166.jpg), [m0168](fontes/inv1971/PT-ADVRL-JUD-TJCPRG-C-B-082-1630_m0168.jpg)).
+- **Sentença de 8-7-1974** ([m0177](fontes/inv1971/PT-ADVRL-JUD-TJCPRG-C-B-082-1630_m0177.jpg), [m0178](fontes/inv1971/PT-ADVRL-JUD-TJCPRG-C-B-082-1630_m0178.jpg)): "adjudico definitivamente ao arrematante **António José Mimoso** o imóvel, livre de quaisquer ónus ou encargos, que ele arrematou". Registada no livro 94, fl. 90.
+- **Distribuição:** produto 1.181.000$ menos créditos graduados (31.601$60) = 1.149.398$40; **191.566$40** a cada um dos 6 ([m0199](fontes/inv1971/PT-ADVRL-JUD-TJCPRG-C-B-082-1630_m0199.jpg)). Cheques de 12-11-1974 a Manuel António da Silva e a José António Mimoso; 13-12-1974 a Valentim ([m0175](fontes/inv1971/PT-ADVRL-JUD-TJCPRG-C-B-082-1630_m0175.jpg), [m0176](fontes/inv1971/PT-ADVRL-JUD-TJCPRG-C-B-082-1630_m0176.jpg)).
+- **31-1-1975:** o juiz manda cancelar as duas hipotecas (C-30 n.º 13.924 e n.º 14.193), a pedido da avó Emília ([m0223](fontes/inv1971/PT-ADVRL-JUD-TJCPRG-C-B-082-1630_m0223.jpg), [m0224](fontes/inv1971/PT-ADVRL-JUD-TJCPRG-C-B-082-1630_m0224.jpg)). Em 18-2-1975 o casal levanta 3.112$20 de depósito a mais.
+- Havia conflito: Manuel António da Silva e José António acusam, a 22-10-1974, "o arrematante seu irmão" de protelar o processo ([m0194](fontes/inv1971/PT-ADVRL-JUD-TJCPRG-C-B-082-1630_m0194.jpg), [m0196](fontes/inv1971/PT-ADVRL-JUD-TJCPRG-C-B-082-1630_m0196.jpg)).
+
+**Hipoteca de 11-12-1967** (cópia certificada a 3-2-1972, no apenso 13-B/71; livro de notas C-19, fls. 71 v.º–74, Cartório Notarial da Régua; [m0241](fontes/inv1971/PT-ADVRL-JUD-TJCPRG-C-B-082-1630_m0241.jpg), [m0242](fontes/inv1971/PT-ADVRL-JUD-TJCPRG-C-B-082-1630_m0242.jpg), [m0243](fontes/inv1971/PT-ADVRL-JUD-TJCPRG-C-B-082-1630_m0243.jpg), [m0244](fontes/inv1971/PT-ADVRL-JUD-TJCPRG-C-B-082-1630_m0244.jpg)) ✔
+> "Segundos: Os senhores José António Mimoso e esposa Francisca da Conceição da Silva, casados no regime de comunhão geral, … residentes no lugar de Sergude … se constituem e confessam devedores à Caixa Nacional de Crédito da quantia de sessenta mil escudos … Que em garantia deste empréstimo … os devedores constituem a favor da credora hipoteca sobre um prédio misto, denominado 'Quinta da Pêssega', situado no lugar de Sergude … descrito na Conservatória do Registo Predial de Peso da Régua sob o número trinta e cinco mil cento e trinta e nove … a folhas cento e oitenta e uma, do livro B oitenta e nove, inscrito na matriz rústica sob o artigo noventa e dois, Secção B, e na urbana sob o artigo seiscentos e setenta e oito. … **Que a transmissão do referido prédio está registada a favor dos segundos outorgantes nos termos da inscrição número dezanove mil seiscentos e vinte e dois(?), do livro G vinte e três(?).**"
+- A mulher não assina "por declarar não o saber fazer". Capital em dívida em 1974: 30.000$00 (Caixa Nacional de Crédito, crédito graduado de 30.660$80 mais juros).
+- **A inscrição G-23 n.º 19.622 é o título de aquisição do casal (~; leitura do número e do livro incerta)**: é o pedido prioritário à Conservatória.
+
+**Procurado e não encontrado no inventário (m0001–m0275, lido por inteiro):**
+- Título de aquisição de qualquer prédio (herança, compra ou a quem).
+- Idades, datas de nascimento ou de casamento dos filhos; certidões de nascimento ou casamento.
+- Maria Amaral (a mãe do inventariado só aparece como "Maria de Jesus"), os Mendes, Anna Emília da Silva, a origem do nome Mimoso.
+- O conteúdo do testamento de 24-8-1970.
+- Os autos do inventário de Francisca (incorporados a 10-4-1973) não estão nestas imagens; estão no processo 1658.
 
 ### Emília, irmã do bisavô: batismo n.º 66/1901, Godim ✔
 - **Nascimento:** 17-7-1901, às 14h, em Sergude. **Batismo:** 5-8-1901. ⚠ Antes estava 11-7-1901, por erro de leitura do índice.
@@ -1021,24 +1137,24 @@ Transcrição:
 - **A favor de:**
   1. "**Maria Emília da Conceição Vicente** e marido **António Joaquim Vicente**, casados sob o regime da comunhão geral de bens, residentes na freguesia de Picote, concelho de Miranda do Douro";
   2. "**Manuel António da Silva** e mulher **Ausen(da?) de Jesus Porto Silva**, casados sob o regime da comunhão geral de bens, residentes na freguesia de Godim, concelho do Peso da Régua";
-  3. "**Valentim António Mimoso** e mulher **Isaura Moreira dos Anjos Mimoso**, casados sob o regime da comunhão geral de bens, residentes na cidade de Lisboa";
-  4. "**José António** [Mimoso?] …": o resto está fora da fotografia. Pode haver mais nomes.
-- O registo não diz o parentesco. ⚠ Antes dizia-se que o n.º 4 era "provavelmente José António Vicente Mimoso". Está errado: esse é o filho do avô, menor em 1973.
+  3. "**Valentim António Mimoso** e mulher **Isaura Moreira dos Anjos(?) Mimoso**, casados sob o regime da comunhão geral de bens, residentes na cidade de Lisboa";
+  4. "**José António** [Mimoso?] …": o resto está fora da fotografia. Pode haver mais nomes. ✔ (5-11-2026) É **José António Mimoso Júnior**, 7.º filho; o 5.º nome, fora da fotografia, seria Adão.
+- O registo não diz o parentesco; o inventário de 1971 diz: os cinco são filhos do bisavô (e Manuel António da Silva é filho, não genro). ⚠ "Isaura Moreira dos **Santos**", como escreve o processo; "dos Anjos" era leitura errada. ⚠ Antes dizia-se que o n.º 4 era "provavelmente José António Vicente Mimoso". Está errado: esse é o filho do avô, menor em 1973.
 - ⚠ Antes estava ✔ em cada nome, como se o parentesco estivesse provado. O registo prova os nomes, as moradas e a quota; o parentesco com o avô é ● (com a família) ou ~.
 
-~ É, muito provavelmente, a partilha da herança de José António Mimoso (m. 1971) e de Francisca (inventário de 1973): 5/6 a 5 herdeiros e 1/6 (G-42 n.º 33.225) a outro, provavelmente o avô.
+✔ É a adjudicação do inventário de José António Mimoso (licitação de 7-3-1972, sentença de 11-5-1972): 5/6 a 5 filhos e 1/6 (G-42 n.º 33.225) ao avô (~ pela coincidência de quotas; ver "Os 8 filhos do bisavô"). ⚠ Antes dizia-se "partilha de 1971 e do inventário de 1973 da bisavó": a sentença é de 1972.
 
 ## Registos encontrados no catálogo do ADVRL (digitarq; não estão digitalizados, é preciso pedir)
 
 | Documento | Cota | O que diz o catálogo | Porque interessa |
 |---|---|---|---|
-| **Processo de inventário obrigatório, 1973**, Tribunal de Peso da Régua | PT/ADVRL/JUD/TJCPRG/C-B/082/1658 (Cx. 143) | Inventariada: **Francisca da Conceição Silva**. Inventariante: **Adão António Mimoso** | ✔ É a partilha da herança da bisavó (o "Silva" vem da mãe dela). Deve listar os 7 filhos. |
+| **Processo de inventário obrigatório, 1973**, Tribunal de Peso da Régua | PT/ADVRL/JUD/TJCPRG/C-B/082/1658 (Cx. 143) | Inventariada: **Francisca da Conceição Silva**. Inventariante: **Adão António Mimoso** | ✔ É a partilha da herança da bisavó (o "Silva" vem da mãe dela). Foi incorporado no inventário do marido a 10-4-1973. Deve listar os 8 filhos. Agora **secundário**: o inventário de 1971 já deu os filhos. |
 | **Testamento público, 11-5-1906**, Cartório Notarial de Peso da Régua, 1.º ofício | PT/ADVRL/NOT/CNPRG1/007/0486/10 (fl. 18) | Testador: **José António Mimoso**, casado, freguesia de Godim | Provavelmente José António Mimoso (n. 1857), casado com Antónia Maria e tio do bisavô. Interesse secundário. |
 | **Testamento público, 7-2-1921**, Cartório Notarial de Peso da Régua, 5.º ofício | PT/ADVRL/NOT/CNPRG5/007/394/38 (fl. 47) | Testador: **Francisco António Mimoso**, casado, Godim, morreu a 7-5-1927 | ✔ **É o trisavô (n.º 4)**, pai do bisavô José António. Fotografado pela família (fl. 47–47v). Transcrito na secção do n.º 4. |
 | **Testamento público, 7-2-1921**, Cartório Notarial da Régua, 5.º ofício | PT/ADVRL/NOT/CNPRG5/007/394/37 (fl. 45 v.º) | Testadora: **Maria Amaral**, casada, Godim | ✔ **É a trisavó (n.º 5).** O registo não está digitalizado, mas o **livro 394 está** (fontes/not_cnprg5_394, p0094–p0096). Lido e transcrito na secção do n.º 5: 4 filhos naturais perfilhados. |
 | **Processo de inventário obrigatório, 1927**, Tribunal da Régua | PT/ADVRL/JUD/TJCPRG/C-B/082/677 (Cx. 69; cota original 636) | Inventariado: **Francisco António Mimoso**. Inventariante: **Maria Amaral** | ● É o inventário do trisavô (n.º 4). Deve ter a relação de bens, a avaliação e a partilha. A fonte mais provável para a origem da Quinta da Pêssega antes de 1937. |
 | **Auto de emancipação, 1927**, Tribunal da Régua | PT/ADVRL/JUD/TJCPRG/C-A/153/39 (Cx. 1; cota original 360) | Autora: "Maria da Silva Amaral, Maria Amaral, Maria de Jesus". Réu: **José António Mimoso** | ● A mãe emancipou o bisavô (19 anos) depois da morte do pai, provavelmente por causa do inventário. Confirma que as três formas do nome são a mesma pessoa. |
-| **Processo de inventário obrigatório, 1971**, Tribunal da Régua | PT/ADVRL/JUD/TJCPRG/C-B/082/1630 (Cx. 143; cota original 13) | Inventariado: **José António Mimoso**. Inventariante: **Francisca da Conceição Silva** | ● É o inventário do bisavô (m. 28-10-1971). Deve descrever a Quinta da Pêssega e o título de aquisição. Está na **mesma caixa** que o inventário de 1973. |
+| **Processo de inventário obrigatório, 1971**, Tribunal da Régua | PT/ADVRL/JUD/TJCPRG/C-B/082/1630 (Cx. 143; cota original 13) | Inventariado: **José António Mimoso**. Inventariante: **Francisca da Conceição Silva** | ✔ **Lido** (275 imagens fotografadas pela família, fontes/inv1971). Inventário n.º 13/71 do bisavô (m. 28-10-1971), com os apensos 13-A/71 (divisão de coisa comum) e 13-B/71 (reclamação de créditos, execução de custas). Dá os 8 filhos e a compra de 1974. **Não dá o título de aquisição** da Pêssega. |
 | Ação ordinária, 1928, Tribunal da Régua | PT/ADVRL/JUD/TJCPRG/C-A/053/205 (Cx. 25) | Autores: João Monteiro Guedes, Maria José Vaz Feijó Monteiro Guedes, Maria José Pimenta Vaz Feijó Monteiro. Réus: Joaquim Pereira de Meireles, Joaquim Ferreira Meireles, Maria Emília Meireles, Emília da Silva Meireles | ~ Provavelmente o genro Joaquim Pereira Meireles e a Maria Emília Mimoso (irmã do bisavô). Identificação provável, não certa. |
 | Processo de embargo, 1928, Tribunal da Régua | PT/ADVRL/JUD/TJCPRG/C-D/166/6 (Cx. 1) | Os mesmos autores. Réus: Joaquim Pereira Meireles e Maria Emília Meireles | ~ Ligado à ação anterior. |
 | Ação de despejo, 1941, Tribunal da Régua | PT/ADVRL/JUD/TJCPRG/C-B/060/127 (Cx. 5) | Autor: **José António Mimoso**. Réus: António Cavalheiro, António Cavalheiro Guedes, Maria Luísa Correia | ~ Provavelmente o bisavô, como senhorio em 1941. |
@@ -1054,9 +1170,8 @@ Transcrição:
 - **Nenhum registo** do catálogo nomeia a Quinta da Pêssega, Sergude ou um legado. Nenhum registo de Maria Amaral como inventariada. Nenhum de Maria Emília com o apelido Mimoso.
 - Sem a data das escrituras (inscrições prediais G-25 n.º 11.039, G-42, G-44), ler os livros de escrituras às cegas não é viável.
 
-### Adão António Mimoso (irmão do avô) ●
-- Nome completo segundo o inventário de 1973: **Adão António Mimoso**
-- Foi inventariante (cabeça de casal) no inventário da mãe, Francisca da Conceição Vicente (no catálogo aparece como "Silva", apelido da mãe dela), em 1973.
+### Adão António Mimoso (irmão do avô) ✔
+- Ver "Os 8 filhos do bisavô". Foi cabeça de casal no inventário da mãe, Francisca da Conceição Silva (1973, C-B/082/1658).
 
 ## Documentos
 
@@ -1065,6 +1180,7 @@ Transcrição:
 | [imagens/cardenetarustica.jpeg](imagens/cardenetarustica.jpeg) | Caderneta predial rústica, artigo 92-B, Peso da Régua (freguesia de Vinhós). Lista de proprietários sucessivos. |
 | [imagens/descricao_35139_fl181.jpg](imagens/descricao_35139_fl181.jpg), [continuação](imagens/descricao_35139_continuacao.jpg) | Livro das Descrições Prediais B-89, fl. 181: descrição n.º 35.139, Quinta da Pêssega, Sergude (averbamentos de 1937 a 1989) |
 | [imagens/registopredial.jpeg](imagens/registopredial.jpeg) | Folha anexa à caderneta, Registo Predial de Peso da Régua, 8/6/1973 |
+| [fontes/inv1971/](fontes/inv1971/) | Inventário obrigatório n.º 13/71 do bisavô (ADVRL PT/ADVRL/JUD/TJCPRG/C-B/082/1630), m0001–m0275, fotografado pela família |
 | [fontes/indice_godim/](fontes/indice_godim/) | Índice de batismos de Godim, 1861–1911 (73 imagens, todas lidas) |
 | [fontes/bapt1867/](fontes/bapt1867/) | Livro de batismos de Godim de 1867 |
 | [fontes/bapt1906/p0020.jpg](fontes/bapt1906/p0020.jpg) | Batismo da bisavó Francisca (1906) |
@@ -1081,30 +1197,34 @@ Transcrição:
 | O quê | Onde |
 |---|---|
 | Certidões de nascimento, casamento e óbito do avô, do pai e da mãe | civilonline.mj.pt / ePortugal |
+| Óbito de Joaquim António Mimoso (antes de 28-10-1971) e casamento dele com Clemência Sequeira; nascimento de António Joaquim Mimoso (c.1956) | Conservatória da Régua (ou Marco de Canaveses/Penha Longa); ver "Por fazer" |
 | Livros do registo civil de 1911–1930 que não estão digitalizados | digitarq, botão "Pedir...", ou email para o ADVRL |
-| Processos do Tribunal da Régua (inventários de 1927, 1971 e 1973; auto de emancipação de 1927; processos de 1928) | ADVRL: digitarq, botão "Pedir...", ou email, indicando a cota e a caixa (ver "Registos encontrados no catálogo do ADVRL") |
+| Processos do Tribunal da Régua (inventários de 1927 e 1973; auto de emancipação de 1927; processos de 1928). O de 1971 já está lido | ADVRL: digitarq, botão "Pedir...", ou email, indicando a cota e a caixa (ver "Registos encontrados no catálogo do ADVRL") |
 | Escritura de habilitação de 1971 (livro B-31, fls. 21–23) | Cartório Notarial da Régua, ou ADVRL se o livro já lá estiver |
-| Certidão de teor da descrição 00427/Godim (antiga 35.139, livro B-89) e do prédio 58.828, com todas as inscrições | predialonline.pt ou Conservatória do Registo Predial da Régua |
+| **Inscrição G-23 n.º 19.622** (título de aquisição da Pêssega pelo casal, citada na hipoteca de 1967) e certidão de teor da descrição 00427/Godim (antiga 35.139, livro B-89) e do prédio 58.828, com todas as inscrições | predialonline.pt ou Conservatória do Registo Predial da Régua |
 | Batismos de S. Pedro do Sul de 8-1797 a 9-1816 (não estão no digitarq): saber se o livro existe ou se há duplicado | Arquivo Distrital de Viseu (ADVIS), por email, ou Diocese de Viseu |
 | Livros paroquiais de Baiões, Bordonhos e S. Pedro do Sul anteriores a 1911 | Já estão online no digitarq (PT/ADVIS/PRQ/PSPS01, PSPS02, PSPS14); não é preciso pedir |
 
 ## Por fazer
 
-*Atualizado a 28-10-2026.*
+*Atualizado a 5-11-2026 (inventário de 1971 lido).*
 
 ### 1. Pedir documentos (não estão online)
 **Ramo da avó Emília** (independente da lista seguinte):
 - [ ] **Certidão de casamento n.º 41/1961, Conservatória da Régua** (avô × Emília da Conceição Vicente, Igreja de Godim, 4-3-1961). Dá os pais da avó e abre o ramo dela.
 
-**Quinta da Pêssega, irmãos do avô e linha Mimoso, por prioridade** (atualizado a 28-10-2026):
-1. [ ] **Certidão de teor da descrição predial 00427/Godim** (antiga 35.139), com **todo o histórico**. ⚠ A certidão permanente online (pedida a 30-10-2026) só traz a informação em vigor desde 1993 e não serve. É preciso pedir à **Conservatória da Régua**, ao balcão ou por email, uma **certidão (fotocópia) das inscrições em livro**: inscrições G-25 n.º 11.039 (1937), C-30 n.º 14.163 e 14.193 (1/6), G-42 n.º 33.224/33.225 e G-44 n.º 34.029; e a do prédio 58.828 (a casa). Dizem quem herdou ou comprou, de quem e por que título. predialonline.pt.
-2. [ ] **Inventário de José António Mimoso, 1971**, ADVRL PT/ADVRL/JUD/TJCPRG/C-B/082/1630 (**Cx. 143**). Deve descrever a Quinta da Pêssega e o título de aquisição, e listar os 7 filhos.
+**Quinta da Pêssega, irmãos do avô e linha Mimoso, por prioridade** (atualizado a 5-11-2026):
+1. [ ] **Inscrição G-23 n.º 19.622(?)** (título de aquisição da Quinta da Pêssega pelo casal José António × Francisca; citada na escritura de hipoteca de 11-12-1967). **Pedido prioritário à Conservatória do Registo Predial da Régua.** Dá de quem e como o casal adquiriu a quinta. A leitura do número e do livro é incerta (~): pedir também as inscrições vizinhas G-23 fl. 160 n.º 10.6??(?) e G-25 n.º 11.039 (1937).
+2. [ ] **Certidão de teor da descrição predial 00427/Godim** (antiga 35.139), com **todo o histórico**. ⚠ A certidão permanente online (pedida a 30-10-2026) só traz a informação em vigor desde 1993 e não serve. É preciso pedir à **Conservatória da Régua**, ao balcão ou por email, uma **certidão (fotocópia) das inscrições em livro**: G-23 n.º 19.622, G-25 n.º 11.039 (1937), C-30 n.º 14.163 (1/6), G-42 n.º 33.224/33.225 e G-44 n.º 34.029 (para confirmar as datas e a leitura dos sextos); e a do prédio 58.828 (a casa). predialonline.pt.
 3. [ ] **Inventário de Francisco António Mimoso, 1927**, ADVRL PT/ADVRL/JUD/TJCPRG/C-B/082/677 (**Cx. 69**). Relação de bens e partilha; origem da quinta antes de 1937.
-4. [ ] **Inventário de Francisca da Conceição Silva, 1973**, ADVRL PT/ADVRL/JUD/TJCPRG/C-B/082/1658 (**Cx. 143**, a mesma caixa do n.º 2: pedir os dois juntos). Deve listar os 7 filhos e os 3 irmãos do avô que faltam.
-5. [ ] **Escritura de habilitação de herdeiros de 13-8(?)-1971**, Cartório Notarial da Régua, livro de escrituras diversas **B-31**, fls. 21–23. Deve nomear os herdeiros vivos em 1971.
-6. [ ] **Auto de emancipação de 1927**, ADVRL PT/ADVRL/JUD/TJCPRG/C-A/153/39 (Cx. 1).
-7. [ ] **Processos de 1928** contra Joaquim Pereira Meireles e Maria Emília Meireles: C-A/053/205 (Cx. 25) e C-D/166/6 (Cx. 1).
-8. [ ] **Óbitos civis** (Conservatória da Régua): Francisco António Mimoso (**n.º 147/1927**); Maria Amaral (data desconhecida, depois de 7-2-1921); Anna Emília da Silva (depois de 28-5-1908); Francisco Rodrigues Velho (depois de 26-3-1911).
+4. [ ] **Óbito de Joaquim António Mimoso** (filho do bisavô, antes de 28-10-1971; pai de António Joaquim, c.1956), o **casamento com Clemência Sequeira** (c.1950s) e o nascimento do filho (Penha Longa, Marco de Canaveses?). Conservatória da Régua ou da área de Marco de Canaveses.
+5. [ ] *(Secundário.)* **Inventário de Francisca da Conceição Silva, 1973**, ADVRL PT/ADVRL/JUD/TJCPRG/C-B/082/1658 (Cx. 143). Os filhos já são conhecidos; daria a data da morte dela e o seu património.
+6. [ ] **Escritura de habilitação de herdeiros de 13-8(?)-1971**, Cartório Notarial da Régua, livro de escrituras diversas **B-31**, fls. 21–23. (O inventário de 1971 não a cita.)
+7. [ ] **Auto de emancipação de 1927**, ADVRL PT/ADVRL/JUD/TJCPRG/C-A/153/39 (Cx. 1).
+8. [ ] **Processos de 1928** contra Joaquim Pereira Meireles e Maria Emília Meireles: C-A/053/205 (Cx. 25) e C-D/166/6 (Cx. 1).
+9. [ ] **Óbitos civis** (Conservatória da Régua): Francisco António Mimoso (**n.º 147/1927**); Maria Amaral (data desconhecida, depois de 7-2-1921); Anna Emília da Silva (depois de 28-5-1908); Francisco Rodrigues Velho (depois de 26-3-1911); **Francisca da Conceição Silva** (assento n.º 222, entre 26-6-1972 e 10-4-1973).
+10. [ ] *(Baixa prioridade.)* **Testamento de 24-8-1970** do bisavô (livro de testamentos públicos n.º 11, fls. 38–38 v.º, Cartório Notarial da Régua), revogado em 25-1-1971.
+11. [ ] Datas de nascimento e casamento dos 8 filhos do bisavô (o inventário não as dá): só pelas certidões, e só se interessarem.
 
 **Outros:**
 - [ ] Batismos de S. Pedro do Sul de 8-1797 a 9-1816: perguntar ao ADVIS ou à Diocese de Viseu se o livro existe. Confirmaria o batismo do pentavô (n.º 16).
@@ -1139,6 +1259,7 @@ Transcrição:
 - [ ] Casamento de José da Silva com Maria de Jesus Amaral (c.1860–61): procurar nos livros de Loureiro.
 
 ### Feito
+- [x] **Inventário obrigatório de José António Mimoso, 1971** (ADVRL C-B/082/1630, n.º 13/71; m0001–m0275, fontes/inv1971): lido a 5-11-2026. Deu os 8 filhos e cônjuges, a origem dos sextos (licitação de 7-3-1972), a compra do avô (arrematação de 28-5-1974), o óbito 217/1971, o testamento de 25-1-1971 e a hipoteca de 1967. Não deu o título de aquisição da Pêssega.
 - [x] **Testamento de Maria Amaral (n.º 5), 7-2-1921**: lido no livro digitalizado CNPRG5/007/394 (p0094–p0096) e transcrito (secção do n.º 5). 6 herdeiros: 2 filhos legítimos e 4 naturais perfilhados (Abel, Manuel, Francisco e Valentim Mendes).
 - [x] Catálogo do ADVRL pesquisado por Mimoso, Maria Amaral, Anna Emília da Silva, Rodrigues Velho, Pêssega, Sergude e Mendes (28-10-2026): registos novos na tabela "Registos encontrados no catálogo do ADVRL".
 - [x] Anna Emília da Silva de 1900, 1901 e 1908 = n.º 15 (~, comparação de assinaturas com o batismo de 1903). Óbitos dos n.º 14 e 15 procurados em Godim 1899–1911, sem resultado.
